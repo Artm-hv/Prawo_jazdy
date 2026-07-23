@@ -37,42 +37,20 @@ class TrafficSignCatalog {
       });
     }
     
-    // Fetch from backend API
-    let data = null;
-    try {
-      data = await API.fetchTrafficSigns(category);
-    } catch (e) {
-      console.warn("API fetch failed for category:", category, e);
-    }
+    // 1. Fetch from API (which resolves 100% locally from window.TRAFFIC_SIGNS_DATA)
+    let data = await API.fetchTrafficSigns(category);
     
     if (data && data.length > 0) {
       this.allSigns = data;
     } else {
-      // Fallback: try fetching all signs and filtering locally
-      try {
-        const allData = await API.fetchTrafficSigns(null);
-        if (allData && allData.length > 0) {
-          this.allSigns = allData.filter(
-            s => s.category && s.category.toLowerCase().trim() === category.toLowerCase().trim()
-          );
-        }
-      } catch (e2) {
-        console.warn("Fallback all-signs fetch also failed:", e2);
-      }
-      
-      // Second fallback: try local JSON file
-      if (this.allSigns.length === 0) {
-        try {
-          const localResp = await fetch("../backend/data/traffic_signs.json");
-          const fullList = await localResp.json();
-          this.allSigns = fullList.filter(
-            s => s.category && s.category.toLowerCase().trim() === category.toLowerCase().trim()
-          );
-        } catch (e3) {
-          console.warn("Could not load local signs JSON:", e3);
-        }
-      }
+      // 2. Direct fallback from window.TRAFFIC_SIGNS_DATA
+      const allData = window.TRAFFIC_SIGNS_DATA || [];
+      const catClean = category.toLowerCase().trim();
+      this.allSigns = allData.filter(s => 
+        s.category && s.category.toLowerCase().trim().includes(catClean)
+      );
     }
+    
     this.render();
   }
 
@@ -118,7 +96,6 @@ class TrafficSignCatalog {
     // Category Selector Top Grid
     const selectorPillsHtml = categoryList.map(cat => {
       const isActive = this.activeCategory.toLowerCase().trim() === cat.toLowerCase().trim();
-      // Use a safe function call via window.signCatalog
       const escapedCat = cat.replace(/'/g, "\\'");
       return `
         <div class="category-grid-item ${isActive ? 'active' : ''}" data-category="${cat}" onclick="window.signCatalog.setCategory('${escapedCat}')">
@@ -187,7 +164,7 @@ class TrafficSignCatalog {
           <div class="sign-table-body">
             ${this.allSigns.length > 0 ? tableRowsHtml : `
               <div style="padding: 40px; text-align: center; color: #64748b;">
-                Brak znaków w tej kategorii lub nie udało się załadować danych z serwera. Upewnij się, że backend jest uruchomiony na http://localhost:8000
+                Brak znaków w tej kategorii.
               </div>
             `}
           </div>
