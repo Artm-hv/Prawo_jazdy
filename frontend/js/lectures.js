@@ -70,10 +70,7 @@ class LecturesEngine {
   selectSlide(lessonId, slideIdx) {
     this.currentLessonId = lessonId;
     this.currentSlideIndex = slideIdx;
-    const chap = this.getCurrentChapter();
-    if (chap) {
-      this.completedSlides.add(`${chap.id}-${this.currentLessonId}-${slideIdx}`);
-    }
+    this.markCurrentSlideCompleted();
     this.render();
   }
 
@@ -81,18 +78,17 @@ class LecturesEngine {
     const chapter = this.getCurrentChapter();
     const lesson = this.getCurrentLesson();
     if (chapter && lesson) {
-      this.completedSlides.add(`${chapter.id}-${lesson.id}-${this.currentSlideIndex}`);
+      localStorage.setItem(`lectures_read_${chapter.id}_${lesson.id}_${this.currentSlideIndex}`, "true");
+      if (window.app) window.app.updateCategoryDisplay();
     }
   }
 
   nextSlide() {
     const currentLesson = this.getCurrentLesson();
     if (currentLesson && this.currentSlideIndex < currentLesson.slides.length - 1) {
-      const chap = this.getCurrentChapter();
-      if (chap) {
-        this.completedSlides.add(`${chap.id}-${this.currentLessonId}-${this.currentSlideIndex}`);
-      }
+      this.markCurrentSlideCompleted();
       this.currentSlideIndex++;
+      this.markCurrentSlideCompleted();
       this.render();
     } else {
       // Go to next lesson
@@ -182,7 +178,6 @@ class LecturesEngine {
         }).join('');
       }
 
-      // Calculate how many slides are completed in this chapter for accurate progress
       let actualCompletedCount = 0;
       let actualTotalCount = 0;
       if (chap.lessons) {
@@ -190,14 +185,13 @@ class LecturesEngine {
           if (l.slides) {
             actualTotalCount += l.slides.length;
             l.slides.forEach((s, idx) => {
-              if (this.completedSlides.has(`${chap.id}-${l.id}-${idx}`)) {
+              if (localStorage.getItem(`lectures_read_${chap.id}_${l.id}_${idx}`) === "true") {
                 actualCompletedCount++;
               }
             });
           }
         });
       }
-      
       const displayCompleted = actualCompletedCount;
       const displayTotal = actualTotalCount;
 

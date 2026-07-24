@@ -40,12 +40,11 @@ class TextbookEngine {
     
     if (isRead) {
       localStorage.setItem(localStorageKey, "true");
-      // Increment completed count if it was not already read in our active session state
-      // (For a real backend, we'd sync this. Here we just update local state if needed, but since it's mock state, we can skip updating the hardcoded JSON count for now, or just let localstorage handle it visually)
     } else {
       localStorage.removeItem(localStorageKey);
     }
     this.render();
+    if (window.app) window.app.updateCategoryDisplay();
   }
 
   render() {
@@ -56,13 +55,22 @@ class TextbookEngine {
     // 1. Sidebar 14 Chapters Accordion HTML
     const sidebarChaptersHtml = this.chapters.map(chap => {
       const isActive = chap.id === this.activeChapterId;
+      
+      // Dynamically compute completed count for this chapter
+      let computedCompletedCount = 0;
+      chap.topics.forEach((_, idx) => {
+        if (localStorage.getItem(`textbook_read_${chap.id}_${idx}`) === "true") {
+          computedCompletedCount++;
+        }
+      });
+      
       return `
         <div class="chapter-accordion-card ${isActive ? 'open' : ''}">
           <div class="chapter-accordion-header" onclick="window.textbookEngine.selectChapter(${chap.id})">
             <span class="chapter-accordion-title">${chap.number} ${chap.title}</span>
             <div class="chapter-meta-right">
-              <span class="chapter-count">${chap.completed_count}/${chap.total_count}</span>
-              <span class="accordion-arrow">${isActive ? '✕' : '⌵'}</span>
+              <span class="chapter-count">${computedCompletedCount}/${chap.total_count}</span>
+              <span class="accordion-arrow">${isActive ? '✕' : '⌄'}</span>
             </div>
           </div>
           ${isActive ? `
@@ -181,32 +189,6 @@ class TextbookEngine {
       }).join('');
 
       mainStageHtml = `
-          <!-- Banner Intro Card -->
-          <div class="podrecznik-intro-card">
-            <div class="intro-card-inner">
-              <div class="intro-img-col">
-                <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=500&auto=format&fit=crop" alt="Podręcznik Kursanta" class="intro-laptop-img" />
-              </div>
-              <div class="intro-text-col">
-                <h2 class="intro-title">Podręcznik kursanta zawiera:</h2>
-                
-                <div class="intro-feature-item">
-                  <span class="feature-check">✓</span>
-                  <p class="feature-text">
-                    <strong>Podręcznik kursanta</strong> to innowacyjna metoda przygotowania kursantów do egzaminu teoretycznego na prawo jazdy.
-                  </p>
-                </div>
-
-                <div class="intro-feature-item">
-                  <span class="feature-check">✓</span>
-                  <p class="feature-text">
-                    Nie musisz się sztywno dostosowywać do odgórnie ustalonego planu wykładów, ucz się w każdej wolnej chwili.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <!-- Section Heading -->
           <div class="podrecznik-heading-box">
             <h2 class="podrecznik-section-title">DZIAŁY TEMATYCZNE</h2>

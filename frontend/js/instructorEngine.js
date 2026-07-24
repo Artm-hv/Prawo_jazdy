@@ -19,6 +19,10 @@ class InstructorEngine {
 
   selectModule(moduleId) {
     this.currentModuleId = moduleId;
+    // Mark as watched
+    localStorage.setItem(`instructor_watched_${moduleId}`, "true");
+    if (window.app) window.app.updateCategoryDisplay();
+    
     this.updateUI();
   }
 

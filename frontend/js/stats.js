@@ -16,37 +16,50 @@ class StatsDashboard {
   render(stats) {
     if (!this.container) return;
 
-    // Derived metric values from stats & localStorage
+    // Derived metric values from global StatsManager
+    let statsData = {
+      totalProgress: 0,
+      podrecznikPct: 0,
+      podrecznikCompleted: 0,
+      podrecznikTotal: 0,
+      wykladyPct: 0,
+      wykladyCompleted: 0,
+      wykladyTotal: 0,
+      szkoleniePct: 0,
+      szkolenieCompleted: 0,
+      szkolenieTotal: 0,
+      testsTaken: 0,
+      testsPassed: 0
+    };
+    
+    if (window.app && window.app.getGlobalProgress) {
+      statsData = window.app.getGlobalProgress();
+    }
+
     const totalQuestionsBank = 2185;
-    const testsTaken = stats.tests_taken || 0;
-    const testsPassed = stats.tests_passed || 0;
+    const testsTaken = statsData.testsTaken;
+    const testsPassed = statsData.testsPassed;
     const testsFailed = testsTaken - testsPassed;
     
     const passPercentage = testsTaken > 0 ? Math.round((testsPassed / testsTaken) * 100) : 0;
     const failPercentage = testsTaken > 0 ? Math.round((testsFailed / testsTaken) * 100) : 0;
 
-    const answeredQuestions = stats.completed_lessons ? stats.completed_lessons * 15 : 0;
-    const correctPercentage = stats.average_score ? Math.round((stats.average_score / 74) * 100) : 0;
-    const wrongPercentage = answeredQuestions > 0 ? Math.max(0, 100 - correctPercentage) : 0;
+    // In a real app we would track average score, for now we will just use a mock or calculate based on passPercentage
+    const answeredQuestions = testsTaken * 32; // rough estimate
+    const correctPercentage = passPercentage;
+    const wrongPercentage = failPercentage;
 
-    // Wykłady stats (from LECTURES_DATA)
-    const lecturesData = window.LECTURES_DATA || [];
-    let totalLectureSlides = 774;
-    let completedLectureSlides = 5; // Default 5 completed slides as shown in screenshot
-    if (lecturesData.length > 0) {
-      completedLectureSlides = lecturesData.reduce((acc, chap) => acc + (chap.completed_count || 0), 0) || 5;
-    }
-    const lectureProgressPct = Math.round((completedLectureSlides / totalLectureSlides) * 100);
+    const totalPodrecznikSections = statsData.podrecznikTotal;
+    const completedPodrecznikSections = statsData.podrecznikCompleted;
+    const podrecznikProgressPct = statsData.podrecznikPct;
 
-    // Podręcznik stats
-    const totalPodrecznikSections = 13;
-    const completedPodrecznikSections = 0;
-    const podrecznikProgressPct = Math.round((completedPodrecznikSections / totalPodrecznikSections) * 100);
+    const totalLectureSlides = statsData.wykladyTotal;
+    const completedLectureSlides = statsData.wykladyCompleted;
+    const lectureProgressPct = statsData.wykladyPct;
 
-    // Szkolenie z instruktorem stats
-    const watchedMinutes = Math.round((stats.completed_lessons || 1) * 18) || 55;
-    const totalCourseMinutes = 467;
-    const courseProgressPct = stats.overall_course_progress || 11;
+    const totalCourseMinutes = statsData.szkolenieTotal;
+    const watchedMinutes = statsData.szkolenieCompleted;
+    const courseProgressPct = statsData.szkoleniePct;
 
     this.container.innerHTML = `
       <div class="stats-page-wrapper">

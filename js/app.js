@@ -107,9 +107,103 @@ class LMSApp {
     localStorage.setItem("prawo_jazdy_lang", lang);
   }
 
+  getGlobalProgress() {
+    // 1. Podręcznik Progress
+    let podrecznikTotal = 0;
+    let podrecznikCompleted = 0;
+    if (window.TEXTBOOK_DATA) {
+      window.TEXTBOOK_DATA.forEach(chap => {
+        chap.topics.forEach((_, idx) => {
+          podrecznikTotal++;
+          if (localStorage.getItem(`textbook_read_${chap.id}_${idx}`) === "true") {
+            podrecznikCompleted++;
+          }
+        });
+      });
+    }
+    const podrecznikPct = podrecznikTotal > 0 ? (podrecznikCompleted / podrecznikTotal) * 100 : 0;
+
+    // 2. Wykłady Progress
+    let wykladyTotal = 0;
+    let wykladyCompleted = 0;
+    if (window.LECTURES_DATA) {
+      window.LECTURES_DATA.forEach(chap => {
+        chap.lessons.forEach(lesson => {
+          lesson.slides.forEach((_, slideIdx) => {
+            wykladyTotal++;
+            if (localStorage.getItem(`lectures_read_${chap.id}_${lesson.id}_${slideIdx}`) === "true") {
+              wykladyCompleted++;
+            }
+          });
+        });
+      });
+    }
+    const wykladyPct = wykladyTotal > 0 ? (wykladyCompleted / wykladyTotal) * 100 : 0;
+
+    // 3. Szkolenie (Instructor Video) Progress
+    let szkolenieTotal = 0;
+    let szkolenieCompleted = 0;
+    if (window.INSTRUCTOR_DATA) {
+      window.INSTRUCTOR_DATA.forEach(mod => {
+        szkolenieTotal++;
+        if (localStorage.getItem(`instructor_watched_${mod.id}`) === "true") {
+          szkolenieCompleted++;
+        }
+      });
+    }
+    const szkoleniePct = szkolenieTotal > 0 ? (szkolenieCompleted / szkolenieTotal) * 100 : 0;
+
+    // 4. Testy Progress (simplified: based on passed tests vs a target of 100 tests, or just using tests passed percentage if any)
+    const testsTaken = parseInt(localStorage.getItem('stats_tests_taken') || '0', 10);
+    const testsPassed = parseInt(localStorage.getItem('stats_tests_passed') || '0', 10);
+    // Let's say target is 50 passed tests to reach 100% test progress
+    const testTarget = 50;
+    let testsPct = (testsPassed / testTarget) * 100;
+    if (testsPct > 100) testsPct = 100;
+
+    // Average Progress
+    const totalProgress = Math.round((podrecznikPct + wykladyPct + szkoleniePct + testsPct) / 4);
+    
+    return {
+      totalProgress,
+      podrecznikPct: Math.round(podrecznikPct),
+      podrecznikCompleted,
+      podrecznikTotal,
+      wykladyPct: Math.round(wykladyPct),
+      wykladyCompleted,
+      wykladyTotal,
+      szkoleniePct: Math.round(szkoleniePct),
+      szkolenieCompleted,
+      szkolenieTotal,
+      testsTaken,
+      testsPassed
+    };
+  }
+
   updateCategoryDisplay() {
     const sidebarBadge = document.getElementById("sidebar-category-badge");
     if (sidebarBadge) sidebarBadge.textContent = `${this.currentCategory} ▾`;
+
+    const stats = this.getGlobalProgress();
+    
+    // Update any progress bars globally
+    document.querySelectorAll('.progress-bar-fill').forEach(el => {
+      // If it's a global progress bar (not a subcard bar)
+      if (el.id === 'overall-progress-fill' || el.id === 'podrecznik-progress-fill' || el.closest('.category-card')) {
+        el.style.width = `${stats.totalProgress}%`;
+      }
+    });
+
+    document.querySelectorAll('.progress-info span, #overall-progress-text').forEach(el => {
+      if (el.textContent.includes('POSTĘP')) {
+        el.textContent = `POSTĘP: ${stats.totalProgress}%`;
+      }
+    });
+    
+    // If stats dashboard is active, refresh it silently
+    if (this.activeTab === 'statystyki' && this.statsDashboard) {
+      this.statsDashboard.loadStats();
+    }
   }
 
   bindEvents() {
