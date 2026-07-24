@@ -108,80 +108,126 @@ class LMSApp {
   }
 
   getGlobalProgress() {
-    // 1. Podręcznik Progress
-    let podrecznikTotal = 0;
-    let podrecznikCompleted = 0;
+    // =========================================================================
+    // RULE: Progress % is based on FULLY COMPLETED SECTIONS, not individual items.
+    // A section counts as "zaliczone" (+1) ONLY when ALL its sub-items are read.
+    // Formula: (completed_sections / total_sections) * 100
+    // All percentages are strictly capped at 100 via Math.min.
+    // =========================================================================
+
+    // 1. Podręcznik: 14 sections ("działy"). Each section has N topics.
+    //    A section is "zaliczone" only when ALL topics in it are read.
+    const PODRECZNIK_TOTAL_SECTIONS = 14;
+    let podrecznikCompletedSections = 0;
+    let podrecznikReadTopics = 0;   // for sidebar display only
+    let podrecznikTotalTopics = 0;  // for sidebar display only
     if (window.TEXTBOOK_DATA) {
       window.TEXTBOOK_DATA.forEach(chap => {
+        const topicCount = chap.topics.length;
+        podrecznikTotalTopics += topicCount;
+        let readInThisSection = 0;
         chap.topics.forEach((_, idx) => {
-          podrecznikTotal++;
           if (localStorage.getItem(`textbook_read_${chap.id}_${idx}`) === "true") {
-            podrecznikCompleted++;
+            readInThisSection++;
+            podrecznikReadTopics++;
           }
         });
+        // Section is "zaliczone" ONLY if ALL topics are read
+        if (topicCount > 0 && readInThisSection === topicCount) {
+          podrecznikCompletedSections++;
+        }
       });
     }
-    const podrecznikPct = Math.min(podrecznikTotal > 0 ? (podrecznikCompleted / podrecznikTotal) * 100 : 0, 100);
+    const podrecznikPct = Math.min(
+      Math.round((podrecznikCompletedSections / PODRECZNIK_TOTAL_SECTIONS) * 100), 100
+    );
 
-    // 2. Wykłady Progress
-    let wykladyTotal = 0;
-    let wykladyCompleted = 0;
+    // 2. Wykłady: 12 sections ("działy"). Each section has lessons, each lesson has slides.
+    //    A section is "zaliczone" only when ALL slides in ALL its lessons are viewed.
+    const WYKLADY_TOTAL_SECTIONS = 12;
+    let wykladyCompletedSections = 0;
+    let wykladyReadSlides = 0;    // for sidebar display only
+    let wykladyTotalSlides = 0;   // for sidebar display only
     if (window.LECTURES_DATA) {
-      window.LECTURES_DATA.forEach(chap => {
+      window.LECTURES_DATA.forEach((chap, chapIdx) => {
+        const chapId = chap.id || (chapIdx + 1);
+        let allSlidesInSection = 0;
+        let readSlidesInSection = 0;
         chap.lessons.forEach(lesson => {
+          const lessonId = lesson.id || lesson.title;
           lesson.slides.forEach((_, slideIdx) => {
-            wykladyTotal++;
-            if (localStorage.getItem(`lectures_read_${chap.id}_${lesson.id}_${slideIdx}`) === "true") {
-              wykladyCompleted++;
+            allSlidesInSection++;
+            wykladyTotalSlides++;
+            if (localStorage.getItem(`lectures_read_${chapId}_${lessonId}_${slideIdx}`) === "true") {
+              readSlidesInSection++;
+              wykladyReadSlides++;
             }
           });
         });
+        // Section is "zaliczone" ONLY if ALL slides are viewed
+        if (allSlidesInSection > 0 && readSlidesInSection === allSlidesInSection) {
+          wykladyCompletedSections++;
+        }
       });
     }
-    const wykladyPct = Math.min(wykladyTotal > 0 ? (wykladyCompleted / wykladyTotal) * 100 : 0, 100);
+    const wykladyPct = Math.min(
+      Math.round((wykladyCompletedSections / WYKLADY_TOTAL_SECTIONS) * 100), 100
+    );
 
-    // 3. Szkolenie (Instructor Video) Progress
-    let szkolenieTotal = 0;
+    // 3. Szkolenie z instruktorem: 18 video modules.
+    //    Each module counts as "zaliczone" when watched.
+    //    Progress = (watched / 18) * 100, strictly capped at 100.
+    const SZKOLENIE_TOTAL_MODULES = 18;
     let szkolenieCompleted = 0;
     if (window.INSTRUCTOR_DATA) {
       window.INSTRUCTOR_DATA.forEach(mod => {
-        szkolenieTotal++;
         if (localStorage.getItem(`instructor_watched_${mod.id}`) === "true") {
           szkolenieCompleted++;
         }
       });
     }
-    const szkoleniePct = Math.min(szkolenieTotal > 0 ? (szkolenieCompleted / szkolenieTotal) * 100 : 0, 100);
+    const szkoleniePct = Math.min(
+      Math.round((szkolenieCompleted / SZKOLENIE_TOTAL_MODULES) * 100), 100
+    );
 
-    // 4. Testy Progress (simplified: based on passed tests vs a target of 100 tests, or just using tests passed percentage if any)
+    // 4. Testy Progress
     const testsTaken = parseInt(localStorage.getItem('stats_tests_taken') || '0', 10);
     const testsPassed = parseInt(localStorage.getItem('stats_tests_passed') || '0', 10);
-    // Let's say target is 50 passed tests to reach 100% test progress
     const testTarget = 50;
-    const testsPct = Math.min((testsPassed / testTarget) * 100, 100);
+    const testsPct = Math.min(Math.round((testsPassed / testTarget) * 100), 100);
 
     // 5. Control Questions (Zaliczone pytania kontrolne)
     const podrecznikCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_textbook') || '0'), 100);
     const wykladyCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_lecture') || '0'), 100);
     const szkolenieCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_instructor') || '0'), 100);
 
-    // Average Progress
-    const totalProgress = Math.round((podrecznikPct + wykladyPct + szkoleniePct + testsPct) / 4);
+    // Global average of the three main learning modules (NOT tests)
+    const totalProgress = Math.min(
+      Math.round((podrecznikPct + wykladyPct + szkoleniePct) / 3), 100
+    );
     
     return {
-      totalProgress: Math.min(totalProgress, 100),
-      podrecznikPct: Math.round(podrecznikPct),
-      podrecznikCompleted,
-      podrecznikTotal,
+      totalProgress,
+      // Podręcznik
+      podrecznikPct,
+      podrecznikCompletedSections,
+      podrecznikTotalSections: PODRECZNIK_TOTAL_SECTIONS,
+      podrecznikReadTopics,
+      podrecznikTotalTopics,
       podrecznikCtrlPct: Math.round(podrecznikCtrlPct),
-      wykladyPct: Math.round(wykladyPct),
-      wykladyCompleted,
-      wykladyTotal,
+      // Wykłady
+      wykladyPct,
+      wykladyCompletedSections,
+      wykladyTotalSections: WYKLADY_TOTAL_SECTIONS,
+      wykladyReadSlides,
+      wykladyTotalSlides,
       wykladyCtrlPct: Math.round(wykladyCtrlPct),
-      szkoleniePct: Math.round(szkoleniePct),
+      // Szkolenie
+      szkoleniePct,
       szkolenieCompleted,
-      szkolenieTotal,
+      szkolenieTotal: SZKOLENIE_TOTAL_MODULES,
       szkolenieCtrlPct: Math.round(szkolenieCtrlPct),
+      // Testy
       testsTaken,
       testsPassed
     };

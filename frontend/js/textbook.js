@@ -212,10 +212,10 @@ class TextbookEngine {
               <span class="category-badge-selector">${currentCategory} ▾</span>
             </div>
             <div class="progress-info">
-              <span>POSTĘP: 4%</span>
+              <span>POSTĘP: ${window.app ? window.app.getGlobalProgress().podrecznikPct : 0}%</span>
             </div>
             <div class="progress-bar-bg">
-              <div class="progress-bar-fill" style="width: 4%;"></div>
+              <div class="progress-bar-fill" style="width: ${window.app ? window.app.getGlobalProgress().podrecznikPct : 0}%;"></div>
             </div>
           </div>
 

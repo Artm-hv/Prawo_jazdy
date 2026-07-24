@@ -50,17 +50,17 @@ class StatsDashboard {
     const correctPercentage = passPercentage;
     const wrongPercentage = failPercentage;
 
-    const totalPodrecznikSections = statsData.podrecznikTotal;
-    const completedPodrecznikSections = statsData.podrecznikCompleted;
-    const podrecznikProgressPct = statsData.podrecznikPct;
+    const totalPodrecznikSections = statsData.podrecznikTotalSections || 14;
+    const completedPodrecznikSections = statsData.podrecznikCompletedSections || 0;
+    const podrecznikProgressPct = statsData.podrecznikPct || 0;
 
-    const totalLectureSlides = statsData.wykladyTotal;
-    const completedLectureSlides = statsData.wykladyCompleted;
-    const lectureProgressPct = statsData.wykladyPct;
+    const totalLectureSections = statsData.wykladyTotalSections || 12;
+    const completedLectureSections = statsData.wykladyCompletedSections || 0;
+    const lectureProgressPct = statsData.wykladyPct || 0;
 
-    const totalCourseMinutes = statsData.szkolenieTotal;
-    const watchedMinutes = statsData.szkolenieCompleted;
-    const courseProgressPct = statsData.szkoleniePct;
+    const totalCourseModules = statsData.szkolenieTotal || 18;
+    const watchedModules = statsData.szkolenieCompleted || 0;
+    const courseProgressPct = statsData.szkoleniePct || 0;
 
     this.container.innerHTML = `
       <div class="stats-page-wrapper">
@@ -254,7 +254,7 @@ class StatsDashboard {
                     <div class="subcard-title">Zaliczone działy</div>
                     <div class="subcard-val-row">
                       <span class="cat-b-icon">${window.app ? window.app.currentCategory : 'B'}</span>
-                      <span class="subcard-val">${completedLectureSlides} <small>z ${totalLectureSlides}</small></span>
+                      <span class="subcard-val">${completedLectureSections} <small>z ${totalLectureSections}</small></span>
                     </div>
                   </div>
                   
@@ -286,13 +286,13 @@ class StatsDashboard {
 
               <div class="course-subcards-grid half-grid">
                 <div class="course-subcard">
-                  <div class="subcard-title">Obejrzane minuty</div>
+                  <div class="subcard-title">Obejrzane lekcje</div>
                   <div class="subcard-val-row">
                     <span class="cat-b-icon">🎬</span>
-                    <span class="subcard-val">${watchedMinutes} <small>z ${totalCourseMinutes}</small></span>
+                    <span class="subcard-val">${watchedModules} <small>z ${totalCourseModules}</small></span>
                   </div>
                   <div class="mini-progress-bg">
-                    <div class="mini-progress-fill" style="width: ${(watchedMinutes / totalCourseMinutes) * 100}%;"></div>
+                    <div class="mini-progress-fill" style="width: ${courseProgressPct}%;"></div>
                   </div>
                 </div>
                 
