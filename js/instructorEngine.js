@@ -19,7 +19,53 @@ class InstructorEngine {
 
   selectModule(moduleId) {
     this.currentModuleId = moduleId;
-    this.render();
+    this.updateUI();
+  }
+
+  updateUI() {
+    if (!this.container) return;
+
+    const currentModule = this.getCurrentModule();
+    if (!currentModule) return;
+
+    // Update Sidebar Active States
+    const chapters = this.container.querySelectorAll('.chapter-accordion-card');
+    chapters.forEach((card, idx) => {
+      const mod = this.modules[idx];
+      const isActive = mod.id === this.currentModuleId;
+      
+      const titleSpan = card.querySelector('.chapter-accordion-title');
+      const arrowSpan = card.querySelector('.accordion-arrow');
+
+      if (isActive) {
+        card.classList.add('open');
+        titleSpan.style.color = '#6C5CE7';
+        titleSpan.style.fontWeight = 'bold';
+        arrowSpan.textContent = '●';
+      } else {
+        card.classList.remove('open');
+        titleSpan.style.color = '';
+        titleSpan.style.fontWeight = '';
+        arrowSpan.textContent = '○';
+      }
+    });
+
+    // Update Stage Details
+    const breadcrumb = this.container.querySelector('.breadcrumb-current');
+    if (breadcrumb) breadcrumb.textContent = currentModule.title;
+
+    const heading = this.container.querySelector('.slide-main-heading');
+    if (heading) heading.textContent = currentModule.title;
+
+    // Update Video safely
+    const videoEl = this.container.querySelector('video');
+    if (videoEl) {
+      if (videoEl.src !== currentModule.videoUrl) {
+        videoEl.src = currentModule.videoUrl;
+        videoEl.load();
+        videoEl.play().catch(e => console.log('Auto-play prevented:', e));
+      }
+    }
   }
 
   render() {
@@ -34,7 +80,7 @@ class InstructorEngine {
       return `
         <div class="chapter-accordion-card ${isActive ? 'open' : ''}">
           <div class="chapter-accordion-header" onclick="window.instructorEngine.selectModule(${mod.id})">
-            <span class="chapter-accordion-title" style="${isActive ? 'color: #6C5CE7; font-weight: bold;' : ''}">${idx + 1}. ${mod.title}</span>
+            <span class="chapter-accordion-title" style="${isActive ? 'color: #6C5CE7; font-weight: bold;' : ''}">${mod.title}</span>
             <div class="chapter-meta-right">
               <span class="accordion-arrow">${isActive ? '●' : '○'}</span>
             </div>
