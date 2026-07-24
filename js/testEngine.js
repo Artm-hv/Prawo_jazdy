@@ -1,5 +1,6 @@
 /* ==========================================================================
-   Interactive Driving License Test Engine & PWPW Exam Simulator
+   Prawo Jazdy LMS - Official Exam Test Engine Module
+   Matches screenshot image_a8c2ff.jpg
    ========================================================================== */
 
 class TestEngine {
@@ -7,198 +8,304 @@ class TestEngine {
     this.container = document.getElementById(containerId);
     this.questions = [];
     this.currentIndex = 0;
-    this.answers = {};
-    this.timeLeft = 1500; // 25 minutes total exam time limit
+    this.userAnswers = {};
+    this.timerSeconds = 1500; // 25 minutes exam timer (25:00)
     this.timerInterval = null;
-    this.isFinished = false;
+    this.questionReadTime = 15; // 15 seconds per question
+    this.readTimeInterval = null;
+    this.isExamFinished = false;
+    this.bookmarkedQuestions = new Set();
   }
 
   async loadQuestions(category = "B") {
-    const data = await API.fetchExamQuestions(category, 35);
-    if (data && data.length > 0) {
-      this.questions = data;
+    const fetched = await API.fetchExamQuestions(category, 32);
+    if (fetched && fetched.length > 0) {
+      this.questions = fetched;
     } else {
-      // Fallback local exam question set
-      this.questions = [
-        {
-          id: 1,
-          category: "B",
-          question_type: "BASIC",
-          question_text: "Czy widząc ten znak ostrzegawczy A-1 'Niebezpieczny zakręt w prawo', masz obowiązek zmniejszyć prędkość i zachować szczególną ostrożność?",
-          media_url: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&auto=format&fit=crop",
-          media_type: "image",
-          points: 3,
-          sign_code: "A-1"
-        },
-        {
-          id: 2,
-          category: "B",
-          question_type: "BASIC",
-          question_text: "Czy przy znaku B-20 'STOP' masz obowiązek bezwzględnego zatrzymania pojazdu przed wyznaczoną linią lub przed krawędzią jezdni?",
-          media_url: "https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?w=600&auto=format&fit=crop",
-          media_type: "image",
-          points: 3,
-          sign_code: "B-20"
-        },
-        {
-          id: 3,
-          category: "B",
-          question_type: "SPECIALIST",
-          question_text: "Jaki jest minimalny bezpieczny odstęp od wyprzedzanego rowerzysty poza obszarem zabudowanym?",
-          media_url: null,
-          media_type: "none",
-          answer_a: "0,5 metra",
-          answer_b: "1 meter",
-          answer_c: "2 metry",
-          points: 2,
-          sign_code: null
-        }
-      ];
+      this.questions = window.TEST_QUESTIONS_DATA || [];
     }
     this.currentIndex = 0;
-    this.answers = {};
-    this.isFinished = false;
-    this.startTimer();
-    this.renderQuestion();
+    this.userAnswers = {};
+    this.isExamFinished = false;
+    this.startExamTimer();
+    this.startReadTimer();
+    this.render();
   }
 
-  startTimer() {
+  startExamTimer() {
     if (this.timerInterval) clearInterval(this.timerInterval);
-    this.timeLeft = 1500;
     this.timerInterval = setInterval(() => {
-      this.timeLeft--;
-      const timerEl = document.getElementById("exam-timer");
-      if (timerEl) {
-        const m = Math.floor(this.timeLeft / 60);
-        const s = this.timeLeft % 60;
-        timerEl.textContent = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-      }
-      if (this.timeLeft <= 0) {
-        clearInterval(this.timerInterval);
-        this.submitExam();
+      if (this.timerSeconds > 0) {
+        this.timerSeconds--;
+        const timerEl = document.getElementById("exam-time-left");
+        if (timerEl) timerEl.textContent = this.formatTime(this.timerSeconds);
+      } else {
+        this.finishExam();
       }
     }, 1000);
   }
 
-  renderQuestion() {
-    if (!this.container || this.questions.length === 0) return;
+  startReadTimer() {
+    this.questionReadTime = 15;
+    if (this.readTimeInterval) clearInterval(this.readTimeInterval);
+    this.readTimeInterval = setInterval(() => {
+      if (this.questionReadTime > 0) {
+        this.questionReadTime--;
+        const readEl = document.getElementById("read-time-left");
+        const readFill = document.getElementById("read-time-fill");
+        if (readEl) readEl.textContent = `${this.questionReadTime} s`;
+        if (readFill) readFill.style.width = `${(this.questionReadTime / 15) * 100}%`;
+      }
+    }, 1000);
+  }
 
+  formatTime(totalSec) {
+    const mins = Math.floor(totalSec / 60);
+    const secs = totalSec % 60;
+    return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+  }
+
+  selectAnswer(answerStr) {
+    if (this.isExamFinished) return;
     const q = this.questions[this.currentIndex];
-    const isBasic = q.question_type === "BASIC";
-    const userSelected = this.answers[q.id] || null;
+    if (!q) return;
 
-    let optionsHtml = "";
-    if (isBasic) {
-      optionsHtml = `
-        <div class="options-group">
-          <button class="btn-answer ${userSelected === 'TAK' ? 'selected' : ''}" onclick="window.testEngine.selectAnswer(${q.id}, 'TAK')">TAK</button>
-          <button class="btn-answer ${userSelected === 'NIE' ? 'selected' : ''}" onclick="window.testEngine.selectAnswer(${q.id}, 'NIE')">NIE</button>
-        </div>
-      `;
-    } else {
-      optionsHtml = `
-        <div class="options-group" style="flex-direction: column;">
-          <button class="btn-answer ${userSelected === 'A' ? 'selected' : ''}" onclick="window.testEngine.selectAnswer(${q.id}, 'A')">A. ${q.answer_a}</button>
-          <button class="btn-answer ${userSelected === 'B' ? 'selected' : ''}" onclick="window.testEngine.selectAnswer(${q.id}, 'B')">B. ${q.answer_b}</button>
-          <button class="btn-answer ${userSelected === 'C' ? 'selected' : ''}" onclick="window.testEngine.selectAnswer(${q.id}, 'C')">C. ${q.answer_c}</button>
-        </div>
-      `;
-    }
-
-    let mediaHtml = "";
-    if (q.media_url && q.media_url.trim() !== "") {
-      mediaHtml = `<div class="question-media-box"><img src="${q.media_url}" alt="Ilustracja sytuacyjna" /></div>`;
-    } else {
-      mediaHtml = `
-        <div class="question-media-box" style="background: #1e293b; color: #94a3b8; font-size: 14px; text-align: center; padding: 20px;">
-          Sytuacja drogowa bez materiału wideo / graficznego
-        </div>
-      `;
-    }
-
-    this.container.innerHTML = `
-      <div class="exam-container">
-        <div class="exam-header">
-          <div>
-            <span style="font-weight: 800; font-size: 18px; color: var(--text-dark);">Pytanie ${this.currentIndex + 1} z ${this.questions.length}</span>
-            <span style="margin-left: 12px; font-weight: 700; color: var(--primary-green);">Wartość: ${q.points} pkt</span>
-          </div>
-          <div class="exam-timer" id="exam-timer">25:00</div>
-        </div>
-
-        <div class="question-card">
-          <div class="question-text-area">
-            <div class="question-meta-tag">${isBasic ? 'Pytanie Podstawowe (TAK / NIE)' : 'Pytanie Specjalistyczne (A / B / C)'}</div>
-            <div class="question-body">${q.question_text}</div>
-            ${optionsHtml}
-          </div>
-          ${mediaHtml}
-        </div>
-
-        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
-          <button class="tab-pill" ${this.currentIndex === 0 ? 'disabled' : ''} onclick="window.testEngine.prevQuestion()">◄ Poprzednie</button>
-          <button class="tab-pill active" style="background: var(--primary-green); color: white;" onclick="window.testEngine.nextQuestion()">
-            ${this.currentIndex === this.questions.length - 1 ? 'Zakończ i prześlij egzamin' : 'Następne pytanie ►'}
-          </button>
-        </div>
-      </div>
-    `;
-  }
-
-  selectAnswer(questionId, answer) {
-    this.answers[questionId] = answer;
-    this.renderQuestion();
-  }
-
-  prevQuestion() {
-    if (this.currentIndex > 0) {
-      this.currentIndex--;
-      this.renderQuestion();
-    }
+    this.userAnswers[q.id] = answerStr;
+    this.render();
   }
 
   nextQuestion() {
     if (this.currentIndex < this.questions.length - 1) {
       this.currentIndex++;
-      this.renderQuestion();
+      this.startReadTimer();
+      this.render();
     } else {
-      this.submitExam();
+      this.finishExam();
     }
   }
 
-  async submitExam() {
+  async finishExam() {
+    this.isExamFinished = true;
     if (this.timerInterval) clearInterval(this.timerInterval);
-    
-    const formattedAnswers = Object.keys(this.answers).map(qId => ({
-      question_id: parseInt(qId),
-      selected_answer: this.answers[qId]
+    if (this.readTimeInterval) clearInterval(this.readTimeInterval);
+
+    const answersPayload = Object.entries(this.userAnswers).map(([qid, ans]) => ({
+      question_id: parseInt(qid),
+      selected_answer: ans
     }));
 
-    const result = await API.submitExam(formattedAnswers);
+    const resultData = await API.submitExam(answersPayload, "EXAM");
+    this.renderResults(resultData);
+  }
 
-    let score = 0;
-    let passed = false;
-    if (result) {
-      score = result.score;
-      passed = result.passed;
+  toggleBookmark() {
+    const q = this.questions[this.currentIndex];
+    if (!q) return;
+    if (this.bookmarkedQuestions.has(q.id)) {
+      this.bookmarkedQuestions.delete(q.id);
     } else {
-      // Client evaluation logic fallback
-      score = 70;
-      passed = true;
+      this.bookmarkedQuestions.add(q.id);
+    }
+    this.render();
+  }
+
+  render() {
+    if (!this.container || this.questions.length === 0) return;
+
+    const currentCat = window.app ? window.app.currentCategory : "B";
+    const q = this.questions[this.currentIndex] || this.questions[0];
+    const isBasic = (q.question_type || "BASIC") === "BASIC";
+    const selectedAns = this.userAnswers[q.id] || null;
+
+    // Progress counts
+    const basicQuestions = this.questions.filter(x => (x.question_type || "BASIC") === "BASIC");
+    const specQuestions = this.questions.filter(x => x.question_type === "SPECIALIST");
+
+    const currentBasicNum = isBasic ? Math.min(this.currentIndex + 1, basicQuestions.length) : basicQuestions.length;
+    const currentSpecNum = !isBasic ? Math.max(0, this.currentIndex - basicQuestions.length + 1) : 0;
+
+    const isBookmarked = this.bookmarkedQuestions.has(q.id);
+
+    // Media content (Image / Sign / Video placeholder)
+    let mediaHtml = '';
+    if (q.media_url) {
+      mediaHtml = `<img src="${q.media_url}" alt="Ilustracja pytania" class="exam-media-img" />`;
+    } else {
+      mediaHtml = `
+        <div class="exam-media-placeholder">
+          <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" style="width: 180px; height: 160px;">
+            <polygon points="50,5 95,85 5,85" fill="#3b82f6" stroke="#1d4ed8" stroke-width="6" stroke-linejoin="round"/>
+            <circle cx="50" cy="55" r="14" fill="white"/>
+            <path d="M42 55 L58 55 M50 47 L50 63" stroke="#1d4ed8" stroke-width="4"/>
+          </svg>
+        </div>
+      `;
+    }
+
+    // Answers Buttons
+    let answerButtonsHtml = '';
+    if (isBasic) {
+      answerButtonsHtml = `
+        <div class="exam-answers-row-2">
+          <button class="btn-answer-tak ${selectedAns === 'TAK' ? 'selected' : ''}" onclick="window.testEngine.selectAnswer('TAK')">
+            Tak
+          </button>
+          <button class="btn-answer-nie ${selectedAns === 'NIE' ? 'selected' : ''}" onclick="window.testEngine.selectAnswer('NIE')">
+            Nie
+          </button>
+        </div>
+      `;
+    } else {
+      const opts = q.options || { A: "Odpowiedź A", B: "Odpowiedź B", C: "Odpowiedź C" };
+      answerButtonsHtml = `
+        <div class="exam-answers-col-3">
+          ${Object.entries(opts).map(([key, val]) => `
+            <button class="btn-answer-spec ${selectedAns === key ? 'selected' : ''}" onclick="window.testEngine.selectAnswer('${key}')">
+              <strong>${key}:</strong> ${val}
+            </button>
+          `).join('')}
+        </div>
+      `;
     }
 
     this.container.innerHTML = `
-      <div class="exam-container" style="text-align: center; padding: 48px;">
-        <div style="font-size: 64px; margin-bottom: 16px;">${passed ? '🎉' : '❌'}</div>
-        <h2 style="font-size: 28px; font-weight: 900; color: ${passed ? 'var(--primary-green)' : '#ef4444'}; margin-bottom: 8px;">
-          ${passed ? 'EGZAMIN ZALICZONY!' : 'EGZAMIN NIEZALICZONY'}
-        </h2>
-        <p style="font-size: 18px; font-weight: 700; color: var(--text-dark); margin-bottom: 24px;">
-          Twój wynik: <strong>${score} / 74 punktów</strong> (Wymagany próg zdawalności: 68 pkt)
-        </p>
-        <div style="display: flex; justify-content: center; gap: 16px;">
-          <button class="tab-pill active" style="background: var(--primary-green); color: white; padding: 12px 28px; font-size: 16px;" onclick="window.testEngine.loadQuestions()">Rozpocznij nowy egzamin</button>
-          <button class="tab-pill" style="padding: 12px 28px; font-size: 16px;" onclick="window.app.switchTab('wyklady')">Powrót do wykładów</button>
+      <div class="exam-page-wrapper">
+        
+        <!-- Header Title Banner -->
+        <div class="exam-header-banner">
+          <h1 class="exam-main-title">Oficjalne Testy na Prawo Jazdy 2026</h1>
+        </div>
+
+        <!-- Badges Bar & Finish Button -->
+        <div class="exam-top-controls-bar">
+          <div class="exam-badges-left">
+            <div class="exam-meta-badge">
+              <span class="badge-label-sm">WARTOŚĆ PUNKTOWA PYTANIA</span>
+              <span class="badge-val-num">${q.points || 3}</span>
+            </div>
+
+            <div class="exam-meta-badge">
+              <span class="badge-label-sm">KATEGORIA</span>
+              <span class="badge-val-cat">${currentCat} ▾</span>
+            </div>
+
+            <div class="exam-meta-badge timer-badge">
+              <span class="badge-label-sm">CZAS DO KOŃCA</span>
+              <span class="badge-val-timer" id="exam-time-left">${this.formatTime(this.timerSeconds)}</span>
+            </div>
+          </div>
+
+          <button class="btn-finish-exam" onclick="window.testEngine.finishExam()">
+            Zakończ egzamin
+          </button>
+        </div>
+
+        <!-- Main 2-Column Exam Stage -->
+        <div class="exam-layout-grid">
+          
+          <!-- Left Column: Question Media & Controls -->
+          <div class="exam-left-stage">
+            <div class="exam-media-card">
+              ${mediaHtml}
+            </div>
+
+            <div class="exam-question-text-card">
+              <p class="question-text">${q.question_text}</p>
+            </div>
+
+            <!-- Answer Buttons -->
+            ${answerButtonsHtml}
+          </div>
+
+          <!-- Right Column: Exam Status & Action Buttons -->
+          <div class="exam-right-sidebar">
+            
+            <!-- Progress Section: Podstawowe / Specjalistyczne -->
+            <div class="exam-sidebar-card">
+              <div class="progress-counters-grid">
+                <div class="counter-box">
+                  <span class="counter-title">PYTANIA PODSTAWOWE</span>
+                  <span class="counter-val">${currentBasicNum}/${basicQuestions.length || 20}</span>
+                  <div class="mini-progress-bg">
+                    <div class="mini-progress-fill" style="width: ${(currentBasicNum / (basicQuestions.length || 20)) * 100}%;"></div>
+                  </div>
+                </div>
+
+                <div class="counter-box">
+                  <span class="counter-title">PYTANIA SPECJALISTYCZNE</span>
+                  <span class="counter-val">${currentSpecNum}/${specQuestions.length || 12}</span>
+                  <div class="mini-progress-bg">
+                    <div class="mini-progress-fill" style="width: ${(currentSpecNum / (specQuestions.length || 12)) * 100}%;"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Question Read Timer -->
+              <div class="read-timer-box">
+                <span class="counter-title">CZAS NA ZAPOZNANIE SIĘ Z PYTANIEM</span>
+                <span class="read-timer-val" id="read-time-left">${this.questionReadTime} s</span>
+                <div class="mini-progress-bg">
+                  <div class="mini-progress-fill" id="read-time-fill" style="width: ${(this.questionReadTime / 15) * 100}%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Official Question ID Badge -->
+            <div class="official-id-card">
+              <span class="info-icon">ℹ</span>
+              <div class="official-id-text">
+                Oficjalne pytanie egzaminacyjne z aktualnej bazy 2026<br>
+                <strong>ID PYTANIA: ${q.id || 12776}</strong>
+              </div>
+            </div>
+
+            <!-- Action Buttons Grid -->
+            <div class="exam-actions-list">
+              <button class="exam-action-btn ${isBookmarked ? 'active' : ''}" onclick="window.testEngine.toggleBookmark()">
+                <span>🔖</span> ${isBookmarked ? 'Zapisano pytanie' : 'Zapisz pytanie'}
+              </button>
+              
+              <button class="exam-action-btn" onclick="window.testEngine.startReadTimer()">
+                <span>🔄</span> Odśwież pytanie
+              </button>
+              
+              <button class="exam-action-btn" onclick="alert('Zadaj pytanie instruktorowi online: Pytanie ID ${q.id}')">
+                <span>💬</span> Zadaj pytanie
+              </button>
+              
+              <button class="exam-action-btn" onclick="if(document.fullscreenElement){document.exitFullscreen();}else{document.documentElement.requestFullscreen();}">
+                <span>⛶</span> Pełny ekran
+              </button>
+            </div>
+
+            <!-- Next Question Footer Button -->
+            <button class="btn-next-question" onclick="window.testEngine.nextQuestion()">
+              Następne pytanie →
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+    `;
+  }
+
+  renderResults(resultPayload) {
+    const attempt = resultPayload ? resultPayload.attempt : { score: 70, max_score: 74, passed: true };
+    const passed = attempt.passed;
+
+    this.container.innerHTML = `
+      <div class="exam-results-wrapper">
+        <div class="results-card ${passed ? 'pass-card' : 'fail-card'}">
+          <div class="result-header-icon">${passed ? '🎉' : '❌'}</div>
+          <h2 class="result-title">${passed ? 'EGZAMIN ZALICZONY!' : 'EGZAMIN NIEZALICZONY'}</h2>
+          <p class="result-score-text">Twój wynik: <strong>${attempt.score}</strong> / ${attempt.max_score || 74} punktów</p>
+          <p class="result-subtext">${passed ? 'Moje gratulacje! Spełniłeś wymóg min. 68 punktów.' : 'Wymagane minimum to 68 punktów. Spróbuj ponownie!'}</p>
+          
+          <button class="btn-restart-exam" onclick="window.testEngine.loadQuestions('${window.app ? window.app.currentCategory : "B"}')">
+            Rozpocznij nowy egzamin
+          </button>
         </div>
       </div>
     `;

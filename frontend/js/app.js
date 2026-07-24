@@ -15,6 +15,7 @@ class LMSApp {
     this.signCatalog = null;
     this.statsDashboard = null;
     this.lecturesEngine = null;
+    this.textbookEngine = null;
 
     this.activeTab = "szkolenie";
   }
@@ -27,9 +28,12 @@ class LMSApp {
     this.signCatalog = new TrafficSignCatalog("tab-content-container");
     this.statsDashboard = new StatsDashboard("tab-content-container");
     this.lecturesEngine = new LecturesEngine("tab-content-container");
+    this.textbookEngine = new TextbookEngine("tab-content-container");
     
+    window.testEngine = this.testEngine;
     window.lecturesEngine = this.lecturesEngine;
     window.statsDashboard = this.statsDashboard;
+    window.textbookEngine = this.textbookEngine;
 
     this.bindEvents();
     await this.loadCourseData();
@@ -81,6 +85,8 @@ class LMSApp {
       this.signCatalog.loadSigns();
     } else if (this.activeTab === "statystyki" && this.statsDashboard) {
       this.statsDashboard.loadStats();
+    } else if (this.activeTab === "podrecznik" && this.textbookEngine) {
+      this.textbookEngine.loadTextbook();
     }
   }
 
@@ -279,33 +285,9 @@ class LMSApp {
       } else if (tabName === "wyklady") {
         this.lecturesEngine.loadLectures();
       } else if (tabName === "podrecznik") {
-        this.renderTextbookView();
+        this.textbookEngine.loadTextbook();
       }
     }
-  }
-
-  renderTextbookView() {
-    const container = document.getElementById("tab-content-container");
-    if (!container) return;
-
-    container.innerHTML = `
-      <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 32px; border: 1px solid var(--border-color); box-shadow: var(--shadow-md);">
-        <h2 class="section-title" style="margin-bottom: 16px;">Podręcznik Kodeksu Drogowego 2026</h2>
-        <p style="font-size: 15px; color: var(--text-dark); line-height: 1.7; margin-bottom: 24px;">
-          Oficjalne zasady i przepisy ruchu drogowego w Polsce. Wybierz dział, aby przejść do materiałów naukowych:
-        </p>
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-main); cursor: pointer;" onclick="window.app.switchTab('znaki')">
-            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-purple); margin-bottom: 8px;">12 Kategori Znaków i Sygnałów Drogowych</h4>
-            <p style="font-size: 13px; color: var(--text-muted);">Przegląd znaków nakazu, zakazu, informacyjnych, ostrzegawczych, poziomych, gestów policjanta i kontrolek pojazdu.</p>
-          </div>
-          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-main); cursor: pointer;" onclick="window.app.switchTab('wyklady')">
-            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-purple); margin-bottom: 8px;">Wykłady na prawo jazdy</h4>
-            <p style="font-size: 13px; color: var(--text-muted);">Przegląd wszystkich 12 działów z ilustracjami i objaśnieniami.</p>
-          </div>
-        </div>
-      </div>
-    `;
   }
 
   formatDuration(seconds) {
