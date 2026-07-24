@@ -127,30 +127,24 @@ class TextbookEngine {
           <div class="podrecznik-lesson-view">
             <div class="lesson-header-row">
               <h2>${topicTitle}</h2>
-              <button class="btn-lektor">🔊 Włącz lektora</button>
             </div>
             
-            <div class="lesson-checkbox-row">
-              <input type="checkbox" id="markReadCheckbox" ${isRead ? 'checked' : ''} onchange="window.textbookEngine.toggleReadStatus(${activeChapter.id}, ${this.activeTopicIdx}, this.checked)" />
-              <label for="markReadCheckbox">Oznacz jako przeczytane</label>
-            </div>
-
             <div class="lesson-html-content">
               ${topicContent}
             </div>
 
-            <div class="lesson-navigation-grid">
-              <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx - 1 > 0 ? this.activeTopicIdx - 1 : 0})">
+            <div class="lesson-checkbox-row" style="margin: 24px 0 16px 0;">
+              <input type="checkbox" id="markReadCheckbox" ${isRead ? 'checked' : ''} onchange="window.textbookEngine.toggleReadStatus(${activeChapter.id}, ${this.activeTopicIdx}, this.checked)" />
+              <label for="markReadCheckbox">Oznacz jako przeczytane</label>
+            </div>
+
+            <div class="lesson-navigation-grid" style="display: flex; gap: 16px;">
+              <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx > 0 ? this.activeTopicIdx - 1 : 0})" style="flex: 1; padding: 12px; border: 1px solid var(--primary-purple); background: transparent; color: var(--text-dark); border-radius: 6px; cursor: pointer; transition: background 0.15s;">
                 ← Poprzedni
               </button>
-              <div class="lesson-nav-btn-next-col">
-                <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})">
-                  Następny ▶
-                </button>
-                <button class="lesson-nav-btn" onclick="window.textbookEngine.toggleReadStatus(${activeChapter.id}, ${this.activeTopicIdx}, true); window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})">
-                  Następny ▶<br><small>(oznacz jako przeczytane)</small>
-                </button>
-              </div>
+              <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})" style="flex: 1; padding: 12px; border: 1px solid var(--primary-purple); background: transparent; color: var(--text-dark); border-radius: 6px; cursor: pointer; transition: background 0.15s;">
+                Następny →
+              </button>
             </div>
           </div>
         `;
@@ -221,9 +215,7 @@ class TextbookEngine {
             </div>
           </div>
 
-          <div class="wyklady-sidebar-header">
-            <h3 class="sidebar-block-title">PODRĘCZNIK KURSANTA NA PRAWO JAZDY 2026</h3>
-          </div>
+
 
           <div class="chapters-accordion-list">
             ${sidebarChaptersHtml}
