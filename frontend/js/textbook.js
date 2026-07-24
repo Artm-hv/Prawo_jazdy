@@ -17,7 +17,11 @@ class TextbookEngine {
   }
 
   selectChapter(chapterId) {
-    this.activeChapterId = chapterId;
+    if (this.activeChapterId === chapterId) {
+      this.activeChapterId = null;
+    } else {
+      this.activeChapterId = chapterId;
+    }
     this.activeTopicIdx = null; // reset to show chapter list
     this.render();
   }
@@ -25,6 +29,22 @@ class TextbookEngine {
   selectTopic(chapterId, topicIdx) {
     this.activeChapterId = chapterId;
     this.activeTopicIdx = topicIdx;
+    this.render();
+  }
+
+  toggleReadStatus(chapterId, topicIdx, isRead) {
+    const chapter = this.chapters.find(c => c.id === chapterId);
+    if (!chapter) return;
+    
+    const localStorageKey = `textbook_read_${chapterId}_${topicIdx}`;
+    
+    if (isRead) {
+      localStorage.setItem(localStorageKey, "true");
+      // Increment completed count if it was not already read in our active session state
+      // (For a real backend, we'd sync this. Here we just update local state if needed, but since it's mock state, we can skip updating the hardcoded JSON count for now, or just let localstorage handle it visually)
+    } else {
+      localStorage.removeItem(localStorageKey);
+    }
     this.render();
   }
 
@@ -48,12 +68,14 @@ class TextbookEngine {
           ${isActive ? `
             <div class="active-lesson-box">
               <div class="slides-sublist">
-                ${chap.topics.map((top, idx) => `
+                ${chap.topics.map((top, idx) => {
+                  const isRead = localStorage.getItem(`textbook_read_${chap.id}_${idx}`) === "true";
+                  return `
                   <div class="slide-list-item ${this.activeTopicIdx === idx ? 'active-topic' : ''}" onclick="event.stopPropagation(); window.textbookEngine.selectTopic(${chap.id}, ${idx})">
-                    <span class="slide-status-circle ${idx < chap.completed_count ? 'completed' : ''}"></span>
+                    <span class="slide-status-circle ${isRead ? 'completed' : ''}"></span>
                     <span class="slide-item-title">${idx + 1}. ${typeof top === 'object' ? top.title : top}</span>
                   </div>
-                `).join('')}
+                `}).join('')}
                 <button class="btn-pytania-kontrolne" onclick="event.stopPropagation();">
                   Pytania kontrolne - dział ${chap.number.split('.')[0]}
                 </button>
@@ -73,7 +95,23 @@ class TextbookEngine {
       if (activeChapter && activeChapter.topics[this.activeTopicIdx]) {
         const topic = activeChapter.topics[this.activeTopicIdx];
         const topicTitle = typeof topic === 'object' ? topic.title : topic;
-        const topicContent = typeof topic === 'object' && topic.content ? topic.content : '<p>Treść wkrótce...</p>';
+        let topicContent = typeof topic === 'object' && topic.content ? topic.content : '<p>Treść wkrótce...</p>';
+        
+        // Clean up scraped HTML
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(topicContent, 'text/html');
+        
+        // Remove duplicated header
+        const header = doc.querySelector('.header');
+        if (header) header.remove();
+        
+        // Remove scraped empty checkbox
+        const readCheck = doc.querySelector('.elearning-read');
+        if (readCheck) readCheck.remove();
+        
+        topicContent = doc.body.innerHTML;
+
+        const isRead = localStorage.getItem(`textbook_read_${activeChapter.id}_${this.activeTopicIdx}`) === "true";
         
         mainStageHtml = `
           <div class="podrecznik-lesson-view">
@@ -83,7 +121,7 @@ class TextbookEngine {
             </div>
             
             <div class="lesson-checkbox-row">
-              <input type="checkbox" id="markReadCheckbox" />
+              <input type="checkbox" id="markReadCheckbox" ${isRead ? 'checked' : ''} onchange="window.textbookEngine.toggleReadStatus(${activeChapter.id}, ${this.activeTopicIdx}, this.checked)" />
               <label for="markReadCheckbox">Oznacz jako przeczytane</label>
             </div>
 
@@ -97,10 +135,10 @@ class TextbookEngine {
               </button>
               <div class="lesson-nav-btn-next-col">
                 <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})">
-                  Następny →
+                  Następny ▶
                 </button>
-                <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})">
-                  Następny →<br><small>(oznacz jako przeczytane)</small>
+                <button class="lesson-nav-btn" onclick="window.textbookEngine.toggleReadStatus(${activeChapter.id}, ${this.activeTopicIdx}, true); window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})">
+                  Następny ▶<br><small>(oznacz jako przeczytane)</small>
                 </button>
               </div>
             </div>
