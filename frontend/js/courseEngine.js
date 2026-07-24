@@ -6,7 +6,30 @@
 class CourseEngine {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
-    this.questions = window.TEST_QUESTIONS_DATA || [];
+    
+    // Parse the newly scraped COURSE_DATA
+    this.courseData = window.COURSE_DATA || [];
+    this.questions = [];
+    this.topicCategories = [];
+    
+    this.courseData.forEach(mod => {
+      this.topicCategories.push({
+        id: mod.id,
+        name: mod.title,
+        count: mod.questions.length,
+        completed: 0
+      });
+      
+      mod.questions.forEach((q, idx) => {
+        this.questions.push({
+          ...q,
+          id: `${mod.id}-${idx}`,
+          topic_id: mod.id,
+          topic_title: mod.title
+        });
+      });
+    });
+
     this.filteredQuestions = [...this.questions];
     this.currentIndex = 0;
     this.userAnswers = {};
@@ -14,32 +37,18 @@ class CourseEngine {
     // Filter states
     this.selectedGroup = "all";
     this.selectedStatus = "all";
-    this.selectedType = "all";
     this.searchQuery = "";
     this.isFilterCollapsed = false;
-
-    // 14 Basic Topic Categories matching image_c3d7c5.jpg
-    this.topicCategories = [
-      { id: "znaki_ostrzegawcze", name: "Znaki ostrzegawcze", count: 113, completed: 0 },
-      { id: "znaki_zakazu", name: "Znaki zakazu, nakazu", count: 102, completed: 0 },
-      { id: "znaki_informacyjne", name: "Znaki informacyjne, kierunku i miejscowości, uzupełniające", count: 82, completed: 0 },
-      { id: "znaki_poziome", name: "Znaki drogowe poziome", count: 113, completed: 0 },
-      { id: "sygnaly_swietlne", name: "Sygnały świetlne, sygnały dawane przez kierującego ruchem", count: 93, completed: 0 },
-      { id: "wlaczanie_do_ruchu", name: "Włączanie się do ruchu, skrzyżowania równorzędne", count: 86, completed: 0 },
-      { id: "skrzyzowania_znaki", name: "Skrzyżowania ze znakami określającymi pierwszeństwo przejazdu", count: 127, completed: 0 },
-      { id: "skrzyzowania_sygnalizacja", name: "Skrzyżowania z sygnalizacją świetlną", count: 59, completed: 0 },
-      { id: "skrzyzowania_piesi", name: "Skrzyżowania lub przejścia dla pieszych z kierującym ruchem, miejsca przystanków", count: 27, completed: 0 },
-      { id: "pozycja_pojazdu", name: "Pozycja pojazdu na drodze, wjazd i zjazd ze skrzyżowania, zatrzymanie i postój", count: 145, completed: 1 },
-      { id: "zmiana_pasa", name: "Zmiana pasa ruchu, zmiana kierunku jazdy", count: 148, completed: 0 },
-      { id: "wyprzedzanie", name: "Wyprzedzanie", count: 164, completed: 0 },
-      { id: "omijanie", name: "Omijanie, wymijanie, cofanie", count: 62, completed: 0 },
-      { id: "swiatla", name: "Używanie świateł zewnętrznych i sygnałów pojazdu", count: 54, completed: 0 }
-    ];
 
     window.courseEngine = this;
     
     // Debounce timer for search
     this.searchTimeout = null;
+  }
+
+  loadCourseView() {
+    this.applyFilters();
+    this.render();
   }
 
   loadCourseView() {
@@ -52,28 +61,22 @@ class CourseEngine {
     let result = [...this.questions];
 
     if (this.selectedGroup !== "all") {
-      result = result.filter(q => q.topic_id === this.selectedGroup || q.category === this.selectedGroup);
-    }
-
-    if (this.selectedType === "basic") {
-      result = result.filter(q => (q.question_type || "BASIC") === "BASIC");
-    } else if (this.selectedType === "specialist") {
-      result = result.filter(q => q.question_type === "SPECIALIST");
+      result = result.filter(q => q.topic_id == this.selectedGroup);
     }
 
     if (this.selectedStatus === "unanswered") {
-      result = result.filter(q => !this.userAnswers[q.id]);
+      result = result.filter(q => this.userAnswers[q.id] === undefined);
     } else if (this.selectedStatus === "wrong") {
-      result = result.filter(q => this.userAnswers[q.id] && !this.checkAnswerCorrect(q, this.userAnswers[q.id]));
+      result = result.filter(q => this.userAnswers[q.id] !== undefined && !this.checkAnswerCorrect(q, this.userAnswers[q.id]));
     } else if (this.selectedStatus === "passed") {
-      result = result.filter(q => this.userAnswers[q.id] && this.checkAnswerCorrect(q, this.userAnswers[q.id]));
+      result = result.filter(q => this.userAnswers[q.id] !== undefined && this.checkAnswerCorrect(q, this.userAnswers[q.id]));
     }
 
     if (this.searchQuery.trim() !== "") {
       const qLower = this.searchQuery.toLowerCase();
       result = result.filter(q => 
         String(q.id).includes(qLower) || 
-        q.question_text.toLowerCase().includes(qLower)
+        q.title.toLowerCase().includes(qLower)
       );
     }
 
@@ -83,8 +86,8 @@ class CourseEngine {
     }
   }
 
-  checkAnswerCorrect(question, answer) {
-    return question.correct_answer === answer;
+  checkAnswerCorrect(question, answerIdx) {
+    return question.answers[answerIdx] && question.answers[answerIdx].isCorrect;
   }
 
   selectTopicGroup(groupId) {
@@ -109,7 +112,6 @@ class CourseEngine {
 
     if (type === "group") this.selectedGroup = value;
     if (type === "status") this.selectedStatus = value;
-    if (type === "type") this.selectedType = value;
 
     this.applyFilters();
     this.triggerStageTransition();
@@ -132,11 +134,13 @@ class CourseEngine {
     this.render();
   }
 
-  selectAnswer(answerStr) {
+  selectAnswer(answerIdx) {
     const currentQ = this.filteredQuestions[this.currentIndex] || this.questions[0];
     if (!currentQ) return;
 
-    this.userAnswers[currentQ.id] = answerStr;
+    if (this.userAnswers[currentQ.id] !== undefined) return; // already answered
+
+    this.userAnswers[currentQ.id] = answerIdx;
     this.render(); // Immediate render for answer selection feedback (no fade needed)
   }
 
@@ -158,51 +162,63 @@ class CourseEngine {
     if (!this.container) return;
 
     const currentCat = window.app ? window.app.currentCategory : "B";
-    const currentQ = this.filteredQuestions[this.currentIndex] || this.questions[0];
-    const isBasic = (currentQ.question_type || "BASIC") === "BASIC";
-    const userAns = this.userAnswers[currentQ.id] || null;
+    const currentQ = this.filteredQuestions[this.currentIndex];
+    if (!currentQ) {
+      this.container.innerHTML = `<div class="course-page-wrapper"><h3>Brak pytań spełniających kryteria.</h3></div>`;
+      return;
+    }
+    const userAnsIdx = this.userAnswers[currentQ.id];
+    const isAnswered = userAnsIdx !== undefined;
 
-    const totalBank = 2185;
-    const totalAnswered = Object.keys(this.userAnswers).length || 1;
+    const totalBank = this.questions.length;
+    const totalAnswered = Object.keys(this.userAnswers).length;
 
     // Answer Buttons HTML
-    let answerButtonsHtml = '';
-    if (isBasic) {
-      answerButtonsHtml = `
-        <div class="exam-answers-row-2">
-          <button class="btn-answer-tak ${userAns === 'TAK' ? 'selected' : ''}" onclick="window.courseEngine.selectAnswer('TAK')">
-            Tak
-          </button>
-          <button class="btn-answer-nie ${userAns === 'NIE' ? 'selected' : ''}" onclick="window.courseEngine.selectAnswer('NIE')">
-            Nie
-          </button>
-        </div>
-      `;
-    } else {
-      const opts = currentQ.options || { A: "Odpowiedź A", B: "Odpowiedź B", C: "Odpowiedź C" };
-      answerButtonsHtml = `
-        <div class="exam-answers-col-3">
-          ${Object.entries(opts).map(([key, val]) => `
-            <button class="btn-answer-spec ${userAns === key ? 'selected' : ''}" onclick="window.courseEngine.selectAnswer('${key}')">
-              <strong>${key}:</strong> ${val}
+    let answerButtonsHtml = `
+      <div class="exam-answers-col-3">
+        ${currentQ.answers.map((ans, idx) => {
+          let btnClass = "btn-answer-spec";
+          let icon = "";
+          if (isAnswered) {
+            if (ans.isCorrect) {
+              btnClass += " correct";
+              icon = "✓ ";
+            } else if (idx === userAnsIdx && !ans.isCorrect) {
+              btnClass += " wrong";
+              icon = "✕ ";
+            }
+          }
+          return `
+            <button class="${btnClass}" onclick="window.courseEngine.selectAnswer(${idx})" ${isAnswered ? 'disabled' : ''}>
+              ${icon} ${ans.text}
             </button>
-          `).join('')}
+          `;
+        }).join('')}
+      </div>
+    `;
+
+    // Media HTML
+    let mediaHtml = '';
+    if (currentQ.mediaType === 'video') {
+      mediaHtml = `
+        <video src="${currentQ.mediaUrl}" controls autoplay muted style="width:100%; border-radius:12px; max-height:400px; object-fit:cover;"></video>
+      `;
+    } else if (currentQ.mediaType === 'image') {
+      mediaHtml = `<img src="${currentQ.mediaUrl}" alt="Ilustracja pytania" class="exam-media-img" style="width:100%; border-radius:12px; object-fit:cover;" />`;
+    } else {
+      mediaHtml = `
+        <div class="exam-media-placeholder">
+          Brak multimediów
         </div>
       `;
     }
 
-    // Media HTML
-    let mediaHtml = '';
-    if (currentQ.media_url) {
-      mediaHtml = `<img src="${currentQ.media_url}" alt="Ilustracja pytania" class="exam-media-img" />`;
-    } else {
-      mediaHtml = `
-        <div class="exam-media-placeholder">
-          <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" style="width: 220px; height: 180px;">
-            <polygon points="50,5 95,85 5,85" fill="#eab308" stroke="#ca8a04" stroke-width="6" stroke-linejoin="round"/>
-            <path d="M42 65 C42 45 60 45 60 30" fill="none" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
-            <polygon points="60,24 67,34 53,34" fill="#000000"/>
-          </svg>
+    let explanationHtml = '';
+    if (isAnswered && currentQ.explanation) {
+      explanationHtml = `
+        <div class="explanation-box" style="margin-top: 20px; padding: 20px; background: rgba(108, 92, 231, 0.05); border-left: 4px solid #6C5CE7; border-radius: 8px;">
+          <h4 style="margin:0 0 10px 0; color:#6C5CE7;">Objaśnienie</h4>
+          ${currentQ.explanation}
         </div>
       `;
     }
@@ -251,7 +267,7 @@ class CourseEngine {
                 <label class="input-label">Grupa pytań</label>
                 <select class="setting-select" onchange="window.courseEngine.onFilterChange('group', this.value)">
                   <option value="all" ${this.selectedGroup === 'all' ? 'selected' : ''}>Wszystkie pytania</option>
-                  ${this.topicCategories.map(t => `<option value="${t.id}" ${this.selectedGroup === t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
+                  ${this.topicCategories.map(t => `<option value="${t.id}" ${this.selectedGroup == t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
                 </select>
               </div>
 
@@ -264,25 +280,6 @@ class CourseEngine {
                   <option value="passed" ${this.selectedStatus === 'passed' ? 'selected' : ''}>Zaliczone</option>
                   <option value="all" ${this.selectedStatus === 'all' ? 'selected' : ''}>Wszystkie</option>
                 </select>
-              </div>
-
-              <!-- Radio Group: Typ pytania -->
-              <div class="input-group">
-                <label class="input-label">Typ pytania</label>
-                <div class="radio-options-row">
-                  <label class="radio-item">
-                    <input type="radio" name="typ_pytania" value="all" ${this.selectedType === 'all' ? 'checked' : ''} onchange="window.courseEngine.onFilterChange('type', this.value)">
-                    <span>Wszystkie</span>
-                  </label>
-                  <label class="radio-item">
-                    <input type="radio" name="typ_pytania" value="basic" ${this.selectedType === 'basic' ? 'checked' : ''} onchange="window.courseEngine.onFilterChange('type', this.value)">
-                    <span>Tylko podstawowe</span>
-                  </label>
-                  <label class="radio-item">
-                    <input type="radio" name="typ_pytania" value="specialist" ${this.selectedType === 'specialist' ? 'checked' : ''} onchange="window.courseEngine.onFilterChange('type', this.value)">
-                    <span>Tylko specjalistyczne</span>
-                  </label>
-                </div>
               </div>
 
               <!-- Search Box: Wyszukaj pytanie -->
@@ -312,10 +309,11 @@ class CourseEngine {
             </div>
 
             <div class="exam-question-text-card">
-              <p class="question-text">${currentQ.question_text}</p>
+              <p class="question-text">${currentQ.title}</p>
             </div>
 
             ${answerButtonsHtml}
+            ${explanationHtml}
           </div>
 
           <!-- Right Column: Status & Counter Sidebar -->
@@ -355,8 +353,8 @@ class CourseEngine {
             <!-- User Answer Status Badge -->
             <div class="user-answer-status-card">
               <span class="status-label">TWOJE ODPOWIEDZI:</span>
-              <span class="status-val ${userAns ? 'answered' : ''}">
-                ${userAns ? `UDZIELONO ODPOWIEDZI: ${userAns}` : 'BRAK ODPOWIEDZI NA TO PYTANIE'}
+              <span class="status-val ${isAnswered ? 'answered' : ''}">
+                ${isAnswered ? (this.checkAnswerCorrect(currentQ, userAnsIdx) ? 'POPRAWNA ODPOWIEDŹ' : 'BŁĘDNA ODPOWIEDŹ') : 'BRAK ODPOWIEDZI NA TO PYTANIE'}
               </span>
             </div>
 

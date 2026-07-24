@@ -2612,7 +2612,7 @@ input:checked + .slider:before {
 }
 /* Podrecznik Redesign to match Original Site */
 .chapter-accordion-card.open {
-  border: 2px solid #00b894;
+  border: 2px solid #6C5CE7;
   background-color: #f0fbf8;
 }
 .chapter-accordion-card.open .chapter-accordion-header {
@@ -2640,19 +2640,19 @@ input:checked + .slider:before {
 .slide-status-circle {
   width: 16px;
   height: 16px;
-  border: 2px solid #00b894;
+  border: 2px solid #6C5CE7;
   border-radius: 50%;
   margin-right: 12px;
   background: transparent;
 }
 .slide-status-circle.completed {
-  background: #00b894;
+  background: #6C5CE7;
 }
 .btn-pytania-kontrolne {
   width: 100%;
   padding: 12px;
   background: transparent;
-  border: 1px solid #00b894;
+  border: 1px solid #6C5CE7;
   color: #333;
   border-radius: 8px;
   margin-top: 10px;
@@ -2661,7 +2661,7 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 .btn-pytania-kontrolne:hover {
-  background: rgba(0, 184, 148, 0.1);
+  background: rgba(108, 92, 231, 0.1);
 }
 
 /* Lesson Stage */
@@ -2693,7 +2693,7 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 .btn-lektor:hover {
-  color: #00b894;
+  color: #6C5CE7;
 }
 .lesson-checkbox-row {
   margin-bottom: 20px;
@@ -2724,7 +2724,7 @@ input:checked + .slider:before {
 }
 .lesson-nav-btn {
   background: transparent;
-  border: 1px solid #00b894;
+  border: 1px solid #6C5CE7;
   color: #333;
   padding: 12px;
   border-radius: 8px;
