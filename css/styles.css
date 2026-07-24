@@ -1,21 +1,21 @@
 /* ==========================================================================
-   Prawo Jazdy 360 LMS - Core Design System & Responsive Layout
+   Prawo Jazdy LMS - Core Design System (Vibrant Purple Theme)
    ========================================================================== */
 
 :root {
-  --primary-green: #00c853;
-  --primary-green-hover: #00a844;
-  --primary-green-light: #e6f9ed;
-  --table-header-bg: #046c59;
-  --bg-main: #f5f7fa;
+  --primary-purple: #7c3aed;
+  --primary-purple-hover: #6d28d9;
+  --primary-purple-light: #f3e8ff;
+  --table-header-bg: #5b21b6;
+  --bg-main: #f8fafc;
   --bg-card: #ffffff;
   --text-dark: #1e293b;
   --text-muted: #64748b;
   --border-color: #e2e8f0;
-  --active-border: #00c853;
+  --active-border: #7c3aed;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
-  --shadow-lg: 0 10px 25px rgba(0,0,0,0.12);
+  --shadow-md: 0 4px 12px rgba(124, 58, 237, 0.08);
+  --shadow-lg: 0 10px 25px rgba(124, 58, 237, 0.12);
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 18px;
@@ -69,26 +69,13 @@ html, body {
   gap: 6px;
   text-decoration: none;
   font-size: 22px;
-  font-weight: 800;
-  color: var(--primary-green);
+  font-weight: 900;
+  color: var(--primary-purple);
   letter-spacing: -0.5px;
 }
 
 .brand-logo span.highlight {
   color: #111827;
-}
-
-.brand-icon {
-  width: 26px;
-  height: 26px;
-  background: var(--primary-green);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .nav-links {
@@ -111,11 +98,11 @@ html, body {
 }
 
 .nav-item:hover {
-  color: var(--primary-green);
+  color: var(--primary-purple);
 }
 
 .nav-item.active {
-  color: var(--primary-green);
+  color: var(--primary-purple);
 }
 
 .nav-item.active::after {
@@ -125,7 +112,7 @@ html, body {
   left: 0;
   right: 0;
   height: 3px;
-  background-color: var(--primary-green);
+  background-color: var(--primary-purple);
   border-radius: 3px 3px 0 0;
 }
 
@@ -148,7 +135,7 @@ html, body {
 }
 
 .category-pill {
-  background-color: var(--primary-green);
+  background-color: var(--primary-purple);
   color: white;
   padding: 4px 12px;
   border-radius: 16px;
@@ -208,7 +195,7 @@ html, body {
 }
 
 .category-badge-selector {
-  background-color: var(--primary-green);
+  background-color: var(--primary-purple);
   color: white;
   padding: 2px 10px;
   border-radius: 12px;
@@ -235,7 +222,7 @@ html, body {
 
 .progress-bar-fill {
   height: 100%;
-  background-color: var(--primary-green);
+  background-color: var(--primary-purple);
   border-radius: 4px;
   transition: width 0.4s ease;
 }
@@ -257,8 +244,8 @@ html, body {
 }
 
 .module-card.active {
-  border-color: var(--primary-green);
-  box-shadow: 0 0 0 1px var(--primary-green);
+  border-color: var(--primary-purple);
+  box-shadow: 0 0 0 1px var(--primary-purple);
 }
 
 .module-header {
@@ -292,7 +279,7 @@ html, body {
 
 .module-mini-fill {
   height: 100%;
-  background: var(--primary-green);
+  background: var(--primary-purple);
 }
 
 .lesson-sublist {
@@ -316,8 +303,8 @@ html, body {
 }
 
 .lesson-item:hover, .lesson-item.active {
-  background-color: var(--primary-green-light);
-  color: var(--primary-green-hover);
+  background-color: var(--primary-purple-light);
+  color: var(--primary-purple-hover);
 }
 
 .status-icon {
@@ -331,7 +318,7 @@ html, body {
 }
 
 .status-icon.completed {
-  background-color: var(--primary-green);
+  background-color: var(--primary-purple);
   color: white;
 }
 
@@ -340,7 +327,7 @@ html, body {
 }
 
 .status-icon.playing {
-  background-color: var(--primary-green);
+  background-color: var(--primary-purple);
   color: white;
 }
 
@@ -414,7 +401,7 @@ html, body {
   position: absolute;
   width: 72px;
   height: 72px;
-  background: var(--primary-green);
+  background: var(--primary-purple);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -422,7 +409,7 @@ html, body {
   color: white;
   font-size: 28px;
   cursor: pointer;
-  box-shadow: 0 0 30px rgba(0, 200, 83, 0.5);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.5);
 }
 
 .sign-display-card {
@@ -490,7 +477,7 @@ html, body {
 
 .timeline-progress {
   height: 100%;
-  background: var(--primary-green);
+  background: var(--primary-purple);
 }
 
 .time-counter {
@@ -499,7 +486,7 @@ html, body {
 }
 
 /* ==========================================================================
-   5. Category Selector Pills & Detailed Signs Table
+   5. Category Selector Pills & Detailed Signs Table (Purple Accent)
    ========================================================================== */
 .signs-page-wrapper {
   display: flex;
@@ -531,14 +518,14 @@ html, body {
 }
 
 .category-grid-item:hover {
-  border-color: var(--primary-green);
+  border-color: var(--primary-purple);
   box-shadow: var(--shadow-md);
 }
 
 .category-grid-item.active {
-  border-color: var(--primary-green);
-  background-color: #f0fdf4;
-  box-shadow: 0 0 0 1px var(--primary-green);
+  border-color: var(--primary-purple);
+  background-color: #f3e8ff;
+  box-shadow: 0 0 0 1px var(--primary-purple);
 }
 
 .category-name {
@@ -554,7 +541,7 @@ html, body {
 .arrow-btn {
   width: 22px;
   height: 22px;
-  background: var(--primary-green);
+  background: var(--primary-purple);
   color: white;
   border-radius: 4px;
   display: flex;
@@ -566,23 +553,23 @@ html, body {
 }
 
 .category-banner-box {
-  background: linear-gradient(135deg, #e6f9ed 0%, #f0fdf4 100%);
+  background: linear-gradient(135deg, #f3e8ff 0%, #faf5ff 100%);
   border-radius: var(--radius-md);
   padding: 20px 24px;
-  border: 1px solid #bbf7d0;
+  border: 1px solid #e9d5ff;
   width: 100%;
 }
 
 .banner-title {
   font-size: 24px;
   font-weight: 900;
-  color: #064e3b;
+  color: #5b21b6;
   margin-bottom: 6px;
 }
 
 .banner-description {
   font-size: 14px;
-  color: #047857;
+  color: #6b21a8;
   line-height: 1.5;
 }
 
@@ -680,7 +667,6 @@ html, body {
 
 /* ==========================================================================
    6. Wykłady (Lectures Presentation Module)
-   Matches image_2765be.jpg & image_276602.jpg
    ========================================================================== */
 .lectures-layout-grid {
   display: grid;
@@ -722,7 +708,7 @@ html, body {
 }
 
 .chapter-accordion-card.open {
-  border-color: var(--primary-green);
+  border-color: var(--primary-purple);
 }
 
 .chapter-accordion-header {
@@ -769,7 +755,7 @@ html, body {
 .active-lesson-box {
   background: #ffffff;
   border-top: 1px solid #e2e8f0;
-  border-left: 3px solid var(--primary-green);
+  border-left: 3px solid var(--primary-purple);
   padding: 12px;
 }
 
@@ -783,7 +769,7 @@ html, body {
 .lesson-title-badge {
   font-size: 13px;
   font-weight: 800;
-  color: #065f46;
+  color: #5b21b6;
 }
 
 .lesson-counter-badge {
@@ -812,13 +798,13 @@ html, body {
 }
 
 .slide-list-item:hover {
-  background: #e6f9ed;
-  color: #059669;
+  background: #f3e8ff;
+  color: #6b21a8;
 }
 
 .slide-list-item.active {
-  background: #e6f9ed;
-  color: #059669;
+  background: #f3e8ff;
+  color: #6b21a8;
   font-weight: 800;
 }
 
@@ -826,15 +812,14 @@ html, body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 2px solid #059669;
+  border: 2px solid #7c3aed;
   flex-shrink: 0;
 }
 
 .slide-status-circle.completed {
-  background: #059669;
+  background: #7c3aed;
 }
 
-/* Lectures Presentation Stage */
 .lectures-stage-col {
   display: flex;
   flex-direction: column;
@@ -847,7 +832,7 @@ html, body {
   gap: 8px;
   font-size: 13px;
   font-weight: 600;
-  color: #059669;
+  color: #7c3aed;
 }
 
 .breadcrumb-sep {
@@ -896,7 +881,7 @@ html, body {
 
 .slide-scrubber-fill {
   height: 100%;
-  background: var(--primary-green);
+  background: var(--primary-purple);
   transition: width 0.3s ease;
 }
 
@@ -930,8 +915,8 @@ html, body {
 }
 
 .player-icon-btn:hover {
-  border-color: var(--primary-green);
-  color: var(--primary-green);
+  border-color: var(--primary-purple);
+  color: var(--primary-purple);
 }
 
 .slide-explanation-card {
@@ -972,8 +957,8 @@ html, body {
 }
 
 .btn-nav-prev:hover, .btn-nav-next:hover {
-  border-color: var(--primary-green);
-  color: var(--primary-green);
+  border-color: var(--primary-purple);
+  color: var(--primary-purple);
 }
 
 .btn-nav-prev:disabled, .btn-nav-next:disabled {
@@ -982,7 +967,7 @@ html, body {
 }
 
 /* ==========================================================================
-   7. Statistics Dashboard Styles
+   7. Statistics Dashboard Styles (Purple Palette)
    ========================================================================== */
 .stats-page-wrapper {
   display: flex;
@@ -1087,8 +1072,8 @@ html, body {
 }
 
 .green-badge {
-  background: #a7f3d0;
-  color: #065f46;
+  background: #ddd6fe;
+  color: #5b21b6;
 }
 
 .red-badge {
@@ -1116,8 +1101,8 @@ html, body {
 }
 
 .green-pct-pill {
-  color: #059669;
-  border-color: #34d399;
+  color: #7c3aed;
+  border-color: #c084fc;
 }
 
 .red-pct-pill {
@@ -1153,9 +1138,9 @@ html, body {
 }
 
 .green-tint {
-  background: #e6f9ed;
-  color: #059669;
-  border: 1px solid #a7f3d0;
+  background: #f3e8ff;
+  color: #6b21a8;
+  border: 1px solid #e9d5ff;
 }
 
 .red-tint {
@@ -1192,12 +1177,325 @@ html, body {
 
 .metric-progress-fill {
   height: 100%;
-  background: var(--primary-green);
+  background: var(--primary-purple);
   border-radius: 4px;
 }
 
 .metric-progress-fill.red-fill {
   background: #dc2626;
+}
+
+/* Action Cards */
+.stats-action-card {
+  background: #f3e8ff;
+  border: 1px solid #e9d5ff;
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+}
+
+.action-card-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.action-icon-circle {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: white;
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+}
+
+.action-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.action-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.action-count {
+  font-size: 20px;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.action-link {
+  font-size: 12px;
+  font-weight: 700;
+  color: #7c3aed;
+  text-decoration: none;
+  margin-top: 4px;
+}
+
+.action-link:hover {
+  text-decoration: underline;
+}
+
+/* History Performance Cards */
+.stats-history-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.history-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 4px;
+}
+
+.history-sub {
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+.empty-state-box {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafbfc;
+  border-radius: var(--radius-sm);
+  border: 1px dashed #cbd5e1;
+}
+
+.empty-state-text {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+/* Course Progress Section Cards */
+.course-section-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.full-width-card {
+  grid-column: 1 / -1;
+}
+
+.course-section-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  padding: 20px 24px 0 24px;
+}
+
+.course-card-inner {
+  background: #f3e8ff;
+  margin: 16px 24px 24px 24px;
+  padding: 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid #e9d5ff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.course-progress-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.progress-label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #5b21b6;
+}
+
+.course-subcards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.course-subcard {
+  background: white;
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.subcard-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.subcard-val-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cat-b-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  background: var(--primary-purple);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ddd6fe;
+  color: #5b21b6;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subcard-val {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.subcard-val small {
+  font-size: 13px;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.mini-progress-bg {
+  width: 100%;
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.mini-progress-fill {
+  height: 100%;
+  background: var(--primary-purple);
+}
+
+.section-outline-btn {
+  align-self: center;
+  background: white;
+  border: 1px solid var(--primary-purple);
+  color: var(--primary-purple);
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.section-outline-btn:hover {
+  background: var(--primary-purple);
+  color: white;
+}
+
+/* Search Questions Section */
+.search-questions-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  padding: 24px;
+}
+
+.search-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.btn-see-course {
+  background: white;
+  border: 1px solid var(--primary-purple);
+  color: var(--primary-purple);
+  padding: 6px 16px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.search-controls-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  padding: 20px;
+}
+
+.search-subtitle {
+  font-size: 15px;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 14px;
+}
+
+.search-inputs-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.search-input, .search-select {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  outline: none;
+  font-family: inherit;
+}
+
+.search-input:focus, .search-select:focus {
+  border-color: var(--primary-purple);
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
 }
 
 /* Responsive Breakpoints */

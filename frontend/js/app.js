@@ -186,13 +186,19 @@ class LMSApp {
 
     const videoView = document.getElementById("video-lecture-view");
     const tabContentView = document.getElementById("tab-content-container");
+    const sidebarEl = document.querySelector(".sidebar");
+    const mainLayout = document.getElementById("main-layout-container");
 
     if (tabName === "szkolenie" || tabName === "kurs") {
       videoView.style.display = "flex";
       tabContentView.style.display = "none";
+      if (sidebarEl) sidebarEl.style.display = "flex";
+      if (mainLayout) mainLayout.style.gridTemplateColumns = "290px minmax(0, 1fr)";
     } else {
       videoView.style.display = "none";
       tabContentView.style.display = "block";
+      if (sidebarEl) sidebarEl.style.display = "none";
+      if (mainLayout) mainLayout.style.gridTemplateColumns = "1fr";
 
       if (tabName === "testy") {
         this.testEngine.loadQuestions(this.currentCategory);
