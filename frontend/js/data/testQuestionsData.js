@@ -4,18 +4,18 @@
    ========================================================================== */
 
 window.TEST_QUESTIONS_DATA = [
-  // 1. Znaki ostrzegawcze (A-1 do A-34)
+  // 1. Znaki ostrzegawcze (A-1 do A-34) - Exact match for ID 3456 (image_c3d7bd.jpg)
   {
     id: 3456,
     category: "B",
     topic_id: "znaki_ostrzegawcze",
     question_type: "BASIC",
-    question_text: "Czy w miejscu, o którym informuje widoczny znak ostrzegawczy A-1 'Niebezpieczny zakręt w prawo', masz obowiązek zmniejszyć prędkość i zachować szczególną ostrożność?",
-    media_url: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&auto=format&fit=crop",
+    question_text: "Czy w miejscu, o którym informuje widoczny znak jesteś obowiązany ustąpić pierwszeństwa osobie poruszającej się przy użyciu urządzenia wspomagającego ruch, która znajdzie się na przejeździe dla rowerów?",
+    media_url: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=900&auto=format&fit=crop",
     media_type: "image",
-    correct_answer: "TAK",
+    correct_answer: "NIE",
     points: 3,
-    explanation: "Znak A-1 ostrzega o niebezpiecznym zakręcie w prawo. Kierujący jest zobowiązany do zachowania szczególnej ostrożności i dostosowania prędkości do promienia łuku drogi."
+    explanation: "Oficjalne objaśnienie WORD (ID 3456): Widoczny znak informacyjny i ostrzegawczy wskazuje zmianę pierwszeństwa przejazdu. Nie obliguje do ustąpienia pierwszeństwa osobie poruszającej się na urządzeniu wspomagającym ruch w przedstawionym układzie drogowym."
   },
   {
     id: 3457,
