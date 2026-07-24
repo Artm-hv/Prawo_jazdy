@@ -8,6 +8,7 @@ class TextbookEngine {
     this.container = document.getElementById(containerId);
     this.chapters = window.TEXTBOOK_DATA || [];
     this.activeChapterId = 1;
+    this.activeTopicIdx = null; // null means showing list of chapters
     window.textbookEngine = this;
   }
 
@@ -17,6 +18,13 @@ class TextbookEngine {
 
   selectChapter(chapterId) {
     this.activeChapterId = chapterId;
+    this.activeTopicIdx = null; // reset to show chapter list
+    this.render();
+  }
+
+  selectTopic(chapterId, topicIdx) {
+    this.activeChapterId = chapterId;
+    this.activeTopicIdx = topicIdx;
     this.render();
   }
 
@@ -41,9 +49,9 @@ class TextbookEngine {
             <div class="active-lesson-box">
               <div class="slides-sublist">
                 ${chap.topics.map((top, idx) => `
-                  <div class="slide-list-item">
+                  <div class="slide-list-item ${this.activeTopicIdx === idx ? 'active-topic' : ''}" onclick="event.stopPropagation(); window.textbookEngine.selectTopic(${chap.id}, ${idx})">
                     <span class="slide-status-circle ${idx < chap.completed_count ? 'completed' : ''}"></span>
-                    <span class="slide-item-title">${top}</span>
+                    <span class="slide-item-title">${typeof top === 'object' ? top.title : top}</span>
                   </div>
                 `).join('')}
               </div>
@@ -54,34 +62,101 @@ class TextbookEngine {
     }).join('');
 
     // 2. Main Stage Content HTML
-    const chapterCardsHtml = this.chapters.map(chap => {
-      return `
-        <div class="podrecznik-dzial-card" id="dzial-card-${chap.id}">
-          <div class="dzial-card-header">
-            <span class="dzial-badge">DZIAŁ ${chap.id}</span>
-            <h3 class="dzial-title">${chap.title}</h3>
-          </div>
+    let mainStageHtml = "";
 
-          <div class="dzial-card-body">
-            <div class="dzial-text-col">
-              <p class="dzial-description">${chap.description}</p>
-              
-              <ul class="dzial-topics-list">
-                ${chap.topics.map(t => `<li><span class="bullet-dot">•</span> ${t}</li>`).join('')}
-              </ul>
-
-              <button class="btn-start-dzial" onclick="window.textbookEngine.selectChapter(${chap.id})">
-                Rozpocznij naukę →
-              </button>
+    if (this.activeTopicIdx !== null) {
+      // Show specific lesson content
+      const activeChapter = this.chapters.find(c => c.id === this.activeChapterId);
+      if (activeChapter && activeChapter.topics[this.activeTopicIdx]) {
+        const topic = activeChapter.topics[this.activeTopicIdx];
+        const topicTitle = typeof topic === 'object' ? topic.title : topic;
+        const topicContent = typeof topic === 'object' && topic.content ? topic.content : '<p>Treść wkrótce...</p>';
+        
+        mainStageHtml = `
+          <div class="podrecznik-lesson-view">
+            <div class="lesson-header">
+              <h2>${topicTitle}</h2>
+              <button class="btn-back" onclick="window.textbookEngine.selectChapter(${activeChapter.id})">← Wróć do spisu</button>
             </div>
-
-            <div class="dzial-img-col">
-              <img src="${chap.image_url}" alt="${chap.title}" class="dzial-img" loading="lazy" />
+            <div class="lesson-html-content">
+              ${topicContent}
             </div>
           </div>
-        </div>
+        `;
+      }
+    } else {
+      // Show default list of chapters
+      const chapterCardsHtml = this.chapters.map(chap => {
+        return `
+          <div class="podrecznik-dzial-card" id="dzial-card-${chap.id}">
+            <div class="dzial-card-header">
+              <span class="dzial-badge">DZIAŁ ${chap.id}</span>
+              <h3 class="dzial-title">${chap.title}</h3>
+            </div>
+  
+            <div class="dzial-card-body">
+              <div class="dzial-text-col">
+                <p class="dzial-description">${chap.description || 'Tematy do omówienia w tym dziale:'}</p>
+                
+                <ul class="dzial-topics-list">
+                  ${chap.topics.slice(0, 3).map(t => {
+                    const title = typeof t === 'object' ? t.title : t;
+                    return `<li><span class="bullet-dot">•</span> ${title}</li>`;
+                  }).join('')}
+                  ${chap.topics.length > 3 ? `<li><span class="bullet-dot">•</span> i ${chap.topics.length - 3} więcej...</li>` : ''}
+                </ul>
+  
+                <button class="btn-start-dzial" onclick="window.textbookEngine.selectTopic(${chap.id}, 0)">
+                  Rozpocznij naukę →
+                </button>
+              </div>
+  
+              <div class="dzial-img-col">
+                <img src="${chap.image_url}" alt="${chap.title}" class="dzial-img" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      mainStageHtml = `
+          <!-- Banner Intro Card -->
+          <div class="podrecznik-intro-card">
+            <div class="intro-card-inner">
+              <div class="intro-img-col">
+                <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=500&auto=format&fit=crop" alt="Podręcznik Kursanta" class="intro-laptop-img" />
+              </div>
+              <div class="intro-text-col">
+                <h2 class="intro-title">Podręcznik kursanta zawiera:</h2>
+                
+                <div class="intro-feature-item">
+                  <span class="feature-check">✓</span>
+                  <p class="feature-text">
+                    <strong>Podręcznik kursanta</strong> to innowacyjna metoda przygotowania kursantów do egzaminu teoretycznego na prawo jazdy.
+                  </p>
+                </div>
+
+                <div class="intro-feature-item">
+                  <span class="feature-check">✓</span>
+                  <p class="feature-text">
+                    Nie musisz się sztywno dostosowywać do odgórnie ustalonego planu wykładów, ucz się w każdej wolnej chwili.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section Heading -->
+          <div class="podrecznik-heading-box">
+            <h2 class="podrecznik-section-title">DZIAŁY TEMATYCZNE</h2>
+          </div>
+
+          <!-- Chapters List -->
+          <div class="podrecznik-cards-list">
+            ${chapterCardsHtml}
+          </div>
       `;
-    }).join('');
+    }
 
     this.container.innerHTML = `
       <div class="lectures-layout-grid">
@@ -112,54 +187,8 @@ class TextbookEngine {
 
         <!-- Right Main Stage Content -->
         <div class="lectures-stage-col">
-          
-          <!-- Banner Intro Card -->
-          <div class="podrecznik-intro-card">
-            <div class="intro-card-inner">
-              <div class="intro-img-col">
-                <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=500&auto=format&fit=crop" alt="Podręcznik Kursanta" class="intro-laptop-img" />
-              </div>
-              <div class="intro-text-col">
-                <h2 class="intro-title">Podręcznik kursanta zawiera:</h2>
-                
-                <div class="intro-feature-item">
-                  <span class="feature-check">✓</span>
-                  <p class="feature-text">
-                    <strong>Podręcznik kursanta</strong> to innowacyjna metoda przygotowania kursantów do egzaminu teoretycznego na prawo jazdy. Dzięki niemu każdy użytkownik naszego serwisu może zaoszczędzić swój czas, ponieważ może uczyć się, kiedy tylko ma na to wolną chwilę i gdzie tylko chce.
-                  </p>
-                </div>
-
-                <div class="intro-feature-item">
-                  <span class="feature-check">✓</span>
-                  <p class="feature-text">
-                    Nie musisz się sztywno dostosowywać do odgórnie ustalonego planu wykładów, bo dzięki naszemu podręcznikowi kurs może być przeprowadzany w dowolnym miejscu np. w trakcie podróży do pracy, a ponadto, w każdej chwili możesz powrócić do przerobionego już materiału, aby go sobie utrwalić.
-                  </p>
-                </div>
-
-                <div class="intro-feature-item">
-                  <span class="feature-check">✓</span>
-                  <p class="feature-text">
-                    Podręcznik kursanta jest bardzo przejrzysty i łatwo się w nim odnaleźć. Składa się z 14 różnorodnych działów, a po każdym z nich następuje 10 pytań kontrolnych, na które należy udzielić prawidłowej odpowiedzi. W ten sposób kursant ma możliwość weryfikacji tego czy w odpowiednim stopniu przyswoił materiał zawarty w danym dziale tematycznym.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Section Heading -->
-          <div class="podrecznik-heading-box">
-            <h2 class="podrecznik-section-title">
-              Co zawierają <span class="highlight-green">poszczególne działy?</span>
-            </h2>
-          </div>
-
-          <!-- Chapter Cards Stack -->
-          <div class="podrecznik-cards-stack">
-            ${chapterCardsHtml}
-          </div>
-
+          ${mainStageHtml}
         </div>
-
       </div>
     `;
   }

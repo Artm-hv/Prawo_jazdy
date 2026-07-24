@@ -2557,3 +2557,56 @@ input:checked + .slider:before {
     grid-template-columns: 1fr;
   }
 }
+/* Podrecznik Lesson View Styles */
+.podrecznik-lesson-view {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.lesson-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.lesson-header h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+.btn-back {
+  background: none;
+  border: none;
+  color: #6C5CE7;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+.btn-back:hover {
+  background: rgba(108, 92, 231, 0.1);
+}
+.lesson-html-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4a4a4a;
+}
+.lesson-html-content p {
+  margin-bottom: 20px;
+}
+.lesson-html-content img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+.lesson-html-content strong {
+  color: #2d3436;
+}
+.slide-list-item.active-topic {
+  background: rgba(108, 92, 231, 0.1);
+  border-left: 4px solid #6C5CE7;
+}
