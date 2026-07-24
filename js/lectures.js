@@ -141,6 +141,25 @@ class LecturesEngine {
     const totalLessonSlides = currentLesson ? currentLesson.slides.length : 17;
     const slideNumber = this.currentSlideIndex + 1;
 
+    // Render Sidebar Chapters List
+    const chaptersHtml = this.chapters.map((chap, cIdx) => {
+      const isChapterActive = chap.id === this.currentChapterId;
+      
+      let actualCompletedCount = 0;
+      let actualTotalCount = 0;
+      if (chap.lessons) {
+        chap.lessons.forEach(l => {
+          if (l.slides) {
+            actualTotalCount += l.slides.length;
+            l.slides.forEach((s, idx) => {
+              if (localStorage.getItem(`lectures_read_${chap.id}_${l.id}_${idx}`) === "true") {
+                actualCompletedCount++;
+              }
+            });
+          }
+        });
+      }
+
       // Progress for this chapter
       const chapProgressPct = actualTotalCount > 0 ? (actualCompletedCount / actualTotalCount) * 100 : 0;
 
