@@ -3055,3 +3055,210 @@ input:checked + .slider:before {
   background: #6C5CE7;
   border-color: #6C5CE7;
 }
+
+/* Flashcards (Fiszki) Styles */
+.flashcards-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center; justify-content: center;
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.flashcards-modal-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.flashcards-modal {
+  background: #fff;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(20px);
+  transition: transform 0.3s;
+}
+.flashcards-modal-overlay.active .flashcards-modal {
+  transform: translateY(0);
+}
+.flashcards-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flashcards-header h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #111;
+}
+.flashcards-close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.2s;
+}
+.flashcards-close-btn:hover { color: #111; }
+
+.flashcards-body {
+  padding: 24px;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flashcards-stats-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+}
+.flashcard-scene {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+.flashcard-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transform-style: preserve-3d;
+}
+.flashcard-scene.is-flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(108, 92, 231, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #fff;
+  border: 2px solid rgba(108, 92, 231, 0.1);
+}
+.flashcard-face.front {
+  /* Front face is just the sign */
+}
+.flashcard-face.front img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+.flashcard-face.back {
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.flashcard-back-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 12px;
+}
+.flashcard-back-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  overflow-y: auto;
+}
+
+.flashcards-controls {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.flashcards-controls.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+.flashcard-btn {
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.flashcard-btn:hover { transform: translateY(-2px); }
+.flashcard-btn:active { transform: translateY(0); }
+.flashcard-btn.btn-know {
+  background: #e8f5e9;
+  color: #2e7d32;
+  box-shadow: 0 4px 12px rgba(46, 125, 50, 0.15);
+}
+.flashcard-btn.btn-dontknow {
+  background: #ffebee;
+  color: #c62828;
+  box-shadow: 0 4px 12px rgba(198, 40, 40, 0.15);
+}
+
+.flashcards-launch-btn {
+  background: linear-gradient(135deg, #6C5CE7, #a29bfe);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 16px rgba(108, 92, 231, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.flashcards-launch-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.4);
+}
+.flashcards-launch-btn:active {
+  transform: translateY(0);
+}
+
+/* Results screen */
+.flashcards-results {
+  text-align: center;
+  padding: 24px;
+}
+.flashcards-results h3 {
+  font-size: 24px;
+  color: #6C5CE7;
+  margin-bottom: 16px;
+}
+.flashcards-results p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 24px;
+}

@@ -61,6 +61,16 @@ class StatsDashboard {
     const totalCourseModules = statsData.szkolenieTotal || 18;
     const watchedModules = statsData.szkolenieCompleted || 0;
     const courseProgressPct = statsData.szkoleniePct || 0;
+    
+    // Flashcards stats
+    const fcStatsStr = localStorage.getItem('flashcard_stats') || '{"known":[],"unknown":[]}';
+    const fcStats = JSON.parse(fcStatsStr);
+    const knownCount = fcStats.known.length;
+    const unknownCount = fcStats.unknown.length;
+    const allSignsData = window.TRAFFIC_SIGNS_DATA || [];
+    const totalFc = allSignsData.length > 0 ? allSignsData.length : 413; // Fallback to 413 if data isn't loaded
+    const fcProgressPct = totalFc > 0 ? Math.round((knownCount / totalFc) * 100) : 0;
+    const unseenCount = Math.max(0, totalFc - knownCount - unknownCount);
 
     this.container.innerHTML = `
       <div class="stats-page-wrapper">
@@ -273,44 +283,88 @@ class StatsDashboard {
 
           </div>
 
-          <!-- Szkolenie z instruktorem Section -->
-          <div class="course-section-card full-width-card">
-            <h3 class="course-section-title">Szkolenie z instruktorem</h3>
+          <!-- Bottom 2-Column Section -->
+          <div class="stats-cards-grid-2" style="margin-top: 24px;">
+            <!-- Szkolenie z instruktorem Section -->
+            <div class="course-section-card">
+              <h3 class="course-section-title">Szkolenie z instruktorem</h3>
+              <div class="course-card-inner">
+                <div class="course-progress-header">
+                  <span class="progress-label">Postęp: ${courseProgressPct}%</span>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: ${courseProgressPct}%;"></div>
+                  </div>
+                </div>
+
+                <div class="course-subcards-grid half-grid">
+                  <div class="course-subcard">
+                    <div class="subcard-title">Obejrzane lekcje</div>
+                    <div class="subcard-val-row">
+                      <span class="cat-b-icon">🎬</span>
+                      <span class="subcard-val">${watchedModules} <small>z ${totalCourseModules}</small></span>
+                    </div>
+                    <div class="mini-progress-bg">
+                      <div class="mini-progress-fill" style="width: ${courseProgressPct}%;"></div>
+                    </div>
+                  </div>
+                  
+                  <div class="course-subcard">
+                    <div class="subcard-title">Zaliczone pytania kontrolne</div>
+                    <div class="subcard-val-row">
+                      <span class="check-icon">✓</span>
+                      <span class="subcard-val">${statsData.szkolenieCtrlPct || 0}%</span>
+                    </div>
+                    <div class="mini-progress-bg">
+                      <div class="mini-progress-fill" style="width: ${statsData.szkolenieCtrlPct || 0}%;"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="section-outline-btn" onclick="window.app.switchTab('szkolenie')">Szkolenie z instruktorem →</button>
+              </div>
+            </div>
+
+            <!-- Flashcards Section -->
+            <div class="course-section-card">
+              <h3 class="course-section-title">Znaki Drogowe - Fiszki</h3>
             <div class="course-card-inner">
               <div class="course-progress-header">
-                <span class="progress-label">Postęp: ${courseProgressPct}%</span>
+                <span class="progress-label">Zaliczone znaki: ${fcProgressPct}%</span>
                 <div class="progress-bar-bg">
-                  <div class="progress-bar-fill" style="width: ${courseProgressPct}%;"></div>
+                  <div class="progress-bar-fill" style="width: ${fcProgressPct}%;"></div>
                 </div>
               </div>
 
-              <div class="course-subcards-grid half-grid">
-                <div class="course-subcard">
-                  <div class="subcard-title">Obejrzane lekcje</div>
+              <div class="course-subcards-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                <div class="course-subcard" onclick="window.statsDashboard.launchCustomFlashcards('known')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                  <div class="subcard-title">Wyuczone znaki (Znane)</div>
                   <div class="subcard-val-row">
-                    <span class="cat-b-icon">🎬</span>
-                    <span class="subcard-val">${watchedModules} <small>z ${totalCourseModules}</small></span>
-                  </div>
-                  <div class="mini-progress-bg">
-                    <div class="mini-progress-fill" style="width: ${courseProgressPct}%;"></div>
+                    <span class="check-icon" style="color: #2e7d32;">✓</span>
+                    <span class="subcard-val">${knownCount} <small>z ${totalFc}</small></span>
                   </div>
                 </div>
                 
-                <div class="course-subcard">
-                  <div class="subcard-title">Zaliczone pytania kontrolne</div>
+                <div class="course-subcard" onclick="window.statsDashboard.launchCustomFlashcards('unknown')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                  <div class="subcard-title">Do powtórki (Nieznane)</div>
                   <div class="subcard-val-row">
-                    <span class="check-icon">✓</span>
-                    <span class="subcard-val">${statsData.szkolenieCtrlPct || 0}%</span>
+                    <span class="check-icon" style="color: #c62828;">✕</span>
+                    <span class="subcard-val">${unknownCount}</span>
                   </div>
-                  <div class="mini-progress-bg">
-                    <div class="mini-progress-fill" style="width: ${statsData.szkolenieCtrlPct || 0}%;"></div>
+                </div>
+
+                <div class="course-subcard" onclick="window.statsDashboard.launchCustomFlashcards('unseen')" style="cursor: pointer; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                  <div class="subcard-title">Jeszcze nie widziane</div>
+                  <div class="subcard-val-row">
+                    <span class="check-icon" style="color: #9e9e9e;">−</span>
+                    <span class="subcard-val">${unseenCount}</span>
                   </div>
                 </div>
               </div>
 
-              <button class="section-outline-btn" onclick="window.app.switchTab('szkolenie')">Szkolenie z instruktorem →</button>
+              <button class="section-outline-btn" onclick="window.statsDashboard.showFlashcardsList()">Przeglądaj listę znaków →</button>
             </div>
           </div>
+          </div> <!-- End of stats-cards-grid-2 -->
 
           <!-- SECTION 5: Pytania Search & Filter Table -->
           <div class="search-questions-card">
@@ -347,6 +401,51 @@ class StatsDashboard {
   }
 
   filterQuestions(query) {}
+
+  showFlashcardsList() {
+    const fcStatsStr = localStorage.getItem('flashcard_stats') || '{"known":[],"unknown":[]}';
+    const fcStats = JSON.parse(fcStatsStr);
+    
+    let modal = document.getElementById('fc-list-modal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'fc-list-modal';
+      modal.className = 'flashcards-modal-overlay';
+      document.body.appendChild(modal);
+    }
+    
+    const knownHtml = fcStats.known.map(id => `<span style="display:inline-block; background:#e8f5e9; color:#2e7d32; padding:4px 8px; border-radius:4px; margin:4px; font-weight:600;">${id}</span>`).join('');
+    const unknownHtml = fcStats.unknown.map(id => `<span style="display:inline-block; background:#ffebee; color:#c62828; padding:4px 8px; border-radius:4px; margin:4px; font-weight:600;">${id}</span>`).join('');
+    
+    modal.innerHTML = `
+      <div class="flashcards-modal" style="padding: 24px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <h2 style="margin:0;">Zaliczone Znaki</h2>
+          <button onclick="document.getElementById('fc-list-modal').classList.remove('active')" style="background:none; border:none; font-size:24px; cursor:pointer;">&times;</button>
+        </div>
+        <div style="overflow-y:auto; max-height:60vh;">
+          <h3 style="color:#2e7d32; font-size:16px;">Wyuczone (${fcStats.known.length})</h3>
+          <div style="margin-bottom:24px;">${knownHtml || 'Brak wyuczonych znaków'}</div>
+          
+          <h3 style="color:#c62828; font-size:16px;">Do powtórki (${fcStats.unknown.length})</h3>
+          <div>${unknownHtml || 'Brak znaków do powtórki'}</div>
+        </div>
+      </div>
+    `;
+    
+    // Tiny delay to allow CSS transition
+    setTimeout(() => modal.classList.add('active'), 10);
+  }
+
+  launchCustomFlashcards(type) {
+    if (!window.flashcards || !window.TRAFFIC_SIGNS_DATA) return;
+    
+    // Switch to signs tab (optional, but good for context)
+    window.app.switchTab('znaki');
+    
+    // Launch flashcards with the special type
+    window.flashcards.startSession(type, window.TRAFFIC_SIGNS_DATA);
+  }
 }
 
 window.StatsDashboard = StatsDashboard;
