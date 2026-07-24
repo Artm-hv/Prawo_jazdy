@@ -38,10 +38,16 @@ class LMSApp {
     window.statsDashboard = this.statsDashboard;
     window.textbookEngine = this.textbookEngine;
     window.courseEngine = this.courseEngine;
+    window.instructorEngine = this.instructorEngine;
 
     this.bindEvents();
     await this.loadCourseData();
     this.updateCategoryDisplay();
+
+    // Trigger initial tab load
+    const initialTab = this.activeTab;
+    this.activeTab = null;
+    this.switchTab(initialTab);
   }
 
   initDarkMode() {
