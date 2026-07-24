@@ -121,7 +121,7 @@ class LMSApp {
         });
       });
     }
-    const podrecznikPct = podrecznikTotal > 0 ? (podrecznikCompleted / podrecznikTotal) * 100 : 0;
+    const podrecznikPct = Math.min(podrecznikTotal > 0 ? (podrecznikCompleted / podrecznikTotal) * 100 : 0, 100);
 
     // 2. Wykłady Progress
     let wykladyTotal = 0;
@@ -138,7 +138,7 @@ class LMSApp {
         });
       });
     }
-    const wykladyPct = wykladyTotal > 0 ? (wykladyCompleted / wykladyTotal) * 100 : 0;
+    const wykladyPct = Math.min(wykladyTotal > 0 ? (wykladyCompleted / wykladyTotal) * 100 : 0, 100);
 
     // 3. Szkolenie (Instructor Video) Progress
     let szkolenieTotal = 0;
@@ -151,30 +151,37 @@ class LMSApp {
         }
       });
     }
-    const szkoleniePct = szkolenieTotal > 0 ? (szkolenieCompleted / szkolenieTotal) * 100 : 0;
+    const szkoleniePct = Math.min(szkolenieTotal > 0 ? (szkolenieCompleted / szkolenieTotal) * 100 : 0, 100);
 
     // 4. Testy Progress (simplified: based on passed tests vs a target of 100 tests, or just using tests passed percentage if any)
     const testsTaken = parseInt(localStorage.getItem('stats_tests_taken') || '0', 10);
     const testsPassed = parseInt(localStorage.getItem('stats_tests_passed') || '0', 10);
     // Let's say target is 50 passed tests to reach 100% test progress
     const testTarget = 50;
-    let testsPct = (testsPassed / testTarget) * 100;
-    if (testsPct > 100) testsPct = 100;
+    const testsPct = Math.min((testsPassed / testTarget) * 100, 100);
+
+    // 5. Control Questions (Zaliczone pytania kontrolne)
+    const podrecznikCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_textbook') || '0'), 100);
+    const wykladyCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_lecture') || '0'), 100);
+    const szkolenieCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_instructor') || '0'), 100);
 
     // Average Progress
     const totalProgress = Math.round((podrecznikPct + wykladyPct + szkoleniePct + testsPct) / 4);
     
     return {
-      totalProgress,
+      totalProgress: Math.min(totalProgress, 100),
       podrecznikPct: Math.round(podrecznikPct),
       podrecznikCompleted,
       podrecznikTotal,
+      podrecznikCtrlPct: Math.round(podrecznikCtrlPct),
       wykladyPct: Math.round(wykladyPct),
       wykladyCompleted,
       wykladyTotal,
+      wykladyCtrlPct: Math.round(wykladyCtrlPct),
       szkoleniePct: Math.round(szkoleniePct),
       szkolenieCompleted,
       szkolenieTotal,
+      szkolenieCtrlPct: Math.round(szkolenieCtrlPct),
       testsTaken,
       testsPassed
     };

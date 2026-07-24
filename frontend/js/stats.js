@@ -28,6 +28,7 @@ class StatsDashboard {
       szkoleniePct: 0,
       szkolenieCompleted: 0,
       szkolenieTotal: 0,
+      szkolenieCtrlPct: 0,
       testsTaken: 0,
       testsPassed: 0
     };
@@ -228,7 +229,7 @@ class StatsDashboard {
                     <div class="subcard-title">Zaliczone pytania kontrolne</div>
                     <div class="subcard-val-row">
                       <span class="check-icon">✓</span>
-                      <span class="subcard-val">0%</span>
+                      <span class="subcard-val">${statsData.podrecznikCtrlPct || 0}%</span>
                     </div>
                   </div>
                 </div>
@@ -261,7 +262,7 @@ class StatsDashboard {
                     <div class="subcard-title">Zaliczone pytania kontrolne</div>
                     <div class="subcard-val-row">
                       <span class="check-icon">✓</span>
-                      <span class="subcard-val">0%</span>
+                      <span class="subcard-val">${statsData.wykladyCtrlPct || 0}%</span>
                     </div>
                   </div>
                 </div>
@@ -299,10 +300,10 @@ class StatsDashboard {
                   <div class="subcard-title">Zaliczone pytania kontrolne</div>
                   <div class="subcard-val-row">
                     <span class="check-icon">✓</span>
-                    <span class="subcard-val">0%</span>
+                    <span class="subcard-val">${statsData.szkolenieCtrlPct || 0}%</span>
                   </div>
                   <div class="mini-progress-bg">
-                    <div class="mini-progress-fill" style="width: 0%;"></div>
+                    <div class="mini-progress-fill" style="width: ${statsData.szkolenieCtrlPct || 0}%;"></div>
                   </div>
                 </div>
               </div>
