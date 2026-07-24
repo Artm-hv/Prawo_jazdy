@@ -107,6 +107,17 @@ class LMSApp {
     localStorage.setItem("prawo_jazdy_lang", lang);
   }
 
+  countLocalStorageItems(prefix) {
+    let count = 0;
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(prefix) && localStorage.getItem(key) === "true") {
+        count++;
+      }
+    }
+    return count;
+  }
+
   getGlobalProgress() {
     // =========================================================================
     // Progress % = (read_items / total_items) * 100 — per topic/slide.
