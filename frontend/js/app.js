@@ -16,6 +16,7 @@ class LMSApp {
     this.statsDashboard = null;
     this.lecturesEngine = null;
     this.textbookEngine = null;
+    this.courseEngine = null;
 
     this.activeTab = "szkolenie";
   }
@@ -29,11 +30,13 @@ class LMSApp {
     this.statsDashboard = new StatsDashboard("tab-content-container");
     this.lecturesEngine = new LecturesEngine("tab-content-container");
     this.textbookEngine = new TextbookEngine("tab-content-container");
+    this.courseEngine = new CourseEngine("tab-content-container");
     
     window.testEngine = this.testEngine;
     window.lecturesEngine = this.lecturesEngine;
     window.statsDashboard = this.statsDashboard;
     window.textbookEngine = this.textbookEngine;
+    window.courseEngine = this.courseEngine;
 
     this.bindEvents();
     await this.loadCourseData();
@@ -87,6 +90,8 @@ class LMSApp {
       this.statsDashboard.loadStats();
     } else if (this.activeTab === "podrecznik" && this.textbookEngine) {
       this.textbookEngine.loadTextbook();
+    } else if (this.activeTab === "kurs" && this.courseEngine) {
+      this.courseEngine.loadCourseView();
     }
   }
 
@@ -268,13 +273,8 @@ class LMSApp {
       if (sidebarEl) sidebarEl.style.display = "none";
       if (mainLayout) mainLayout.style.gridTemplateColumns = "1fr";
 
-      if (tabName === "kurs") {
-        videoView.style.display = "flex";
-        tabContentView.style.display = "none";
-      } else {
-        videoView.style.display = "none";
-        tabContentView.style.display = "block";
-      }
+      videoView.style.display = "none";
+      tabContentView.style.display = "block";
 
       if (tabName === "testy") {
         this.testEngine.loadQuestions(this.currentCategory);
@@ -286,6 +286,8 @@ class LMSApp {
         this.lecturesEngine.loadLectures();
       } else if (tabName === "podrecznik") {
         this.textbookEngine.loadTextbook();
+      } else if (tabName === "kurs") {
+        this.courseEngine.loadCourseView();
       }
     }
   }
