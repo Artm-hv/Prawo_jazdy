@@ -247,7 +247,8 @@ class LMSApp {
     }
   }
 
-  switchTab(tabName) {
+  async switchTab(tabName) {
+    if (this.activeTab === tabName) return;
     this.activeTab = tabName;
 
     const navItems = document.querySelectorAll(".nav-item");
@@ -264,6 +265,13 @@ class LMSApp {
     const sidebarEl = document.querySelector(".sidebar");
     const mainLayout = document.getElementById("main-layout-container");
 
+    // Start fade out
+    if (videoView) videoView.classList.add("fade-out");
+    if (tabContentView) tabContentView.classList.add("fade-out");
+
+    // Wait for fade out transition (150ms based on --transition-fast)
+    await new Promise(r => setTimeout(r, 150));
+
     if (tabName === "szkolenie") {
       videoView.style.display = "flex";
       tabContentView.style.display = "none";
@@ -276,20 +284,20 @@ class LMSApp {
       videoView.style.display = "none";
       tabContentView.style.display = "block";
 
-      if (tabName === "testy") {
-        this.testEngine.loadQuestions(this.currentCategory);
-      } else if (tabName === "znaki") {
-        this.signCatalog.loadSigns();
-      } else if (tabName === "statystyki") {
-        this.statsDashboard.loadStats();
-      } else if (tabName === "wyklady") {
-        this.lecturesEngine.loadLectures();
-      } else if (tabName === "podrecznik") {
-        this.textbookEngine.loadTextbook();
-      } else if (tabName === "kurs") {
-        this.courseEngine.loadCourseView();
-      }
+      if (tabName === "testy") this.testEngine.loadQuestions(this.currentCategory);
+      else if (tabName === "znaki") this.signCatalog.loadSigns();
+      else if (tabName === "statystyki") this.statsDashboard.loadStats();
+      else if (tabName === "wyklady") this.lecturesEngine.loadLectures();
+      else if (tabName === "podrecznik") this.textbookEngine.loadTextbook();
+      else if (tabName === "kurs") this.courseEngine.loadCourseView();
     }
+
+    // Force reflow before removing fade-out to trigger animation
+    void document.body.offsetHeight;
+
+    // Fade in
+    if (videoView) videoView.classList.remove("fade-out");
+    if (tabContentView) tabContentView.classList.remove("fade-out");
   }
 
   formatDuration(seconds) {

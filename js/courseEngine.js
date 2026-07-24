@@ -37,6 +37,9 @@ class CourseEngine {
     ];
 
     window.courseEngine = this;
+    
+    // Debounce timer for search
+    this.searchTimeout = null;
   }
 
   loadCourseView() {
@@ -94,13 +97,34 @@ class CourseEngine {
   }
 
   onFilterChange(type, value) {
+    if (type === "search") {
+      clearTimeout(this.searchTimeout);
+      this.searchTimeout = setTimeout(() => {
+        this.searchQuery = value;
+        this.applyFilters();
+        this.triggerStageTransition();
+      }, 300); // 300ms debounce
+      return;
+    }
+
     if (type === "group") this.selectedGroup = value;
     if (type === "status") this.selectedStatus = value;
     if (type === "type") this.selectedType = value;
-    if (type === "search") this.searchQuery = value;
 
     this.applyFilters();
+    this.triggerStageTransition();
+  }
+
+  async triggerStageTransition() {
+    const stage = document.getElementById("course-practice-stage");
+    if (stage) stage.classList.add("fade-out");
+    await new Promise(r => setTimeout(r, 150));
     this.render();
+    const newStage = document.getElementById("course-practice-stage");
+    if (newStage) {
+      void newStage.offsetHeight;
+      newStage.classList.remove("fade-out");
+    }
   }
 
   toggleFilterCollapse() {
@@ -113,20 +137,20 @@ class CourseEngine {
     if (!currentQ) return;
 
     this.userAnswers[currentQ.id] = answerStr;
-    this.render();
+    this.render(); // Immediate render for answer selection feedback (no fade needed)
   }
 
   nextQuestion() {
     if (this.currentIndex < this.filteredQuestions.length - 1) {
       this.currentIndex++;
-      this.render();
+      this.triggerStageTransition();
     }
   }
 
   prevQuestion() {
     if (this.currentIndex > 0) {
       this.currentIndex--;
-      this.render();
+      this.triggerStageTransition();
     }
   }
 
@@ -279,7 +303,7 @@ class CourseEngine {
         </div>
 
         <!-- 2. Question Practice Stage (Matching image_c3d7bd.jpg) -->
-        <div class="exam-layout-grid" id="course-practice-stage">
+        <div class="exam-layout-grid view-transition-wrapper" id="course-practice-stage">
           
           <!-- Left Column: Question Media & Options -->
           <div class="exam-left-stage">
