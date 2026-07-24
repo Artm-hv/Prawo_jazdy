@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    window.addEventListener('error', function(e) {
+        const err = document.createElement('div');
+        err.style = 'position:fixed;top:0;left:0;right:0;background:red;color:white;z-index:99999;padding:20px;font-size:20px;word-break:break-all;';
+        err.innerText = 'JS ERROR: ' + e.message + ' at ' + e.filename + ':' + e.lineno;
+        document.body.appendChild(err);
+    });
+  </script>
   <title>Prawo Jazdy - Baza Wiedzy i Szkolenie Online</title>
   
   <!-- Modern Google Font -->
