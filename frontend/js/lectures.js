@@ -199,7 +199,7 @@ class LecturesEngine {
                     <div class="slides-sublist" style="padding: 0 8px 12px 8px; border-top: 1px solid rgba(108, 92, 231, 0.1); padding-top: 12px;">
                       ${les.slides.map((s, idx) => {
                         const isSlideActive = (idx === this.currentSlideIndex);
-                        const isCompleted = this.completedSlides.has(`${chap.id}-${les.id}-${idx}`);
+                        const isCompleted = this.completedSlides.has(chap.id + '-' + les.id + '-' + idx);
                         return `
                           <div class="slide-list-item ${isSlideActive ? 'active' : ''}" onclick="window.lecturesEngine.selectSlide(${les.id}, ${idx})" style="padding: 6px 12px; gap: 10px; font-size: 12.5px; ${isSlideActive ? 'background: rgba(108, 92, 231, 0.08); box-shadow: none; border-radius: 6px;' : ''}">
                             <span style="width: 10px; height: 10px; border-radius: 50%; background: ${isCompleted ? '#6C5CE7' : 'rgba(108, 92, 231, 0.3)'}; flex-shrink: 0;"></span>
