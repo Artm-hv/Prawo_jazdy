@@ -141,70 +141,87 @@ class LecturesEngine {
     const totalLessonSlides = currentLesson ? currentLesson.slides.length : 17;
     const slideNumber = this.currentSlideIndex + 1;
 
-    // Render Sidebar Chapters List
-    const chaptersHtml = this.chapters.map((chap, cIdx) => {
-      const isChapterActive = chap.id === this.currentChapterId;
-      
-      let lessonsContent = '';
-      if (isChapterActive && chap.lessons && chap.lessons.length > 0) {
-        lessonsContent = chap.lessons.map(les => {
-          const slidesListHtml = les.slides.map((s, idx) => {
-            const isSlideActive = (idx === this.currentSlideIndex && les.id === this.currentLessonId);
-            const isCompleted = this.completedSlides.has(`${chap.id}-${les.id}-${idx}`);
-            return `
-              <div class="slide-list-item ${isSlideActive ? 'active' : ''}" onclick="window.lecturesEngine.selectSlide(${les.id}, ${idx})">
-                <span class="slide-status-circle ${isCompleted ? 'completed' : ''}"></span>
-                <span class="slide-item-title">${idx + 1} - ${s.title}</span>
-              </div>
-            `;
-          }).join('');
-
-          const isActiveLesson = les.id === this.currentLessonId;
-          const displayLessonTitle = les.title.replace('\n', '<br>');
-
-          return `
-            <div class="active-lesson-box ${isActiveLesson ? 'current-lesson' : ''}">
-              <div class="lesson-header-row" onclick="window.lecturesEngine.selectLesson(${les.id})">
-                <span class="lesson-title-badge">${displayLessonTitle}</span>
-                <span class="lesson-counter-badge">${isActiveLesson ? slideNumber : 0}/${les.slides.length}</span>
-              </div>
-              ${isActiveLesson ? `
-              <div class="slides-sublist">
-                ${slidesListHtml}
-              </div>
-              ` : ''}
-            </div>
-          `;
-        }).join('');
-      }
-
-      let actualCompletedCount = 0;
-      let actualTotalCount = 0;
-      if (chap.lessons) {
-        chap.lessons.forEach(l => {
-          if (l.slides) {
-            actualTotalCount += l.slides.length;
-            l.slides.forEach((s, idx) => {
-              if (localStorage.getItem(`lectures_read_${chap.id}_${l.id}_${idx}`) === "true") {
-                actualCompletedCount++;
-              }
-            });
-          }
-        });
-      }
-      const displayCompleted = actualCompletedCount;
-      const displayTotal = actualTotalCount;
+      // Progress for this chapter
+      const chapProgressPct = actualTotalCount > 0 ? (actualCompletedCount / actualTotalCount) * 100 : 0;
 
       return `
         <div class="chapter-accordion-card ${isChapterActive ? 'open' : ''}">
           <div class="chapter-accordion-header" onclick="window.lecturesEngine.selectChapter(${chap.id})">
-            <span class="chapter-accordion-title">${chap.title}</span>
-            <div class="chapter-meta-right">
-              <span class="chapter-count">${displayCompleted}/${displayTotal}</span>
-              <span class="accordion-arrow">${isChapterActive ? '✕' : '⌵'}</span>
+            <div class="chapter-header-top">
+              <span class="chapter-accordion-title">${chap.title}</span>
+              <div class="chapter-meta-right">
+                <span class="chapter-count">${actualCompletedCount}/${actualTotalCount}</span>
+                <span class="accordion-close-btn">${isChapterActive ? '✕' : '⌵'}</span>
+              </div>
             </div>
+            ${isChapterActive ? `
+            <div class="chapter-progress-bg">
+              <div class="chapter-progress-fill" style="width: ${chapProgressPct}%;"></div>
+            </div>
+            ` : ''}
           </div>
-          ${lessonsContent}
+          ${isChapterActive && chap.lessons ? `
+            <div class="active-lesson-box" style="padding-top: 8px;">
+              ${chap.lessons.map(les => {
+                const isActiveLesson = les.id === this.currentLessonId;
+                
+                // Calculate completion for this specific lesson
+                let lessonCompleted = 0;
+                les.slides.forEach((_, idx) => {
+                  if (localStorage.getItem(`lectures_read_${chap.id}_${les.id}_${idx}`) === "true") {
+                    lessonCompleted++;
+                  }
+                });
+                const isLessonFullyCompleted = lessonCompleted === les.slides.length;
+
+                const displayLessonTitle = les.title.replace('\\n', '<br>');
+                const lessonTitleParts = les.title.split('\\n');
+                const mainTitle = lessonTitleParts[0] || '';
+                const subTitle = lessonTitleParts.length > 1 ? lessonTitleParts[1] : '';
+
+                return `
+                  <div class="lesson-card-wrapper ${isActiveLesson ? 'active' : ''}" style="${isActiveLesson ? 'background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 12px 0 0 0; margin-bottom: 8px;' : 'margin-bottom: 4px; padding: 8px; cursor: pointer; border-radius: 8px; transition: background 0.15s;'}" ${!isActiveLesson ? `onclick="window.lecturesEngine.selectLesson(${les.id})"` : ''}>
+                    
+                    <div class="lesson-header-row" style="display: flex; align-items: center; justify-content: space-between; padding: 0 12px; margin-bottom: ${isActiveLesson ? '12px' : '0'}; border-radius: 0; background: transparent; cursor: ${isActiveLesson ? 'default' : 'pointer'};">
+                      <div style="display: flex; align-items: center; gap: 12px;">
+                        <span class="lesson-status-circle" style="width: 20px; height: 20px; min-width: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; ${isLessonFullyCompleted ? 'background: #6C5CE7;' : 'background: #c4bbf0;'}">
+                          ${isLessonFullyCompleted ? '<svg viewBox="0 0 24 24" width="14" height="14" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>' : ''}
+                        </span>
+                        <div style="display: flex; flex-direction: column;">
+                          <span style="font-size: 13px; font-weight: 700; color: #111;">${mainTitle}</span>
+                          ${subTitle ? `<span style="font-size: 12px; font-weight: 500; color: #555;">${subTitle}</span>` : ''}
+                        </div>
+                      </div>
+                      <span class="lesson-counter-badge" style="font-size: 12px; font-weight: 600; color: #111;">${lessonCompleted}/${les.slides.length}</span>
+                    </div>
+
+                    ${isActiveLesson ? `
+                    <div class="slides-sublist" style="padding: 0 8px 12px 8px; border-top: 1px solid rgba(108, 92, 231, 0.1); padding-top: 12px;">
+                      ${les.slides.map((s, idx) => {
+                        const isSlideActive = (idx === this.currentSlideIndex);
+                        const isCompleted = this.completedSlides.has(`${chap.id}-${les.id}-${idx}`);
+                        return `
+                          <div class="slide-list-item ${isSlideActive ? 'active' : ''}" onclick="window.lecturesEngine.selectSlide(${les.id}, ${idx})" style="padding: 6px 12px; gap: 10px; font-size: 12.5px; ${isSlideActive ? 'background: rgba(108, 92, 231, 0.08); box-shadow: none; border-radius: 6px;' : ''}">
+                            <span style="width: 10px; height: 10px; border-radius: 50%; background: ${isCompleted ? '#6C5CE7' : 'rgba(108, 92, 231, 0.3)'}; flex-shrink: 0;"></span>
+                            <span style="color: ${isSlideActive ? '#6C5CE7' : '#555'}; font-weight: ${isSlideActive ? '700' : '500'};">${idx + 1} - ${s.title}</span>
+                          </div>
+                        `;
+                      }).join('')}
+                      <div class="slide-list-item pytania-kontrolne-item" onclick="event.stopPropagation();" style="display: flex; justify-content: space-between; margin-top: 12px; border-radius: 6px;">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                          <span style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid rgba(108, 92, 231, 0.4); flex-shrink: 0;"></span>
+                          <span style="font-size: 12.5px; font-weight: 500;">Pytania kontrolne</span>
+                        </div>
+                        <span style="font-size: 11px; font-weight: 600; color: #555;">0/8</span>
+                      </div>
+                    </div>
+                    ` : ''}
+
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          ` : ''}
         </div>
       `;
     }).join('');
@@ -217,9 +234,7 @@ class LecturesEngine {
         
         <!-- Left Sidebar: Accordion Chapters -->
         <div class="lectures-sidebar-col">
-          <div class="wyklady-sidebar-header">
-            <h3 class="sidebar-block-title">WYKŁADY NA PRAWO JAZDY</h3>
-          </div>
+
           <div class="chapters-accordion-list">
             ${chaptersHtml}
           </div>
