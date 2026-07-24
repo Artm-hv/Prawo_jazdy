@@ -66,29 +66,43 @@ class TextbookEngine {
         }
       });
       
+      // Progress for this chapter
+      const chapProgressPct = chap.total_count > 0 ? (computedCompletedCount / chap.total_count) * 100 : 0;
+      
       return `
         <div class="chapter-accordion-card ${isActive ? 'open' : ''}">
           <div class="chapter-accordion-header" onclick="window.textbookEngine.selectChapter(${chap.id})">
-            <span class="chapter-accordion-title">${chap.number} ${chap.title}</span>
-            <div class="chapter-meta-right">
-              <span class="chapter-count">${computedCompletedCount}/${chap.total_count}</span>
-              <span class="accordion-arrow">${isActive ? '✕' : '⌄'}</span>
+            <div class="chapter-header-top">
+              <span class="chapter-accordion-title">${chap.number} ${chap.title}</span>
+              <div class="chapter-meta-right">
+                <span class="chapter-count">${computedCompletedCount}/${chap.total_count}</span>
+                <span class="accordion-close-btn">${isActive ? '✕' : '⌵'}</span>
+              </div>
             </div>
+            ${isActive ? `
+            <div class="chapter-progress-bg">
+              <div class="chapter-progress-fill" style="width: ${chapProgressPct}%;"></div>
+            </div>
+            ` : ''}
           </div>
           ${isActive ? `
             <div class="active-lesson-box">
               <div class="slides-sublist">
                 ${chap.topics.map((top, idx) => {
                   const isRead = localStorage.getItem(`textbook_read_${chap.id}_${idx}`) === "true";
+                  const isActiveTopic = this.activeTopicIdx === idx;
                   return `
-                  <div class="slide-list-item ${this.activeTopicIdx === idx ? 'active-topic' : ''}" onclick="event.stopPropagation(); window.textbookEngine.selectTopic(${chap.id}, ${idx})">
-                    <span class="slide-status-circle ${isRead ? 'completed' : ''}"></span>
+                  <div class="slide-list-item ${isActiveTopic ? 'active-topic' : ''}" onclick="event.stopPropagation(); window.textbookEngine.selectTopic(${chap.id}, ${idx})">
+                    <span class="slide-status-circle ${isRead ? 'completed' : ''}">
+                      ${isRead ? '<svg viewBox="0 0 24 24" width="14" height="14" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>' : ''}
+                    </span>
                     <span class="slide-item-title">${idx + 1}. ${typeof top === 'object' ? top.title : top}</span>
                   </div>
                 `}).join('')}
-                <button class="btn-pytania-kontrolne" onclick="event.stopPropagation();">
-                  Pytania kontrolne - dział ${chap.number.split('.')[0]}
-                </button>
+                <div class="slide-list-item pytania-kontrolne-item" onclick="event.stopPropagation();">
+                  <span class="slide-status-circle empty"></span>
+                  <span class="slide-item-title">Pytania kontrolne - dział ${chap.number.split('.')[0]}</span>
+                </div>
               </div>
             </div>
           ` : ''}
@@ -215,7 +229,9 @@ class TextbookEngine {
             </div>
           </div>
 
-
+          <div class="wyklady-sidebar-header" style="text-align: center; margin-bottom: 16px;">
+            <h3 class="sidebar-block-title" style="font-size: 13px; color: var(--text-dark); letter-spacing: 0.5px; margin: 0;">PODRĘCZNIK KURSANTA NA PRAWO JAZDY 2026</h3>
+          </div>
 
           <div class="chapters-accordion-list">
             ${sidebarChaptersHtml}
