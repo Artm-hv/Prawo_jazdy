@@ -43,14 +43,16 @@ class TextbookEngine {
     } else {
       localStorage.removeItem(localStorageKey);
     }
+    // Single render pass — progress bar inside render() reads fresh localStorage
     this.render();
-    if (window.app) window.app.updateCategoryDisplay();
   }
 
   render() {
     if (!this.container) return;
 
     const currentCategory = window.app ? window.app.currentCategory : "B";
+    // Compute progress ONCE per render pass to avoid stale values
+    const progressPct = window.app ? window.app.getGlobalProgress().podrecznikPct : 0;
 
     // 1. Sidebar 14 Chapters Accordion HTML
     const sidebarChaptersHtml = this.chapters.map(chap => {
@@ -212,10 +214,10 @@ class TextbookEngine {
               <span class="category-badge-selector">${currentCategory} ▾</span>
             </div>
             <div class="progress-info">
-              <span>POSTĘP: ${window.app ? window.app.getGlobalProgress().podrecznikPct : 0}%</span>
+              <span>POSTĘP: ${progressPct}%</span>
             </div>
             <div class="progress-bar-bg">
-              <div class="progress-bar-fill" style="width: ${window.app ? window.app.getGlobalProgress().podrecznikPct : 0}%;"></div>
+              <div class="progress-bar-fill" style="width: ${progressPct}%;"></div>
             </div>
           </div>
 

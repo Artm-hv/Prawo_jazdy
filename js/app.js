@@ -109,18 +109,19 @@ class LMSApp {
 
   getGlobalProgress() {
     // =========================================================================
-    // RULE: Progress % is based on FULLY COMPLETED SECTIONS, not individual items.
-    // A section counts as "zaliczone" (+1) ONLY when ALL its sub-items are read.
-    // Formula: (completed_sections / total_sections) * 100
+    // Progress % = (read_items / total_items) * 100 — per topic/slide.
+    // Each individual topic or slide adds to the percentage proportionally.
+    // Completed sections count is tracked separately for "Zaliczone działy" display.
     // All percentages are strictly capped at 100 via Math.min.
     // =========================================================================
 
-    // 1. Podręcznik: 14 sections ("działy"). Each section has N topics.
-    //    A section is "zaliczone" only when ALL topics in it are read.
+    // 1. Podręcznik: 14 sections, 57 total topics.
+    //    Progress = (read_topics / 57) * 100
+    //    Completed sections = count of sections where ALL topics are read.
     const PODRECZNIK_TOTAL_SECTIONS = 14;
     let podrecznikCompletedSections = 0;
-    let podrecznikReadTopics = 0;   // for sidebar display only
-    let podrecznikTotalTopics = 0;  // for sidebar display only
+    let podrecznikReadTopics = 0;
+    let podrecznikTotalTopics = 0;
     if (window.TEXTBOOK_DATA) {
       window.TEXTBOOK_DATA.forEach(chap => {
         const topicCount = chap.topics.length;
@@ -132,22 +133,23 @@ class LMSApp {
             podrecznikReadTopics++;
           }
         });
-        // Section is "zaliczone" ONLY if ALL topics are read
         if (topicCount > 0 && readInThisSection === topicCount) {
           podrecznikCompletedSections++;
         }
       });
     }
-    const podrecznikPct = Math.min(
-      Math.round((podrecznikCompletedSections / PODRECZNIK_TOTAL_SECTIONS) * 100), 100
-    );
+    // Per-topic progress (each topic contributes proportionally)
+    const podrecznikPct = podrecznikTotalTopics > 0
+      ? Math.min(Math.round((podrecznikReadTopics / podrecznikTotalTopics) * 100), 100)
+      : 0;
 
-    // 2. Wykłady: 12 sections ("działy"). Each section has lessons, each lesson has slides.
-    //    A section is "zaliczone" only when ALL slides in ALL its lessons are viewed.
+    // 2. Wykłady: 12 sections, 837 total slides.
+    //    Progress = (read_slides / 837) * 100
+    //    Completed sections = count of sections where ALL slides are viewed.
     const WYKLADY_TOTAL_SECTIONS = 12;
     let wykladyCompletedSections = 0;
-    let wykladyReadSlides = 0;    // for sidebar display only
-    let wykladyTotalSlides = 0;   // for sidebar display only
+    let wykladyReadSlides = 0;
+    let wykladyTotalSlides = 0;
     if (window.LECTURES_DATA) {
       window.LECTURES_DATA.forEach((chap, chapIdx) => {
         const chapId = chap.id || (chapIdx + 1);
@@ -164,19 +166,17 @@ class LMSApp {
             }
           });
         });
-        // Section is "zaliczone" ONLY if ALL slides are viewed
         if (allSlidesInSection > 0 && readSlidesInSection === allSlidesInSection) {
           wykladyCompletedSections++;
         }
       });
     }
-    const wykladyPct = Math.min(
-      Math.round((wykladyCompletedSections / WYKLADY_TOTAL_SECTIONS) * 100), 100
-    );
+    // Per-slide progress (each slide contributes proportionally)
+    const wykladyPct = wykladyTotalSlides > 0
+      ? Math.min(Math.round((wykladyReadSlides / wykladyTotalSlides) * 100), 100)
+      : 0;
 
     // 3. Szkolenie z instruktorem: 18 video modules.
-    //    Each module counts as "zaliczone" when watched.
-    //    Progress = (watched / 18) * 100, strictly capped at 100.
     const SZKOLENIE_TOTAL_MODULES = 18;
     let szkolenieCompleted = 0;
     if (window.INSTRUCTOR_DATA) {
@@ -196,38 +196,34 @@ class LMSApp {
     const testTarget = 50;
     const testsPct = Math.min(Math.round((testsPassed / testTarget) * 100), 100);
 
-    // 5. Control Questions (Zaliczone pytania kontrolne)
+    // 5. Control Questions
     const podrecznikCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_textbook') || '0'), 100);
     const wykladyCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_lecture') || '0'), 100);
     const szkolenieCtrlPct = Math.min(parseFloat(localStorage.getItem('ctrl_qst_instructor') || '0'), 100);
 
-    // Global average of the three main learning modules (NOT tests)
+    // Global average of the three main learning modules
     const totalProgress = Math.min(
       Math.round((podrecznikPct + wykladyPct + szkoleniePct) / 3), 100
     );
     
     return {
       totalProgress,
-      // Podręcznik
       podrecznikPct,
       podrecznikCompletedSections,
       podrecznikTotalSections: PODRECZNIK_TOTAL_SECTIONS,
       podrecznikReadTopics,
       podrecznikTotalTopics,
       podrecznikCtrlPct: Math.round(podrecznikCtrlPct),
-      // Wykłady
       wykladyPct,
       wykladyCompletedSections,
       wykladyTotalSections: WYKLADY_TOTAL_SECTIONS,
       wykladyReadSlides,
       wykladyTotalSlides,
       wykladyCtrlPct: Math.round(wykladyCtrlPct),
-      // Szkolenie
       szkoleniePct,
       szkolenieCompleted,
       szkolenieTotal: SZKOLENIE_TOTAL_MODULES,
       szkolenieCtrlPct: Math.round(szkolenieCtrlPct),
-      // Testy
       testsTaken,
       testsPassed
     };
@@ -237,21 +233,14 @@ class LMSApp {
     const sidebarBadge = document.getElementById("sidebar-category-badge");
     if (sidebarBadge) sidebarBadge.textContent = `${this.currentCategory} ▾`;
 
+    // Only update the Kurs tab sidebar progress (overall-progress-fill).
+    // Do NOT touch .category-card progress bars — those belong to
+    // Textbook/Lectures tabs and are rendered by their own engines.
     const stats = this.getGlobalProgress();
-    
-    // Update any progress bars globally
-    document.querySelectorAll('.progress-bar-fill').forEach(el => {
-      // If it's a global progress bar (not a subcard bar)
-      if (el.id === 'overall-progress-fill' || el.id === 'podrecznik-progress-fill' || el.closest('.category-card')) {
-        el.style.width = `${stats.totalProgress}%`;
-      }
-    });
-
-    document.querySelectorAll('.progress-info span, #overall-progress-text').forEach(el => {
-      if (el.textContent.includes('POSTĘP')) {
-        el.textContent = `POSTĘP: ${stats.totalProgress}%`;
-      }
-    });
+    const overallFill = document.getElementById('overall-progress-fill');
+    const overallText = document.getElementById('overall-progress-text');
+    if (overallFill) overallFill.style.width = `${stats.totalProgress}%`;
+    if (overallText) overallText.textContent = `POSTĘP: ${stats.totalProgress}%`;
     
     // If stats dashboard is active, refresh it silently
     if (this.activeTab === 'statystyki' && this.statsDashboard) {
