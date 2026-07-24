@@ -41,8 +41,9 @@ app.include_router(signs.router, prefix=settings.API_V1_STR)
 app.include_router(progress.router, prefix=settings.API_V1_STR)
 app.include_router(ingest.router, prefix=settings.API_V1_STR)
 
-# Mount frontend static directory if exists
-frontend_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend"))
+# Locate static site directory (root index.html or frontend/index.html)
+repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+frontend_path = repo_root if os.path.exists(os.path.join(repo_root, "index.html")) else os.path.join(repo_root, "frontend")
 
 @app.get("/health")
 def health_check():
@@ -56,6 +57,5 @@ def read_root():
     return {"message": "Welcome to Prawo Jazdy 360 LMS API", "docs": "/docs"}
 
 # Mount frontend at root level so css/styles.css, js/app.js etc. resolve correctly
-# This must be AFTER all API routes to avoid conflicts
 if os.path.exists(frontend_path):
     app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
