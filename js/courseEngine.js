@@ -51,11 +51,7 @@ class CourseEngine {
     this.render();
   }
 
-  loadCourseView() {
-    this.questions = window.TEST_QUESTIONS_DATA || [];
-    this.applyFilters();
-    this.render();
-  }
+
 
   applyFilters() {
     let result = [...this.questions];
