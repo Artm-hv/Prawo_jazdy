@@ -7,6 +7,17 @@ class LecturesEngine {
   constructor(containerId) {
     this.container = document.getElementById(containerId);
     this.chapters = window.LECTURES_DATA || [];
+    
+    // Assign IDs if missing
+    this.chapters.forEach((chap, cIdx) => {
+      chap.id = chap.id || (cIdx + 1);
+      if (chap.lessons) {
+        chap.lessons.forEach((les, lIdx) => {
+          les.id = les.id || (lIdx + 1);
+        });
+      }
+    });
+
     this.currentChapterId = 1;
     this.currentLessonId = 1;
     this.currentSlideIndex = 0; 
@@ -50,8 +61,19 @@ class LecturesEngine {
     this.render();
   }
 
-  selectSlide(slideIndex) {
-    this.currentSlideIndex = slideIndex;
+  selectLesson(lessonId) {
+    this.currentLessonId = lessonId;
+    this.currentSlideIndex = 0;
+    this.render();
+  }
+
+  selectSlide(lessonId, slideIdx) {
+    this.currentLessonId = lessonId;
+    this.currentSlideIndex = slideIdx;
+    const chap = this.getCurrentChapter();
+    if (chap) {
+      this.completedSlides.add(`${chap.id}-${this.currentLessonId}-${slideIdx}`);
+    }
     this.render();
   }
 
@@ -64,14 +86,31 @@ class LecturesEngine {
   }
 
   nextSlide() {
-    this.markCurrentSlideCompleted();
-    const lesson = this.getCurrentLesson();
-    if (lesson && lesson.slides && this.currentSlideIndex < lesson.slides.length - 1) {
+    const currentLesson = this.getCurrentLesson();
+    if (currentLesson && this.currentSlideIndex < currentLesson.slides.length - 1) {
+      const chap = this.getCurrentChapter();
+      if (chap) {
+        this.completedSlides.add(`${chap.id}-${this.currentLessonId}-${this.currentSlideIndex}`);
+      }
       this.currentSlideIndex++;
       this.render();
     } else {
-      this.togglePlay(false);
-      this.render();
+      // Go to next lesson
+      const chapter = this.getCurrentChapter();
+      if (chapter && chapter.lessons) {
+        const lessonIndex = chapter.lessons.findIndex(l => l.id === this.currentLessonId);
+        if (lessonIndex < chapter.lessons.length - 1) {
+          const chap = this.getCurrentChapter();
+          if (chap) {
+             this.completedSlides.add(`${chap.id}-${this.currentLessonId}-${this.currentSlideIndex}`);
+          }
+          this.currentLessonId = chapter.lessons[lessonIndex + 1].id;
+          this.currentSlideIndex = 0;
+          this.render();
+        } else {
+          this.togglePlay(false);
+        }
+      }
     }
   }
 
@@ -104,35 +143,40 @@ class LecturesEngine {
     const currentSlide = this.getCurrentSlide();
 
     const totalLessonSlides = currentLesson ? currentLesson.slides.length : 17;
-    const slideNumber = currentSlide ? currentSlide.number : (this.currentSlideIndex + 1);
+    const slideNumber = this.currentSlideIndex + 1;
 
     // Render Sidebar Chapters List
-    const chaptersHtml = this.chapters.map(chap => {
+    const chaptersHtml = this.chapters.map((chap, cIdx) => {
       const isChapterActive = chap.id === this.currentChapterId;
       
       let lessonsContent = '';
       if (isChapterActive && chap.lessons && chap.lessons.length > 0) {
         lessonsContent = chap.lessons.map(les => {
           const slidesListHtml = les.slides.map((s, idx) => {
-            const isSlideActive = idx === this.currentSlideIndex;
+            const isSlideActive = (idx === this.currentSlideIndex && les.id === this.currentLessonId);
             const isCompleted = this.completedSlides.has(`${chap.id}-${les.id}-${idx}`);
             return `
-              <div class="slide-list-item ${isSlideActive ? 'active' : ''}" onclick="window.lecturesEngine.selectSlide(${idx})">
+              <div class="slide-list-item ${isSlideActive ? 'active' : ''}" onclick="window.lecturesEngine.selectSlide(${les.id}, ${idx})">
                 <span class="slide-status-circle ${isCompleted ? 'completed' : ''}"></span>
-                <span class="slide-item-title">${s.number} - ${s.title}</span>
+                <span class="slide-item-title">${idx + 1} - ${s.title}</span>
               </div>
             `;
           }).join('');
 
+          const isActiveLesson = les.id === this.currentLessonId;
+          const displayLessonTitle = les.title.replace('\n', '<br>');
+
           return `
-            <div class="active-lesson-box">
-              <div class="lesson-header-row">
-                <span class="lesson-title-badge">${les.title}</span>
-                <span class="lesson-counter-badge">${slideNumber}/${totalLessonSlides}</span>
+            <div class="active-lesson-box ${isActiveLesson ? 'current-lesson' : ''}">
+              <div class="lesson-header-row" onclick="window.lecturesEngine.selectLesson(${les.id})">
+                <span class="lesson-title-badge">${displayLessonTitle}</span>
+                <span class="lesson-counter-badge">${isActiveLesson ? slideNumber : 0}/${les.slides.length}</span>
               </div>
+              ${isActiveLesson ? `
               <div class="slides-sublist">
                 ${slidesListHtml}
               </div>
+              ` : ''}
             </div>
           `;
         }).join('');
@@ -154,9 +198,8 @@ class LecturesEngine {
         });
       }
       
-      // Use actual calculated completion, fallback to static if not interacted with
-      const displayCompleted = actualCompletedCount > 0 ? actualCompletedCount : chap.completed_count;
-      const displayTotal = actualTotalCount > 0 ? actualTotalCount : chap.total_count;
+      const displayCompleted = actualCompletedCount;
+      const displayTotal = actualTotalCount;
 
       return `
         <div class="chapter-accordion-card ${isChapterActive ? 'open' : ''}">
@@ -173,15 +216,7 @@ class LecturesEngine {
     }).join('');
 
     // Format explanation text with bullet points
-    let formattedExplanation = currentSlide ? currentSlide.explanation : '';
-    if (formattedExplanation.includes('•')) {
-      const parts = formattedExplanation.split('\n');
-      const intro = parts[0];
-      const bullets = parts.slice(1).map(p => `<li>${p.replace('•', '').trim()}</li>`).join('');
-      formattedExplanation = `<p>${intro}</p><ul class="lecture-bullets">${bullets}</ul>`;
-    } else {
-      formattedExplanation = `<p>${formattedExplanation}</p>`;
-    }
+    let formattedExplanation = currentSlide ? currentSlide.contentHtml : '';
 
     this.container.innerHTML = `
       <div class="lectures-layout-grid">
@@ -215,7 +250,10 @@ class LecturesEngine {
           <div class="slide-player-box">
             
             <div class="slide-image-stage">
-              <img src="${currentSlide ? currentSlide.image_url : 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1000'}" alt="${currentSlide ? currentSlide.title : 'Slajd'}" class="slide-img" />
+              ${currentSlide && currentSlide.mediaType === 'video' ? 
+                `<video src="${currentSlide.mediaUrl}" controls autoplay style="width:100%; max-height:450px; border-radius:12px; object-fit:cover;"></video>` :
+                `<img src="${currentSlide && currentSlide.mediaUrl ? currentSlide.mediaUrl : 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1000'}" alt="${currentSlide ? currentSlide.title : 'Slajd'}" class="slide-img" style="width:100%; max-height:450px; border-radius:12px; object-fit:cover;" />`
+              }
               
               <!-- Bottom Scrubber Progress Bar inside Image -->
               <div class="slide-scrubber-bar">
