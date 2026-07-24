@@ -707,6 +707,22 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  position: sticky;
+  top: 24px;
+  height: calc(100vh - 48px);
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.lectures-sidebar-col::-webkit-scrollbar {
+  width: 6px;
+}
+.lectures-sidebar-col::-webkit-scrollbar-thumb {
+  background: rgba(108, 92, 231, 0.2);
+  border-radius: 4px;
+}
+.lectures-sidebar-col::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .wyklady-sidebar-header {
@@ -2864,4 +2880,178 @@ input:checked + .slider:before {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+/* === Modern Sidebar Redesign (Purple theme) === */
+.modern-category-card {
+  background: #f4f0ff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+.modern-category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.modern-category-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+}
+.modern-category-badge {
+  background: #6C5CE7;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.modern-progress-info {
+  font-size: 12px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+.modern-progress-bar-bg {
+  background: #fff;
+  border-radius: 6px;
+  height: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.modern-progress-bar-fill {
+  background: linear-gradient(90deg, #6C5CE7 0%, #a29bfe 100%);
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+/* Common Header Text */
+.modern-sidebar-title {
+  text-align: center;
+  font-size: 13px;
+  color: #111;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Accordion cards for Wyklady and Podrecznik */
+.modern-accordion-item {
+  background: #f5f7f9;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.modern-accordion-item:hover {
+  background: #f4f0ff;
+  border-color: rgba(108, 92, 231, 0.4);
+}
+.modern-accordion-item.active {
+  background: #ffffff;
+  border-color: rgba(108, 92, 231, 0.3);
+  border-bottom-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.05);
+}
+.modern-accordion-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+}
+.modern-accordion-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.modern-accordion-count {
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+}
+.modern-accordion-chevron {
+  font-size: 12px;
+  color: #111;
+  font-weight: bold;
+}
+
+/* Expanded card design for Instructor (Szkolenie) */
+.modern-instructor-card {
+  background: #f4f0ff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+.modern-instructor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.modern-instructor-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+}
+.modern-instructor-time {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+}
+.modern-instructor-progress-bg {
+  background: rgba(108, 92, 231, 0.15);
+  border-radius: 4px;
+  height: 6px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.modern-instructor-progress-fill {
+  background: linear-gradient(90deg, #6C5CE7 0%, #a29bfe 100%);
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+.modern-instructor-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.modern-instructor-list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #111;
+  cursor: pointer;
+}
+.modern-instructor-check {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #6C5CE7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: transparent;
+}
+.modern-instructor-check.completed {
+  background: #6C5CE7;
+  border-color: #6C5CE7;
 }

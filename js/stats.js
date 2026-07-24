@@ -205,39 +205,6 @@ class StatsDashboard {
           <!-- SECTION 4: Course Progress Sections (Podręcznik, Wykłady, Szkolenie z instruktorem) -->
           <div class="stats-cards-grid-2">
             
-            <!-- Podręcznik Card (Title fixed to "Podręcznik") -->
-            <div class="course-section-card">
-              <h3 class="course-section-title">Podręcznik</h3>
-              <div class="course-card-inner">
-                <div class="course-progress-header">
-                  <span class="progress-label">Postęp: ${podrecznikProgressPct}%</span>
-                  <div class="progress-bar-bg">
-                    <div class="progress-bar-fill" style="width: ${podrecznikProgressPct}%;"></div>
-                  </div>
-                </div>
-
-                <div class="course-subcards-grid">
-                  <div class="course-subcard">
-                    <div class="subcard-title">Zaliczone działy</div>
-                    <div class="subcard-val-row">
-                      <span class="cat-b-icon">${window.app ? window.app.currentCategory : 'B'}</span>
-                      <span class="subcard-val">${completedPodrecznikSections} <small>z ${totalPodrecznikSections}</small></span>
-                    </div>
-                  </div>
-                  
-                  <div class="course-subcard">
-                    <div class="subcard-title">Zaliczone pytania kontrolne</div>
-                    <div class="subcard-val-row">
-                      <span class="check-icon">✓</span>
-                      <span class="subcard-val">${statsData.podrecznikCtrlPct || 0}%</span>
-                    </div>
-                  </div>
-                </div>
-
-                <button class="section-outline-btn" onclick="window.app.switchTab('podrecznik')">Podręcznik →</button>
-              </div>
-            </div>
-
             <!-- Wykłady Card (Title fixed to "Wykłady") -->
             <div class="course-section-card">
               <h3 class="course-section-title">Wykłady</h3>
@@ -268,6 +235,39 @@ class StatsDashboard {
                 </div>
 
                 <button class="section-outline-btn" onclick="window.app.switchTab('wyklady')">Wykłady →</button>
+              </div>
+            </div>
+
+            <!-- Podręcznik Card (Title fixed to "Podręcznik") -->
+            <div class="course-section-card">
+              <h3 class="course-section-title">Podręcznik</h3>
+              <div class="course-card-inner">
+                <div class="course-progress-header">
+                  <span class="progress-label">Postęp: ${podrecznikProgressPct}%</span>
+                  <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" style="width: ${podrecznikProgressPct}%;"></div>
+                  </div>
+                </div>
+
+                <div class="course-subcards-grid">
+                  <div class="course-subcard">
+                    <div class="subcard-title">Zaliczone działy</div>
+                    <div class="subcard-val-row">
+                      <span class="cat-b-icon">${window.app ? window.app.currentCategory : 'B'}</span>
+                      <span class="subcard-val">${completedPodrecznikSections} <small>z ${totalPodrecznikSections}</small></span>
+                    </div>
+                  </div>
+                  
+                  <div class="course-subcard">
+                    <div class="subcard-title">Zaliczone pytania kontrolne</div>
+                    <div class="subcard-val-row">
+                      <span class="check-icon">✓</span>
+                      <span class="subcard-val">${statsData.podrecznikCtrlPct || 0}%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <button class="section-outline-btn" onclick="window.app.switchTab('podrecznik')">Podręcznik →</button>
               </div>
             </div>
 

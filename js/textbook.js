@@ -66,41 +66,37 @@ class TextbookEngine {
         }
       });
       
-      // Progress for this chapter
-      const chapProgressPct = chap.total_count > 0 ? (computedCompletedCount / chap.total_count) * 100 : 0;
-      
       return `
-        <div class="chapter-accordion-card ${isActive ? 'open' : ''}">
-          <div class="chapter-accordion-header" onclick="window.textbookEngine.selectChapter(${chap.id})">
-            <div class="chapter-header-top">
-              <span class="chapter-accordion-title">${chap.number} ${chap.title}</span>
-              <div class="chapter-meta-right">
-                <span class="chapter-count">${computedCompletedCount}/${chap.total_count}</span>
-                <span class="accordion-close-btn">${isActive ? '✕' : '⌵'}</span>
-              </div>
+        <div style="margin-bottom: 8px;">
+          <div class="modern-accordion-item ${isActive ? 'active' : ''}" onclick="window.textbookEngine.selectChapter(${chap.id})">
+            <span class="modern-accordion-title">${chap.number.split(' ')[0]} ${chap.title}</span>
+            <div class="modern-accordion-meta">
+              <span class="modern-accordion-count">${computedCompletedCount}/${chap.total_count}</span>
+              <span class="modern-accordion-chevron">${isActive ? '∧' : '∨'}</span>
             </div>
-            ${isActive ? `
-            <div class="chapter-progress-bg">
-              <div class="chapter-progress-fill" style="width: ${chapProgressPct}%;"></div>
-            </div>
-            ` : ''}
           </div>
           ${isActive ? `
-            <div class="active-lesson-box">
-              <div class="slides-sublist">
+            <div class="active-lesson-box" style="padding-top: 0; background: #ffffff; border: 1px solid rgba(108, 92, 231, 0.3); border-top: none; border-radius: 0 0 8px 8px; padding-bottom: 12px; margin-bottom: 12px; box-shadow: 0 4px 12px rgba(108, 92, 231, 0.05);">
+              <div style="padding: 12px 16px 0 16px;">
+                <div class="modern-instructor-progress-bg" style="margin-bottom: 8px;">
+                  <div class="modern-instructor-progress-fill" style="width: ${chap.total_count > 0 ? (computedCompletedCount / chap.total_count) * 100 : 0}%;"></div>
+                </div>
+                <hr style="border: none; border-top: 1px solid rgba(108, 92, 231, 0.2); margin-top: 0; margin-bottom: 12px;">
+              </div>
+              <div class="slides-sublist" style="padding: 0 12px;">
                 ${chap.topics.map((top, idx) => {
                   const isRead = localStorage.getItem(`textbook_read_${chap.id}_${idx}`) === "true";
                   const isActiveTopic = this.activeTopicIdx === idx;
                   return `
-                  <div class="slide-list-item ${isActiveTopic ? 'active-topic' : ''}" onclick="event.stopPropagation(); window.textbookEngine.selectTopic(${chap.id}, ${idx})">
-                    <span class="slide-status-circle ${isRead ? 'completed' : ''}">
-                      ${isRead ? '<svg viewBox="0 0 24 24" width="14" height="14" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>' : ''}
+                  <div class="slide-list-item ${isActiveTopic ? 'active-topic' : ''}" onclick="event.stopPropagation(); window.textbookEngine.selectTopic(${chap.id}, ${idx})" style="padding: 6px 8px;">
+                    <span class="modern-instructor-check ${isRead ? 'completed' : ''}" style="width: 16px; height: 16px; margin-right: 8px;">
+                      ${isRead ? '<svg viewBox="0 0 24 24" width="10" height="10" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>' : ''}
                     </span>
                     <span class="slide-item-title">${idx + 1}. ${typeof top === 'object' ? top.title : top}</span>
                   </div>
                 `}).join('')}
-                <div class="slide-list-item pytania-kontrolne-item" onclick="event.stopPropagation();">
-                  <span class="slide-status-circle empty"></span>
+                <div class="slide-list-item pytania-kontrolne-item" onclick="event.stopPropagation();" style="padding: 6px 8px; margin-top: 8px;">
+                  <span class="modern-instructor-check" style="width: 16px; height: 16px; margin-right: 8px;"></span>
                   <span class="slide-item-title">Pytania kontrolne - dział ${chap.number.split('.')[0]}</span>
                 </div>
               </div>
@@ -210,28 +206,28 @@ class TextbookEngine {
           </div>
       `;
     }
+    const oldSidebar = this.container.querySelector('.lectures-sidebar-col');
+    const oldScrollTop = oldSidebar ? oldSidebar.scrollTop : 0;
 
     this.container.innerHTML = `
       <div class="lectures-layout-grid">
         
         <!-- Left Sidebar: 14 Chapters Accordion -->
         <div class="lectures-sidebar-col">
-          <div class="category-card" style="margin-bottom: 12px;">
-            <div class="category-header">
-              <span class="category-title">KATEGORIA</span>
-              <span class="category-badge-selector">${currentCategory} ▾</span>
+          <div class="modern-category-card">
+            <div class="modern-category-header">
+              <span class="modern-category-title">KATEGORIA</span>
+              <span class="modern-category-badge">${currentCategory} ∨</span>
             </div>
-            <div class="progress-info">
-              <span>POSTĘP: ${progressPct}%</span>
+            <div class="modern-progress-info">
+              POSTĘP: ${Math.round(progressPct)}%
             </div>
-            <div class="progress-bar-bg">
-              <div class="progress-bar-fill" style="width: ${progressPct}%;"></div>
+            <div class="modern-progress-bar-bg">
+              <div class="modern-progress-bar-fill" style="width: ${progressPct}%;"></div>
             </div>
           </div>
 
-          <div class="wyklady-sidebar-header" style="text-align: center; margin-bottom: 16px;">
-            <h3 class="sidebar-block-title" style="font-size: 13px; color: var(--text-dark); letter-spacing: 0.5px; margin: 0;">PODRĘCZNIK KURSANTA NA PRAWO JAZDY 2026</h3>
-          </div>
+          <h3 class="modern-sidebar-title">PODRĘCZNIK KURSANTA NA PRAWO JAZDY 2026</h3>
 
           <div class="chapters-accordion-list">
             ${sidebarChaptersHtml}
@@ -242,8 +238,32 @@ class TextbookEngine {
         <div class="lectures-stage-col">
           ${mainStageHtml}
         </div>
-      </div>
     `;
+
+    const newSidebar = this.container.querySelector('.lectures-sidebar-col');
+    if (newSidebar) {
+      newSidebar.scrollTop = oldScrollTop;
+    }
+
+    setTimeout(() => {
+      if (!this.container || !newSidebar) return;
+      const activeTopic = this.container.querySelector('.slide-list-item.active-topic');
+      const activeChapter = this.container.querySelector('.modern-accordion-item.active');
+      const target = activeTopic || activeChapter;
+
+      if (target) {
+        const sidebarRect = newSidebar.getBoundingClientRect();
+        const targetRect = target.getBoundingClientRect();
+        
+        if (targetRect.top < sidebarRect.top + 40 || targetRect.bottom > sidebarRect.bottom - 40) {
+          const offset = targetRect.top - sidebarRect.top;
+          newSidebar.scrollTo({
+            top: newSidebar.scrollTop + offset - (sidebarRect.height / 2) + (targetRect.height / 2),
+            behavior: 'smooth'
+          });
+        }
+      }
+    }, 10);
   }
 }
 

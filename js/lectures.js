@@ -164,24 +164,24 @@ class LecturesEngine {
       const chapProgressPct = actualTotalCount > 0 ? (actualCompletedCount / actualTotalCount) * 100 : 0;
 
       return `
-        <div class="chapter-accordion-card ${isChapterActive ? 'open' : ''}">
-          <div class="chapter-accordion-header" onclick="window.lecturesEngine.selectChapter(${chap.id})">
-            <div class="chapter-header-top">
-              <span class="chapter-accordion-title">${chap.title}</span>
-              <div class="chapter-meta-right">
-                <span class="chapter-count">${actualCompletedCount}/${actualTotalCount}</span>
-                <span class="accordion-close-btn">${isChapterActive ? '✕' : '⌵'}</span>
-              </div>
+        <div style="margin-bottom: 8px;">
+          <div class="modern-accordion-item ${isChapterActive ? 'active' : ''}" onclick="window.lecturesEngine.selectChapter(${chap.id})">
+            <span class="modern-accordion-title">${chap.title}</span>
+            <div class="modern-accordion-meta">
+              <span class="modern-accordion-count">${actualCompletedCount}/${actualTotalCount}</span>
+              <span class="modern-accordion-chevron">${isChapterActive ? '∧' : '∨'}</span>
             </div>
-            ${isChapterActive ? `
-            <div class="chapter-progress-bg">
-              <div class="chapter-progress-fill" style="width: ${chapProgressPct}%;"></div>
-            </div>
-            ` : ''}
           </div>
           ${isChapterActive && chap.lessons ? `
-            <div class="active-lesson-box" style="padding-top: 8px;">
-              ${chap.lessons.map(les => {
+            <div class="active-lesson-box" style="padding-top: 0; background: #ffffff; border: 1px solid rgba(108, 92, 231, 0.3); border-top: none; border-radius: 0 0 8px 8px; padding-bottom: 12px; margin-bottom: 12px; box-shadow: 0 4px 12px rgba(108, 92, 231, 0.05);">
+              <div style="padding: 12px 16px 0 16px;">
+                <div class="modern-instructor-progress-bg" style="margin-bottom: 8px;">
+                  <div class="modern-instructor-progress-fill" style="width: ${chapProgressPct}%;"></div>
+                </div>
+                <hr style="border: none; border-top: 1px solid rgba(108, 92, 231, 0.2); margin-top: 0; margin-bottom: 12px;">
+              </div>
+              <div style="padding: 0 12px;">
+                ${chap.lessons.map(les => {
                 const isActiveLesson = les.id === this.currentLessonId;
                 
                 // Calculate completion for this specific lesson
@@ -203,7 +203,7 @@ class LecturesEngine {
                     
                     <div class="lesson-header-row" style="display: flex; align-items: center; justify-content: space-between; padding: 0 12px; margin-bottom: ${isActiveLesson ? '12px' : '0'}; border-radius: 0; background: transparent; cursor: ${isActiveLesson ? 'default' : 'pointer'};">
                       <div style="display: flex; align-items: center; gap: 12px;">
-                        <span class="lesson-status-circle" style="width: 20px; height: 20px; min-width: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; ${isLessonFullyCompleted ? 'background: #6C5CE7;' : 'background: #c4bbf0;'}">
+                        <span class="lesson-status-circle" style="width: 20px; height: 20px; min-width: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; ${isLessonFullyCompleted ? 'background: #6C5CE7;' : 'background: transparent; border: 2px solid rgba(108, 92, 231, 0.4);'}">
                           ${isLessonFullyCompleted ? '<svg viewBox="0 0 24 24" width="14" height="14" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>' : ''}
                         </span>
                         <div style="display: flex; flex-direction: column;">
@@ -218,10 +218,10 @@ class LecturesEngine {
                     <div class="slides-sublist" style="padding: 0 8px 12px 8px; border-top: 1px solid rgba(108, 92, 231, 0.1); padding-top: 12px;">
                       ${les.slides.map((s, idx) => {
                         const isSlideActive = (idx === this.currentSlideIndex);
-                        const isCompleted = this.completedSlides.has(chap.id + '-' + les.id + '-' + idx);
+                        const isCompleted = isSlideActive || localStorage.getItem(`lectures_read_${chap.id}_${les.id}_${idx}`) === "true";
                         return `
                           <div class="slide-list-item ${isSlideActive ? 'active' : ''}" onclick="window.lecturesEngine.selectSlide(${les.id}, ${idx})" style="padding: 6px 12px; gap: 10px; font-size: 12.5px; ${isSlideActive ? 'background: rgba(108, 92, 231, 0.08); box-shadow: none; border-radius: 6px;' : ''}">
-                            <span style="width: 10px; height: 10px; border-radius: 50%; background: ${isCompleted ? '#6C5CE7' : 'rgba(108, 92, 231, 0.3)'}; flex-shrink: 0;"></span>
+                            <span style="width: 10px; height: 10px; border-radius: 50%; ${isCompleted ? 'background: #6C5CE7; border: none;' : 'background: transparent; border: 2px solid rgba(108, 92, 231, 0.4);'}; flex-shrink: 0;"></span>
                             <span style="color: ${isSlideActive ? '#6C5CE7' : '#555'}; font-weight: ${isSlideActive ? '700' : '500'};">${idx + 1} - ${s.title}</span>
                           </div>
                         `;
@@ -239,6 +239,7 @@ class LecturesEngine {
                   </div>
                 `;
               }).join('')}
+              </div>
             </div>
           ` : ''}
         </div>
@@ -248,11 +249,46 @@ class LecturesEngine {
     // Format explanation text with bullet points
     let formattedExplanation = currentSlide ? currentSlide.contentHtml : '';
 
+    const currentCategory = window.app ? window.app.currentCategory : "B";
+    let totalLecturesSlides = 0;
+    let completedLecturesSlides = 0;
+    this.chapters.forEach(chap => {
+      if (chap.lessons) {
+        chap.lessons.forEach(l => {
+          if (l.slides) {
+            totalLecturesSlides += l.slides.length;
+            l.slides.forEach((s, idx) => {
+              if (localStorage.getItem(`lectures_read_${chap.id}_${l.id}_${idx}`) === "true") {
+                completedLecturesSlides++;
+              }
+            });
+          }
+        });
+      }
+    });
+    const progressPct = totalLecturesSlides > 0 ? (completedLecturesSlides / totalLecturesSlides) * 100 : 0;
+    const oldSidebar = this.container.querySelector('.lectures-sidebar-col');
+    const oldScrollTop = oldSidebar ? oldSidebar.scrollTop : 0;
+
     this.container.innerHTML = `
       <div class="lectures-layout-grid">
         
         <!-- Left Sidebar: Accordion Chapters -->
         <div class="lectures-sidebar-col">
+          <div class="modern-category-card">
+            <div class="modern-category-header">
+              <span class="modern-category-title">KATEGORIA</span>
+              <span class="modern-category-badge">${currentCategory} ∨</span>
+            </div>
+            <div class="modern-progress-info">
+              POSTĘP: ${Math.round(progressPct)}%
+            </div>
+            <div class="modern-progress-bar-bg">
+              <div class="modern-progress-bar-fill" style="width: ${progressPct}%;"></div>
+            </div>
+          </div>
+
+          <h3 class="modern-sidebar-title">WYKŁADY NA PRAWO JAZDY</h3>
 
           <div class="chapters-accordion-list">
             ${chaptersHtml}
@@ -335,8 +371,33 @@ class LecturesEngine {
 
         </div>
 
-      </div>
     `;
+
+    const newSidebar = this.container.querySelector('.lectures-sidebar-col');
+    if (newSidebar) {
+      newSidebar.scrollTop = oldScrollTop;
+    }
+
+    setTimeout(() => {
+      if (!this.container || !newSidebar) return;
+      const activeSlide = this.container.querySelector('.slide-list-item.active');
+      const activeChapter = this.container.querySelector('.modern-accordion-item.active');
+      const target = activeSlide || activeChapter;
+      
+      if (target) {
+        const sidebarRect = newSidebar.getBoundingClientRect();
+        const targetRect = target.getBoundingClientRect();
+        
+        // Only scroll if the active item is outside the visible area of the sidebar
+        if (targetRect.top < sidebarRect.top + 40 || targetRect.bottom > sidebarRect.bottom - 40) {
+          const offset = targetRect.top - sidebarRect.top;
+          newSidebar.scrollTo({
+            top: newSidebar.scrollTop + offset - (sidebarRect.height / 2) + (targetRect.height / 2),
+            behavior: 'smooth'
+          });
+        }
+      }
+    }, 10);
   }
 }
 
