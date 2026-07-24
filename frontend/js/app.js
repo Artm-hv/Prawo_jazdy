@@ -1,10 +1,13 @@
 /* ==========================================================================
-   Prawo Jazdy 360 LMS - Main Application Orchestrator
+   Prawo Jazdy LMS - Main Application Orchestrator
    ========================================================================== */
 
 class LMSApp {
   constructor() {
-    this.currentCategory = "B";
+    this.currentCategory = localStorage.getItem("prawo_jazdy_category") || "B";
+    this.currentLanguage = localStorage.getItem("prawo_jazdy_lang") || "PL";
+    this.isDarkMode = localStorage.getItem("prawo_jazdy_dark_mode") === "true";
+    
     this.courses = [];
     this.currentLesson = null;
     this.player = null;
@@ -17,6 +20,8 @@ class LMSApp {
   }
 
   async init() {
+    this.initDarkMode();
+    
     this.player = new InstructorPlayer();
     this.testEngine = new TestEngine("tab-content-container");
     this.signCatalog = new TrafficSignCatalog("tab-content-container");
@@ -28,6 +33,65 @@ class LMSApp {
 
     this.bindEvents();
     await this.loadCourseData();
+    this.updateCategoryDisplay();
+  }
+
+  initDarkMode() {
+    if (this.isDarkMode) {
+      document.body.classList.add("dark-theme");
+      const toggleInput = document.getElementById("dark-mode-toggle");
+      if (toggleInput) toggleInput.checked = true;
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
+  }
+
+  toggleDarkMode(enabled) {
+    this.isDarkMode = enabled !== undefined ? enabled : !this.isDarkMode;
+    localStorage.setItem("prawo_jazdy_dark_mode", this.isDarkMode);
+    if (this.isDarkMode) {
+      document.body.classList.add("dark-theme");
+    } else {
+      document.body.classList.remove("dark-theme");
+    }
+  }
+
+  toggleSettingsModal() {
+    const modal = document.getElementById("settings-modal");
+    if (!modal) return;
+    const isHidden = modal.style.display === "none" || !modal.style.display;
+    modal.style.display = isHidden ? "flex" : "none";
+
+    if (isHidden) {
+      const catSelect = document.getElementById("setting-category-select");
+      if (catSelect) catSelect.value = this.currentCategory;
+      const langSelect = document.getElementById("setting-language-select");
+      if (langSelect) langSelect.value = this.currentLanguage;
+      const darkToggle = document.getElementById("dark-mode-toggle");
+      if (darkToggle) darkToggle.checked = this.isDarkMode;
+    }
+  }
+
+  setCategory(category) {
+    this.currentCategory = category;
+    localStorage.setItem("prawo_jazdy_category", category);
+    this.updateCategoryDisplay();
+    this.loadCourseData();
+    if (this.activeTab === "znaki" && this.signCatalog) {
+      this.signCatalog.loadSigns();
+    } else if (this.activeTab === "statystyki" && this.statsDashboard) {
+      this.statsDashboard.loadStats();
+    }
+  }
+
+  setLanguage(lang) {
+    this.currentLanguage = lang;
+    localStorage.setItem("prawo_jazdy_lang", lang);
+  }
+
+  updateCategoryDisplay() {
+    const sidebarBadge = document.getElementById("sidebar-category-badge");
+    if (sidebarBadge) sidebarBadge.textContent = `${this.currentCategory} ▾`;
   }
 
   bindEvents() {
@@ -51,8 +115,8 @@ class LMSApp {
     } else {
       this.courses = [{
         id: 1,
-        title: "Kurs Nauki Jazdy - Kategoria B",
-        category: "B",
+        title: `Kurs Nauki Jazdy - Kategoria ${this.currentCategory}`,
+        category: this.currentCategory,
         overall_progress_percentage: 11.97,
         modules: [
           {
@@ -225,12 +289,12 @@ class LMSApp {
           Oficjalne zasady i przepisy ruchu drogowego w Polsce. Wybierz dział, aby przejść do materiałów naukowych:
         </p>
         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
-          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: #fafbfc; cursor: pointer;" onclick="window.app.switchTab('znaki')">
-            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-green); margin-bottom: 8px;">12 Kategori Znaków i Sygnałów Drogowych</h4>
+          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-main); cursor: pointer;" onclick="window.app.switchTab('znaki')">
+            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-purple); margin-bottom: 8px;">12 Kategori Znaków i Sygnałów Drogowych</h4>
             <p style="font-size: 13px; color: var(--text-muted);">Przegląd znaków nakazu, zakazu, informacyjnych, ostrzegawczych, poziomych, gestów policjanta i kontrolek pojazdu.</p>
           </div>
-          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: #fafbfc;" onclick="window.app.switchTab('wyklady')">
-            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-green); margin-bottom: 8px;">Wykłady na prawo jazdy</h4>
+          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-main); cursor: pointer;" onclick="window.app.switchTab('wyklady')">
+            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-purple); margin-bottom: 8px;">Wykłady na prawo jazdy</h4>
             <p style="font-size: 13px; color: var(--text-muted);">Przegląd wszystkich 12 działów z ilustracjami i objaśnieniami.</p>
           </div>
         </div>
