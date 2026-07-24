@@ -9,10 +9,11 @@ class LecturesEngine {
     this.chapters = window.LECTURES_DATA || [];
     this.currentChapterId = 1;
     this.currentLessonId = 1;
-    this.currentSlideIndex = 2; // Default to Slide 3 ("Kategoria AM") matching screenshot
+    this.currentSlideIndex = 0; 
     this.isPlaying = false;
     this.playTimer = null;
     this.isMuted = false;
+    this.completedSlides = new Set();
   }
 
   loadLectures() {
@@ -20,7 +21,7 @@ class LecturesEngine {
   }
 
   getCurrentChapter() {
-    return this.chapters.find(c => c.id === this.currentChapterId) || this.chapters[0];
+    return this.chapters.find(c => c.id === this.currentChapterId) || null;
   }
 
   getCurrentLesson() {
@@ -35,11 +36,16 @@ class LecturesEngine {
   }
 
   selectChapter(chapterId) {
-    this.currentChapterId = chapterId;
-    const chapter = this.getCurrentChapter();
-    if (chapter && chapter.lessons && chapter.lessons.length > 0) {
-      this.currentLessonId = chapter.lessons[0].id;
-      this.currentSlideIndex = 0;
+    if (this.currentChapterId === chapterId) {
+      // Close the current chapter
+      this.currentChapterId = null;
+    } else {
+      this.currentChapterId = chapterId;
+      const chapter = this.getCurrentChapter();
+      if (chapter && chapter.lessons && chapter.lessons.length > 0) {
+        this.currentLessonId = chapter.lessons[0].id;
+        this.currentSlideIndex = 0;
+      }
     }
     this.render();
   }
@@ -49,13 +55,23 @@ class LecturesEngine {
     this.render();
   }
 
+  markCurrentSlideCompleted() {
+    const chapter = this.getCurrentChapter();
+    const lesson = this.getCurrentLesson();
+    if (chapter && lesson) {
+      this.completedSlides.add(`${chapter.id}-${lesson.id}-${this.currentSlideIndex}`);
+    }
+  }
+
   nextSlide() {
+    this.markCurrentSlideCompleted();
     const lesson = this.getCurrentLesson();
     if (lesson && lesson.slides && this.currentSlideIndex < lesson.slides.length - 1) {
       this.currentSlideIndex++;
       this.render();
     } else {
       this.togglePlay(false);
+      this.render();
     }
   }
 
@@ -99,9 +115,10 @@ class LecturesEngine {
         lessonsContent = chap.lessons.map(les => {
           const slidesListHtml = les.slides.map((s, idx) => {
             const isSlideActive = idx === this.currentSlideIndex;
+            const isCompleted = this.completedSlides.has(`${chap.id}-${les.id}-${idx}`);
             return `
               <div class="slide-list-item ${isSlideActive ? 'active' : ''}" onclick="window.lecturesEngine.selectSlide(${idx})">
-                <span class="slide-status-circle ${idx <= this.currentSlideIndex ? 'completed' : ''}"></span>
+                <span class="slide-status-circle ${isCompleted ? 'completed' : ''}"></span>
                 <span class="slide-item-title">${s.number} - ${s.title}</span>
               </div>
             `;
@@ -121,12 +138,32 @@ class LecturesEngine {
         }).join('');
       }
 
+      // Calculate how many slides are completed in this chapter for accurate progress
+      let actualCompletedCount = 0;
+      let actualTotalCount = 0;
+      if (chap.lessons) {
+        chap.lessons.forEach(l => {
+          if (l.slides) {
+            actualTotalCount += l.slides.length;
+            l.slides.forEach((s, idx) => {
+              if (this.completedSlides.has(`${chap.id}-${l.id}-${idx}`)) {
+                actualCompletedCount++;
+              }
+            });
+          }
+        });
+      }
+      
+      // Use actual calculated completion, fallback to static if not interacted with
+      const displayCompleted = actualCompletedCount > 0 ? actualCompletedCount : chap.completed_count;
+      const displayTotal = actualTotalCount > 0 ? actualTotalCount : chap.total_count;
+
       return `
         <div class="chapter-accordion-card ${isChapterActive ? 'open' : ''}">
           <div class="chapter-accordion-header" onclick="window.lecturesEngine.selectChapter(${chap.id})">
             <span class="chapter-accordion-title">${chap.title}</span>
             <div class="chapter-meta-right">
-              <span class="chapter-count">${chap.completed_count}/${chap.total_count}</span>
+              <span class="chapter-count">${displayCompleted}/${displayTotal}</span>
               <span class="accordion-arrow">${isChapterActive ? '✕' : '⌵'}</span>
             </div>
           </div>

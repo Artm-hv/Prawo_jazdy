@@ -158,7 +158,7 @@ class TrafficSignCatalog {
             <div class="col-symbol">SYMBOL</div>
             <div class="col-wyglad">WYGLĄD</div>
             <div class="col-znaczenie">ZNACZENIE</div>
-            <div class="col-objasnienie">OBJAŚNIENIE</div>
+            <div>OBJAŚNIENIE</div>
           </div>
           
           <div class="sign-table-body">

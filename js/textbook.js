@@ -41,7 +41,7 @@ class TextbookEngine {
             <div class="active-lesson-box">
               <div class="slides-sublist">
                 ${chap.topics.map((top, idx) => `
-                  <div class="slide-list-item active">
+                  <div class="slide-list-item">
                     <span class="slide-status-circle ${idx < chap.completed_count ? 'completed' : ''}"></span>
                     <span class="slide-item-title">${top}</span>
                   </div>
