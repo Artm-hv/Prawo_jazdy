@@ -51,9 +51,12 @@ class TextbookEngine {
                 ${chap.topics.map((top, idx) => `
                   <div class="slide-list-item ${this.activeTopicIdx === idx ? 'active-topic' : ''}" onclick="event.stopPropagation(); window.textbookEngine.selectTopic(${chap.id}, ${idx})">
                     <span class="slide-status-circle ${idx < chap.completed_count ? 'completed' : ''}"></span>
-                    <span class="slide-item-title">${typeof top === 'object' ? top.title : top}</span>
+                    <span class="slide-item-title">${idx + 1}. ${typeof top === 'object' ? top.title : top}</span>
                   </div>
                 `).join('')}
+                <button class="btn-pytania-kontrolne" onclick="event.stopPropagation();">
+                  Pytania kontrolne - dział ${chap.number.split('.')[0]}
+                </button>
               </div>
             </div>
           ` : ''}
@@ -74,12 +77,32 @@ class TextbookEngine {
         
         mainStageHtml = `
           <div class="podrecznik-lesson-view">
-            <div class="lesson-header">
+            <div class="lesson-header-row">
               <h2>${topicTitle}</h2>
-              <button class="btn-back" onclick="window.textbookEngine.selectChapter(${activeChapter.id})">← Wróć do spisu</button>
+              <button class="btn-lektor">🔊 Włącz lektora</button>
             </div>
+            
+            <div class="lesson-checkbox-row">
+              <input type="checkbox" id="markReadCheckbox" />
+              <label for="markReadCheckbox">Oznacz jako przeczytane</label>
+            </div>
+
             <div class="lesson-html-content">
               ${topicContent}
+            </div>
+
+            <div class="lesson-navigation-grid">
+              <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx - 1 > 0 ? this.activeTopicIdx - 1 : 0})">
+                ← Poprzedni
+              </button>
+              <div class="lesson-nav-btn-next-col">
+                <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})">
+                  Następny →
+                </button>
+                <button class="lesson-nav-btn" onclick="window.textbookEngine.selectTopic(${activeChapter.id}, ${this.activeTopicIdx + 1})">
+                  Następny →<br><small>(oznacz jako przeczytane)</small>
+                </button>
+              </div>
             </div>
           </div>
         `;
