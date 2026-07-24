@@ -11,6 +11,7 @@ class LMSApp {
     this.testEngine = null;
     this.signCatalog = null;
     this.statsDashboard = null;
+    this.lecturesEngine = null;
 
     this.activeTab = "szkolenie";
   }
@@ -20,6 +21,10 @@ class LMSApp {
     this.testEngine = new TestEngine("tab-content-container");
     this.signCatalog = new TrafficSignCatalog("tab-content-container");
     this.statsDashboard = new StatsDashboard("tab-content-container");
+    this.lecturesEngine = new LecturesEngine("tab-content-container");
+    
+    window.lecturesEngine = this.lecturesEngine;
+    window.statsDashboard = this.statsDashboard;
 
     this.bindEvents();
     await this.loadCourseData();
@@ -182,7 +187,7 @@ class LMSApp {
     const videoView = document.getElementById("video-lecture-view");
     const tabContentView = document.getElementById("tab-content-container");
 
-    if (tabName === "szkolenie" || tabName === "wyklady" || tabName === "kurs") {
+    if (tabName === "szkolenie" || tabName === "kurs") {
       videoView.style.display = "flex";
       tabContentView.style.display = "none";
     } else {
@@ -195,6 +200,8 @@ class LMSApp {
         this.signCatalog.loadSigns();
       } else if (tabName === "statystyki") {
         this.statsDashboard.loadStats();
+      } else if (tabName === "wyklady") {
+        this.lecturesEngine.loadLectures();
       } else if (tabName === "podrecznik") {
         this.renderTextbookView();
       }
@@ -216,9 +223,9 @@ class LMSApp {
             <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-green); margin-bottom: 8px;">12 Kategori Znaków i Sygnałów Drogowych</h4>
             <p style="font-size: 13px; color: var(--text-muted);">Przegląd znaków nakazu, zakazu, informacyjnych, ostrzegawczych, poziomych, gestów policjanta i kontrolek pojazdu.</p>
           </div>
-          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: #fafbfc;">
-            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-green); margin-bottom: 8px;">Rozdział I - Przepisy Ogólne</h4>
-            <p style="font-size: 13px; color: var(--text-muted);">Definicje drogi, pobocza, chodnika, pojazdu, uczestnika ruchu drogowego.</p>
+          <div style="padding: 20px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: #fafbfc;" onclick="window.app.switchTab('wyklady')">
+            <h4 style="font-size: 16px; font-weight: 800; color: var(--primary-green); margin-bottom: 8px;">Wykłady na prawo jazdy</h4>
+            <p style="font-size: 13px; color: var(--text-muted);">Przegląd wszystkich 12 działów z ilustracjami i objaśnieniami.</p>
           </div>
         </div>
       </div>

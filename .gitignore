@@ -30,6 +30,11 @@ create_static_data.py
 backend/check_cats.py
 backend/check_db.py
 backend/verify_api.py
+backend/build_lectures_data.py
+backend/lectures_sample.html
+backend/parse_all_lectures.py
+backend/scrape_lectures.py
+backend/scrape_wyklady_api.py
 
 # Node
 node_modules/
