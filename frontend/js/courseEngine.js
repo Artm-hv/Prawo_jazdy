@@ -40,6 +40,7 @@ class CourseEngine {
   }
 
   loadCourseView() {
+    this.questions = window.TEST_QUESTIONS_DATA || [];
     this.applyFilters();
     this.render();
   }
