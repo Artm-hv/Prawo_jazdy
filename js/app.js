@@ -17,6 +17,7 @@ class LMSApp {
     this.lecturesEngine = null;
     this.textbookEngine = null;
     this.courseEngine = null;
+    this.instructorEngine = null;
 
     this.activeTab = "szkolenie";
   }
@@ -24,13 +25,13 @@ class LMSApp {
   async init() {
     this.initDarkMode();
     
-    this.player = new InstructorPlayer();
     this.testEngine = new TestEngine("tab-content-container");
     this.signCatalog = new TrafficSignCatalog("tab-content-container");
     this.statsDashboard = new StatsDashboard("tab-content-container");
     this.lecturesEngine = new LecturesEngine("tab-content-container");
     this.textbookEngine = new TextbookEngine("tab-content-container");
     this.courseEngine = new CourseEngine("tab-content-container");
+    this.instructorEngine = new InstructorEngine("tab-content-container");
     
     window.testEngine = this.testEngine;
     window.lecturesEngine = this.lecturesEngine;
@@ -260,43 +261,30 @@ class LMSApp {
       }
     });
 
-    const videoView = document.getElementById("video-lecture-view");
     const tabContentView = document.getElementById("tab-content-container");
-    const sidebarEl = document.querySelector(".sidebar");
     const mainLayout = document.getElementById("main-layout-container");
 
     // Start fade out
-    if (videoView) videoView.classList.add("fade-out");
     if (tabContentView) tabContentView.classList.add("fade-out");
 
     // Wait for fade out transition (150ms based on --transition-fast)
     await new Promise(r => setTimeout(r, 150));
 
-    if (tabName === "szkolenie") {
-      videoView.style.display = "flex";
-      tabContentView.style.display = "none";
-      if (sidebarEl) sidebarEl.style.display = "flex";
-      if (mainLayout) mainLayout.style.gridTemplateColumns = "290px minmax(0, 1fr)";
-    } else {
-      if (sidebarEl) sidebarEl.style.display = "none";
-      if (mainLayout) mainLayout.style.gridTemplateColumns = "1fr";
-
-      videoView.style.display = "none";
+    if (mainLayout) mainLayout.style.gridTemplateColumns = "1fr";
+    if (tabContentView) {
       tabContentView.style.display = "block";
-
-      if (tabName === "testy") this.testEngine.loadQuestions(this.currentCategory);
-      else if (tabName === "znaki") this.signCatalog.loadSigns();
-      else if (tabName === "statystyki") this.statsDashboard.loadStats();
-      else if (tabName === "wyklady") this.lecturesEngine.loadLectures();
-      else if (tabName === "podrecznik") this.textbookEngine.loadTextbook();
-      else if (tabName === "kurs") this.courseEngine.loadCourseView();
+      tabContentView.innerHTML = '';
     }
 
-    // Force reflow before removing fade-out to trigger animation
-    void document.body.offsetHeight;
+    if (tabName === "testy") this.testEngine.loadQuestions(this.currentCategory);
+    else if (tabName === "znaki") this.signCatalog.loadSigns();
+    else if (tabName === "statystyki") this.statsDashboard.loadStats();
+    else if (tabName === "wyklady") this.lecturesEngine.loadLectures();
+    else if (tabName === "podrecznik") this.textbookEngine.loadTextbook();
+    else if (tabName === "kurs") this.courseEngine.loadCourseView();
+    else if (tabName === "szkolenie") this.instructorEngine.loadInstructor();
 
-    // Fade in
-    if (videoView) videoView.classList.remove("fade-out");
+    // Remove fade out
     if (tabContentView) tabContentView.classList.remove("fade-out");
   }
 
