@@ -4,18 +4,18 @@
    ========================================================================== */
 
 window.TEST_QUESTIONS_DATA = [
-  // 1. Znaki ostrzegawcze (A-1 do A-34) - Exact match for ID 3456 (image_c3d7bd.jpg)
+  // 1. Znaki ostrzegawcze
   {
-    id: 3456,
+    id: 1, // Updating ID to match order
     category: "B",
     topic_id: "znaki_ostrzegawcze",
     question_type: "BASIC",
-    question_text: "Czy w miejscu, o którym informuje widoczny znak jesteś obowiązany ustąpić pierwszeństwa osobie poruszającej się przy użyciu urządzenia wspomagającego ruch, która znajdzie się na przejeździe dla rowerów?",
+    question_text: "Czy w przedstawionej sytuacji jesteś ostrzegany o dwóch niebezpiecznych zakrętach?",
     media_url: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=900&auto=format&fit=crop",
     media_type: "image",
-    correct_answer: "NIE",
+    correct_answer: "TAK",
     points: 3,
-    explanation: "Oficjalne objaśnienie WORD (ID 3456): Widoczny znak informacyjny i ostrzegawczy wskazuje zmianę pierwszeństwa przejazdu. Nie obliguje do ustąpienia pierwszeństwa osobie poruszającej się na urządzeniu wspomagającym ruch w przedstawionym układzie drogowym."
+    explanation: "Znak ostrzegawczy A-3 lub A-4 ostrzega o dwóch niebezpiecznych zakrętach. Pierwszy z nich jest w kierunku wskazanym na znaku, natomiast drugi może być w dowolnym kierunku."
   },
   {
     id: 3457,
