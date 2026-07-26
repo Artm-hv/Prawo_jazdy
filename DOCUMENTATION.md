@@ -6,52 +6,40 @@ Production-ready Learning Management System (LMS) designed for driving school pl
 
 ## 🏗️ System Architecture
 
-### 1. Database Schema (Relational Architecture)
-- **Users**: User credentials, category enrollment (`B`, `A`, etc.), created timestamps.
-- **Courses & Modules**: Hierarchical structure (`Course` -> `Module` -> `Lesson`) supporting ordered chapters, total duration tracking, and video lecture URLs.
-- **TrafficSigns**: Comprehensive library of traffic signs (`A-1`, `B-20`, `C-12`, `D-1`) with category, descriptions, and SVG icons.
-- **TestQuestions**: Driving exam question bank categorized into `BASIC` (TAK/NIE) and `SPECIALIST` (A/B/C) with point weighting (1, 2, or 3 points) following PWPW guidelines.
-- **UserProgress**: Granular tracking per lesson (watched seconds, completion flag, timestamp).
-- **TestAttempts**: History of practice and official exam attempts (score, max score, pass threshold: 68/74 points).
+### 1. Static Frontend Architecture (HTML5, Vanilla CSS, JS)
+The application runs entirely in the browser as a static web application. It does not require a backend server or a database to run. All data is pre-compiled into static JavaScript files.
 
-### 2. Backend REST API (Python FastAPI & SQLAlchemy)
-- `GET /api/v1/courses`: Retrieves courses, modules, and user lesson progress.
-- `GET /api/v1/courses/lesson/{id}`: Retrieves specific lesson details.
-- `POST /api/v1/progress/lesson/{id}`: Updates video progress and marks completion.
-- `GET /api/v1/tests/questions`: Retrieves 35 exam questions (20 basic + 15 specialist).
-- `POST /api/v1/tests/submit`: Evaluates test submission and records attempt in DB.
-- `GET /api/v1/signs`: Filterable traffic sign catalog API.
-- `GET /api/v1/progress/summary`: Analytical statistics dashboard summary.
-- `POST /api/v1/admin/ingest/json`: Admin data pipeline upload endpoint.
+- **Data Layer (`js/data/`)**: All courses, modules, lectures, test questions, and traffic signs are stored as JavaScript objects in this folder. 
+- **State Management**: User progress (watched seconds, completion flags, flashcard statistics, test scores) is saved locally in the browser's `localStorage`.
+- **UI Components**:
+  - Modern navbar with category badge (`Category B`), account menu, language selector.
+  - Accordion sidebar with category progress (`POSTĘP: 11.97%`), lesson status checkmarks (`✓`), and duration counters.
+  - Instructor video player with real-time overlay note cards and SVG traffic sign visualizer (e.g. `A-1 Niebezpieczny zakręt w prawo`).
+  - Interactive PWPW Exam Simulator (35 timed questions, 25-min timer, instant grading).
+  - Traffic Signs dictionary with category filters and a built-in **3D Flashcards (Fiszki) Mini-game** for memorization.
+  - Statistics dashboard with overall completion %, study time log, pass rates, and flashcard progress.
 
-### 3. Frontend Architecture (HTML5, Vanilla CSS, JS)
-- Modern navbar with category badge (`Category B`), account menu, language selector.
-- Accordion sidebar with category progress (`POSTĘP: 11.97%`), lesson status checkmarks (`✓`), and duration counters.
-- Instructor video player with real-time overlay note cards and SVG traffic sign visualizer (e.g. `A-1 Niebezpieczny zakręt w prawo`).
-- Interactive PWPW Exam Simulator (35 timed questions, 25-min timer, instant grading).
-- Traffic Signs dictionary with category filters.
-- Statistics dashboard with overall completion %, study time log, and pass rates.
+### 2. Data Pipeline & Scripts (`scripts/`)
+While the app itself is static, the data was gathered using Python scripts. The `scripts/` folder contains tools used for development and data ingestion:
+- **Web Scrapers**: Python scripts using `BeautifulSoup` and `requests` to scrape traffic signs and lecture data.
+- **Data Generator (`create_static_data.py`)**: A script that reads raw JSON/SQLite data and generates the formatted `js/data/*.js` files used by the frontend.
 
 ---
 
 ## 🚀 Getting Started & Execution
 
-### Prerequisites
-- Python 3.9+
-- Uvicorn & FastAPI
+### 1. Run the Application
+Since the app is purely static, you do NOT need Python, Node.js, or any backend server.
+Simply open `index.html` in your web browser, or use a static file server like Live Server (VS Code) or GitHub Pages.
 
-### 1. Install Dependencies & Ingest Data
+### 2. Update Data (For Developers Only)
+If you want to update the courses or signs, you can use the Python scripts in the `scripts/` folder.
 ```bash
-cd backend
+cd scripts
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
-python ingest_data.py
-```
 
-### 2. Run Backend Server
-```bash
-uvicorn app.main:app --reload --port 8000
+# Example: Generate new static JS files from updated data
+python create_static_data.py
 ```
-- Open Swagger API documentation at: `http://localhost:8000/docs`
-
-### 3. Open Frontend Application
-Simply open `frontend/index.html` in your web browser or serve it via any static HTTP server / FastAPI root endpoint (`http://localhost:8000`).

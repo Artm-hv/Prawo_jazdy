@@ -3128,7 +3128,7 @@ input:checked + .slider:before {
   color: #555;
   font-weight: 600;
 }
-.flashcard-scene {
+.flashcard-scene { transition: transform 0.2s ease, opacity 0.2s ease;
   width: 100%;
   max-width: 400px;
   height: 400px;
