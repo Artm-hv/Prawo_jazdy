@@ -135,9 +135,6 @@ class FlashcardsEngine {
       fcFront.innerHTML = `<div style="font-size: 48px;">🚏</div>`;
     }
 
-    this.modalOverlay.querySelector('#fc-title').innerText = (currentSign.code ? currentSign.code + ' - ' : '') + currentSign.name;
-    this.modalOverlay.querySelector('#fc-desc').innerHTML = currentSign.description || '';
-    
     // Set stats
     this.modalOverlay.querySelector('#fc-current-num').innerText = this.currentIndex + 1;
     this.modalOverlay.querySelector('#fc-total-num').innerText = this.stats.total;
@@ -152,6 +149,12 @@ class FlashcardsEngine {
 
   flipCard() {
     if (this.isFlipped) return; // already flipped
+    
+    // Update the back of the card just before flipping
+    const currentSign = this.deck[this.currentIndex];
+    this.modalOverlay.querySelector('#fc-title').innerText = (currentSign.code ? currentSign.code + ' - ' : '') + currentSign.name;
+    this.modalOverlay.querySelector('#fc-desc').innerHTML = currentSign.description || '';
+    
     this.isFlipped = true;
     this.modalOverlay.querySelector('#fc-scene').classList.add('is-flipped');
     this.modalOverlay.querySelector('#fc-controls').classList.add('visible');
