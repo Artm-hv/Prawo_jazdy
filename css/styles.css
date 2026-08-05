@@ -2554,11 +2554,34 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 960px) {
-  .main-container {
-    grid-template-columns: 1fr;
+  .navbar {
+    height: auto;
+    padding-bottom: 4px;
+  }
+  .navbar-inner {
+    flex-wrap: wrap;
   }
   .nav-center {
+    width: 100%;
+    order: 3;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 12px 0 8px 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .nav-center::-webkit-scrollbar {
     display: none;
+  }
+  .nav-links {
+    gap: 12px;
+  }
+  .nav-item {
+    white-space: nowrap;
+  }
+  .main-container {
+    grid-template-columns: 1fr;
   }
   .lectures-layout-grid, .exam-layout-grid, .intro-card-inner, .dzial-card-body {
     grid-template-columns: 1fr;
