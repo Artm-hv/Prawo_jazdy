@@ -79,6 +79,21 @@ class CourseEngine {
         this.currentIndex = progress.currentIndex || 0;
         this.selectedGroup = progress.selectedGroup || "all";
         this.selectedStatus = progress.selectedStatus || "all";
+        
+        // MIGRATION: Sync existing course answers to new global stats system
+        if (window.API && API.getGlobalAnswers) {
+          const globalAnswers = API.getGlobalAnswers();
+          Object.keys(this.userAnswers).forEach(qId => {
+            if (globalAnswers[qId] === undefined) {
+              const q = this.questions.find(quest => quest.id == qId);
+              if (q) {
+                const isCorrect = this.checkAnswerCorrect(q, this.userAnswers[qId]);
+                API.recordGlobalAnswer(q.id, isCorrect);
+              }
+            }
+          });
+        }
+        
         this.recalculateCompleted();
       }
 
