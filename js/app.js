@@ -202,8 +202,13 @@ class LMSApp {
     );
 
     // 4. Testy Progress
-    const testsTaken = parseInt(localStorage.getItem('stats_tests_taken') || '0', 10);
-    const testsPassed = parseInt(localStorage.getItem('stats_tests_passed') || '0', 10);
+    let testsTaken = 0;
+    let testsPassed = 0;
+    try {
+      const attempts = JSON.parse(localStorage.getItem("prawo_jazdy_test_attempts") || "[]");
+      testsTaken = attempts.length;
+      testsPassed = attempts.filter(a => a.passed).length;
+    } catch(e) {}
     const testTarget = 50;
     const testsPct = Math.min(Math.round((testsPassed / testTarget) * 100), 100);
 

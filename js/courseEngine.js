@@ -120,8 +120,9 @@ class CourseEngine {
     this.topicCategories.forEach(cat => {
       cat.completed = 0;
     });
+    const globalAnswers = API.getGlobalAnswers();
     this.questions.forEach(q => {
-      if (this.userAnswers[q.id] !== undefined) {
+      if (globalAnswers[q.id] !== undefined) {
         const cat = this.topicCategories.find(c => c.id === q.topic_id);
         if (cat) {
           cat.completed++;
@@ -168,12 +169,13 @@ class CourseEngine {
       result = result.filter(q => q.topic_id == this.selectedGroup);
     }
 
+    const globalAnswers = API.getGlobalAnswers();
     if (this.selectedStatus === "unanswered") {
-      result = result.filter(q => this.userAnswers[q.id] === undefined);
+      result = result.filter(q => globalAnswers[q.id] === undefined);
     } else if (this.selectedStatus === "wrong") {
-      result = result.filter(q => this.userAnswers[q.id] !== undefined && !this.checkAnswerCorrect(q, this.userAnswers[q.id]));
+      result = result.filter(q => globalAnswers[q.id] !== undefined && !globalAnswers[q.id].correct);
     } else if (this.selectedStatus === "passed") {
-      result = result.filter(q => this.userAnswers[q.id] !== undefined && this.checkAnswerCorrect(q, this.userAnswers[q.id]));
+      result = result.filter(q => globalAnswers[q.id] !== undefined && globalAnswers[q.id].correct);
     } else if (this.selectedStatus === "saved") {
       result = result.filter(q => this.savedQuestions.includes(q.id));
     }
@@ -248,6 +250,11 @@ class CourseEngine {
     if (!currentQ) return;
 
     if (this.userAnswers[currentQ.id] !== undefined) return; // already answered
+
+    const isCorrect = this.checkAnswerCorrect(currentQ, answerIdx);
+    
+    // Save to global stats
+    API.recordGlobalAnswer(currentQ.id, isCorrect);
 
     this.userAnswers[currentQ.id] = answerIdx;
     this.recalculateCompleted();

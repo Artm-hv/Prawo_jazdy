@@ -3370,3 +3370,107 @@ input:checked + .slider:before {
   color: var(--primary-purple);
   border-color: var(--primary-purple);
 }
+/* NEW STATS STYLES */
+.card-pass-fail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.gradient-card-green, .gradient-card-red {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.gradient-card-green {
+  background: linear-gradient(135deg, rgba(144, 238, 144, 0.4) 0%, rgba(255, 255, 255, 0.9) 100%);
+  border: 1px solid rgba(144, 238, 144, 0.5);
+  color: #2e7d32;
+}
+
+.gradient-card-green .pill-percentage {
+  background: #fff;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+}
+
+.gradient-card-red {
+  background: linear-gradient(135deg, rgba(255, 82, 82, 0.8) 0%, rgba(255, 255, 255, 0.9) 100%);
+  border: 1px solid rgba(255, 82, 82, 0.5);
+  color: #c62828;
+}
+
+.gradient-card-red .pill-percentage {
+  background: #c62828;
+  color: #fff;
+}
+
+.stats-history-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.history-chart-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 150px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.chart-col {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  position: relative;
+  height: 100%;
+}
+
+.chart-bar {
+  width: 20px;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 5px;
+}
+
+.chart-bar.green {
+  background: linear-gradient(to top, #4caf50, #81c784);
+}
+.chart-bar.red {
+  background: linear-gradient(to top, #f44336, #e57373);
+}
+
+.chart-bar-value {
+  position: absolute;
+  top: -20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.chart-date {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: #666;
+  white-space: nowrap;
+}

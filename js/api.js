@@ -44,7 +44,47 @@ function saveLocalAttempt(attempt) {
   } catch (e) {}
 }
 
+// Global Answers Helpers
+function getTodayString() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 const API = {
+  getGlobalAnswers() {
+    try {
+      return JSON.parse(localStorage.getItem('prawoJazdy_globalAnswers') || '{}');
+    } catch (e) { return {}; }
+  },
+  
+  getDailyStats() {
+    try {
+      return JSON.parse(localStorage.getItem('prawoJazdy_dailyStats') || '{}');
+    } catch (e) { return {}; }
+  },
+
+  recordGlobalAnswer(questionId, isCorrect) {
+    if (!questionId) return;
+    
+    // Update Global Answers map
+    const answers = API.getGlobalAnswers();
+    answers[questionId] = { correct: isCorrect, updated_at: new Date().toISOString() };
+    localStorage.setItem('prawoJazdy_globalAnswers', JSON.stringify(answers));
+
+    // Update Daily Stats tracking
+    const daily = API.getDailyStats();
+    const today = getTodayString();
+    if (!daily[today]) {
+      daily[today] = { correct: 0, wrong: 0 };
+    }
+    if (isCorrect) {
+      daily[today].correct++;
+    } else {
+      daily[today].wrong++;
+    }
+    localStorage.setItem('prawoJazdy_dailyStats', JSON.stringify(daily));
+  },
+
   // 1. Fetch Traffic Signs (Instant local lookup by category)
   async fetchTrafficSigns(category = null) {
     const allSigns = window.TRAFFIC_SIGNS_DATA || [];
@@ -159,13 +199,16 @@ const API = {
         totalScore += pts;
       }
       
-      results.append ? results.push({
+      // Record answer into the new unified stats system
+      API.recordGlobalAnswer(q.id, isCorrect);
+      
+      results.push({
         question_id: q.id,
         is_correct: isCorrect,
         correct_answer: q.correct_answer,
         points_awarded: pts,
         explanation: q.explanation
-      }) : null;
+      });
     });
     
     const passed = totalScore >= 68 || (maxScore < 68 && totalScore === maxScore);
