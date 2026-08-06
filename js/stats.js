@@ -72,6 +72,9 @@ class StatsDashboard {
     const fcProgressPct = totalFc > 0 ? Math.round((knownCount / totalFc) * 100) : 0;
     const unseenCount = Math.max(0, totalFc - knownCount - unknownCount);
 
+    const savedQStr = localStorage.getItem('prawoJazdy_savedQuestions');
+    const savedQuestionsCount = savedQStr ? JSON.parse(savedQStr).length : 0;
+
     this.container.innerHTML = `
       <div class="stats-page-wrapper">
         
@@ -159,8 +162,8 @@ class StatsDashboard {
                 </div>
                 <div class="action-card-info">
                   <div class="action-title">Zapisane pytania</div>
-                  <div class="action-count">0</div>
-                  <a href="#" class="action-link" onclick="event.preventDefault(); window.app.switchTab('testy');">Pokaż pytania →</a>
+                  <div class="action-count">${savedQuestionsCount}</div>
+                  <a href="#" class="action-link" onclick="event.preventDefault(); window.app.switchTab('kurs'); setTimeout(() => { window.courseEngine.onFilterChange('status', 'saved'); }, 50);">Pokaż pytania →</a>
                 </div>
               </div>
             </div>
@@ -173,7 +176,7 @@ class StatsDashboard {
                 <div class="action-card-info">
                   <div class="action-title">Pytania z błędną odpowiedzią</div>
                   <div class="action-count">${testsFailed * 5}</div>
-                  <a href="#" class="action-link" onclick="event.preventDefault(); window.app.switchTab('testy');">Pokaż pytania →</a>
+                  <a href="#" class="action-link" onclick="event.preventDefault(); window.app.switchTab('kurs'); setTimeout(() => { window.courseEngine.onFilterChange('status', 'wrong'); }, 50);">Pokaż pytania →</a>
                 </div>
               </div>
             </div>
@@ -186,7 +189,7 @@ class StatsDashboard {
                 <div class="action-card-info">
                   <div class="action-title">Pytania na które nie została udzielona odpowiedź</div>
                   <div class="action-count">${Math.max(0, totalQuestionsBank - answeredQuestions)}</div>
-                  <a href="#" class="action-link" onclick="event.preventDefault(); window.app.switchTab('testy');">Pokaż pytania →</a>
+                  <a href="#" class="action-link" onclick="event.preventDefault(); window.app.switchTab('kurs'); setTimeout(() => { window.courseEngine.onFilterChange('status', 'unanswered'); }, 50);">Pokaż pytania →</a>
                 </div>
               </div>
             </div>

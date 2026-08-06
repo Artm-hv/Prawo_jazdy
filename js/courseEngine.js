@@ -21,9 +21,18 @@ class CourseEngine {
       });
       
       mod.questions.forEach((q, idx) => {
+        let officialId = `${mod.id}-${idx}`;
+        if (q.mediaUrl) {
+           const match = q.mediaUrl.match(/\/(\d+)\.(jpg|mp4)/);
+           if (match) {
+             officialId = match[1];
+           }
+        }
+        
         this.questions.push({
           ...q,
-          id: `${mod.id}-${idx}`,
+          id: `${mod.id}-${idx}`, // keep generated id for stable storage keys
+          officialId: officialId,
           topic_id: mod.id,
           topic_title: mod.title
         });
@@ -40,10 +49,85 @@ class CourseEngine {
     this.searchQuery = "";
     this.isFilterCollapsed = false;
 
+    this.isFullscreen = false;
+    this.savedQuestions = [];
+
     window.courseEngine = this;
     
     // Debounce timer for search
     this.searchTimeout = null;
+    
+    this.loadProgress();
+  }
+
+  saveProgress() {
+    const progress = {
+      userAnswers: this.userAnswers,
+      currentIndex: this.currentIndex,
+      selectedGroup: this.selectedGroup,
+      selectedStatus: this.selectedStatus
+    };
+    localStorage.setItem('prawoJazdy_courseProgress', JSON.stringify(progress));
+  }
+
+  loadProgress() {
+    try {
+      const saved = localStorage.getItem('prawoJazdy_courseProgress');
+      if (saved) {
+        const progress = JSON.parse(saved);
+        this.userAnswers = progress.userAnswers || {};
+        this.currentIndex = progress.currentIndex || 0;
+        this.selectedGroup = progress.selectedGroup || "all";
+        this.selectedStatus = progress.selectedStatus || "all";
+        this.recalculateCompleted();
+      }
+
+      const savedQ = localStorage.getItem('prawoJazdy_savedQuestions');
+      if (savedQ) {
+        this.savedQuestions = JSON.parse(savedQ);
+      }
+    } catch (e) {
+      console.error("Error loading course progress", e);
+    }
+  }
+
+  toggleSaveQuestion() {
+    const currentQ = this.filteredQuestions[this.currentIndex];
+    if (!currentQ) return;
+    
+    const idx = this.savedQuestions.indexOf(currentQ.id);
+    if (idx === -1) {
+      this.savedQuestions.push(currentQ.id);
+    } else {
+      this.savedQuestions.splice(idx, 1);
+    }
+    localStorage.setItem('prawoJazdy_savedQuestions', JSON.stringify(this.savedQuestions));
+    this.render();
+  }
+
+  toggleFullscreen() {
+    this.isFullscreen = !this.isFullscreen;
+    const wrapper = document.getElementById("course-practice-stage");
+    if (this.isFullscreen) {
+      if (wrapper) wrapper.classList.add("fullscreen-mode");
+    } else {
+      if (wrapper) wrapper.classList.remove("fullscreen-mode");
+    }
+    this.render();
+  }
+
+  recalculateCompleted() {
+    this.topicCategories.forEach(cat => {
+      cat.completed = 0;
+    });
+    this.questions.forEach(q => {
+      if (this.userAnswers[q.id] !== undefined) {
+        const cat = this.topicCategories.find(c => c.id === q.topic_id);
+        if (cat) {
+          cat.completed++;
+        }
+      }
+    });
   }
 
   loadCourseView() {
@@ -53,8 +137,32 @@ class CourseEngine {
 
 
 
+  getMixedQuestions() {
+    if (!this.mixedOrderIds) {
+      let stored = localStorage.getItem('prawoJazdy_mixedOrder');
+      if (stored) {
+        this.mixedOrderIds = JSON.parse(stored);
+      } else {
+        let ids = this.questions.map(q => q.id);
+        for (let i = ids.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [ids[i], ids[j]] = [ids[j], ids[i]];
+        }
+        this.mixedOrderIds = ids;
+        localStorage.setItem('prawoJazdy_mixedOrder', JSON.stringify(this.mixedOrderIds));
+      }
+    }
+    
+    if (!this.questionsMap) {
+      this.questionsMap = {};
+      this.questions.forEach(q => this.questionsMap[q.id] = q);
+    }
+    
+    return this.mixedOrderIds.map(id => this.questionsMap[id]).filter(Boolean);
+  }
+
   applyFilters() {
-    let result = [...this.questions];
+    let result = this.selectedGroup === "all" ? this.getMixedQuestions() : [...this.questions];
 
     if (this.selectedGroup !== "all") {
       result = result.filter(q => q.topic_id == this.selectedGroup);
@@ -66,6 +174,8 @@ class CourseEngine {
       result = result.filter(q => this.userAnswers[q.id] !== undefined && !this.checkAnswerCorrect(q, this.userAnswers[q.id]));
     } else if (this.selectedStatus === "passed") {
       result = result.filter(q => this.userAnswers[q.id] !== undefined && this.checkAnswerCorrect(q, this.userAnswers[q.id]));
+    } else if (this.selectedStatus === "saved") {
+      result = result.filter(q => this.savedQuestions.includes(q.id));
     }
 
     if (this.searchQuery.trim() !== "") {
@@ -90,6 +200,7 @@ class CourseEngine {
     this.selectedGroup = groupId;
     this.applyFilters();
     this.currentIndex = 0;
+    this.saveProgress();
     this.render();
     const stage = document.getElementById("course-practice-stage");
     if (stage) stage.scrollIntoView({ behavior: "smooth" });
@@ -109,7 +220,9 @@ class CourseEngine {
     if (type === "group") this.selectedGroup = value;
     if (type === "status") this.selectedStatus = value;
 
+    this.currentIndex = 0; // Reset index when explicitly changing filters
     this.applyFilters();
+    this.saveProgress();
     this.triggerStageTransition();
   }
 
@@ -137,12 +250,15 @@ class CourseEngine {
     if (this.userAnswers[currentQ.id] !== undefined) return; // already answered
 
     this.userAnswers[currentQ.id] = answerIdx;
+    this.recalculateCompleted();
+    this.saveProgress();
     this.render(); // Immediate render for answer selection feedback (no fade needed)
   }
 
   nextQuestion() {
     if (this.currentIndex < this.filteredQuestions.length - 1) {
       this.currentIndex++;
+      this.saveProgress();
       this.triggerStageTransition();
     }
   }
@@ -150,6 +266,7 @@ class CourseEngine {
   prevQuestion() {
     if (this.currentIndex > 0) {
       this.currentIndex--;
+      this.saveProgress();
       this.triggerStageTransition();
     }
   }
@@ -170,10 +287,13 @@ class CourseEngine {
     const totalAnswered = Object.keys(this.userAnswers).length;
 
     // Answer Buttons HTML
+    const isYesNo = currentQ.answers.length === 2 && currentQ.answers.every(a => a.text.toLowerCase() === 'tak' || a.text.toLowerCase() === 'nie');
+    const containerClass = isYesNo ? 'exam-answers-row-2' : 'exam-answers-col-3';
+
     let answerButtonsHtml = `
-      <div class="exam-answers-col-3">
+      <div class="${containerClass}">
         ${currentQ.answers.map((ans, idx) => {
-          let btnClass = "btn-answer-spec";
+          let btnClass = isYesNo ? 'btn-answer-tak' : 'btn-answer-spec';
           let icon = "";
           if (isAnswered) {
             if (ans.isCorrect) {
@@ -184,6 +304,10 @@ class CourseEngine {
               icon = "✕ ";
             }
           }
+          if (isAnswered && idx === userAnsIdx) {
+            btnClass += " selected";
+          }
+          
           return `
             <button class="${btnClass}" onclick="window.courseEngine.selectAnswer(${idx})" ${isAnswered ? 'disabled' : ''}>
               ${icon} ${ans.text}
@@ -274,6 +398,7 @@ class CourseEngine {
                   <option value="unanswered" ${this.selectedStatus === 'unanswered' ? 'selected' : ''}>Na które jeszcze nie została udzielona odpowiedź</option>
                   <option value="wrong" ${this.selectedStatus === 'wrong' ? 'selected' : ''}>Z błędną odpowiedzią</option>
                   <option value="passed" ${this.selectedStatus === 'passed' ? 'selected' : ''}>Zaliczone</option>
+                  <option value="saved" ${this.selectedStatus === 'saved' ? 'selected' : ''}>Zapisane (додані в закладки)</option>
                   <option value="all" ${this.selectedStatus === 'all' ? 'selected' : ''}>Wszystkie</option>
                 </select>
               </div>
@@ -342,7 +467,7 @@ class CourseEngine {
               <span class="info-icon">ℹ</span>
               <div class="official-id-text">
                 Oficjalne pytanie egzaminacyjne z aktualnej bazy 2026<br>
-                <strong>ID PYTANIA: ${currentQ.id || 3456}</strong>
+                <strong>ID PYTANIA: ${currentQ.officialId || currentQ.id}</strong>
               </div>
             </div>
 
@@ -363,9 +488,30 @@ class CourseEngine {
                 Następne →
               </button>
             </div>
+
+            <!-- Action Buttons -->
+            <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 16px;">
+              ${(() => {
+                const isSaved = this.savedQuestions.includes(currentQ.id);
+                return `
+                  <button class="exam-action-btn ${isSaved ? 'saved' : ''}" onclick="window.courseEngine.toggleSaveQuestion()">
+                    <i>🔖</i> ${isSaved ? 'Usuń z zapisanych' : 'Zapisz pytanie'}
+                  </button>
+                `;
+              })()}
+              <button class="exam-action-btn" onclick="window.courseEngine.toggleFullscreen()">
+                <i>⛶</i> ${this.isFullscreen ? 'Zamknij pełny ekran' : 'Pełny ekran'}
+              </button>
+            </div>
           </div>
 
         </div>
+
+        ${this.isFullscreen ? `
+          <button class="btn-close-fullscreen" onclick="window.courseEngine.toggleFullscreen()">
+            ⛶ ZAMKNIJ PEŁNY EKRAN
+          </button>
+        ` : ''}
 
         <!-- 3. Twoje Postępy Grid (Matching image_c3d7c5.jpg) -->
         <div class="course-postepy-section">
