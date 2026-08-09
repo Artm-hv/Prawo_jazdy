@@ -358,8 +358,10 @@ class CourseEngine {
     let explanationHtml = '';
     if (isAnswered && currentQ.explanation) {
       explanationHtml = `
-        <div class="explanation-box" style="margin-top: 20px; padding: 20px; background: rgba(108, 92, 231, 0.05); border-left: 4px solid #6C5CE7; border-radius: 8px;">
-          <h4 style="margin:0 0 10px 0; color:#6C5CE7;">Objaśnienie</h4>
+        <div class="s-explanation">
+          <div class="explanation-head">
+              <h2>Wyjaśnienie</h2>
+          </div>
           ${currentQ.explanation}
         </div>
       `;

@@ -1,0 +1,644 @@
+
+    <div class="container">
+        <div class="u-panel learn" style="position:relative">
+
+
+            <div class="menu-xs">
+                <div>
+                    <div class="fx-c g-8">
+                        <span class="label s">
+                            Odpowiedziano na <span class="green">1195</span> z <span class="green">2185</span> pytań
+                        </span>
+                        <div class="progress">
+                            <div class="bar" style="width:54%"></div>
+                            <span class="value">1195/2185</span>
+                        </div>
+                    </div>
+
+                    <div class="fx-c g-8">
+                        <span class="label s">Twoje odpowiedzi</span>
+
+
+                            <span class="question-stats">
+                                    <i class="icon-check"></i>
+                            </span>
+                    </div>
+                </div>
+                <div>
+                    
+<div class="question-options">
+    <div class="category has-sub">
+        
+<span>
+    B
+</span>
+<ul class="sub select-category">
+    <li><span data-category="A">A</span></li>
+    <li><span data-category="AM">AM</span></li>
+    <li><span data-category="A1">A1</span></li>
+    <li><span data-category="A2">A2</span></li>
+    <li><span data-category="B">B</span></li>
+    <li><span data-category="B1">B1</span></li>
+    <li><span data-category="C">C</span></li>
+    <li><span data-category="C1">C1</span></li>
+    <li><span data-category="D">D</span></li>
+    <li><span data-category="D1">D1</span></li>
+    <li><span data-category="T">T</span></li>
+</ul>
+
+<script>
+    if (typeof bindSelectCategory === 'function') {
+        bindSelectCategory();
+    }
+</script>
+    </div>
+    <div class="option tooltip loading" id="btn-save-question-xs">
+        <i class="icon-bookmark circle"></i>
+            <span class="tooltip-text">Zapamiętane pytanie znajdziesz w zakładce "Kurs"</span>
+    </div>
+    <div class="option" id="btn-refresh-xs">
+        <i class="icon-refresh circle"></i>
+    </div>
+    <div class="option" onclick="showAskModal();">
+        <i class="icon-chat circle"></i>
+    </div>
+    <div class="option" id="btn-fullscreen-xs">
+        <i class="icon-maximize circle"></i> <span class="hidden show-sm"><span class="is-not">Pełny ekran</span><span class="is">Zamknij pełny ekran</span></span>
+    </div>
+</div>
+<span class="more" id="btn-question-menu">Więcej</span>
+
+<script>
+    $("#btn-question-menu").on("click", function () {
+        if (typeof test !== 'undefined') {
+            test.isMenuOpen = true;
+            $("#question-menu").modal("show", "flex", function () {
+                test.isMenuOpen = false;
+            });
+        }
+        else {
+            $("#question-menu").modal("show", "flex");
+        }
+    });
+</script>
+                </div>
+            </div>
+            <div class="menu modal-menu" id="question-menu">
+                <div class="top">
+                    <div class="close-circle modal-close">
+                        <i class="icon-x"></i>
+                    </div>
+                    <div class="fx fx-ac g-8">
+                        <span class="label s">Kategoria</span>
+                        <div class="label box has-sub">
+                            
+<span>
+    B
+</span>
+<ul class="sub select-category">
+    <li><span data-category="A">A</span></li>
+    <li><span data-category="AM">AM</span></li>
+    <li><span data-category="A1">A1</span></li>
+    <li><span data-category="A2">A2</span></li>
+    <li><span data-category="B">B</span></li>
+    <li><span data-category="B1">B1</span></li>
+    <li><span data-category="C">C</span></li>
+    <li><span data-category="C1">C1</span></li>
+    <li><span data-category="D">D</span></li>
+    <li><span data-category="D1">D1</span></li>
+    <li><span data-category="T">T</span></li>
+</ul>
+
+<script>
+    if (typeof bindSelectCategory === 'function') {
+        bindSelectCategory();
+    }
+</script>
+                        </div>
+                    </div>
+                    <div class="fx-c g-8">
+                        <span class="fx fx-sb fx-ac" style="position:relative">
+                            <span class="label s ">
+                                Odpowiedziano na <span class="green">1195</span> z <span class="green">2185</span> pytań
+                            </span>
+                            <span class="tooltip" style="position:unset;cursor:pointer">
+                                <span class="circle" style="width:16px;height:16px;font-size:12px">?</span>
+
+                                <span class="tooltip-text tooltip-bottom tooltip-100">
+                                    Twój całkowity postęp obejmujący wszystkie pytania z całej bazy.
+                                </span>
+                            </span>
+                        </span>
+                        <div class="progress">
+                            <div class="bar" style="width:54%"></div>
+                            <span class="value">1195/2185</span>
+                        </div>
+                    </div>
+
+                    
+<div class="question-info">
+    <div class="id">
+        <i class="circle-gradient icon-info"></i>
+        <div class="title">
+            Oficjalne pytanie egzaminacyjne<br /> z aktualnej bazy 2026
+            <span>id pytania: 2091</span>
+        </div>
+    </div>
+        <div class="fx-c g-8">
+            <span class="label s">Twoje odpowiedzi</span>
+
+                <span class="question-stats">
+                        <i class="icon-check"></i>
+                    <button class="btn link" id="btn-show-stats" title="Pokaż wszystkie"><span>Pokaż wszystkie</span> <i class="icon-arrow-right"></i></button>
+                </span>
+        </div>
+</div>
+<div class="question-options">
+    
+<div class="option tooltip loading" id="btn-save-question">
+    <i class="icon-bookmark circle"></i> <span class="save">Zapisz pytanie</span><span class="saved">Zapisano</span>
+
+        <span class="tooltip-text">Zapamiętane pytanie znajdziesz w zakładce "Kurs"</span>
+</div>
+
+    <script>
+        function initRemember(result) {
+            $("#btn-save-question, #btn-save-question-xs").each(function (el) {
+                el.classList.remove("loading");
+
+                if (result)
+                    el.classList.add("active");
+                else
+                    el.classList.remove("active");
+            });
+        }
+
+        $.ajax({
+            url: '/user/is-question-remembered',
+            request: 'json',
+            response: 'json',
+            data: 2091,
+            success: function (result) {
+                initRemember(result);
+            }
+        });
+
+
+        $("#btn-save-question, #btn-save-question-xs").on("click", function () {
+            loader.show();
+
+            $.ajax({
+                url: '/user/remember-question',
+                request: 'json',
+                response: 'json',
+                data: 2091,
+                success: function (result) {
+                    initRemember(result);
+                },
+                complete: function () {
+                    loader.hide();
+                }
+            });
+        });
+    </script>
+
+    <div class="option" id="btn-refresh">
+        <i class="icon-refresh circle"></i> Odśwież pytanie
+    </div>
+    <div class="option" id="btn-ask" onclick="showAskModal();">
+        <i class="icon-chat circle"></i> Zadaj pytanie
+    </div>
+    <div class="option" id="btn-fullscreen">
+        <i class="icon-maximize circle"></i> <span class="is-not">Pełny ekran</span><span class="is">Zamknij pełny ekran</span>
+    </div>
+    <div class="option" id="btn-minimize">
+        <i class="icon-minimize circle"></i> Zamknij pełny ekran
+    </div>
+</div>
+
+
+<script>
+    $("#btn-fullscreen, #btn-fullscreen-xs, #btn-minimize").on("click", async function () {
+        await toggleFullscreen();
+    });
+
+    $("#btn-refresh,#btn-refresh-xs").on("click", function () {
+        refreshQuestion();
+    });
+</script>
+
+
+ 
+                </div>
+                <button type="button" class="btn md light" id="btn-next">Następne pytanie <i class="icon-arrow-right"></i></button>
+
+            </div>
+            
+<input type="hidden" id="quid" value="2091" />
+
+
+<div id="partial-ask" data-loaded="false"></div>
+
+<script>
+    showAskModal = function (initialMessage) {
+        const fillMessage = function () {
+            if (!initialMessage) return;
+            try {
+                const askForm = document.getElementById('form-ask');
+                const askMessageField = askForm?.querySelector('textarea[name="Message"]');
+
+                if (askMessageField && !askMessageField.value) {
+                    askMessageField.value = initialMessage;
+                }
+            } catch { }
+        };
+
+        loader.show();
+        $.ajax({
+            url: '/question/load-ask',
+            request: 'json',
+            response: 'text',
+            data: 2091,
+            success: function (response) {
+                $("#partial-ask").html(`<div id="modal-ask" class="modal"><div class="dialog g-16"><i class="modal-close icon-x"></i>${response}</div></div>`);
+                $("#modal-ask").modal("show");
+                fillMessage();
+            },
+            complete: function () {
+                loader.hide();
+            }
+        });
+    }
+</script>
+
+
+<div class="question fx-c">
+            <picture>
+                <source srcset="https://www.prawo-jazdy-360.pl/static/image/2091.webp" type="image/webp">
+                <img src="https://www.prawo-jazdy-360.pl/static/images/2091.jpg" alt="Czy w przedstawionej sytuacji jeste&#x15B; ostrzegany o dw&#xF3;ch niebezpiecznych zakr&#x119;tach?" title="Czy w przedstawionej sytuacji jeste&#x15B; ostrzegany o dw&#xF3;ch niebezpiecznych zakr&#x119;tach?" decoding="async" class="img-responsive media-img" fetchpriority="high" height="576" width="1024">
+            </picture>
+    <div class="name fx-c">
+        Czy w przedstawionej sytuacji jesteś ostrzegany o dwóch niebezpiecznych zakrętach?
+    </div>
+    <div id="question-answers" class="answers fx g-10 basic  ">
+                <input type="radio" name="answers" id="answer-0" data-id="3601"   />
+                <label id="lbl-answer-0" for="answer-0" class="" data-value="0">
+                    
+                    tak
+                    
+                </label>
+                <input type="radio" name="answers" id="answer-1" data-id="3602"   />
+                <label id="lbl-answer-1" for="answer-1" class="" data-value="1">
+                    
+                    nie
+                    
+                </label>
+    </div>
+</div>
+
+
+            <button type="button" class="btn md light" id="btn-next-xs">Następne pytanie <i class="icon-arrow-right"></i></button>
+        </div>
+        
+
+        
+
+    <section id="explanation" class="s-explanation fx-c fx-ac g-30 is-hidden">
+        <div class="explanation fx-c g-30">
+            <div class="h3">
+                    <h2>Wyjaśnienie</h2>
+            </div>
+
+                <button id="btn-show-explanation" type="button" class="btn md">Pokaż wyjaśnienie <i class="icon-eye"></i></button>
+                <script>
+                    function showExplanation() {
+                        let btn = document.getElementById("btn-show-explanation");
+
+                        if (btn)
+                            btn.remove();
+
+                        document.getElementById("explanation").classList.remove("is-hidden");
+
+                    }
+                    document.getElementById("btn-show-explanation").addEventListener("click", showExplanation);
+                </script>
+
+            <div class="contents fx-c g-16">
+
+
+                    <div class="fx-c g-8">
+                        <div class="explanation-head fx g-12 fx-ac fx-sb">
+                            <div class="fx fx-ac g-10">
+                                <i class="icon-play"></i>
+                                <h3>Wyjaśnienie wideo</h3>
+                            </div>
+                            <span class="badge-new">Nowość</span>
+                        </div>
+                        
+
+<div class="vid-wrap">
+    <video id="video-2382351f6055492fb43c5af0daff1e60"
+           preload="none"
+           poster="https://assets.prawo-jazdy-360.pl/wyjasnienia-do-pytan-egzaminacyjnych/2091/2091.jpg"
+           playsinline="true"
+           controls>
+    </video> 
+    <div class="play-container fx fx-center" id="play-2382351f6055492fb43c5af0daff1e60">
+        <button class="fx fx-center">
+            <div class="triangle"></div>
+        </button>
+    </div>
+</div>
+
+ <script>
+     (function () {
+        "use strict";
+
+        const video = document.getElementById("video-2382351f6055492fb43c5af0daff1e60");
+        const playBtn = document.getElementById("play-2382351f6055492fb43c5af0daff1e60");
+        const questionId = '2091';
+        const langStr = 'pl';
+        const basePath = 'https://assets.prawo-jazdy-360.pl/wyjasnienia-do-pytan-egzaminacyjnych';
+
+        const subtitles = [
+            { label: "Polski", srclang: "pl" },
+            { label: "English", srclang: "en" },
+            { label: "Українська", srclang: "uk" },
+            { label: "Deutsch", srclang: "de" },
+            { label: "Русский", srclang: "ru" }
+        ];
+
+        function injectSubtitles() {
+            subtitles.forEach(sub => {
+                const track = document.createElement('track');
+                track.kind = "subtitles";
+                track.label = sub.label;
+                track.srclang = sub.srclang;
+                track.src = `${basePath}/${questionId}/${questionId}_${sub.srclang}.vtt`;
+
+                if (sub.srclang === langStr) {
+                    track.default = true;
+                }
+
+                video.appendChild(track);
+            });
+        }
+
+        function enableSubtitles() {
+            setTimeout(() => {
+                for (let i = 0; i < video.textTracks.length; i++) {
+                    const track = video.textTracks[i];
+                    track.mode = (track.language === langStr) ? 'showing' : 'hidden';
+                }
+            }, 100);
+        }
+
+        function startVideo() {
+            $(playBtn).hide();
+            video.setAttribute('crossorigin', 'anonymous');
+            injectSubtitles();
+
+            const videoSrc = `${basePath}/${questionId}/hls/master.m3u8`;
+            const videoSrcMp4 = `${basePath}/${questionId}/mp4/std/${questionId}.mp4`;
+
+            if (window.Hls) {
+                initHls(videoSrc, videoSrcMp4);
+            } else {
+                const script = document.createElement('script');
+                script.src = "https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.light.min.js";
+                script.onload = () => initHls(videoSrc, videoSrcMp4);
+                document.head.appendChild(script);
+            }
+        }
+
+        function initHls(src, fallback) {
+            if (Hls.isSupported()) {
+                const hls = new Hls();
+                hls.loadSource(src);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    video.play();
+                    enableSubtitles();
+                });
+                hls.on(Hls.Events.ERROR, (event, data) => {
+                    if (data.fatal) useMp4Fallback(fallback);
+                });
+            } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+                video.src = src;
+                video.play();
+                video.addEventListener("loadedmetadata", enableSubtitles);
+            } else {
+                useMp4Fallback(fallback);
+            }
+        }
+
+        function useMp4Fallback(src) {
+            video.src = src;
+            video.load();
+            video.play();
+            video.addEventListener("loadedmetadata", enableSubtitles);
+        }
+
+        $(playBtn).on("click", startVideo);
+    })();
+</script>
+                    </div>
+
+                    <div class="explanation-head fx g-12 fx-ac fx-sb">
+                        <div class="fx fx-ac g-10">
+                            <i class="icon-info"></i>
+                            <h3>Wyjaśnienia eksperta</h3>
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <b> "NIE"</b> - bowiem,  <b>znak ostrzegawczy A-3 ostrzega o dwóch niebezpiecznych zakrętach,</b> z których <u>pierwszy jest w kierunku wskazanym na znaku, a drugi może być zarówno w lewo, jak i w prawo</u>
+<br/>
+<b>Tabliczka T-4 wskazuje liczbę zakrętów</b> - <u>w tym przypadku 3 zakręty</u>
+<br/>
+Jest to miejsce pomimo wyraźnego oznaczenia bardzo niebezpieczne i należy zachować szczególną ostrożność
+                    </div>
+
+                    <div class="fx-c g-16">
+                        <div class="subtitle l">
+                            Znaki drogowe
+                        </div>
+                            <div class="content fx fx-ac g-16" style="padding-top:16px; border-top:1px solid #C9D9D1">
+                                <div class="img">
+                                        <picture>
+                                            <source srcset="/image/znaki-drogowe/A-3-niebezpieczne-zakrety-pierwszy-w-prawo.webp" type="image/webp">
+                                            <img src="/images/znaki-drogowe/A-3-niebezpieczne-zakrety-pierwszy-w-prawo.png" alt="Znaki drogowe A-3" title="Znaki drogowe A-3" data-id="3">
+                                        </picture>
+                                </div>
+
+                                <div>
+                                    <b>Znaki ostrzegawcze >  A-3 - Niebezpieczne zakr&#x119;ty, pierwszy w prawo</b>
+                                    <br /><br />
+                                    <div class="roadsign-desc">
+                                        Ostrzega o dwóch niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku, a drugi może być zarówno w lewo, jak i w prawo. <br/>Może występować z tabliczką T-4 lub T-5.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content fx fx-ac g-16" style="padding-top:16px; border-top:1px solid #C9D9D1">
+                                <div class="img">
+                                        <picture>
+                                            <source srcset="/image/znaki-drogowe/T-4-liczba-zakretow.webp" type="image/webp">
+                                            <img src="/images/znaki-drogowe/T-4-liczba-zakretow.png" alt="Znaki drogowe T-4" title="Znaki drogowe T-4" data-id="267">
+                                        </picture>
+                                </div>
+
+                                <div>
+                                    <b>Tabliczki do znak&#xF3;w drogowych >  T-4 </b>
+                                    <br /><br />
+                                    <div class="roadsign-desc">
+                                        Tabliczka wskazująca liczbę zakrętów.
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="explanation-head fx g-12 fx-ac fx-sb">
+                        <div class="fx fx-ac g-10">
+                            <i class="icon-chat"></i>
+                            <h3>FAQ -  Najczęściej zgłaszane pytania</h3>
+                        </div>
+                    </div>
+                    
+
+    <div class="fx-c g-16">
+        <div class="fx-c g-12">
+                <div class="faq-item">
+                    <div class="faq-q">
+                        <span class="faq-q-icon">?</span>
+                        <span class="faq-q-text">Co oznacza znak A-3 widoczny na zdj&#x119;ciu?</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Znak <strong>A-3</strong> ostrzega o <strong>dwóch niebezpiecznych zakrętach</strong>, z których pierwszy jest w kierunku wskazanym na znaku, a drugi może być zarówno w lewo, jak i w prawo. Na zdjęciu pierwszy zakręt jest w <strong>prawo</strong>, co wynika z kierunku strzałki na znaku.</p>
+
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">
+                        <span class="faq-q-icon">?</span>
+                        <span class="faq-q-text">Co oznacza tabliczka T-4 umieszczona pod znakiem A-3?</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Tabliczka <strong>T-4</strong> informuje o <strong>liczbie zakrętów na odcinku drogi</strong>, przed którym ustawiono znak. W tym przypadku liczba <strong>3</strong> oznacza, że kierowca będzie musiał pokonać <strong>trzy niebezpieczne zakręty</strong>, a nie dwa.</p>
+
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">
+                        <span class="faq-q-icon">?</span>
+                        <span class="faq-q-text">Czy znak A-3 z tabliczk&#x105; T-4 ostrzega o dw&#xF3;ch zakr&#x119;tach?</span>
+                    </div>
+                    <div class="faq-a">
+                        <p>Nie. Choć sam znak A-3 odnosi się do dwóch zakrętów, to <strong>tabliczka T-4 zmienia jego znaczenie</strong>, wskazując, że <strong>zakrętów jest więcej</strong> – w tym przypadku trzy. Dlatego poprawna odpowiedź w pytaniu egzaminacyjnym to <strong>„nie”</strong>.</p>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+            </div>
+        </div>
+            <div class="f-group">
+                <input id="chck-show-explanation" type="checkbox"  />
+                <label for="chck-show-explanation">Zawsze pokazuj wyjaśnienie</label>
+            </div>
+            <script>
+                $("#chck-show-explanation").on("change", function () {
+                    $.ajax({
+                        url: '/user/preferences',
+                        request: 'json',
+                        response: 'json',
+                        data: {
+                            type: 1,
+                            value: this.checked
+                        }
+                    });
+                });
+            </script>
+            
+
+<form class="fx-c fx-ac g-20" id="form-explanation" role="form" action="" method="post">
+    <span class="subtitle l">
+        Czy to wytłumaczenie było pomocne?
+    </span>
+
+    <div class="f-group row center">
+        <input type="radio" class="btn-radio" id="is-satisfied-true" value="true" data-val="true" data-val-required="Pole wymagane" name="IsSatisfied">
+        <label for="is-satisfied-true" class="btn light subtitle">tak <i class="icon-thumbs-up"></i></label>
+
+        <input type="radio" class="btn-radio" id="is-satisfied-false" value="false" name="IsSatisfied">
+        <label for="is-satisfied-false" class="btn light subtitle">nie <i class="icon-thumbs-down"></i></label>
+        <span class="invalid">Proszę wybrać tak/nie</span>
+    </div>
+    <div class="f-group">
+        <label for="Message">Co moglibyśmy poprawić w tym wyjaśnieniu?</label>
+        <textarea class="f-control" placeholder="Wiadomość" rows="10" data-val="true" data-val-required="Pole wymagane" id="Message" name="Message">
+</textarea>
+        <span class="invalid field-validation-valid" data-valmsg-for="Message" data-valmsg-replace="true"></span>
+    </div>
+    
+
+
+    <input type="hidden" data-val="true" data-val-required="The QuestionId field is required." id="QuestionId" name="QuestionId" value="2091" />
+    <div class="f-group right">
+        <button type="button" class="btn md" id="btn-explanation">Wyślij wiadomość</button>
+    </div>
+    <div id="explanation-response" style="display:none">
+    </div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8L8lUAJRcPlNsAEEGYb_Po_MA-fo_Mk6TUntVmpWG3nYqxOwgVIaZkIoQTu6kF5U6hLDdb-R9lfNi2K4eO2dArzIymW6gqcXrpXc4-D85barlRdcfHsHBA2Iw-irsCfKwlUmn-khbcAhM5oF8GHBn6MsOVZ1cyJXwKMae9adwdEjORx5ogj7lh8eaIOd_n3KtQ" /></form>
+<script>
+    if (typeof validator !== 'undefined')
+        validator.scan(document.getElementById('form-explanation'));
+
+    $("#btn-explanation").on("click", function (e) {
+        $("#explanation-response").hide();
+        let form = document.getElementById('form-explanation');
+
+        if (validator.isValid(form)) {
+            if(document.getElementById('is-satisfied-true').checked){
+                loader.show();
+
+                $.ajax({
+                    url: '/question/explanation',
+                    response: 'text',
+                    data: new FormData(form),
+                    success: function () {
+                        form.reset();
+                        $("#explanation-response").html("<span class='f-l'>Dziękujemy za wiadomość! Nasz zespół przeanalizuje Twoją wiadomość i wkrótce się z Tobą skontaktuje.</span>").show();
+                    },
+                    error: function () {
+                        $("#explanation-response").html("<span class='field-validation-error invalid'>Coś poszło nie tak. Spróbuj ponownie.</span>").show();
+                    },
+                    complete: function () {
+                        loader.hide();
+                    }
+                });
+            }
+            else{
+                showAskModal(form.querySelector('textarea[name="Message"]').value);
+            }
+        }
+    });
+</script>
+
+
+    </section>
+
+    </div>
+    <script>
+        $("#btn-next, #btn-next-xs").on("click", function () {
+            fetchQuestion(null, false);
+        });
+
+        $("#question-answers input").on("change", function () {
+            answerQuestion(this);
+        });
+
+        $("#btn-show-stats").on("click", function () {
+            fetchStats();
+        });
+    </script>
