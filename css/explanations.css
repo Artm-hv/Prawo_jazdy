@@ -41,7 +41,7 @@
 }
 .vid-wrap {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     border-radius: 12px;
     overflow: hidden;
@@ -53,7 +53,7 @@
     width: 100%;
     display: block;
 }
-.explanation .text {
+.s-explanation .text {
     background-color: #FFF;
     border-radius: 8px;
     padding: 20px;
