@@ -24,6 +24,11 @@ window.getMediaUrl = function(url) {
             const id = url.split('/').pop().split('.')[0];
             return `https://assets.prawo-jazdy-360.pl/wyjasnienia-do-pytan-egzaminacyjnych/${id}/thumbnails/thumb_0000.jpg`;
         }
+        if (url.startsWith('assets/Szkolenie/')) {
+            const filename = url.split('/').pop();
+            const id = filename.split('.')[0];
+            return `https://assets.prawo-jazdy-360.pl/szkolenie-teoretyczne-online/${id}/pl/mp4/std/${id}.mp4`;
+        }
         if (url.startsWith('assets/Znaki_Drogowe/')) {
             const filename = url.split('/').pop();
             if (filename.endsWith('.webp')) {
