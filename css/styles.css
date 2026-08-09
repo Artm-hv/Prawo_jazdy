@@ -1214,13 +1214,44 @@ html, body {
   text-align: left;
   cursor: pointer;
   transition: all 0.2s ease;
-  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .btn-answer-spec:hover, .btn-answer-spec.selected {
   border-color: var(--primary-purple);
   background: var(--primary-purple-light);
   color: var(--primary-purple);
+}
+.btn-answer-spec:hover .answer-letter-circle {
+  background: var(--primary-purple);
+  color: white;
+}
+
+/* Letter circles (A, B, C) */
+.answer-letter-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  border-radius: 50%;
+  background: #e5e7eb;
+  color: #374151;
+  font-weight: 800;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.btn-answer-spec.correct .answer-letter-circle {
+  background: var(--color-correct);
+  color: white;
+}
+.btn-answer-spec.wrong .answer-letter-circle {
+  background: var(--color-wrong);
+  color: white;
 }
 
 .exam-right-sidebar {

@@ -330,6 +330,8 @@ class CourseEngine {
     const isYesNo = currentQ.answers.length === 2 && currentQ.answers.every(a => a.text.toLowerCase() === 'tak' || a.text.toLowerCase() === 'nie');
     const containerClass = isYesNo ? 'exam-answers-row-2' : 'exam-answers-col-3';
 
+    const letters = ['A', 'B', 'C'];
+
     let answerButtonsHtml = `
       <div class="${containerClass}">
         ${currentQ.answers.map((ans, idx) => {
@@ -348,9 +350,11 @@ class CourseEngine {
             btnClass += " selected";
           }
           
+          const letterCircle = !isYesNo ? `<span class="answer-letter-circle">${letters[idx] || ''}</span>` : '';
+
           return `
             <button class="${btnClass}" onclick="window.courseEngine.selectAnswer(${idx})" ${isAnswered ? 'disabled' : ''}>
-              ${icon} ${ans.text}
+              ${letterCircle}${icon} ${ans.text}
             </button>
           `;
         }).join('')}
