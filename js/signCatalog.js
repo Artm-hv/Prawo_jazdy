@@ -160,7 +160,7 @@ class TrafficSignCatalog {
     const tableRowsHtml = this.allSigns.map((sign) => {
       let imageContent = "";
       if (sign.image_url) {
-        imageContent = `<img src="${sign.image_url}" alt="${sign.code || ''} ${sign.name || ''}" class="sign-table-img" loading="lazy" onerror="this.style.display='none';" />`;
+        imageContent = `<img src="${window.getMediaUrl(sign.image_url)}" alt="${sign.code || ''} ${sign.name || ''}" class="sign-table-img" loading="lazy" onerror="this.style.display='none';" />`;
       } else if (sign.svg_icon) {
         imageContent = `<div class="sign-table-svg">${sign.svg_icon}</div>`;
       } else {

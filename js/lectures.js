@@ -247,7 +247,7 @@ class LecturesEngine {
     }).join('');
 
     // Format explanation text with bullet points
-    let formattedExplanation = currentSlide ? currentSlide.contentHtml : '';
+    let formattedExplanation = window.resolveMediaPath(currentSlide ? currentSlide.contentHtml : '<p>Brak treści dla tego slajdu.</p>');
 
     const currentCategory = window.app ? window.app.currentCategory : "B";
     let totalLecturesSlides = 0;
@@ -315,8 +315,8 @@ class LecturesEngine {
             
             <div class="slide-image-stage">
               ${currentSlide && currentSlide.mediaType === 'video' ? 
-                `<video src="${currentSlide.mediaUrl}" controls autoplay style="width:100%; max-height:450px; border-radius:12px; object-fit:cover;"></video>` :
-                `<img src="${currentSlide && currentSlide.mediaUrl ? currentSlide.mediaUrl : 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1000'}" alt="${currentSlide ? currentSlide.title : 'Slajd'}" class="slide-img" style="width:100%; max-height:450px; border-radius:12px; object-fit:cover;" />`
+                `<video src="${window.getMediaUrl(currentSlide.mediaUrl)}" controls autoplay style="width:100%; max-height:450px; border-radius:12px; object-fit:cover;"></video>` :
+                `<img src="${window.getMediaUrl(currentSlide && currentSlide.mediaUrl ? currentSlide.mediaUrl : 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?w=1000')}" alt="${currentSlide ? currentSlide.title : 'Slajd'}" class="slide-img" style="width:100%; max-height:450px; border-radius:12px; object-fit:cover;" />`
               }
               
               <!-- Bottom Scrubber Progress Bar inside Image -->

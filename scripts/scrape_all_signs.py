@@ -1,87 +1,136 @@
-import os
-import json
-import urllib.request
-import urllib.parse
+import requests
 from bs4 import BeautifulSoup
-import sys
+import json
+import os
+import re
+import urllib.request
+import concurrent.futures
 
-# Set stdout encoding for Windows console
-if sys.platform == "win32":
-    sys.stdout.reconfigure(encoding="utf-8")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SIGNS_FILE = os.path.join(BASE_DIR, 'js', 'data', 'signsData.js')
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
-CATEGORIES_MAP = [
-    ("Znaki nakazu", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-nakazu"),
-    ("Znaki zakazu", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-zakazu"),
-    ("Znaki poziome", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-poziome"),
-    ("Znaki dodatkowe", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-dodatkowe"),
-    ("Kontrolki pojazdu", "https://www.prawo-jazdy-360.pl/znaki-drogowe/kontrolki-pojazdu"),
-    ("Znaki informacyjne", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-informacyjne"),
-    ("Znaki ostrzegawcze", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-ostrzegawcze"),
-    ("Znaki uzupełniające", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-uzupelniajace"),
-    ("Sygnalizacja świetlna", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-sygnalizatory-swietlne"),
-    ("Osoba kierująca ruchem", "https://www.prawo-jazdy-360.pl/znaki-drogowe/osoba-kierujaca-ruchem"),
-    ("Tabliczki do znaków drogowych", "https://www.prawo-jazdy-360.pl/znaki-drogowe/tabliczki-do-znakow-drogowych"),
-    ("Znaki kierunku i miejscowości", "https://www.prawo-jazdy-360.pl/znaki-drogowe/znaki-drogowe-kierunku-i-miejscowosci")
-]
-
-def scrape_signs():
-    all_signs = []
+def main():
+    print("Fetching categories...")
+    r = requests.get('https://www.prawo-jazdy-360.pl/znaki-drogowe')
+    soup = BeautifulSoup(r.text, 'html.parser')
     
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-
-    for cat_name, url in CATEGORIES_MAP:
-        print(f"Scraping category: {cat_name} -> {url}")
-        try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req) as resp:
-                html = resp.read().decode("utf-8")
+    # Extract links
+    cat_links = []
+    for a in soup.find_all('a', href=True):
+        if '/znaki-drogowe/' in a['href'] and a['href'] != '/znaki-drogowe':
+            if a['href'] not in [c['url'] for c in cat_links]:
+                cat_links.append({
+                    'title': a.text.strip() if a.text.strip() else a['href'].split('/')[-1].replace('-', ' ').title(),
+                    'url': a['href']
+                })
+    
+    print(f"Found {len(cat_links)} categories.")
+    
+    all_signs_data = []
+    images_to_download = set()
+    
+    for cat in cat_links:
+        cat_url = f"https://www.prawo-jazdy-360.pl{cat['url']}"
+        cat_slug = cat['url'].split('/')[-1]
+        
+        safe_title = cat['title'].encode('ascii', 'replace').decode('ascii')
+        print(f"Processing category: {safe_title} ({cat_slug})")
+        
+        cr = requests.get(cat_url)
+        csoup = BeautifulSoup(cr.text, 'html.parser')
+        
+        signs_in_cat = []
+        
+        # We strictly find the table rows that contain signs to avoid mockups
+        table_rows = csoup.find_all('div', class_='table-row')
+        for row in table_rows:
+            img = row.find('img')
+            if not img:
+                continue
                 
-            soup = BeautifulSoup(html, "html.parser")
-            rows = soup.find_all("div", class_="table-row")
+            src = img.get('src')
+            if not src:
+                continue
+                
+            symbol_div = row.find('div', class_='symbol')
+            sign_id = symbol_div.text.strip() if symbol_div else img.get('title', '').split(' ')[-1]
             
-            cat_count = 0
-            for r in rows:
-                code_el = r.find("h5", class_="clear")
-                img_el = r.find("img")
-                divs = r.find_all("div", recursive=False)
+            name_div = row.find('div', class_='name')
+            sign_name = name_div.text.strip() if name_div else ''
+            
+            desc_div = row.find('div', class_='desc')
+            desc = desc_div.text.strip() if desc_div else ''
+            # Clean up desc
+            desc = re.sub(r'\s+', ' ', desc)
+            
+            filename = src.split('/')[-1]
+            local_png = f"assets/Znaki_Drogowe/{cat_slug}/{filename}"
+            local_webp = local_png.replace('.png', '.webp')
+            
+            signs_in_cat.append({
+                'id': sign_id,
+                'name': sign_name,
+                'description': desc,
+                'imageUrl': local_webp,
+                'fallbackUrl': local_png
+            })
+            
+            images_to_download.add((src, local_png))
+            
+            pic = row.find('picture')
+            if pic:
+                source = pic.find('source')
+                if source and source.get('srcset'):
+                    images_to_download.add((source.get('srcset'), local_webp))
                 
-                code = code_el.get_text(strip=True) if code_el else ""
-                if not code and len(divs) > 0:
-                    code = divs[0].get_text(strip=True)
-                    
-                img_src = ""
-                if img_el:
-                    img_src = img_el.get("src") or img_el.get("srcset") or ""
-                    if img_src and not img_src.startswith("http"):
-                        img_src = f"https://www.prawo-jazdy-360.pl{img_src}"
-                        
-                name = divs[1].get_text(strip=True) if len(divs) > 1 else ""
-                explanation = divs[2].get_text(strip=True) if len(divs) > 2 else name
+        if signs_in_cat:
+            all_signs_data.append({
+                'categoryName': cat_slug.replace('-', ' ').title(),
+                'categorySlug': cat_slug,
+                'signs': signs_in_cat
+            })
+            
+    print(f"Extracted {sum(len(c['signs']) for c in all_signs_data)} signs across {len(all_signs_data)} categories.")
+    
+    # Save JS file
+    js_content = '/* ==========================================================================\n'
+    js_content += '   Prawo Jazdy LMS - Full Road Signs Database\n'
+    js_content += '   ========================================================================== */\n\n'
+    js_content += 'window.SIGNS_DATA = ' + json.dumps(all_signs_data, indent=2, ensure_ascii=False) + ';\n'
+    
+    os.makedirs(os.path.dirname(SIGNS_FILE), exist_ok=True)
+    with open(SIGNS_FILE, 'w', encoding='utf-8') as f:
+        f.write(js_content)
+    print("Saved signsData.js")
+    
+    # Download images
+    def download_img(item):
+        remote_url, local_path = item
+        if not remote_url.startswith('http'):
+            remote_url = f"https://www.prawo-jazdy-360.pl{remote_url}"
+            
+        full_local = os.path.join(BASE_DIR, local_path.replace('/', os.sep))
+        if os.path.exists(full_local) and os.path.getsize(full_local) > 0:
+            return True
+            
+        os.makedirs(os.path.dirname(full_local), exist_ok=True)
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        req = urllib.request.Request(remote_url, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=10) as response, open(full_local, 'wb') as out:
+                out.write(response.read())
+            return True
+        except Exception:
+            return False
 
-                if code or name:
-                    all_signs.append({
-                        "code": code if code else f"{cat_name[:3]}-{cat_count+1}",
-                        "name": name if name else code,
-                        "category": cat_name,
-                        "description": explanation,
-                        "image_url": img_src,
-                        "svg_icon": None
-                    })
-                    cat_count += 1
-            print(f" -> Extracted {cat_count} signs for category {cat_name}")
-        except Exception as e:
-            print(f"Error scraping {cat_name}: {e}")
+    print(f"Downloading {len(images_to_download)} images...")
+    success = 0
+    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as ex:
+        results = ex.map(download_img, images_to_download)
+        for r in results:
+            if r: success += 1
+            
+    print(f"Downloaded {success} images.")
 
-    output_path = os.path.join(os.path.dirname(__file__), "data", "traffic_signs.json")
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(all_signs, f, ensure_ascii=False, indent=2)
-
-    print(f"\n[SUCCESS] Successfully scraped and saved {len(all_signs)} traffic signs to {output_path}")
-    return all_signs
-
-if __name__ == "__main__":
-    scrape_signs()
+if __name__ == '__main__':
+    main()

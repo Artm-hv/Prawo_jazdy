@@ -165,18 +165,79 @@ const API = {
     return progressMap[lessonId];
   },
 
-  // 4. Fetch Exam Questions
-  async fetchExamQuestions(category = "B", limit = 35) {
-    const allQuestions = window.TEST_QUESTIONS_DATA || [];
-    const basicQ = allQuestions.filter(q => q.question_type === "BASIC").slice(0, 20);
-    const specialistQ = allQuestions.filter(q => q.question_type === "SPECIALIST").slice(0, 15);
+  _ensureTestQuestionsLoaded() {
+    if (window.__TEST_QUESTIONS_LOADED_FROM_COURSE) {
+      return;
+    }
+    if (!window.COURSE_DATA) return;
     
-    const combined = [...basicQ, ...specialistQ];
-    return combined.length > 0 ? combined : allQuestions;
+    window.__TEST_QUESTIONS_LOADED_FROM_COURSE = true;
+    window.TEST_QUESTIONS_DATA = [];
+    let globalId = 1;
+    window.COURSE_DATA.forEach(topic => {
+      if (!topic.questions) return;
+      topic.questions.forEach(q => {
+        let question_type = q.answers && q.answers.length === 2 ? "BASIC" : "SPECIALIST";
+        let correct_answer = null;
+        let options = null;
+
+        if (question_type === "BASIC") {
+          const correct = q.answers.find(a => a.isCorrect);
+          if (correct) {
+            correct_answer = correct.text.trim().toUpperCase() === "TAK" ? "TAK" : "NIE";
+          }
+        } else {
+          options = {};
+          const labels = ["A", "B", "C", "D"];
+          q.answers.forEach((ans, idx) => {
+            options[labels[idx]] = ans.text;
+            if (ans.isCorrect) correct_answer = labels[idx];
+          });
+        }
+
+        let realId = globalId++;
+        if (q.mediaUrl) {
+          const match = q.mediaUrl.match(/\/(\d+)\.(jpg|mp4|png|jpeg)$/i);
+          if (match) {
+            realId = parseInt(match[1]);
+          }
+        }
+
+        window.TEST_QUESTIONS_DATA.push({
+          id: realId,
+          category: "B",
+          topic_id: topic.id || "general",
+          question_type: question_type,
+          question_text: q.title,
+          media_url: q.mediaUrl || null,
+          media_type: q.mediaType || "none",
+          correct_answer: correct_answer,
+          points: question_type === "BASIC" ? 3 : 2,
+          options: options,
+          explanation: q.explanation || ""
+        });
+      });
+    });
+  },
+
+  // 4. Fetch Exam Questions
+  async fetchExamQuestions(category = "B", limit = 32) {
+    this._ensureTestQuestionsLoaded();
+    const allQuestions = window.TEST_QUESTIONS_DATA || [];
+    
+    const basicQ = allQuestions.filter(q => q.question_type === "BASIC");
+    const specialistQ = allQuestions.filter(q => q.question_type === "SPECIALIST");
+    
+    const shuffledBasic = basicQ.sort(() => 0.5 - Math.random()).slice(0, 20);
+    const shuffledSpec = specialistQ.sort(() => 0.5 - Math.random()).slice(0, 12);
+    
+    const combined = [...shuffledBasic, ...shuffledSpec];
+    return combined.length > 0 ? combined : allQuestions.slice(0, limit);
   },
 
   // 5. Submit Exam & Calculate Result locally
   async submitExam(answers, testType = "EXAM") {
+    this._ensureTestQuestionsLoaded();
     const allQuestions = window.TEST_QUESTIONS_DATA || [];
     const questionsMap = {};
     allQuestions.forEach(q => { questionsMap[q.id] = q; });

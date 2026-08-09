@@ -285,6 +285,24 @@ class CourseEngine {
     }
   }
 
+  showExplanation() {
+    const el = document.getElementById('s-explanation');
+    if (el) {
+      el.classList.remove('hidden-content');
+      const btn = el.querySelector('.btn-show-explanation');
+      if (btn) btn.remove();
+    }
+  }
+
+  toggleShowExplanationAlways(checkbox) {
+    if (checkbox.checked) {
+      localStorage.setItem('showExplanationAlways', 'true');
+      this.showExplanation();
+    } else {
+      localStorage.setItem('showExplanationAlways', 'false');
+    }
+  }
+
   prevQuestion() {
     if (this.currentIndex > 0) {
       this.currentIndex--;
@@ -312,6 +330,8 @@ class CourseEngine {
     const isYesNo = currentQ.answers.length === 2 && currentQ.answers.every(a => a.text.toLowerCase() === 'tak' || a.text.toLowerCase() === 'nie');
     const containerClass = isYesNo ? 'exam-answers-row-2' : 'exam-answers-col-3';
 
+    const letters = ['A', 'B', 'C'];
+
     let answerButtonsHtml = `
       <div class="${containerClass}">
         ${currentQ.answers.map((ans, idx) => {
@@ -330,9 +350,11 @@ class CourseEngine {
             btnClass += " selected";
           }
           
+          const letterCircle = !isYesNo ? `<span class="answer-letter-circle">${letters[idx] || ''}</span>` : '';
+
           return `
             <button class="${btnClass}" onclick="window.courseEngine.selectAnswer(${idx})" ${isAnswered ? 'disabled' : ''}>
-              ${icon} ${ans.text}
+              ${letterCircle}${icon} ${ans.text}
             </button>
           `;
         }).join('')}
@@ -343,10 +365,10 @@ class CourseEngine {
     let mediaHtml = '';
     if (currentQ.mediaType === 'video') {
       mediaHtml = `
-        <video src="${currentQ.mediaUrl}" controls autoplay muted style="width:100%; border-radius:12px; max-height:400px; object-fit:cover;"></video>
+        <video src="${window.getMediaUrl(currentQ.mediaUrl)}" controls autoplay muted style="width:100%; border-radius:12px; max-height:400px; object-fit:cover;"></video>
       `;
     } else if (currentQ.mediaType === 'image') {
-      mediaHtml = `<img src="${currentQ.mediaUrl}" alt="Ilustracja pytania" class="exam-media-img" style="width:100%; border-radius:12px; object-fit:cover;" />`;
+      mediaHtml = `<img src="${window.getMediaUrl(currentQ.mediaUrl)}" alt="Ilustracja pytania" class="exam-media-img" style="width:100%; border-radius:12px; object-fit:cover;" />`;
     } else {
       mediaHtml = `
         <div class="exam-media-placeholder">
@@ -357,16 +379,41 @@ class CourseEngine {
 
     let explanationHtml = '';
     if (isAnswered && currentQ.explanation) {
+      const showAlways = localStorage.getItem('showExplanationAlways') === 'true';
+      const hiddenClass = showAlways ? '' : 'hidden-content';
+      const blurButtonHtml = showAlways ? '' : `<button class="btn-show-explanation" onclick="window.courseEngine.showExplanation()">Pokaż wyjaśnienie 👁️</button>`;
+
       explanationHtml = `
-        <div class="explanation-box" style="margin-top: 20px; padding: 20px; background: rgba(108, 92, 231, 0.05); border-left: 4px solid #6C5CE7; border-radius: 8px;">
-          <h4 style="margin:0 0 10px 0; color:#6C5CE7;">Objaśnienie</h4>
-          ${currentQ.explanation}
+        <div class="s-explanation ${hiddenClass}" id="s-explanation">
+          <div class="explanation-toggle-bar">
+            <h2 class="h3 font-weight-bold">Wyjaśnienie</h2>
+          </div>
+          
+          <div class="explanation-content-inner" style="position: relative;">
+            ${blurButtonHtml}
+            ${window.resolveMediaPath(currentQ.explanation)}
+          </div>
+
+          <div class="explanation-footer">
+            <label>
+              <input type="checkbox" onchange="window.courseEngine.toggleShowExplanationAlways(this)" ${showAlways ? 'checked' : ''}>
+              Zawsze pokazuj wyjaśnienie
+            </label>
+            <div class="explanation-feedback">
+              <span>Czy to wytłumaczenie było pomocne?</span>
+              <button>👍</button>
+              <button>👎</button>
+            </div>
+          </div>
         </div>
       `;
     }
 
-    // Twoje Postępy Grid HTML matching image_c3d7c5.jpg
-    const topicCardsHtml = this.topicCategories.map(cat => {
+    // Twoje Postępy Grid HTML - split into Podstawowe (1-20) and Specjalistyczne (21-31)
+    const podstawowe = this.topicCategories.filter(cat => cat.id <= 20);
+    const specjalistyczne = this.topicCategories.filter(cat => cat.id > 20);
+
+    const renderTopicCard = (cat) => {
       const isCurrentSelected = this.selectedGroup === cat.id;
       return `
         <div class="course-postepy-card ${isCurrentSelected ? 'active' : ''}">
@@ -385,7 +432,10 @@ class CourseEngine {
           </div>
         </div>
       `;
-    }).join('');
+    };
+
+    const podstawoweCardsHtml = podstawowe.map(renderTopicCard).join('');
+    const specjalistyczneCardsHtml = specjalistyczne.map(renderTopicCard).join('');
 
     this.container.innerHTML = `
       <div class="course-page-wrapper">
@@ -409,7 +459,12 @@ class CourseEngine {
                 <label class="input-label">Grupa pytań</label>
                 <select class="setting-select" onchange="window.courseEngine.onFilterChange('group', this.value)">
                   <option value="all" ${this.selectedGroup === 'all' ? 'selected' : ''}>Wszystkie pytania</option>
-                  ${this.topicCategories.map(t => `<option value="${t.id}" ${this.selectedGroup == t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
+                  <optgroup label="Pytania podstawowe">
+                    ${podstawowe.map(t => `<option value="${t.id}" ${this.selectedGroup == t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
+                  </optgroup>
+                  <optgroup label="Pytania specjalistyczne">
+                    ${specjalistyczne.map(t => `<option value="${t.id}" ${this.selectedGroup == t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
+                  </optgroup>
                 </select>
               </div>
 
@@ -451,16 +506,18 @@ class CourseEngine {
               ${mediaHtml}
             </div>
 
-            <div class="exam-question-text-card">
-              <p class="question-text">${currentQ.title}</p>
-            </div>
+            <div class="exam-question-answers-card">
+              <div class="exam-question-text-card">
+                <p class="question-text">${currentQ.title}</p>
+              </div>
 
-            ${answerButtonsHtml}
-            ${explanationHtml}
+              ${answerButtonsHtml}
+            </div>
           </div>
 
           <!-- Right Column: Status & Counter Sidebar -->
           <div class="exam-right-sidebar">
+
             <div class="exam-sidebar-card">
               
               <div class="counter-box">
@@ -501,16 +558,6 @@ class CourseEngine {
               </span>
             </div>
 
-            <!-- Navigation Buttons -->
-            <div style="display: flex; gap: 10px; margin-top: 8px;">
-              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.prevQuestion()" ${this.currentIndex === 0 ? 'disabled' : ''}>
-                ← Poprzednie
-              </button>
-              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.nextQuestion()">
-                Następne →
-              </button>
-            </div>
-
             <!-- Action Buttons -->
             <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 16px;">
               ${(() => {
@@ -521,12 +568,28 @@ class CourseEngine {
                   </button>
                 `;
               })()}
+              <button class="exam-action-btn" onclick="location.reload()">
+                <i>↻</i> Odśwież pytanie
+              </button>
+              <button class="exam-action-btn" onclick="alert('Funkcja dostępna w pełnej wersji.')">
+                <i>💬</i> Zadaj pytanie
+              </button>
               <button class="exam-action-btn" onclick="window.courseEngine.toggleFullscreen()">
                 <i>⛶</i> ${this.isFullscreen ? 'Zamknij pełny ekran' : 'Pełny ekran'}
               </button>
             </div>
+
+            <!-- Navigation Button (Bottom) -->
+            <button class="btn-next-question" style="width: 100%; margin-top: 24px;" onclick="window.courseEngine.nextQuestion()">
+              Następne pytanie ➔
+            </button>
           </div>
 
+        </div>
+        
+        <!-- Explanation Block (Moved out of grid) -->
+        <div class="course-explanation-wrapper">
+          ${explanationHtml}
         </div>
 
         ${this.isFullscreen ? `
@@ -535,7 +598,7 @@ class CourseEngine {
           </button>
         ` : ''}
 
-        <!-- 3. Twoje Postępy Grid (Matching image_c3d7c5.jpg) -->
+        <!-- 3. Twoje Postępy Grid -->
         <div class="course-postepy-section">
           <div class="postepy-header-row">
             <h2 class="postepy-main-title">Twoje postępy</h2>
@@ -547,7 +610,13 @@ class CourseEngine {
           <h3 class="postepy-sub-title">Pytania podstawowe</h3>
 
           <div class="postepy-cards-grid">
-            ${topicCardsHtml}
+            ${podstawoweCardsHtml}
+          </div>
+
+          <h3 class="postepy-sub-title" style="margin-top: 32px;">Pytania specjalistyczne</h3>
+
+          <div class="postepy-cards-grid">
+            ${specjalistyczneCardsHtml}
           </div>
         </div>
 

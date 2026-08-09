@@ -129,7 +129,11 @@ class TestEngine {
     // Media content (Image / Sign / Video placeholder)
     let mediaHtml = '';
     if (q.media_url) {
-      mediaHtml = `<img src="${q.media_url}" alt="Ilustracja pytania" class="exam-media-img" />`;
+      if (q.media_type === 'video') {
+        mediaHtml = `<video src="${window.getMediaUrl(q.media_url)}" autoplay loop muted class="exam-media-img" style="max-height:400px; width:100%; object-fit:contain; border-radius:8px;"></video>`;
+      } else {
+        mediaHtml = `<img src="${window.getMediaUrl(q.media_url)}" alt="Ilustracja pytania" class="exam-media-img" />`;
+      }
     } else {
       mediaHtml = `
         <div class="exam-media-placeholder">

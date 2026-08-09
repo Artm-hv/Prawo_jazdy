@@ -116,6 +116,7 @@ class TextbookEngine {
         const topic = activeChapter.topics[this.activeTopicIdx];
         const topicTitle = typeof topic === 'object' ? topic.title : topic;
         let topicContent = typeof topic === 'object' && topic.content ? topic.content : '<p>Treść wkrótce...</p>';
+        topicContent = window.resolveMediaPath(topicContent);
         
         // Clean up scraped HTML
         const parser = new DOMParser();

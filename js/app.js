@@ -2,6 +2,25 @@
    Prawo Jazdy LMS - Main Application Orchestrator
    ========================================================================== */
 
+// Hybrid Media Routing for GitHub Pages
+window.getMediaUrl = function(url) {
+    if (!url) return url;
+    const isRemote = window.location.hostname && window.location.hostname !== '127.0.0.1' && window.location.hostname !== 'localhost';
+    if (isRemote && url.startsWith('assets/')) {
+        return 'https://www.prawo-jazdy-360.pl/' + url;
+    }
+    return url;
+};
+
+window.resolveMediaPath = function(content) {
+    if (!content) return content;
+    const isRemote = window.location.hostname && window.location.hostname !== '127.0.0.1' && window.location.hostname !== 'localhost';
+    if (isRemote) {
+        return content.replace(/(src|srcset|poster)=["']assets\//g, '$1="https://www.prawo-jazdy-360.pl/assets/');
+    }
+    return content;
+};
+
 class LMSApp {
   constructor() {
     this.currentCategory = localStorage.getItem("prawo_jazdy_category") || "B";
