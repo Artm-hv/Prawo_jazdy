@@ -506,11 +506,13 @@ class CourseEngine {
               ${mediaHtml}
             </div>
 
-            <div class="exam-question-text-card">
-              <p class="question-text">${currentQ.title}</p>
-            </div>
+            <div class="exam-question-answers-card">
+              <div class="exam-question-text-card">
+                <p class="question-text">${currentQ.title}</p>
+              </div>
 
-            ${answerButtonsHtml}
+              ${answerButtonsHtml}
+            </div>
           </div>
 
           <!-- Right Column: Status & Counter Sidebar -->

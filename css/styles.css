@@ -1140,11 +1140,21 @@ html, body {
   background: #1e293b;
 }
 
-.exam-question-text-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  padding: 20px 24px;
+/* Combined Question + Answers Card */
+.exam-question-answers-card {
+  background: #f5f5f7;
+  border: 1px solid #e5e7eb;
   border-radius: var(--radius-md);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.exam-question-text-card {
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .question-text {
@@ -1152,6 +1162,7 @@ html, body {
   font-weight: 700;
   color: var(--text-dark);
   line-height: 1.6;
+  margin: 0;
 }
 
 .exam-answers-row-2 {
@@ -1162,8 +1173,8 @@ html, body {
 
 .btn-answer-tak, .btn-answer-nie {
   padding: 16px;
-  background: var(--bg-card);
-  border: 2px solid var(--border-color);
+  background: #ffffff;
+  border: 2px solid #e5e7eb;
   border-radius: var(--radius-md);
   font-size: 16px;
   font-weight: 800;
@@ -1205,8 +1216,8 @@ html, body {
 
 .btn-answer-spec {
   padding: 14px 18px;
-  background: var(--bg-card);
-  border: 2px solid var(--border-color);
+  background: #ffffff;
+  border: 2px solid #e5e7eb;
   border-radius: var(--radius-md);
   font-size: 14px;
   font-weight: 600;
