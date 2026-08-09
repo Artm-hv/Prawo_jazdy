@@ -10,7 +10,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o dwóch niebezpiecznych zakrętach?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2091.jpg",
+        "mediaUrl": "assets/media/2091.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26,7 +26,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o wyznaczonym na drodze przejściu dla pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3587.jpg",
+        "mediaUrl": "assets/media/3587.jpg",
         "answers": [
           {
             "text": "tak",
@@ -42,7 +42,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2128.jpg",
+        "mediaUrl": "assets/media/2128.jpg",
         "answers": [
           {
             "text": "tak",
@@ -58,7 +58,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne znaki ostrzegają o zbliżaniu się do przejścia dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2145.mp4",
+        "mediaUrl": "assets/media/2145.mp4",
         "answers": [
           {
             "text": "tak",
@@ -74,7 +74,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tymi znakami powinieneś spodziewać się dwustronnego zwężenia jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2145.mp4",
+        "mediaUrl": "assets/media/2145.mp4",
         "answers": [
           {
             "text": "tak",
@@ -90,7 +90,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o miejscu intensywnych opadów atmosferycznych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2147.jpg",
+        "mediaUrl": "assets/media/2147.jpg",
         "answers": [
           {
             "text": "tak",
@@ -106,7 +106,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na jezdni za tym znakiem ostrzegawczym możesz spodziewać się pojazdu nadjeżdżającego z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2149.mp4",
+        "mediaUrl": "assets/media/2149.mp4",
         "answers": [
           {
             "text": "tak",
@@ -122,7 +122,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tak oznakowanym skrzyżowaniu masz pierwszeństwo przed wszystkimi pojazdami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2309.jpg",
+        "mediaUrl": "assets/media/2309.jpg",
         "answers": [
           {
             "text": "tak",
@@ -138,7 +138,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed tramwajem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2381.mp4",
+        "mediaUrl": "assets/media/2381.mp4",
         "answers": [
           {
             "text": "tak",
@@ -154,7 +154,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, znak ostrzegawczy oznacza, że zbliżasz się do miejsca, w którym rozpoczyna się ruch dwukierunkowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2588.mp4",
+        "mediaUrl": "assets/media/2588.mp4",
         "answers": [
           {
             "text": "tak",
@@ -170,7 +170,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś uprzedzany o zbliżaniu się do skrzyżowania, na którym pierwszeństwo nie jest określone znakami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2809.jpg",
+        "mediaUrl": "assets/media/2809.jpg",
         "answers": [
           {
             "text": "tak",
@@ -186,7 +186,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak ostrzega o zbliżaniu się do skrzyżowania, na którym pierwszeństwo nie jest określone znakami drogowymi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2828.jpg",
+        "mediaUrl": "assets/media/2828.jpg",
         "answers": [
           {
             "text": "tak",
@@ -202,7 +202,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji widoczne znaki ostrzegają o zbliżaniu się do miejsca, w którym rozpoczyna się ruch dwukierunkowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2833.jpg",
+        "mediaUrl": "assets/media/2833.jpg",
         "answers": [
           {
             "text": "tak",
@@ -218,7 +218,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji, wjeżdżając na pobocze, powinieneś zrobić to ostrożnie i znacznie zmniejszyć prędkość?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3130.jpg",
+        "mediaUrl": "assets/media/3130.jpg",
         "answers": [
           {
             "text": "tak",
@@ -234,7 +234,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o drodze pokrytej żwirem, który może być wyrzucany spod kół jadących pojazdów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3131.jpg",
+        "mediaUrl": "assets/media/3131.jpg",
         "answers": [
           {
             "text": "tak",
@@ -250,7 +250,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3132.jpg",
+        "mediaUrl": "assets/media/3132.jpg",
         "answers": [
           {
             "text": "tak",
@@ -266,7 +266,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o możliwości napotkania na drodze dzikich zwierząt?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3133.mp4",
+        "mediaUrl": "assets/media/3133.mp4",
         "answers": [
           {
             "text": "tak",
@@ -282,7 +282,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o miejscu na drodze szczególnie często uczęszczanym przez dzieci lub o bliskości takiego miejsca?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3134.jpg",
+        "mediaUrl": "assets/media/3134.jpg",
         "answers": [
           {
             "text": "tak",
@@ -298,7 +298,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zwężeniu jezdni, które może powodować utrudnienia ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3135.jpg",
+        "mediaUrl": "assets/media/3135.jpg",
         "answers": [
           {
             "text": "tak",
@@ -314,7 +314,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o przejeździe kolejowym wyposażonym w zapory lub półzapory?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3136.jpg",
+        "mediaUrl": "assets/media/3136.jpg",
         "answers": [
           {
             "text": "tak",
@@ -330,7 +330,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczony na tablicy znak ostrzega Cię o miejscu na drodze, w którym występuje lub może występować niebezpieczeństwo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3138.jpg",
+        "mediaUrl": "assets/media/3138.jpg",
         "answers": [
           {
             "text": "tak",
@@ -346,7 +346,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o zbliżaniu się do skrzyżowania, na którym pierwszeństwo przejazdu nie jest określone przy pomocy znaków drogowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3145.jpg",
+        "mediaUrl": "assets/media/3145.jpg",
         "answers": [
           {
             "text": "tak",
@@ -362,7 +362,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, znak ostrzegawczy oznacza, że zbliżasz się do kilku niebezpiecznych zakrętów, z których pierwszy jest w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3258.mp4",
+        "mediaUrl": "assets/media/3258.mp4",
         "answers": [
           {
             "text": "tak",
@@ -378,7 +378,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do skrzyżowania z drogą z pierwszeństwem z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3259.mp4",
+        "mediaUrl": "assets/media/3259.mp4",
         "answers": [
           {
             "text": "tak",
@@ -394,7 +394,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o dwóch niebezpiecznych zakrętach, z których pierwszy jest w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3261.mp4",
+        "mediaUrl": "assets/media/3261.mp4",
         "answers": [
           {
             "text": "tak",
@@ -410,7 +410,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do skrzyżowania z drogą podporządkowaną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3262.mp4",
+        "mediaUrl": "assets/media/3262.mp4",
         "answers": [
           {
             "text": "tak",
@@ -426,7 +426,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o zbliżaniu się do skrzyżowania z jednokierunkową drogą podporządkowaną, której wlot znajduje się po lewej stronie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3277.mp4",
+        "mediaUrl": "assets/media/3277.mp4",
         "answers": [
           {
             "text": "tak",
@@ -442,7 +442,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o niebezpieczeństwie wynikającym z nieoczekiwanej zmiany kierunku ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3278.jpg",
+        "mediaUrl": "assets/media/3278.jpg",
         "answers": [
           {
             "text": "tak",
@@ -458,7 +458,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o możliwości wystąpienia gołoledzi na jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3347.jpg",
+        "mediaUrl": "assets/media/3347.jpg",
         "answers": [
           {
             "text": "tak",
@@ -474,7 +474,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przed wjazdem na przejazd kolejowy oznaczony tym znakiem, zawsze masz obowiązek zatrzymania się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3351.jpg",
+        "mediaUrl": "assets/media/3351.jpg",
         "answers": [
           {
             "text": "tak",
@@ -490,7 +490,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do przejazdu kolejowego, wyposażonego w zapory lub półzapory?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3367.jpg",
+        "mediaUrl": "assets/media/3367.jpg",
         "answers": [
           {
             "text": "tak",
@@ -506,7 +506,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak ostrzega o odcinku drogi, na którym należy zachować szczególną ostrożność ze względu na koleiny w nawierzchni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3382.jpg",
+        "mediaUrl": "assets/media/3382.jpg",
         "answers": [
           {
             "text": "tak",
@@ -522,7 +522,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod widocznym znakiem tabliczka oznacza koniec odcinka drogi z niebezpiecznymi zakrętami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3412.jpg",
+        "mediaUrl": "assets/media/3412.jpg",
         "answers": [
           {
             "text": "tak",
@@ -538,7 +538,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak uprzedza Cię o niedawno wprowadzonej zmianie obowiązujących dotychczas zasad pierwszeństwa na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3456.jpg",
+        "mediaUrl": "assets/media/3456.jpg",
         "answers": [
           {
             "text": "tak",
@@ -554,7 +554,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o częstym występowaniu zablokowania ruchu pojazdów (korka)?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3576.jpg",
+        "mediaUrl": "assets/media/3576.jpg",
         "answers": [
           {
             "text": "tak",
@@ -570,7 +570,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o opadach śniegu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3577.jpg",
+        "mediaUrl": "assets/media/3577.jpg",
         "answers": [
           {
             "text": "tak",
@@ -586,7 +586,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na odcinku drogi za widocznym znakiem będziesz ostrzegany o każdym występującym na niej zakręcie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3582.jpg",
+        "mediaUrl": "assets/media/3582.jpg",
         "answers": [
           {
             "text": "tak",
@@ -602,7 +602,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o skrzyżowaniu, na którym ruch jest kierowany za pomocą sygnalizacji świetlnej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3583.jpg",
+        "mediaUrl": "assets/media/3583.jpg",
         "answers": [
           {
             "text": "tak",
@@ -618,7 +618,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do stromego podjazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3584.jpg",
+        "mediaUrl": "assets/media/3584.jpg",
         "answers": [
           {
             "text": "tak",
@@ -634,7 +634,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do miejsca, w którym rozpoczyna się ruch dwukierunkowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3585.jpg",
+        "mediaUrl": "assets/media/3585.jpg",
         "answers": [
           {
             "text": "tak",
@@ -650,7 +650,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o możliwości napotkania na drodze zwierząt gospodarskich?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3586.jpg",
+        "mediaUrl": "assets/media/3586.jpg",
         "answers": [
           {
             "text": "tak",
@@ -666,7 +666,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do wyznaczonego na drodze przejścia dla pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3587.jpg",
+        "mediaUrl": "assets/media/3587.jpg",
         "answers": [
           {
             "text": "tak",
@@ -682,7 +682,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji należy spodziewać się utrudnień ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3588.jpg",
+        "mediaUrl": "assets/media/3588.jpg",
         "answers": [
           {
             "text": "tak",
@@ -698,7 +698,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o wlocie drogi z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3589.jpg",
+        "mediaUrl": "assets/media/3589.jpg",
         "answers": [
           {
             "text": "tak",
@@ -714,7 +714,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod znakiem ostrzegawczym widocznym na zdjęciu tabliczka, wskazuje jego odległość od miejsca niebezpiecznego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3591.jpg",
+        "mediaUrl": "assets/media/3591.jpg",
         "answers": [
           {
             "text": "tak",
@@ -730,7 +730,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3591.jpg",
+        "mediaUrl": "assets/media/3591.jpg",
         "answers": [
           {
             "text": "tak",
@@ -746,7 +746,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o wypukłości jezdni zastosowanej w celu spowolnienia ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3594.jpg",
+        "mediaUrl": "assets/media/3594.jpg",
         "answers": [
           {
             "text": "tak",
@@ -762,7 +762,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o nierównościach na drodze, występujących na odcinku 1,2 km za znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3593.jpg",
+        "mediaUrl": "assets/media/3593.jpg",
         "answers": [
           {
             "text": "tak",
@@ -778,7 +778,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o poprzecznej nierówności jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3594.jpg",
+        "mediaUrl": "assets/media/3594.jpg",
         "answers": [
           {
             "text": "tak",
@@ -794,7 +794,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o przejeździe kolejowym wyposażonym w półzapory?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3595.jpg",
+        "mediaUrl": "assets/media/3595.jpg",
         "answers": [
           {
             "text": "tak",
@@ -810,7 +810,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do przejazdu kolejowego wyposażonego w zapory, lub w półzapory?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3596.jpg",
+        "mediaUrl": "assets/media/3596.jpg",
         "answers": [
           {
             "text": "tak",
@@ -826,7 +826,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do skrzyżowania z jednokierunkową drogą podporządkowaną?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3598.jpg",
+        "mediaUrl": "assets/media/3598.jpg",
         "answers": [
           {
             "text": "tak",
@@ -842,7 +842,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o dwóch niebezpiecznych zakrętach, z których pierwszy jest w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3602.jpg",
+        "mediaUrl": "assets/media/3602.jpg",
         "answers": [
           {
             "text": "tak",
@@ -858,7 +858,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o kilku niebezpiecznych zakrętach w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3604.jpg",
+        "mediaUrl": "assets/media/3604.jpg",
         "answers": [
           {
             "text": "tak",
@@ -874,7 +874,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do jednego niebezpiecznego zakrętu w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3605.jpg",
+        "mediaUrl": "assets/media/3605.jpg",
         "answers": [
           {
             "text": "tak",
@@ -890,7 +890,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o zbliżaniu się do znacznego wzniesienia drogi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3623.mp4",
+        "mediaUrl": "assets/media/3623.mp4",
         "answers": [
           {
             "text": "tak",
@@ -906,7 +906,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna pod znakiem tabliczka wskazuje odległość znaku ostrzegawczego od miejsca niebezpiecznego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3639.mp4",
+        "mediaUrl": "assets/media/3639.mp4",
         "answers": [
           {
             "text": "tak",
@@ -922,7 +922,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod widocznym znakiem ostrzegawczym tabliczka wskazuje nieoczekiwaną zmianę kierunku ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3643.mp4",
+        "mediaUrl": "assets/media/3643.mp4",
         "answers": [
           {
             "text": "tak",
@@ -938,7 +938,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna pod znakiem ostrzegawczym tabliczka wskazuje na nieoczekiwaną zmianę kierunku ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3644.mp4",
+        "mediaUrl": "assets/media/3644.mp4",
         "answers": [
           {
             "text": "tak",
@@ -954,7 +954,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o lewostronnym zwężeniu jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3645.mp4",
+        "mediaUrl": "assets/media/3645.mp4",
         "answers": [
           {
             "text": "tak",
@@ -970,7 +970,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do prawostronnego zwężenia jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3646.mp4",
+        "mediaUrl": "assets/media/3646.mp4",
         "answers": [
           {
             "text": "tak",
@@ -986,7 +986,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o znacznym wzniesieniu drogi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3697.jpg",
+        "mediaUrl": "assets/media/3697.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1002,7 +1002,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o skrzyżowaniu, na którym ruch odbywa się dookoła wyspy lub placu, w kierunku wskazanym na znaku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3698.jpg",
+        "mediaUrl": "assets/media/3698.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1018,7 +1018,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji odległość znaku ostrzegawczego od miejsca niebezpiecznego wynosi od 150 do 300 metrów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3700.jpg",
+        "mediaUrl": "assets/media/3700.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1034,7 +1034,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji odległość od znaku ostrzegawczego do miejsca niebezpiecznego wynosi do 100 metrów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3585.jpg",
+        "mediaUrl": "assets/media/3585.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1050,7 +1050,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o trzech niebezpiecznych zakrętach, z których pierwszy jest w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3709.jpg",
+        "mediaUrl": "assets/media/3709.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1066,7 +1066,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji znaki ostrzegają o nieoczekiwanej zmianie kierunku ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11235.jpg",
+        "mediaUrl": "assets/media/11235.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1082,7 +1082,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do przejazdu kolejowego bez zapór?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11385.mp4",
+        "mediaUrl": "assets/media/11385.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1098,7 +1098,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do przejazdu kolejowego z zaporami?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11385.mp4",
+        "mediaUrl": "assets/media/11385.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1114,7 +1114,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do przejazdu kolejowego bez zapór?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11455.mp4",
+        "mediaUrl": "assets/media/11455.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1130,7 +1130,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany, że zbliżasz się do przejścia dla pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11460.jpg",
+        "mediaUrl": "assets/media/11460.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1146,7 +1146,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost zbliżysz się do miejsca, w którym rozpoczyna się ruch dwukierunkowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11461.mp4",
+        "mediaUrl": "assets/media/11461.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1162,7 +1162,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do przejazdu kolejowego z zaporami?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11455.mp4",
+        "mediaUrl": "assets/media/11455.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1178,7 +1178,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne oznakowanie ostrzega o przejeździe kolejowym z zaporami?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11464.mp4",
+        "mediaUrl": "assets/media/11464.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1194,7 +1194,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o możliwości występowania gołoledzi na jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11465.jpg",
+        "mediaUrl": "assets/media/11465.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1210,7 +1210,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do drogi z pierwszeństwem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11466.jpg",
+        "mediaUrl": "assets/media/11466.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1226,7 +1226,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, na najbliższym skrzyżowaniu, masz pierwszeństwo przed pojazdami nadjeżdżającymi z lewej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11459.jpg",
+        "mediaUrl": "assets/media/11459.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1242,7 +1242,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, po przejechaniu 80 m, należy ustąpić pierwszeństwa pojazdom poruszającym się drogą poprzeczną?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11466.jpg",
+        "mediaUrl": "assets/media/11466.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1258,7 +1258,7 @@ window.COURSE_DATA = [
       {
         "title": "W przedstawionej sytuacji zamierzasz jechać na wprost. Czy musisz się zatrzymać przed wjazdem na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11478.mp4",
+        "mediaUrl": "assets/media/11478.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1274,7 +1274,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji znak \"Ustąp pierwszeństwa\" dotyczy tylko najbliższego skrzyżowania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11481.mp4",
+        "mediaUrl": "assets/media/11481.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1290,7 +1290,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak ostrzega Cię, że zbliżasz się do przejazdu przez tory tramwajowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11502.mp4",
+        "mediaUrl": "assets/media/11502.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1306,7 +1306,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś ostrzegany o   poprzecznej nierówności jezdni spowodowanej ubytkami nawierzchni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11524.mp4",
+        "mediaUrl": "assets/media/11524.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1322,7 +1322,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji widoczny znak ostrzega Cię o dwóch niebezpiecznych zakrętach, z których pierwszy jest w kierunku wskazanym na znaku, a drugi może być zarówno w lewo, jak i w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11525.mp4",
+        "mediaUrl": "assets/media/11525.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1338,7 +1338,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji widoczny znak ostrzega o częstych opadach śniegu na odcinku 2 kilometrów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11526.mp4",
+        "mediaUrl": "assets/media/11526.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1354,7 +1354,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji widoczny znak ostrzega Cię o niebezpiecznym zakręcie w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11525.mp4",
+        "mediaUrl": "assets/media/11525.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1370,7 +1370,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji widoczny znak ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11529.mp4",
+        "mediaUrl": "assets/media/11529.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1386,7 +1386,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak ostrzega o możliwości napotkania na drodze zwierząt dzikich?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11530.mp4",
+        "mediaUrl": "assets/media/11530.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1402,7 +1402,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji znak ostrzega o występującym po obu stronach jezdni zwężeniu, które może powodować utrudnienia ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11531.mp4",
+        "mediaUrl": "assets/media/11531.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1418,7 +1418,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji znak ostrzega o możliwości napotkania na drodze zwierząt dzikich?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11532.mp4",
+        "mediaUrl": "assets/media/11532.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1434,7 +1434,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji znak ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11533.mp4",
+        "mediaUrl": "assets/media/11533.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1450,7 +1450,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji znak ostrzega jadących jezdnią jednokierunkową o miejscu, w którym rozpoczyna się ruch dwukierunkowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11534.mp4",
+        "mediaUrl": "assets/media/11534.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1466,7 +1466,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o niebezpieczeństwie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11690.mp4",
+        "mediaUrl": "assets/media/11690.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1482,7 +1482,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o mogącym występować na drodze oszronieniu jezdni lub gołoledzi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11691.mp4",
+        "mediaUrl": "assets/media/11691.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1498,7 +1498,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znajdujesz się na drodzę z pierwszeństwem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11692.mp4",
+        "mediaUrl": "assets/media/11692.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1514,7 +1514,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do skrzyżowania dróg, na którym pierwszeństwo jest ustalone znakami drogowymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11692.mp4",
+        "mediaUrl": "assets/media/11692.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1530,7 +1530,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o zbliżaniu się do skrzyżowania z drogą podporządkowaną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11692.mp4",
+        "mediaUrl": "assets/media/11692.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1546,7 +1546,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o zbliżaniu się do skrzyżowania z drogą podporządkowaną znajdującą się po lewej stronie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11692.mp4",
+        "mediaUrl": "assets/media/11692.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1562,7 +1562,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o miejscu na drodze szczególnie uczęszczanym przez dzieci lub o bliskości takiego miejsca?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11697.mp4",
+        "mediaUrl": "assets/media/11697.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1578,7 +1578,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o wyznaczonym na drodze przejściu dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11697.mp4",
+        "mediaUrl": "assets/media/11697.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1594,7 +1594,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o występującym po obu stronach jezdni zwężeniu, które może powodować utrudnienia ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11699.mp4",
+        "mediaUrl": "assets/media/11699.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1610,7 +1610,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o zwężeniu jezdni, które może powodować utrudnienia ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11699.mp4",
+        "mediaUrl": "assets/media/11699.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1626,7 +1626,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o zwężeniu jezdni, które może powodować utrudnienia ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11703.mp4",
+        "mediaUrl": "assets/media/11703.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1642,7 +1642,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do skrzyżowania o ruchu okrężnym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11705.mp4",
+        "mediaUrl": "assets/media/11705.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1658,7 +1658,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś ostrzegany o trzech niebezpiecznych zakrętach?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11702.mp4",
+        "mediaUrl": "assets/media/11702.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1674,7 +1674,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do skrzyżowania z drogą jednokierunkową podporządkowaną znajdującą się po prawej stronie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11800.mp4",
+        "mediaUrl": "assets/media/11800.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1690,7 +1690,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do przejazdu kolejowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11820.mp4",
+        "mediaUrl": "assets/media/11820.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1706,7 +1706,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna pod znakiem ostrzegawczym tabliczka wskazuje układ torów i drogi na przejeździe tramwajowym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11823.mp4",
+        "mediaUrl": "assets/media/11823.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1722,7 +1722,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem należy spodziewać się trzech niebezpiecznych zakrętów, z których wszystkie mogą być w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12519.mp4",
+        "mediaUrl": "assets/media/12519.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1738,7 +1738,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o możliwości wystąpienia gołoledzi na jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12521.mp4",
+        "mediaUrl": "assets/media/12521.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1754,7 +1754,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o niebezpiecznym zakręcie w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12522.mp4",
+        "mediaUrl": "assets/media/12522.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1770,7 +1770,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na najbliższym skrzyżowaniu musisz ustąpić pierwszeństwa pojazdom nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12524.mp4",
+        "mediaUrl": "assets/media/12524.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1786,7 +1786,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o skrzyżowaniu z drogą podporządkowaną, występującą po prawej stronie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12668.jpg",
+        "mediaUrl": "assets/media/12668.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1802,7 +1802,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega o zbliżaniu się do skrzyżowania z drogą podporządkowaną znajdującą się po lewej stronie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12696.mp4",
+        "mediaUrl": "assets/media/12696.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1824,7 +1824,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy znak ustawiony na prawej jezdni oznacza zakaz ruchu w obu kierunkach?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2202.jpg",
+        "mediaUrl": "assets/media/2202.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1840,7 +1840,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy możesz wjechać na zwężony odcinek jezdni jeśli utrudni to ruch pojazdu jadącego z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2295.mp4",
+        "mediaUrl": "assets/media/2295.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1856,7 +1856,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo w widoczną drogę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2515.jpg",
+        "mediaUrl": "assets/media/2515.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1872,7 +1872,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2778.mp4",
+        "mediaUrl": "assets/media/2778.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1888,7 +1888,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zawrócić na tym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2779.mp4",
+        "mediaUrl": "assets/media/2779.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1904,7 +1904,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w lewo za tym znakiem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2780.mp4",
+        "mediaUrl": "assets/media/2780.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1920,7 +1920,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci przejechać przez widoczne skrzyżowanie bez zatrzymania się w miejscu wskazanym linią?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3166.mp4",
+        "mediaUrl": "assets/media/3166.mp4",
         "answers": [
           {
             "text": "tak",
@@ -1936,7 +1936,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś obowiązany zatrzymać się przed drogą z pierwszeństwem przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3570.jpg",
+        "mediaUrl": "assets/media/3570.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1952,7 +1952,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem wolno Ci zatrzymać pojazd na czas do 1 minuty?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3059.jpg",
+        "mediaUrl": "assets/media/3059.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1968,7 +1968,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci skręcić w prawo w najbliższą jezdnię?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3061.jpg",
+        "mediaUrl": "assets/media/3061.jpg",
         "answers": [
           {
             "text": "tak",
@@ -1984,7 +1984,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na widocznym skrzyżowaniu wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3080.jpg",
+        "mediaUrl": "assets/media/3080.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2000,7 +2000,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy możesz skorzystać z tej drogi, chcąc wjechać do myjni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3092.jpg",
+        "mediaUrl": "assets/media/3092.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2016,7 +2016,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak zakazu zabrania Ci skrętu w prawo na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3222.mp4",
+        "mediaUrl": "assets/media/3222.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2032,7 +2032,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zakaz wyrażony tym znakiem dotyczy wyłącznie tej strony drogi, po której znak się znajduje?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3250.mp4",
+        "mediaUrl": "assets/media/3250.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2048,7 +2048,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny po lewej stronie jezdni znak zakazu zabrania Ci zawracania na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3251.mp4",
+        "mediaUrl": "assets/media/3251.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2064,7 +2064,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, na skrzyżowaniu, wolno Ci poruszać się w kierunku przeciwnym do wskazanego na znaku nakazu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3256.mp4",
+        "mediaUrl": "assets/media/3256.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2080,7 +2080,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek jazdy na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3257.mp4",
+        "mediaUrl": "assets/media/3257.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2096,7 +2096,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ograniczenie prędkości określone tym znakiem obowiązuje tylko do najbliższego skrzyżowania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3341.jpg",
+        "mediaUrl": "assets/media/3341.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2112,7 +2112,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc samochodem (bez przyczepy) o rzeczywistej masie całkowitej 3 t wolno Ci wjechać za ten znak?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3344.mp4",
+        "mediaUrl": "assets/media/3344.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2128,7 +2128,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wjechać na drogę za tym znakiem aby zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3345.mp4",
+        "mediaUrl": "assets/media/3345.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2144,7 +2144,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek skręcić wyłącznie w prawo na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3380.jpg",
+        "mediaUrl": "assets/media/3380.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2160,7 +2160,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na zwężony odcinek jezdni, jeżeli nie wymusza to na nadjeżdżającym z przeciwka konieczności zatrzymania się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3548.jpg",
+        "mediaUrl": "assets/media/3548.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2176,7 +2176,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem silnikowym. Czy ten znak zabrania Ci wyprzedzania pojazdów silnikowych jednośladowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3397.jpg",
+        "mediaUrl": "assets/media/3397.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2192,7 +2192,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem silnikowym. Czy ten znak zabrania Ci wyprzedzania pojazdów silnikowych wielośladowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3397.jpg",
+        "mediaUrl": "assets/media/3397.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2208,7 +2208,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod widocznym znakiem zakazu tabliczka wskazuje odległość od miejsca, w którym ten zakaz obowiązuje?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3500.jpg",
+        "mediaUrl": "assets/media/3500.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2224,7 +2224,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zakaz wyrażony znakiem obowiązuje od miejsca jego ustawienia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3500.jpg",
+        "mediaUrl": "assets/media/3500.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2240,7 +2240,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak zabrania Ci wyprzedzać motocykle jednośladowe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/6687.jpg",
+        "mediaUrl": "assets/media/6687.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2256,7 +2256,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, kierując samochodem osobowym, możesz wjechać na most?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3503.jpg",
+        "mediaUrl": "assets/media/3503.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2272,7 +2272,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod znakiem zakazu tabliczka wskazuje długość odcinka jezdni, na którym zakaz obowiązuje?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3580.jpg",
+        "mediaUrl": "assets/media/3580.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2288,7 +2288,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zakaz określony tym znakiem obowiązuje Cię do najbliższego skrzyżowania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3547.jpg",
+        "mediaUrl": "assets/media/3547.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2304,7 +2304,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na zwężony odcinek jezdni, jeżeli nie zmusisz tym nadjeżdżającego z przeciwka do zatrzymania się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3548.jpg",
+        "mediaUrl": "assets/media/3548.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2320,7 +2320,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz samochodem ciężarowym o dopuszczalnej masie całkowitej nie przekraczającej 3,5 tony. Czy w przedstawionej sytuacji wolno Ci wyprzedzić samochód osobowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/8134.jpg",
+        "mediaUrl": "assets/media/8134.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2336,7 +2336,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w lewo na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3550.jpg",
+        "mediaUrl": "assets/media/3550.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2352,7 +2352,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji obowiązuje Cię zakaz zawracania od miejsca ustawienia znaku do najbliższego skrzyżowania włącznie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3551.jpg",
+        "mediaUrl": "assets/media/3551.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2368,7 +2368,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak zakazu umieszczony w obrębie skrzyżowania dotyczy tylko jezdni, przy której jest ustawiony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3569.jpg",
+        "mediaUrl": "assets/media/3569.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2384,7 +2384,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod tym znakiem zakazu tabliczka określa długość odcinka jezdni, na którym zakaz ten obowiązuje?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3580.jpg",
+        "mediaUrl": "assets/media/3580.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2400,7 +2400,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zakaz wyrażony znakiem obowiązuje od miejsca jego ustawienia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3581.jpg",
+        "mediaUrl": "assets/media/3581.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2416,7 +2416,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji z pasa ruchu, który zajmujesz, dozwolone jest wykonanie skrętu w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3076.jpg",
+        "mediaUrl": "assets/media/3076.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2432,7 +2432,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy pojazd pozostawiony na jezdni za tym znakiem może zostać usunięty na koszt właściciela?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3059.jpg",
+        "mediaUrl": "assets/media/3059.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2448,7 +2448,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy znak zakazu umieszczony na prawej jezdni oznacza, że jest ona zamknięta dla ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2202.jpg",
+        "mediaUrl": "assets/media/2202.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2464,7 +2464,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji umieszczona pod znakiem tabliczka wskazuje odległość znaku od miejsca, w którym masz obowiązek zatrzymania się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3724.jpg",
+        "mediaUrl": "assets/media/3724.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2480,7 +2480,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać na stację paliw, jeśli kierujesz zespołem pojazdów o łącznej długości 11m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/9534.jpg",
+        "mediaUrl": "assets/media/9534.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2496,7 +2496,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz zatrzymać pojazd za znakiem na poboczu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11219.jpg",
+        "mediaUrl": "assets/media/11219.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2512,7 +2512,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz zatrzymać pojazd przed znakiem na poboczu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11219.jpg",
+        "mediaUrl": "assets/media/11219.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2528,7 +2528,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji dozwolone jest zawracanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11221.jpg",
+        "mediaUrl": "assets/media/11221.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2544,7 +2544,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak zakazu obowiązuje tylko do najbliższego skrzyżowania włącznie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11221.jpg",
+        "mediaUrl": "assets/media/11221.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2560,7 +2560,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na przedstawionej drodze znak zakazujący wyprzedzania przestaje obowiązywać po zakończeniu zakrętu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11224.jpg",
+        "mediaUrl": "assets/media/11224.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2576,7 +2576,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11225.jpg",
+        "mediaUrl": "assets/media/11225.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2592,7 +2592,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak zakazu dotyczy tylko chodnika?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11238.jpg",
+        "mediaUrl": "assets/media/11238.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2608,7 +2608,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak informuje o prędkości minimalnej, z jaką masz prawo się poruszać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11347.mp4",
+        "mediaUrl": "assets/media/11347.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2624,7 +2624,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji dozwolone jest zawracanie na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11349.mp4",
+        "mediaUrl": "assets/media/11349.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2640,7 +2640,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo na zwężonym odcinku jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11351.mp4",
+        "mediaUrl": "assets/media/11351.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2656,7 +2656,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na drogę za tym znakiem pionowym, jeżeli nie utrudnisz ruchu innym pojazdom?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11352.mp4",
+        "mediaUrl": "assets/media/11352.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2672,7 +2672,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie bez zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11353.mp4",
+        "mediaUrl": "assets/media/11353.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2688,7 +2688,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zatrzymanie pojazdu, w celu ustąpienia pierwszeństwa, powinno nastąpić każdorazowo przed znakiem „STOP”?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11355.mp4",
+        "mediaUrl": "assets/media/11355.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2704,7 +2704,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w prawo, możesz wjechać na skrzyżowanie bez zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11353.mp4",
+        "mediaUrl": "assets/media/11353.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2720,7 +2720,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne oznakowanie wskazuje, że powinieneś skręcić w prawo w najbliższą jezdnię?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11357.mp4",
+        "mediaUrl": "assets/media/11357.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2736,7 +2736,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zakaz wyrażony tym znakiem pionowym zabrania skręcania w lewo na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11359.mp4",
+        "mediaUrl": "assets/media/11359.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2752,7 +2752,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu dopuszczalne jest skręcenie w prawo bez uprzedniego zatrzymania się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11277.jpg",
+        "mediaUrl": "assets/media/11277.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2768,7 +2768,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu zatrzymanie pojazdu powinno nastąpić przed znakiem „STOP”?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11277.jpg",
+        "mediaUrl": "assets/media/11277.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2784,7 +2784,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji dopuszczalne jest zawracanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11364.jpg",
+        "mediaUrl": "assets/media/11364.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2800,7 +2800,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zawrócić na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11369.jpg",
+        "mediaUrl": "assets/media/11369.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2816,7 +2816,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zawrócić na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11339.jpg",
+        "mediaUrl": "assets/media/11339.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2832,7 +2832,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zawrócić na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11371.jpg",
+        "mediaUrl": "assets/media/11371.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2848,7 +2848,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zawrócić na skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11372.jpg",
+        "mediaUrl": "assets/media/11372.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2864,7 +2864,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji, w czasie nadawania tego sygnału świetlnego masz prawo skręcić w lewo na skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11372.jpg",
+        "mediaUrl": "assets/media/11372.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2880,7 +2880,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak zakazu zabrania skręcania w lewo na skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11364.jpg",
+        "mediaUrl": "assets/media/11364.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2896,7 +2896,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek każdorazowo zatrzymać swój pojazd przed wjazdem na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11355.mp4",
+        "mediaUrl": "assets/media/11355.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2912,7 +2912,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś kontynuować jazdę prosto przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11350.mp4",
+        "mediaUrl": "assets/media/11350.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2928,7 +2928,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przed wykonaniem manewru skrętu w prawo, masz obowiązek zatrzymać się przed jezdnią poprzeczną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11353.mp4",
+        "mediaUrl": "assets/media/11353.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2944,7 +2944,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zabrania się wjazdu na jezdnię za tym znakiem pionowym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11352.mp4",
+        "mediaUrl": "assets/media/11352.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2960,7 +2960,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znak pionowy „zakaz zatrzymywania się” dotyczy również pobocza gruntowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11379.mp4",
+        "mediaUrl": "assets/media/11379.mp4",
         "answers": [
           {
             "text": "tak",
@@ -2976,7 +2976,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji możesz wjechać na zwężony odcinek jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11381.jpg",
+        "mediaUrl": "assets/media/11381.jpg",
         "answers": [
           {
             "text": "tak",
@@ -2992,7 +2992,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo na chwilę zatrzymać pojazd na jezdni w celu wysadzenia pasażera?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11444.jpg",
+        "mediaUrl": "assets/media/11444.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3008,7 +3008,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji znak \"Stop\" wyznacza dokładne miejsce wymaganego zatrzymania pojazdu przed wjazdem na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11477.mp4",
+        "mediaUrl": "assets/media/11477.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3024,7 +3024,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci jechać na wprost przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11493.mp4",
+        "mediaUrl": "assets/media/11493.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3040,7 +3040,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji znak oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od 3,1 metra?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11496.mp4",
+        "mediaUrl": "assets/media/11496.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3056,7 +3056,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy znak zakazu umieszczony pod znakiem obszar zabudowany oznacza, że zakaz obowiązuje na całym obszarze zabudowanym z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11497.mp4",
+        "mediaUrl": "assets/media/11497.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3072,7 +3072,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny w przedstawionej sytuacji zakaz zatrzymywania dotyczy także chodnika?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11494.mp4",
+        "mediaUrl": "assets/media/11494.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3088,7 +3088,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem jadąc w obszarze zabudowanym. Czy widoczny znak zakazu dotyczy samochodów osobowych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11499.mp4",
+        "mediaUrl": "assets/media/11499.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3104,7 +3104,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem jadąc w obszarze zabudowanym. Czy widoczny znak zakazu dotyczy motocykli?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11499.mp4",
+        "mediaUrl": "assets/media/11499.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3120,7 +3120,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz zatrzymać się dokładnie przed znakiem pionowym \"Stop\"?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11706.mp4",
+        "mediaUrl": "assets/media/11706.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3136,7 +3136,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci kontynuować jazdę w prawo bez zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11706.mp4",
+        "mediaUrl": "assets/media/11706.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3152,7 +3152,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w lewo bez zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11709.mp4",
+        "mediaUrl": "assets/media/11709.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3168,7 +3168,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak informuje Cię, że wjeżdżasz na drogę jednokierunkową?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11713.mp4",
+        "mediaUrl": "assets/media/11713.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3184,7 +3184,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc samochodem osobowym wolno Ci skręcić w prawo za tym znakiem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11727.mp4",
+        "mediaUrl": "assets/media/11727.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3200,7 +3200,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci jechać na wprost przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11766.mp4",
+        "mediaUrl": "assets/media/11766.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3216,7 +3216,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, kierując samochodem osobowym, wolno Ci kontynuować jazdę na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11767.mp4",
+        "mediaUrl": "assets/media/11767.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3232,7 +3232,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz samochodem osobowym z przyczepą lekką. Czy wolno Ci wjechać na drogę za widocznym znakiem zakazu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11767.mp4",
+        "mediaUrl": "assets/media/11767.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3248,7 +3248,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przed znakiem \"Pierwszeństwo dla nadjeżdżających z przeciwka\" należy się zatrzymać w każdej sytuacji?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11770.mp4",
+        "mediaUrl": "assets/media/11770.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3264,7 +3264,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak oznacza zakaz ruchu pojazdów, których wysokość (również z ładunkiem) jest większa od 3 metrów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11781.mp4",
+        "mediaUrl": "assets/media/11781.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3280,7 +3280,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się dokładnie przed przejściem dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11785.mp4",
+        "mediaUrl": "assets/media/11785.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3296,7 +3296,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz samochodem osobowym z przymocowanymi rowerami na dachu o łącznej wysokości 2,6 metra. Czy możesz bezpiecznie dla ładunku kontynuować jazdę na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11786.mp4",
+        "mediaUrl": "assets/media/11786.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3312,7 +3312,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem z instalacją gazową LPG. Czy widoczny znak po prawej nakazuje Ci skręcić w prawo za 150 metrów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11795.mp4",
+        "mediaUrl": "assets/media/11795.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3328,7 +3328,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak dotyczy pojazdów z materiałami wybuchowymi lub łatwo zapalnymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11795.mp4",
+        "mediaUrl": "assets/media/11795.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3344,7 +3344,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji ograniczenie prędkości dotyczy tylko skrajnego prawego pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11830.mp4",
+        "mediaUrl": "assets/media/11830.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3360,7 +3360,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz samochodem osobowym. Czy w tej sytuacji za widocznym znakiem wolno Ci wyprzedzać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11856.mp4",
+        "mediaUrl": "assets/media/11856.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3376,7 +3376,7 @@ window.COURSE_DATA = [
       {
         "title": "Przewozisz zespołem pojazdów o długości 10 metrów ładunek wystający z tyłu przyczepy na odległość 0,5 metra. Czy wolno Ci wjechać na drogę za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12491.jpg",
+        "mediaUrl": "assets/media/12491.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3392,7 +3392,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci się zatrzymać na chodniku przed znakiem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12691.mp4",
+        "mediaUrl": "assets/media/12691.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3408,7 +3408,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji za widocznym znakiem wolno Ci zatrzymać się kołami jednego boku na chodniku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12692.mp4",
+        "mediaUrl": "assets/media/12692.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3424,7 +3424,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy znak \"Nakaz jazdy prosto\" obowiązuje na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12698.mp4",
+        "mediaUrl": "assets/media/12698.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3440,7 +3440,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zbliżając się do przejazdu kolejowego, masz obowiązek zatrzymać pojazd przed znakiem STOP?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12721.jpg",
+        "mediaUrl": "assets/media/12721.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3462,7 +3462,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na jezdni oznaczonej tym znakiem wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2009.jpg",
+        "mediaUrl": "assets/media/2009.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3478,7 +3478,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tak oznakowanej drodze możesz jechać samochodem osobowym z prędkością 100 km/h?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2769.mp4",
+        "mediaUrl": "assets/media/2769.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3494,7 +3494,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem możesz jechać z prędkością 30km/h?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2771.mp4",
+        "mediaUrl": "assets/media/2771.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3510,7 +3510,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy najbliższy widoczny znak zobowiązuje do jazdy z prędkością do 50 km/h?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2050.mp4",
+        "mediaUrl": "assets/media/2050.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3526,7 +3526,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak informuje o zbliżaniu się do miejsca zjazdu z autostrady?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2051.jpg",
+        "mediaUrl": "assets/media/2051.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3542,7 +3542,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić bezpośrednio za pierwszym znakiem informacyjnym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2528.jpg",
+        "mediaUrl": "assets/media/2528.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3558,7 +3558,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny po prawej stronie znak pionowy informuje Cię o miejscu przejeżdżania rowerzystów w poprzek drogi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2581.mp4",
+        "mediaUrl": "assets/media/2581.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3574,7 +3574,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem nadjeżdżającym z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2582.mp4",
+        "mediaUrl": "assets/media/2582.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3590,7 +3590,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem pionowym masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2771.mp4",
+        "mediaUrl": "assets/media/2771.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3606,7 +3606,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem pionowym masz pierwszeństwo przed pieszymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2771.mp4",
+        "mediaUrl": "assets/media/2771.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3622,7 +3622,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, jadąc na wprost, wolno Ci poruszać się bezpośrednio przy prawej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2820.jpg",
+        "mediaUrl": "assets/media/2820.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3638,7 +3638,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy oznakowanie wskazuje, że droga, którą jedziesz jest podporządkowana?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2917.jpg",
+        "mediaUrl": "assets/media/2917.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3654,7 +3654,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś informowany o początku drogi z pierwszeństwem przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2916.jpg",
+        "mediaUrl": "assets/media/2916.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3670,7 +3670,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmienić obecnie zajmowany pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3241.mp4",
+        "mediaUrl": "assets/media/3241.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3686,7 +3686,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak informuje Cię, że zbliżasz się do końca autostrady?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3247.mp4",
+        "mediaUrl": "assets/media/3247.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3702,7 +3702,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś informowany o końcu drogi z pierwszeństwem przejazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3249.mp4",
+        "mediaUrl": "assets/media/3249.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3718,7 +3718,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc samochodem osobowym możesz skręcić w prawo na tak oznakowaną drogę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3274.jpg",
+        "mediaUrl": "assets/media/3274.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3734,7 +3734,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak wskazuje, że jadąc samochodem osobowym masz obowiązek skręcić w prawo na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3274.jpg",
+        "mediaUrl": "assets/media/3274.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3750,7 +3750,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak informuje o przejściu dla pieszych, po którym mogą przejeżdżać rowerzyści?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2628.jpg",
+        "mediaUrl": "assets/media/2628.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3766,7 +3766,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z pasa ruchu, na którym się znajdujesz, masz prawo jechać na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3310.jpg",
+        "mediaUrl": "assets/media/3310.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3782,7 +3782,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zamierzając jechać prosto powinieneś zmienić zajmowany pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3310.jpg",
+        "mediaUrl": "assets/media/3310.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3798,7 +3798,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem możesz jechać z prędkością 20km/h?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2771.mp4",
+        "mediaUrl": "assets/media/2771.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3814,7 +3814,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy maksymalna prędkość, z jaką możesz jechać samochodem osobowym na drodze za tym znakiem wynosi 120 km/h?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2768.jpg",
+        "mediaUrl": "assets/media/2768.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3830,7 +3830,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak informuje Cię, że na najbliższym skrzyżowaniu masz obowiązek jechać prosto?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3335.jpg",
+        "mediaUrl": "assets/media/3335.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3846,7 +3846,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, jeżeli zamierzasz zjechać z autostrady, powinieneś przystąpić do zmiany pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3375.jpg",
+        "mediaUrl": "assets/media/3375.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3862,7 +3862,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem, znajdujące się na jezdni urządzenia wymuszające powolną jazdę, mogą nie być oznakowane znakami ostrzegawczymi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3455.jpg",
+        "mediaUrl": "assets/media/3455.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3878,7 +3878,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza wjazd na obszar zabudowany?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3496.jpg",
+        "mediaUrl": "assets/media/3496.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3894,7 +3894,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza wyjazd z obszaru zabudowanego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3498.jpg",
+        "mediaUrl": "assets/media/3498.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3910,7 +3910,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak pionowy informuje Cię, że zbliżasz się do restauracji i hotelu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3637.mp4",
+        "mediaUrl": "assets/media/3637.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3926,7 +3926,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny po prawej stronie jezdni znak pionowy, wskazuje dozwolone kierunki jazdy z poszczególnych pasów ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3640.mp4",
+        "mediaUrl": "assets/media/3640.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3942,7 +3942,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak pionowy informuje Cię o lokalizacji schroniska młodzieżowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3641.mp4",
+        "mediaUrl": "assets/media/3641.mp4",
         "answers": [
           {
             "text": "tak",
@@ -3958,7 +3958,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem informacyjnym, prawym pasem ruchu mogą poruszać się jedynie uprawnione pojazdy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3695.jpg",
+        "mediaUrl": "assets/media/3695.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3974,7 +3974,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci w niedzielę korzystać z pasa ruchu przy prawej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3703.jpg",
+        "mediaUrl": "assets/media/3703.jpg",
         "answers": [
           {
             "text": "tak",
@@ -3990,7 +3990,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza wyjazd z obszaru zabudowanego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3715.jpg",
+        "mediaUrl": "assets/media/3715.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4006,7 +4006,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji prawy pas ruchu jest przeznaczony dla każdego pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3717.jpg",
+        "mediaUrl": "assets/media/3717.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4022,7 +4022,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w odległości 1000 metrów od tego znaku rozpocznie się droga ekspresowa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3718.jpg",
+        "mediaUrl": "assets/media/3718.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4038,7 +4038,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, gdy zamierzasz jechać do Gdańska, należy zmienić pas ruchu na lewy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3725.jpg",
+        "mediaUrl": "assets/media/3725.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4054,7 +4054,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zmienić pas ruchu na prawy, jeśli kierujesz pojazdem, który nie wykonuje odpłatnego przewozu osób na regularnych liniach?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/9737.mp4",
+        "mediaUrl": "assets/media/9737.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4070,7 +4070,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji skręcając na najbliższym skrzyżowaniu w lewo wjedziesz na drogę bez przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11217.jpg",
+        "mediaUrl": "assets/media/11217.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4086,7 +4086,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po wjeździe na drogę oznaczoną tymi znakami pionowymi, masz prawo kontynuować jazdę z prędkością 30 km/h?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11295.mp4",
+        "mediaUrl": "assets/media/11295.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4102,7 +4102,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wjeżdżasz na autostradę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11298.mp4",
+        "mediaUrl": "assets/media/11298.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4118,7 +4118,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji pojazd nadjeżdżający z przeciwka ma pierwszeństwo na zwężonym odcinku jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11316.jpg",
+        "mediaUrl": "assets/media/11316.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4134,7 +4134,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś uprzedzany, że skręcając w prawo za znakiem wjedziesz na drogę bez przejazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11326.mp4",
+        "mediaUrl": "assets/media/11326.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4150,7 +4150,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze wewnętrznej, oznaczonej odpowiednim znakiem drogowym, masz obowiązek stosować się do umieszczonych tutaj znaków drogowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11334.jpg",
+        "mediaUrl": "assets/media/11334.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4166,7 +4166,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżasz się do miejsca, gdzie rowerzyści mogą przejeżdżać poprzecznie jezdnię?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11336.jpg",
+        "mediaUrl": "assets/media/11336.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4182,7 +4182,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżasz się do przejazdu dla rowerzystów i przejścia dla pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11336.jpg",
+        "mediaUrl": "assets/media/11336.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4198,7 +4198,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś informowany, że poruszasz się drogą jednokierunkową?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11350.mp4",
+        "mediaUrl": "assets/media/11350.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4214,7 +4214,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo pojechać prosto przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11354.mp4",
+        "mediaUrl": "assets/media/11354.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4230,7 +4230,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do skrzyżowania równorzędnego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11472.mp4",
+        "mediaUrl": "assets/media/11472.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4246,7 +4246,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak oznacza koniec autostrady?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11715.mp4",
+        "mediaUrl": "assets/media/11715.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4262,7 +4262,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak oznacza koniec drogi ekspresowej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11716.mp4",
+        "mediaUrl": "assets/media/11716.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4278,7 +4278,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za widocznym znakiem urządzenia wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11718.mp4",
+        "mediaUrl": "assets/media/11718.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4294,7 +4294,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza koniec drogi ekspresowej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11719.mp4",
+        "mediaUrl": "assets/media/11719.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4310,7 +4310,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji bezpośrednio za widocznym znakiem kończy się droga ekspresowa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11715.mp4",
+        "mediaUrl": "assets/media/11715.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4326,7 +4326,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji prawy skrajny pasu ruchu przeznaczony jest tylko dla pojazdów szynowych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11775.mp4",
+        "mediaUrl": "assets/media/11775.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4342,7 +4342,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci kontynuować jazdę na wprost prawym skrajnym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11775.mp4",
+        "mediaUrl": "assets/media/11775.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4358,7 +4358,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wyjeżdżasz ze strefy zamieszkania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11806.mp4",
+        "mediaUrl": "assets/media/11806.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4374,7 +4374,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem wolno Ci poruszać się z dowolną prędkością?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11806.mp4",
+        "mediaUrl": "assets/media/11806.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4390,7 +4390,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wjeżdżasz na obszar zabudowany?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11806.mp4",
+        "mediaUrl": "assets/media/11806.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4406,7 +4406,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak wskazuje pasy ruchu przeznaczone do jazdy w podanych kierunkach?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11815.mp4",
+        "mediaUrl": "assets/media/11815.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4422,7 +4422,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza koniec drogi z pierwszeństwem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11818.mp4",
+        "mediaUrl": "assets/media/11818.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4438,7 +4438,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do stacji obsługi technicznej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11837.mp4",
+        "mediaUrl": "assets/media/11837.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4454,7 +4454,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz zjechać z autostrady w kierunku Pruszkowa. Czy powinieneś zmienić pas ruchu na prawy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11848.mp4",
+        "mediaUrl": "assets/media/11848.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4470,7 +4470,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znaki informują Cię o końcu pasa ruchu po prawej stronie jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11849.mp4",
+        "mediaUrl": "assets/media/11849.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4486,7 +4486,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znaki informują Cię o końcu pasa ruchu po lewej stronie jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11849.mp4",
+        "mediaUrl": "assets/media/11849.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4502,7 +4502,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znaki informują Cię o końcu drogi ekspresowej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11851.mp4",
+        "mediaUrl": "assets/media/11851.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4518,7 +4518,7 @@ window.COURSE_DATA = [
       {
         "title": "Poruszasz się z prędkością 110 km/h. Czy w tej sytuacji masz obowiązek zmniejszyć prędkość?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11851.mp4",
+        "mediaUrl": "assets/media/11851.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4534,7 +4534,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wjeżdżasz na autostradę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11862.mp4",
+        "mediaUrl": "assets/media/11862.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4566,7 +4566,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak drogowy wyznacza miejsce zatrzymania się przed przejazdem kolejowym podczas przejazdu pociągu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12500.mp4",
+        "mediaUrl": "assets/media/12500.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4582,7 +4582,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem wolno Ci zwiększyć prędkość do 130 km/h?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12516.mp4",
+        "mediaUrl": "assets/media/12516.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4598,7 +4598,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem \"strefa zamieszkania\" urządzenia wymuszające powolną jazdę mogą nie być oznakowane znakami ostrzegawczymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12593.mp4",
+        "mediaUrl": "assets/media/12593.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4614,7 +4614,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak drogowy uprzedza o początku odcinka drogi, na którym średnia prędkość jazdy jest  kontrolowana i rejestrowana przez stacjonarne urządzenie rejestrujące?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12594.mp4",
+        "mediaUrl": "assets/media/12594.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4630,7 +4630,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza wjazd do strefy czystego transportu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12595.jpg",
+        "mediaUrl": "assets/media/12595.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4646,7 +4646,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak zezwala na wjazd do strefy czystego transportu tylko pojazdom elektrycznym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12595.jpg",
+        "mediaUrl": "assets/media/12595.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4662,7 +4662,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak zezwala na wjazd do strefy czystego transportu pojazdom napędzanym wodorem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12595.jpg",
+        "mediaUrl": "assets/media/12595.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4678,7 +4678,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak zezwala na wjazd do strefy czystego transportu pojazdem, który jest napędzany gazem ziemnym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12595.jpg",
+        "mediaUrl": "assets/media/12595.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4694,7 +4694,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem \"strefa zamieszkania\" kierujący może spodziewać się pieszych, korzystających z całej szerokości drogi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12593.mp4",
+        "mediaUrl": "assets/media/12593.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4710,7 +4710,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza, że przejeżdżasz przed kierującym zbliżającym się z kierunku przeciwnego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12603.mp4",
+        "mediaUrl": "assets/media/12603.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4726,7 +4726,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza wyjazd z miejscowości?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12661.jpg",
+        "mediaUrl": "assets/media/12661.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4742,7 +4742,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza wjazd do miejscowości?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12662.jpg",
+        "mediaUrl": "assets/media/12662.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4758,7 +4758,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wjeżdżasz do obszaru zabudowanego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12664.jpg",
+        "mediaUrl": "assets/media/12664.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4780,7 +4780,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na najbliższym skrzyżowaniu wolno Ci oczekiwać na możliwość zawrócenia w obrębie pasa dzielącego jezdnie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2016.jpg",
+        "mediaUrl": "assets/media/2016.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4796,7 +4796,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak poziomy pozwala na zawracanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2057.mp4",
+        "mediaUrl": "assets/media/2057.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4812,7 +4812,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na widocznym po lewej stronie znaku poziomym między pasami ruchu możesz zatrzymać pojazd?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2061.jpg",
+        "mediaUrl": "assets/media/2061.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4828,7 +4828,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak poziomy wyznacza pas postojowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3684.jpg",
+        "mediaUrl": "assets/media/3684.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4844,7 +4844,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na znaku poziomym po lewej stronie za przejściem dla pieszych możesz zatrzymać pojazd?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2063.jpg",
+        "mediaUrl": "assets/media/2063.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4860,7 +4860,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci skręcić w lewo i wjechać na stację paliw?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2124.mp4",
+        "mediaUrl": "assets/media/2124.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4876,7 +4876,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna linia złożona z trójkątów wskazuje Ci miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2125.mp4",
+        "mediaUrl": "assets/media/2125.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4892,7 +4892,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z tego pasa ruchu możesz skręcić w lewo na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2158.mp4",
+        "mediaUrl": "assets/media/2158.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4908,7 +4908,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu możesz jechać prosto z lewego pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2161.jpg",
+        "mediaUrl": "assets/media/2161.jpg",
         "answers": [
           {
             "text": "tak",
@@ -4924,7 +4924,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać na przejazd bez zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2378.mp4",
+        "mediaUrl": "assets/media/2378.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4940,7 +4940,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić rowerzystę, jeżeli wymaga to najechania na podwójną linię ciągłą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2545.mp4",
+        "mediaUrl": "assets/media/2545.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4956,7 +4956,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zmieniając pas ruchu na lewy, masz obowiązek ustąpić pierwszeństwa pojazdom jadącym tym pasem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2550.mp4",
+        "mediaUrl": "assets/media/2550.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4972,7 +4972,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zmieniając pas ruchu, masz pierwszeństwo przed pojazdami jadącymi prawym pasem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2552.mp4",
+        "mediaUrl": "assets/media/2552.mp4",
         "answers": [
           {
             "text": "tak",
@@ -4988,7 +4988,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zmieniając pas ruchu, masz pierwszeństwo przed pojazdami jadącymi lewym pasem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2553.mp4",
+        "mediaUrl": "assets/media/2553.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5004,7 +5004,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo, a kierujący pojazdem z przeciwka będzie jechać na wprost. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2564.mp4",
+        "mediaUrl": "assets/media/2564.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5020,7 +5020,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się przed widoczną linią poprzeczną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2576.mp4",
+        "mediaUrl": "assets/media/2576.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5036,7 +5036,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym odcinku drogi wolno Ci rozpocząć wyprzedzanie pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2578.mp4",
+        "mediaUrl": "assets/media/2578.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5052,7 +5052,7 @@ window.COURSE_DATA = [
       {
         "title": "Zatrzymałeś się przed przejściem dla pieszych. Czy masz również obowiązek zatrzymać się przed linią widoczną bezpośrednio za przejściem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2583.mp4",
+        "mediaUrl": "assets/media/2583.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5068,7 +5068,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zmienić pas ruchu bezpośrednio przed skrzyżowaniem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2696.jpg",
+        "mediaUrl": "assets/media/2696.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5084,7 +5084,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zamierzając jechać na wprost, możesz wjechać na to skrzyżowanie z dowolnego pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2699.mp4",
+        "mediaUrl": "assets/media/2699.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5100,7 +5100,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak poziomy pozwala na jazdę na wprost tym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2057.mp4",
+        "mediaUrl": "assets/media/2057.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5116,7 +5116,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo przejechać na wprost przez skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2766.jpg",
+        "mediaUrl": "assets/media/2766.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5132,7 +5132,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny na jezdni znak \"stop\" uprzedza o zbliżaniu się do drogi z pierwszeństwem przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2814.jpg",
+        "mediaUrl": "assets/media/2814.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5148,7 +5148,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować się do żółtych znaków poziomych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2837.mp4",
+        "mediaUrl": "assets/media/2837.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5164,7 +5164,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci pojechać na wprost przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2840.mp4",
+        "mediaUrl": "assets/media/2840.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5180,7 +5180,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak poziomy wyznacza miejsce zatrzymania się jedynie w sytuacji, kiedy drogą poprzeczną nadjeżdża pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2869.mp4",
+        "mediaUrl": "assets/media/2869.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5196,7 +5196,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny trójkątny znak poziomy uprzedza Cię o miejscu na drodze, w którym występuje lub może występować niebezpieczeństwo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2918.jpg",
+        "mediaUrl": "assets/media/2918.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5212,7 +5212,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na skrzyżowanie bez zatrzymania pojazdu przed widoczną linią ciągłą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2920.jpg",
+        "mediaUrl": "assets/media/2920.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5228,7 +5228,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd przed widoczną linią ciągłą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2920.jpg",
+        "mediaUrl": "assets/media/2920.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5244,7 +5244,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz zastosować się do żółtych znaków poziomych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2921.jpg",
+        "mediaUrl": "assets/media/2921.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5260,7 +5260,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym pasie ruchu jazda jest dozwolona tylko w kierunku wskazanym strzałką?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2938.jpg",
+        "mediaUrl": "assets/media/2938.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5276,7 +5276,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, umieszczone po prawej stronie jezdni punktowe elementy odblaskowe barwy białej informują Cię o krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3127.jpg",
+        "mediaUrl": "assets/media/3127.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5292,7 +5292,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, bezpośrednio za widoczną po prawej stronie drogi linią złożoną z punktowych elementów odblaskowych barwy białej jest pobocze?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3127.jpg",
+        "mediaUrl": "assets/media/3127.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5308,7 +5308,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, za linią złożoną z punktowych elementów odblaskowych barwy czerwonej znajduje się pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3128.jpg",
+        "mediaUrl": "assets/media/3128.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5324,7 +5324,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji czerwone punktowe elementy odblaskowe wyznaczają prawą krawędź jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3129.jpg",
+        "mediaUrl": "assets/media/3129.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5340,7 +5340,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zatrzymać się w wyznaczonym linią miejscu, nawet wtedy, gdy upewniłeś się, że drogą z pierwszeństwem przejazdu nie poruszają się inne pojazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3166.mp4",
+        "mediaUrl": "assets/media/3166.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5356,7 +5356,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna linia wskazuje miejsce zatrzymania, które zapewnia Ci najlepszą widoczność na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3166.mp4",
+        "mediaUrl": "assets/media/3166.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5372,7 +5372,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna linia wskazuje miejsce obowiązkowego zatrzymania się przed wjazdem na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3166.mp4",
+        "mediaUrl": "assets/media/3166.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5388,7 +5388,7 @@ window.COURSE_DATA = [
       {
         "title": "Planujesz skręcić w lewo, a kierujący pojazdem z przeciwka ma zamiar jechać na wprost. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3155.mp4",
+        "mediaUrl": "assets/media/3155.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5404,7 +5404,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna poprzeczna linia przerywana wyznacza miejsce warunkowego zatrzymania pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3157.mp4",
+        "mediaUrl": "assets/media/3157.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5420,7 +5420,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ta linia ciągła wyznacza Ci miejsce zatrzymania pojazdu w związku ze znakiem \"stop\"?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3165.mp4",
+        "mediaUrl": "assets/media/3165.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5436,7 +5436,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak poziomy wyznacza miejsce bezwzględnego zatrzymania się, nawet w sytuacji, gdy z żadnej ze stron nie nadjeżdża pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3166.mp4",
+        "mediaUrl": "assets/media/3166.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5452,7 +5452,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej drodze możesz spodziewać się rowerzystów nadjeżdżających z przeciwka?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3168.jpg",
+        "mediaUrl": "assets/media/3168.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5468,7 +5468,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w lewo z zajmowanego obecnie pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3235.mp4",
+        "mediaUrl": "assets/media/3235.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5484,7 +5484,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy poruszając się tym pasem ruchu, masz obowiązek kontynuować jazdę na wprost przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3240.mp4",
+        "mediaUrl": "assets/media/3240.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5500,7 +5500,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci najeżdżać na widoczną na jezdni podwójną linię ciągłą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3242.mp4",
+        "mediaUrl": "assets/media/3242.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5516,7 +5516,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmienić obecnie zajmowany pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3243.mp4",
+        "mediaUrl": "assets/media/3243.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5532,7 +5532,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zmienić pas ruchu na środkowy, jeśli chcesz jechać na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3280.jpg",
+        "mediaUrl": "assets/media/3280.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5548,7 +5548,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z pasa ruchu, na którym się znajdujesz, dozwolone jest skręcanie w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2161.jpg",
+        "mediaUrl": "assets/media/2161.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5564,7 +5564,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przerywana linia przed przejściem dla pieszych oznacza miejsce warunkowego zatrzymania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3330.jpg",
+        "mediaUrl": "assets/media/3330.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5580,7 +5580,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek bezwarunkowo zatrzymać pojazd przed linią złożoną z trójkątów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3331.jpg",
+        "mediaUrl": "assets/media/3331.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5596,7 +5596,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na obszarze wyznaczonym linią przystankową możesz zatrzymać samochód osobowy w celu zapytania o drogę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2764.jpg",
+        "mediaUrl": "assets/media/2764.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5612,7 +5612,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy te znaki poziome nakazują zmianę pasa ruchu na sąsiedni, wskazany strzałką?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3334.mp4",
+        "mediaUrl": "assets/media/3334.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5628,7 +5628,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz zatrzymać się bezpośrednio przed linią zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3343.mp4",
+        "mediaUrl": "assets/media/3343.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5644,7 +5644,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny na jezdni znak - linia łamana - wyznacza miejsce parkingowe dla niepełnosprawnych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2822.jpg",
+        "mediaUrl": "assets/media/2822.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5660,7 +5660,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, umieszczone po prawej stronie na linii przerywanej odblaskowe elementy punktowe barwy białej rozdzielają pasy ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3127.jpg",
+        "mediaUrl": "assets/media/3127.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5676,7 +5676,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny na jezdni napis \"STOP\" potwierdza oznakowanie wlotu na skrzyżowanie znakiem pionowym \"stop\"?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3361.jpg",
+        "mediaUrl": "assets/media/3361.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5692,7 +5692,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po skręceniu w lewo, widoczne na jezdni poprzecznej oznakowanie poziome zabrania Ci przejechać na prawy skrajny pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3364.mp4",
+        "mediaUrl": "assets/media/3364.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5708,7 +5708,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy linia złożona z prostokątów oznacza miejsce zatrzymania pojazdu przed przejściem dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3384.mp4",
+        "mediaUrl": "assets/media/3384.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5724,7 +5724,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji białe punktowe elementy odblaskowe wyznaczają lewą krawędź jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3129.jpg",
+        "mediaUrl": "assets/media/3129.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5740,7 +5740,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji w miejscu oznakowanym widoczną linią przystankową mogą się zatrzymywać wyłącznie pojazdy uprawnione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3607.mp4",
+        "mediaUrl": "assets/media/3607.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5756,7 +5756,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne poziome znaki ostrzegawcze uprzedzają Cię o miejscu, w którym występuje lub może występować niebezpieczeństwo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2918.jpg",
+        "mediaUrl": "assets/media/2918.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5772,7 +5772,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna linia złożona z białych punktowych elementów odblaskowych wyznacza lewą krawędź jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3128.jpg",
+        "mediaUrl": "assets/media/3128.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5788,7 +5788,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo najechać na linię ciągłą oddzielającą pasy ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3399.jpg",
+        "mediaUrl": "assets/media/3399.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5804,7 +5804,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zastosować się do wskazań białych strzałek?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3411.mp4",
+        "mediaUrl": "assets/media/3411.mp4",
         "answers": [
           {
             "text": "tak",
@@ -5820,7 +5820,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne oznakowanie poziome wskazuje miejsce zatrzymania się w celu ustąpienia pierwszeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3432.jpg",
+        "mediaUrl": "assets/media/3432.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5836,7 +5836,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna na jezdni linia, złożona z trójkątów, wyznacza miejsce warunkowego zatrzymania się w celu ustąpienia pierwszeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3459.jpg",
+        "mediaUrl": "assets/media/3459.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5852,7 +5852,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci jechać na wprost z zajmowanego przez Ciebie pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3463.jpg",
+        "mediaUrl": "assets/media/3463.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5868,7 +5868,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, kontynuując jazdę, masz obowiązek zmienić pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3066.jpg",
+        "mediaUrl": "assets/media/3066.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5884,7 +5884,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem silnikowym. Czy z zajmowanego pasa ruchu wolno Ci pojechać przez skrzyżowanie na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3478.jpg",
+        "mediaUrl": "assets/media/3478.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5900,7 +5900,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zatrzymanie pojazdu w tym miejscu w celu ustąpienia pierwszeństwa innym kierującym pojazdami jest właściwe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3480.jpg",
+        "mediaUrl": "assets/media/3480.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5916,7 +5916,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci korzystać ze wszystkich pasów ruchu na całej szerokości jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3491.jpg",
+        "mediaUrl": "assets/media/3491.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5932,7 +5932,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, kierując samochodem osobowym, wolno Ci jechać na wprost zajmowanym pasem ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3492.jpg",
+        "mediaUrl": "assets/media/3492.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5948,7 +5948,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak poziomy zabrania zmiany pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3493.jpg",
+        "mediaUrl": "assets/media/3493.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5964,7 +5964,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, przejeżdżając przez białą przerywaną linię, zmieniasz pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3494.jpg",
+        "mediaUrl": "assets/media/3494.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5980,7 +5980,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znajdujesz się na jezdni dwukierunkowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3495.jpg",
+        "mediaUrl": "assets/media/3495.jpg",
         "answers": [
           {
             "text": "tak",
@@ -5996,7 +5996,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy tym pasem ruchu wolno Ci jechać na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3525.mp4",
+        "mediaUrl": "assets/media/3525.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6012,7 +6012,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z pasa ruchu, który zajmujesz, będziesz miał prawo skręcić wyłącznie w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3528.mp4",
+        "mediaUrl": "assets/media/3528.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6028,7 +6028,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak poziomy w kształcie trójkąta potwierdza ostrzeżenie o skrzyżowaniu z drogą z pierwszeństwem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3610.mp4",
+        "mediaUrl": "assets/media/3610.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6044,7 +6044,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjeżdżać na widoczną z lewej strony powierzchnię jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3634.mp4",
+        "mediaUrl": "assets/media/3634.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6060,7 +6060,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji poruszasz się drogą jednokierunkową?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3635.mp4",
+        "mediaUrl": "assets/media/3635.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6076,7 +6076,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z tego pasa ruchu wolno Ci jechać na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3680.mp4",
+        "mediaUrl": "assets/media/3680.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6092,7 +6092,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne na prawym pasie ruchu znaki poziome wyznaczają początek wyjazdu z autostrady?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3683.jpg",
+        "mediaUrl": "assets/media/3683.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6108,7 +6108,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak poziomy oznacza obszar wyłączony z ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3684.jpg",
+        "mediaUrl": "assets/media/3684.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6124,7 +6124,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne na tym skrzyżowaniu oznakowanie poziome w postaci linii przerywanej, oznacza kontynuację zajmowanego pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3714.jpg",
+        "mediaUrl": "assets/media/3714.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6140,7 +6140,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji dozwolony jest skręt w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11214.jpg",
+        "mediaUrl": "assets/media/11214.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6156,7 +6156,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz skręcić na widocznym skrzyżowaniu w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11223.jpg",
+        "mediaUrl": "assets/media/11223.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6172,7 +6172,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wjeżdżając na to skrzyżowanie musisz się bezwzględnie zatrzymać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11271.mp4",
+        "mediaUrl": "assets/media/11271.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6188,7 +6188,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc tym pasem ruchu masz prawo kontynuować jazdę na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11303.mp4",
+        "mediaUrl": "assets/media/11303.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6204,7 +6204,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy mając zamiar zawrócić na tym skrzyżowaniu jesteś na właściwym pasie ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11305.mp4",
+        "mediaUrl": "assets/media/11305.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6220,7 +6220,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy manewr zawracania na tym skrzyżowaniu możesz wykonać ze skrajnego prawego pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11305.mp4",
+        "mediaUrl": "assets/media/11305.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6236,7 +6236,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji widząc ten znak poziomy w postaci trójkątów masz obowiązek każdorazowego zatrzymania się przed wjazdem na drogę z pierwszeństwem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11312.mp4",
+        "mediaUrl": "assets/media/11312.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6252,7 +6252,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z tego pasa ruchu masz prawo jechać prosto przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11314.mp4",
+        "mediaUrl": "assets/media/11314.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6268,7 +6268,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zatrzymanie pojazdu w celu ustąpienia pierwszeństwa powinno nastąpić bezpośrednio przed linią bezwzględnego zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11330.mp4",
+        "mediaUrl": "assets/media/11330.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6284,7 +6284,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczne znaki poziome w postaci strzałek na jezdni, nakazują jazdę tylko we wskazanym kierunku, z pasów ruchu, na których się znajdują?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11331.mp4",
+        "mediaUrl": "assets/media/11331.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6300,7 +6300,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny znak poziomy rozdziela pasy ruchu przeznaczone dla ruchu o tym samym kierunku jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11308.mp4",
+        "mediaUrl": "assets/media/11308.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6316,7 +6316,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z tego pasa ruchu dozwolona jest jazda tylko prosto przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11333.mp4",
+        "mediaUrl": "assets/media/11333.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6332,7 +6332,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz obowiązek jak najszybciej powrócić na prawą część jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11338.jpg",
+        "mediaUrl": "assets/media/11338.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6348,7 +6348,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji znaki poziome na jezdni zezwalają na zmianę pasa ruchu na lewy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11339.jpg",
+        "mediaUrl": "assets/media/11339.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6364,7 +6364,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z tego pasa ruchu po zmianie sygnału na zielony masz prawo skręcić w lewo na skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11341.jpg",
+        "mediaUrl": "assets/media/11341.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6380,7 +6380,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo najechać na linię ciągłą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11438.mp4",
+        "mediaUrl": "assets/media/11438.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6396,7 +6396,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do skrzyżowania drogą podporządkowaną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11484.mp4",
+        "mediaUrl": "assets/media/11484.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6412,7 +6412,7 @@ window.COURSE_DATA = [
       {
         "title": "W przedstawionej sytuacji zamierzasz skręcić w prawo. Czy musisz zatrzymać się w wyznaczonym miejscu przed wjazdem na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11485.mp4",
+        "mediaUrl": "assets/media/11485.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6428,7 +6428,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji widzisz kończący się pas ruchu dla rowerzystów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11505.mp4",
+        "mediaUrl": "assets/media/11505.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6444,7 +6444,7 @@ window.COURSE_DATA = [
       {
         "title": "W przedstawionej sytuacji zamierzasz skręcić w lewo na najbliższym skrzyżowaniu. Czy jedziesz właściwym pasem ruchu, aby wykonać ten manewr?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11520.mp4",
+        "mediaUrl": "assets/media/11520.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6460,7 +6460,7 @@ window.COURSE_DATA = [
       {
         "title": "W przedstawionej sytuacji na najbliższym skrzyżowaniu zamierzasz jechać na wprost. Czy poruszasz się prawidłowym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11521.mp4",
+        "mediaUrl": "assets/media/11521.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6476,7 +6476,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczna linia podwójna ciągła rozdziela pasy ruchu przeznaczone dla ruchu o tym samym kierunku jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11731.mp4",
+        "mediaUrl": "assets/media/11731.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6492,7 +6492,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jedziesz drogą jednokierunkową?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11734.mp4",
+        "mediaUrl": "assets/media/11734.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6508,7 +6508,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jedziesz jezdnią o dwóch pasach ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11735.mp4",
+        "mediaUrl": "assets/media/11735.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6524,7 +6524,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci jeszcze zmienić pas ruchu na prawy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11855.mp4",
+        "mediaUrl": "assets/media/11855.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6540,7 +6540,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dozwolony jest postój na wyznaczonych miejscach dla osób niepełnosprawnych, jeśli nie będzie trwał więcej niż 15 minut?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11908.jpg",
+        "mediaUrl": "assets/media/11908.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6556,7 +6556,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w lewo, aby zaparkować pojazd na chodniku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12679.mp4",
+        "mediaUrl": "assets/media/12679.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6572,7 +6572,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wykorzystać widoczną po lewej stronie powierzchnię jezdni do parkowania pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12680.mp4",
+        "mediaUrl": "assets/media/12680.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6594,7 +6594,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2907.jpg",
+        "mediaUrl": "assets/media/2907.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6610,7 +6610,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten sygnał oznacza bezkolizyjny skręt w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2299.mp4",
+        "mediaUrl": "assets/media/2299.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6626,7 +6626,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wskazania sygnałów świetlnych są ważniejsze niż znaki drogowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2755.mp4",
+        "mediaUrl": "assets/media/2755.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6642,7 +6642,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd we wskazanym miejscu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2340.mp4",
+        "mediaUrl": "assets/media/2340.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6658,7 +6658,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek stosowania się do poleceń i sygnałów dawanych przez osobę wykonującą roboty na drodze na zlecenie zarządcy drogi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2532.jpg",
+        "mediaUrl": "assets/media/2532.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6674,7 +6674,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy polecenia i sygnały dawane przez osoby kierujące ruchem mają pierwszeństwo przed znakami drogowymi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3622.jpg",
+        "mediaUrl": "assets/media/3622.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6690,7 +6690,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2574.mp4",
+        "mediaUrl": "assets/media/2574.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6706,7 +6706,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widząc taką postawę policjanta kierującego ruchem możesz wjechać na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2627.jpg",
+        "mediaUrl": "assets/media/2627.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6722,7 +6722,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się przed skrzyżowaniem, jeśli skręcasz w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2705.mp4",
+        "mediaUrl": "assets/media/2705.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6738,7 +6738,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zamierzając skręcić w prawo masz prawo wjechać na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2705.mp4",
+        "mediaUrl": "assets/media/2705.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6754,7 +6754,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zamierzając skręcić w prawo, masz pierwszeństwo przed pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2712.mp4",
+        "mediaUrl": "assets/media/2712.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6770,7 +6770,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy taka postawa policjanta oznacza, że masz prawo skręcić w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2714.mp4",
+        "mediaUrl": "assets/media/2714.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6786,7 +6786,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś umożliwić przejazd pojazdowi uprzywilejowanemu, wysyłającemu niebieskie sygnały świetlne i sygnały dźwiękowe o zmiennym tonie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2734.mp4",
+        "mediaUrl": "assets/media/2734.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6802,7 +6802,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2753.mp4",
+        "mediaUrl": "assets/media/2753.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6818,7 +6818,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2754.mp4",
+        "mediaUrl": "assets/media/2754.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6834,7 +6834,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2758.mp4",
+        "mediaUrl": "assets/media/2758.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6850,7 +6850,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2759.mp4",
+        "mediaUrl": "assets/media/2759.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6866,7 +6866,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten sygnał oznacza, że wolno Ci wjechać na przejście dla pieszych i przejazd dla rowerzystów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2762.mp4",
+        "mediaUrl": "assets/media/2762.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6882,7 +6882,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na zwężony odcinek drogi bez zatrzymania się przed sygnalizatorem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2819.jpg",
+        "mediaUrl": "assets/media/2819.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6898,7 +6898,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawany sygnał świetlny zezwala Ci na wjazd za sygnalizator?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2826.jpg",
+        "mediaUrl": "assets/media/2826.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6914,7 +6914,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten sygnał oznacza, że podczas jazdy w lewo nie występuje kolizja z innymi uczestnikami ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2887.mp4",
+        "mediaUrl": "assets/media/2887.mp4",
         "answers": [
           {
             "text": "tak",
@@ -6930,7 +6930,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować się do sygnału świetlnego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2907.jpg",
+        "mediaUrl": "assets/media/2907.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6946,7 +6946,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować się do sygnału osoby kierującej ruchem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/6180.jpg",
+        "mediaUrl": "assets/media/6180.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6962,7 +6962,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek zatrzymać się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/6180.jpg",
+        "mediaUrl": "assets/media/6180.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6978,7 +6978,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci kontynuować jazdę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2913.jpg",
+        "mediaUrl": "assets/media/2913.jpg",
         "answers": [
           {
             "text": "tak",
@@ -6994,7 +6994,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawany sygnał świetlny zabrania Ci wjazdu za sygnalizator?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2915.jpg",
+        "mediaUrl": "assets/media/2915.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7010,7 +7010,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo wjechać na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2941.jpg",
+        "mediaUrl": "assets/media/2941.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7026,7 +7026,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo skręcić w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3019.jpg",
+        "mediaUrl": "assets/media/3019.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7042,7 +7042,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji widoczny sygnał zezwala Ci na wjazd za sygnalizator, jeżeli nie utrudnisz tym ruchu pojazdom nadjeżdżającym z przeciwka?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3098.jpg",
+        "mediaUrl": "assets/media/3098.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7058,7 +7058,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawany sygnał świetlny zezwala Ci na wjazd za sygnalizator?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3169.jpg",
+        "mediaUrl": "assets/media/3169.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7074,7 +7074,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo - mimo podawanego sygnału - skręcić w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3170.mp4",
+        "mediaUrl": "assets/media/3170.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7090,7 +7090,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo kontynuować jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3171.mp4",
+        "mediaUrl": "assets/media/3171.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7106,7 +7106,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji migający sygnał żółty zezwala Ci wjechać za sygnalizator bez zatrzymywania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3175.mp4",
+        "mediaUrl": "assets/media/3175.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7122,7 +7122,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawany sygnał świetlny oznacza, że podczas jazdy w lewo nie występuje kolizja z innymi uczestnikami ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3217.mp4",
+        "mediaUrl": "assets/media/3217.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7138,7 +7138,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten sygnał świetlny oznacza, że przy skręcaniu w lewo nie występuje kolizja z innymi uczestnikami ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3232.mp4",
+        "mediaUrl": "assets/media/3232.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7154,7 +7154,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać za sygnalizator, jeżeli zatrzymanie się przed nim wymaga gwałtownego hamowania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3268.mp4",
+        "mediaUrl": "assets/media/3268.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7170,7 +7170,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się przed skrzyżowaniem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3322.mp4",
+        "mediaUrl": "assets/media/3322.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7186,7 +7186,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie, jeżeli zamierzasz jechać na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3352.mp4",
+        "mediaUrl": "assets/media/3352.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7202,7 +7202,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo skręcić w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3368.jpg",
+        "mediaUrl": "assets/media/3368.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7218,7 +7218,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji następnym sygnałem będzie sygnał czerwony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3378.jpg",
+        "mediaUrl": "assets/media/3378.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7234,7 +7234,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji sygnał świetlny zabrania wjazdu za sygnalizator kierowcom jadącym na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3618.jpg",
+        "mediaUrl": "assets/media/3618.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7250,7 +7250,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawane sygnały świetlne zabraniają wjazdu za sygnalizator?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3732.jpg",
+        "mediaUrl": "assets/media/3732.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7266,7 +7266,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawane sygnały świetlne zezwalają Ci na wjazd za sygnalizator?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3712.jpg",
+        "mediaUrl": "assets/media/3712.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7282,7 +7282,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3420.jpg",
+        "mediaUrl": "assets/media/3420.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7298,7 +7298,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo przejechać przez skrzyżowanie na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/6180.jpg",
+        "mediaUrl": "assets/media/6180.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7314,7 +7314,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo, jeżeli nie utrudniasz nikomu ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3444.jpg",
+        "mediaUrl": "assets/media/3444.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7330,7 +7330,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy sygnał, który daje policjant, zezwala na wjazd na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3019.jpg",
+        "mediaUrl": "assets/media/3019.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7346,7 +7346,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny sygnał dawany przez osobę uprawnioną oznacza, że za chwilę będzie Ci wolno wjechać na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3446.jpg",
+        "mediaUrl": "assets/media/3446.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7362,7 +7362,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcanie w prawo jest zabronione nawet wtedy, gdy nie utrudni to poruszania się innym uczestnikom ruchu drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3447.jpg",
+        "mediaUrl": "assets/media/3447.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7378,7 +7378,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy sygnał świetlny nad Twoim pasem ruchu zezwala na skręt w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3616.jpg",
+        "mediaUrl": "assets/media/3616.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7394,7 +7394,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy następny sygnał będzie Ci zabraniał wjazdu na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3449.jpg",
+        "mediaUrl": "assets/media/3449.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7410,7 +7410,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zabroniony jest Twój wjazd na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3450.jpg",
+        "mediaUrl": "assets/media/3450.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7426,7 +7426,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za chwilę będzie dawany sygnał zakazujący wjazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3507.jpg",
+        "mediaUrl": "assets/media/3507.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7442,7 +7442,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu będzie Ci wolno zawrócić, gdy zapali się sygnał zielony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3534.jpg",
+        "mediaUrl": "assets/media/3534.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7458,7 +7458,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem z prędkością 30 km/h. Czy w tej sytuacji powinieneś zatrzymać pojazd przed sygnalizatorem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3599.mp4",
+        "mediaUrl": "assets/media/3599.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7474,7 +7474,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo, jeśli nie spowodujesz tym utrudnienia ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3615.jpg",
+        "mediaUrl": "assets/media/3615.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7490,7 +7490,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji sygnał świetlny nadawany dla Twojego pasa ruchu zezwala Ci na zawracanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3617.jpg",
+        "mediaUrl": "assets/media/3617.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7506,7 +7506,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo bez zatrzymania się przed sygnalizatorem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3618.jpg",
+        "mediaUrl": "assets/media/3618.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7522,7 +7522,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie bez zatrzymania się przed linią złożoną z trójkątów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3622.jpg",
+        "mediaUrl": "assets/media/3622.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7538,7 +7538,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać za sygnalizator bez zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3632.mp4",
+        "mediaUrl": "assets/media/3632.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7554,7 +7554,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy sygnał, który daje policjant oznacza, że na najbliższym skrzyżowaniu masz obowiązek skręcić w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2340.mp4",
+        "mediaUrl": "assets/media/2340.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7570,7 +7570,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3682.mp4",
+        "mediaUrl": "assets/media/3682.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7586,7 +7586,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować się do sygnału podawanego przez widoczną osobę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3710.jpg",
+        "mediaUrl": "assets/media/3710.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7602,7 +7602,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji następnym sygnałem będzie sygnał czerwony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3712.jpg",
+        "mediaUrl": "assets/media/3712.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7618,7 +7618,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny nad Twoim pasem ruchu sygnał świetlny zobowiązuje Cię do zatrzymania się przed sygnalizatorem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3713.jpg",
+        "mediaUrl": "assets/media/3713.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7634,7 +7634,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić na widocznym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3719.jpg",
+        "mediaUrl": "assets/media/3719.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7650,7 +7650,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawany sygnał świetlny oznacza, że podczas jazdy w prawo nie występuje kolizja z innymi uczestnikami ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3731.jpg",
+        "mediaUrl": "assets/media/3731.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7666,7 +7666,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś oczekiwać, że następnym sygnałem będzie światło zielone?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3732.jpg",
+        "mediaUrl": "assets/media/3732.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7682,7 +7682,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/6180.jpg",
+        "mediaUrl": "assets/media/6180.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7698,7 +7698,7 @@ window.COURSE_DATA = [
       {
         "title": "Masz zamiar skręcić w prawo. Czy w przedstawionej sytuacji zatrzymasz się przed sygnalizatorem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11209.jpg",
+        "mediaUrl": "assets/media/11209.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7714,7 +7714,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy osoba wykonująca na zlecenie lub za zgodą zarządcy drogi roboty na drodze może dawać uczestnikowi drogi polecenia lub sygnały?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11211.jpg",
+        "mediaUrl": "assets/media/11211.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7730,7 +7730,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo zawrócić na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11258.mp4",
+        "mediaUrl": "assets/media/11258.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7746,7 +7746,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji przed wjazdem na skrzyżowanie obowiązkowo trzeba się zatrzymać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11249.mp4",
+        "mediaUrl": "assets/media/11249.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7762,7 +7762,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji sygnał świetlny nadawany dla twojego kierunku ruchu zezwala na wjazd za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11252.mp4",
+        "mediaUrl": "assets/media/11252.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7778,7 +7778,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny sygnał zezwala na skręcenie w prawo bez zatrzymania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11257.jpg",
+        "mediaUrl": "assets/media/11257.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7794,7 +7794,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji policjant kierujący ruchem umożliwia Ci wykonanie manewru skrętu w lewo na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11293.mp4",
+        "mediaUrl": "assets/media/11293.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7826,7 +7826,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać za sygnalizator, jeżeli nie utrudnisz ruchu pieszym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11409.jpg",
+        "mediaUrl": "assets/media/11409.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7842,7 +7842,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do miejsca postoju autobusu szkolnego poza obszarem zabudowanym masz obowiązek umożliwić kierującemu tym autobusem wjazd na jezdnię, o ile sygnalizuje on zamiar wykonania takiego manewru?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11442.jpg",
+        "mediaUrl": "assets/media/11442.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7858,7 +7858,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji sygnał zielony zwalnia Cię z konieczności zachowania szczególnej ostrożności na przejściu dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11507.mp4",
+        "mediaUrl": "assets/media/11507.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7874,7 +7874,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zmieniając pas ruchu nieoznaczony znakami drogowymi jesteś zwolniony z sygnalizowania tego manewru odpowiednim kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11787.mp4",
+        "mediaUrl": "assets/media/11787.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7890,7 +7890,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji sygnał żółty migający zezwala na wjazd za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11802.mp4",
+        "mediaUrl": "assets/media/11802.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7906,7 +7906,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji następnym sygnałem dla pasa ruchu, którym się poruszasz będzie sygnał czerwony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11821.mp4",
+        "mediaUrl": "assets/media/11821.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7922,7 +7922,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy sygnał żółty migający oznacza, że za chwilę zapali się sygnał zielony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11828.mp4",
+        "mediaUrl": "assets/media/11828.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7938,7 +7938,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy sygnał żółty migający oznacza, że za chwilę zapali się sygnał czerwony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11828.mp4",
+        "mediaUrl": "assets/media/11828.mp4",
         "answers": [
           {
             "text": "tak",
@@ -7954,7 +7954,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy nadawany sygnał oznacza, że za chwilę zapali się sygnał zielony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11914.jpg",
+        "mediaUrl": "assets/media/11914.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7970,7 +7970,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy nadawany sygnał oznacza, że za chwilę zapali się sygnał czerwony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11914.jpg",
+        "mediaUrl": "assets/media/11914.jpg",
         "answers": [
           {
             "text": "tak",
@@ -7986,7 +7986,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz kontynuować jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12627.mp4",
+        "mediaUrl": "assets/media/12627.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8002,7 +8002,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek powstrzymać się od ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12627.mp4",
+        "mediaUrl": "assets/media/12627.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8018,7 +8018,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz kontynuować jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12629.mp4",
+        "mediaUrl": "assets/media/12629.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8034,7 +8034,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, żeby kontynuować jazdę, musisz oczekiwać na zmianę sygnału czerwonego na zielony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12629.mp4",
+        "mediaUrl": "assets/media/12629.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8050,7 +8050,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz oczekiwać na opuszczenie przejścia dla pieszych przez dzieci i osobę kierującą ruchem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12635.mp4",
+        "mediaUrl": "assets/media/12635.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8066,7 +8066,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji następnym sygnałem będzie sygnał zielony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12677.jpg",
+        "mediaUrl": "assets/media/12677.jpg",
         "answers": [
           {
             "text": "tak",
@@ -8088,7 +8088,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyjeżdżając z posesji na drogę, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2111.mp4",
+        "mediaUrl": "assets/media/2111.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8104,7 +8104,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyjeżdżając ze strefy zamieszkania, włączasz się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2308.mp4",
+        "mediaUrl": "assets/media/2308.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8120,7 +8120,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wjeżdżając z chodnika na jezdnię, włączasz się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2312.mp4",
+        "mediaUrl": "assets/media/2312.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8136,7 +8136,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w lewo, masz obowiązek ustąpić pierwszeństwa rowerzyście jadącemu na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2362.mp4",
+        "mediaUrl": "assets/media/2362.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8152,7 +8152,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz pierwszeństwo przed pojazdami jadącymi drogą poprzeczną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2570.mp4",
+        "mediaUrl": "assets/media/2570.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8168,7 +8168,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdom poruszającym się po drodze twardej, na którą wjeżdżasz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2571.mp4",
+        "mediaUrl": "assets/media/2571.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8184,7 +8184,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo, masz obowiązek ustąpić pierwszeństwa pojazdowi jadącemu z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2572.mp4",
+        "mediaUrl": "assets/media/2572.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8200,7 +8200,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost na tym skrzyżowaniu, masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2735.jpg",
+        "mediaUrl": "assets/media/2735.jpg",
         "answers": [
           {
             "text": "tak",
@@ -8216,7 +8216,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji włączasz się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2736.mp4",
+        "mediaUrl": "assets/media/2736.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8232,7 +8232,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo na tym skrzyżowaniu. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2737.mp4",
+        "mediaUrl": "assets/media/2737.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8248,7 +8248,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost, masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2738.mp4",
+        "mediaUrl": "assets/media/2738.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8264,7 +8264,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w prawo, masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2739.mp4",
+        "mediaUrl": "assets/media/2739.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8280,7 +8280,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo na tym skrzyżowaniu, masz pierwszeństwo przed pojazdem jadącym z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2740.mp4",
+        "mediaUrl": "assets/media/2740.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8296,7 +8296,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost, masz obowiązek ustąpić pierwszeństwa rowerzyście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2741.mp4",
+        "mediaUrl": "assets/media/2741.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8312,7 +8312,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo na tym skrzyżowaniu masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2742.jpg",
+        "mediaUrl": "assets/media/2742.jpg",
         "answers": [
           {
             "text": "tak",
@@ -8328,7 +8328,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa ciągnikowi rolniczemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2743.mp4",
+        "mediaUrl": "assets/media/2743.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8344,7 +8344,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyjeżdżając z parkingu powinieneś ustąpić pierwszeństwa pojazdom jadącym po jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2744.mp4",
+        "mediaUrl": "assets/media/2744.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8360,7 +8360,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy włączając się do ruchu masz obowiązek ustąpić pierwszeństwa pieszemu, który znajduje się poza przejściem dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2745.mp4",
+        "mediaUrl": "assets/media/2745.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8376,7 +8376,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost na tym skrzyżowaniu masz pierwszeństwo przed rowerzystą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2741.mp4",
+        "mediaUrl": "assets/media/2741.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8392,7 +8392,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo na tym skrzyżowaniu masz pierwszeństwo przed nadjeżdżającym z przeciwka pojazdem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2748.mp4",
+        "mediaUrl": "assets/media/2748.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8408,7 +8408,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3409.mp4",
+        "mediaUrl": "assets/media/3409.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8424,7 +8424,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wjeżdżając z pola na drogę twardą masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2794.mp4",
+        "mediaUrl": "assets/media/2794.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8440,7 +8440,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zanim włączysz się do ruchu, masz obowiązek obserwacji drogi w lusterku zewnętrznym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3010.mp4",
+        "mediaUrl": "assets/media/3010.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8456,7 +8456,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2803.mp4",
+        "mediaUrl": "assets/media/2803.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8472,7 +8472,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc z prędkością 50 km/h i mając niedostateczną widoczność po prawej stronie, powinieneś na tym skrzyżowaniu zmniejszyć prędkość?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2854.jpg",
+        "mediaUrl": "assets/media/2854.jpg",
         "answers": [
           {
             "text": "tak",
@@ -8488,7 +8488,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost, masz obowiązek ustąpić pierwszeństwa kierującemu motocyklem, który skręca w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2857.mp4",
+        "mediaUrl": "assets/media/2857.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8504,7 +8504,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2867.mp4",
+        "mediaUrl": "assets/media/2867.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8520,7 +8520,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa nadjeżdżającemu pojazdowi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2872.mp4",
+        "mediaUrl": "assets/media/2872.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8536,7 +8536,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu, zamierzając zawrócić, jesteś obowiązany ustąpić pierwszeństwa wjeżdżającemu na nie pojazdowi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2880.mp4",
+        "mediaUrl": "assets/media/2880.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8552,7 +8552,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2926.mp4",
+        "mediaUrl": "assets/media/2926.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8568,7 +8568,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2927.mp4",
+        "mediaUrl": "assets/media/2927.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8584,7 +8584,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz na wprost. Czy masz obowiązek ustąpić pierwszeństwa kierującemu motocyklem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2928.mp4",
+        "mediaUrl": "assets/media/2928.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8600,7 +8600,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w prawo, a nadjeżdżający z lewej strony motocyklista zamierza kontynuować jazdę na wprost. Czy masz pierwszeństwo przed nim?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2929.mp4",
+        "mediaUrl": "assets/media/2929.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8616,7 +8616,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2930.mp4",
+        "mediaUrl": "assets/media/2930.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8632,7 +8632,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w prawo, masz obowiązek ustąpić pierwszeństwa nadjeżdżającemu z przeciwka pojazdowi, który skręca w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2931.mp4",
+        "mediaUrl": "assets/media/2931.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8648,7 +8648,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost, masz obowiązek ustąpić pierwszeństwa nadjeżdżającemu z przeciwka pojazdowi, który skręca w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2932.mp4",
+        "mediaUrl": "assets/media/2932.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8664,7 +8664,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2933.mp4",
+        "mediaUrl": "assets/media/2933.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8680,7 +8680,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2935.mp4",
+        "mediaUrl": "assets/media/2935.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8696,7 +8696,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz kontynuować jazdę na wprost. Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2936.mp4",
+        "mediaUrl": "assets/media/2936.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8712,7 +8712,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz kontynuować jazdę na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2937.mp4",
+        "mediaUrl": "assets/media/2937.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8728,7 +8728,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyjeżdżając z zatoki, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3004.mp4",
+        "mediaUrl": "assets/media/3004.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8744,7 +8744,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przy wjeżdżaniu na jezdnię należy zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3005.mp4",
+        "mediaUrl": "assets/media/3005.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8760,7 +8760,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wjeżdżając z drogi gruntowej na drogę twardą, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3007.mp4",
+        "mediaUrl": "assets/media/3007.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8776,7 +8776,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, włączając się do ruchu, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3010.mp4",
+        "mediaUrl": "assets/media/3010.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8792,7 +8792,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi widocznemu w lusterku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3093.mp4",
+        "mediaUrl": "assets/media/3093.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8808,7 +8808,7 @@ window.COURSE_DATA = [
       {
         "title": "Rozpoczynasz jazdę. Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi widocznemu w lusterku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3094.mp4",
+        "mediaUrl": "assets/media/3094.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8824,7 +8824,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy włączając się do ruchu po zabraniu pasażera, masz pierwszeństwo przed nadjeżdżającym pojazdem, który skręca w lewo na stanowisko postojowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3095.mp4",
+        "mediaUrl": "assets/media/3095.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8840,7 +8840,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w sytuacji, gdy zamierzasz jechać na wprost, masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3096.mp4",
+        "mediaUrl": "assets/media/3096.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8856,7 +8856,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi, który nadjeżdża z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3097.mp4",
+        "mediaUrl": "assets/media/3097.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8872,7 +8872,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem jadącym na wprost przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3099.mp4",
+        "mediaUrl": "assets/media/3099.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8888,7 +8888,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz wjechać na drogę twardą skręcając w prawo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3105.mp4",
+        "mediaUrl": "assets/media/3105.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8904,7 +8904,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek ustąpić pierwszeństwa pojazdowi szynowemu, który wyjeżdża z pętli?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3109.mp4",
+        "mediaUrl": "assets/media/3109.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8920,7 +8920,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy w tej sytuacji masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3110.mp4",
+        "mediaUrl": "assets/media/3110.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8936,7 +8936,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, jadąc na wprost, jesteś włączającym się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3112.mp4",
+        "mediaUrl": "assets/media/3112.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8952,7 +8952,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w lewo na najbliższym skrzyżowaniu. Czy masz pierwszeństwo przed nadjeżdżającym pojazdem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3113.mp4",
+        "mediaUrl": "assets/media/3113.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8968,7 +8968,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, jadąc na wprost, masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3116.mp4",
+        "mediaUrl": "assets/media/3116.mp4",
         "answers": [
           {
             "text": "tak",
@@ -8984,7 +8984,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz obowiązek ustąpienia pierwszeństwa pojazdowi, który nadjeżdża z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3118.mp4",
+        "mediaUrl": "assets/media/3118.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9000,7 +9000,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem wjeżdżającym z lewej strony na pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3119.mp4",
+        "mediaUrl": "assets/media/3119.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9016,7 +9016,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi, który nadjeżdża z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3120.mp4",
+        "mediaUrl": "assets/media/3120.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9032,7 +9032,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, wjeżdżając na drogę poprzeczną, włączasz się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3225.mp4",
+        "mediaUrl": "assets/media/3225.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9048,7 +9048,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz kontynuować jazdę na wprost. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3409.mp4",
+        "mediaUrl": "assets/media/3409.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9064,7 +9064,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/5749.mp4",
+        "mediaUrl": "assets/media/5749.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9080,7 +9080,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6103.mp4",
+        "mediaUrl": "assets/media/6103.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9096,7 +9096,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyjeżdżając za te znaki informacyjne włączasz się do ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11340.jpg",
+        "mediaUrl": "assets/media/11340.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9112,7 +9112,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do skrzyżowania dróg, na którym pierwszeństwo jest ustalone znakami drogowymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11457.mp4",
+        "mediaUrl": "assets/media/11457.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9128,7 +9128,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zjeżdżając z drogi publicznej na parking włączasz się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11487.mp4",
+        "mediaUrl": "assets/media/11487.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9144,7 +9144,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo, a kierujący nadjeżdżający z przeciwka planuje skręcić w lewo. Czy masz pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11762.mp4",
+        "mediaUrl": "assets/media/11762.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9160,7 +9160,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo, a kierujący pojazdem nadjeżdżającym z przeciwka planuje jechać na wprost. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11763.mp4",
+        "mediaUrl": "assets/media/11763.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9176,7 +9176,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo, a kierujący pojazdem nadjeżdżającym z przeciwka planuje jechać na wprost. Czy masz obowiązek ustąpić mu pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11763.mp4",
+        "mediaUrl": "assets/media/11763.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9192,7 +9192,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11765.mp4",
+        "mediaUrl": "assets/media/11765.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9208,7 +9208,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy włączając się do ruchu musisz zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12510.mp4",
+        "mediaUrl": "assets/media/12510.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9224,7 +9224,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz umożliwić włączenie się do ruchu pojazdowi ciężarowemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12512.mp4",
+        "mediaUrl": "assets/media/12512.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9240,7 +9240,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wjeżdżając na jezdnię drogi publicznej masz obowiązek zastosować zasady związane z włączaniem się do ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12690.jpg",
+        "mediaUrl": "assets/media/12690.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9256,7 +9256,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost przez skrzyżowanie. Czy masz na tym skrzyżowaniu obowiązek ustąpienia pierwszeństwa pojazdowi, który nadjeżdżałby z prawej strony ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12843.mp4",
+        "mediaUrl": "assets/media/12843.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9272,7 +9272,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost przez to skrzyżowanie. Czy masz pierwszeństwo przed pojazdem, który może nadjechać z prawej strony ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12843.mp4",
+        "mediaUrl": "assets/media/12843.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9288,7 +9288,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem musisz się liczyć z obowiązkiem ustąpienia pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony na skrzyżowaniu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12859.jpg",
+        "mediaUrl": "assets/media/12859.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9304,7 +9304,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost przez skrzyżowanie. Czy masz obowiązek ustąpienia pierwszeństwa pojazdowi, który może nadjechać z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12865.jpg",
+        "mediaUrl": "assets/media/12865.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9320,7 +9320,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem z lewej strony jadącym prosto przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12925.mp4",
+        "mediaUrl": "assets/media/12925.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9336,7 +9336,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem jadącym z przeciwnego kierunku w lewo ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12926.mp4",
+        "mediaUrl": "assets/media/12926.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9352,7 +9352,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem jadącym z przeciwnego kierunku w prawo ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12927.mp4",
+        "mediaUrl": "assets/media/12927.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9368,7 +9368,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem jadącym z prawej strony ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12928.mp4",
+        "mediaUrl": "assets/media/12928.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9384,7 +9384,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem szynowym ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12929.mp4",
+        "mediaUrl": "assets/media/12929.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9400,7 +9400,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed hulajnogą elektryczną jadącą z lewej strony ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12930.mp4",
+        "mediaUrl": "assets/media/12930.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9416,7 +9416,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem szynowym wyjeżdżającym z pętli na jezdnię ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12931.mp4",
+        "mediaUrl": "assets/media/12931.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9432,7 +9432,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji, przyjeżdżając przez skrzyżowanie równorzędne masz pierwszeństwo przed pojazdem szynowym jadącym z przeciwnego kierunku w lewo  ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12932.mp4",
+        "mediaUrl": "assets/media/12932.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9448,7 +9448,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji podczas przecinania się kierunków ruchu, kierujący obowiązany jest ustąpić pierwszeństwa pojazdowi jadącemu z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13083.jpg",
+        "mediaUrl": "assets/media/13083.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9470,7 +9470,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz kontynuować jazdę na wprost. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2212.mp4",
+        "mediaUrl": "assets/media/2212.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9486,7 +9486,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz pierwszeństwo przed motocyklistą skręcającym w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2218.mp4",
+        "mediaUrl": "assets/media/2218.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9502,7 +9502,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa wszystkim pojazdom znajdującym się na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2219.mp4",
+        "mediaUrl": "assets/media/2219.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9518,7 +9518,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2220.mp4",
+        "mediaUrl": "assets/media/2220.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9534,7 +9534,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpienia pierwszeństwa motocykliście skręcającemu w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2221.mp4",
+        "mediaUrl": "assets/media/2221.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9550,7 +9550,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo na skrzyżowaniu. Czy masz obowiązek ustąpić pierwszeństwa autobusowi jadącemu z przeciwka na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2224.mp4",
+        "mediaUrl": "assets/media/2224.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9566,7 +9566,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2277.mp4",
+        "mediaUrl": "assets/media/2277.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9582,7 +9582,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2315.mp4",
+        "mediaUrl": "assets/media/2315.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9598,7 +9598,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2317.mp4",
+        "mediaUrl": "assets/media/2317.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9614,7 +9614,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost na tym skrzyżowaniu masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2318.jpg",
+        "mediaUrl": "assets/media/2318.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9630,7 +9630,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w prawo masz pierwszeństwo przed pojazdem nadjeżdżającym z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2722.mp4",
+        "mediaUrl": "assets/media/2722.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9646,7 +9646,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jadąc na wprost masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2320.mp4",
+        "mediaUrl": "assets/media/2320.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9662,7 +9662,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jadąc na wprost masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2321.mp4",
+        "mediaUrl": "assets/media/2321.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9678,7 +9678,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2322.mp4",
+        "mediaUrl": "assets/media/2322.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9694,7 +9694,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo masz pierwszeństwo przed pojazdem nadjeżdżającym z przeciwka?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2323.jpg",
+        "mediaUrl": "assets/media/2323.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9710,7 +9710,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2561.mp4",
+        "mediaUrl": "assets/media/2561.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9726,7 +9726,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w lewo, masz obowiązek ustąpić pierwszeństwa pojazdom jadącym z przeciwka na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2562.mp4",
+        "mediaUrl": "assets/media/2562.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9742,7 +9742,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2565.mp4",
+        "mediaUrl": "assets/media/2565.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9758,7 +9758,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2567.mp4",
+        "mediaUrl": "assets/media/2567.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9774,7 +9774,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdom nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2569.mp4",
+        "mediaUrl": "assets/media/2569.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9790,7 +9790,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz na wprost, a kierujący pojazdem nadjeżdżającym z przeciwka zamierza skręcić w lewo. Czy masz obowiązek ustąpić mu pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2573.mp4",
+        "mediaUrl": "assets/media/2573.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9806,7 +9806,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa tylko pojazdom nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2585.mp4",
+        "mediaUrl": "assets/media/2585.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9822,7 +9822,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed skręcającym w lewo motocyklistą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2860.mp4",
+        "mediaUrl": "assets/media/2860.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9838,7 +9838,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo masz obowiązek ustąpić pierwszeństwa pojazdowi jadącemu z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2591.mp4",
+        "mediaUrl": "assets/media/2591.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9854,7 +9854,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpienia pierwszeństwa pojazdowi nadjeżdżającemu z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2722.mp4",
+        "mediaUrl": "assets/media/2722.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9870,7 +9870,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w prawo masz pierwszeństwo przed pojazdem nadjeżdżającym z kierunku przeciwnego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2722.mp4",
+        "mediaUrl": "assets/media/2722.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9886,7 +9886,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost masz pierwszeństwo przed pojazdem nadjeżdżającym z kierunku przeciwnego, skręcającym w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2724.jpg",
+        "mediaUrl": "assets/media/2724.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9902,7 +9902,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcając w lewo masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2729.mp4",
+        "mediaUrl": "assets/media/2729.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9918,7 +9918,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2775.jpg",
+        "mediaUrl": "assets/media/2775.jpg",
         "answers": [
           {
             "text": "tak",
@@ -9934,7 +9934,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w prawo, a kierujący nadjeżdżający z przeciwka zamierza skręcić w lewo. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2851.mp4",
+        "mediaUrl": "assets/media/2851.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9950,7 +9950,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2785.mp4",
+        "mediaUrl": "assets/media/2785.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9966,7 +9966,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo, a pojazd nadjeżdżający z prawej strony chce jechać na wprost. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2788.mp4",
+        "mediaUrl": "assets/media/2788.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9982,7 +9982,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2800.mp4",
+        "mediaUrl": "assets/media/2800.mp4",
         "answers": [
           {
             "text": "tak",
@@ -9998,7 +9998,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo, a kierujący autobusem chce skręcić w lewo. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2805.mp4",
+        "mediaUrl": "assets/media/2805.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10014,7 +10014,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz na wprost, a motocyklista zamierza skręcić w lewo. Czy masz obowiązek ustąpić mu pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2807.mp4",
+        "mediaUrl": "assets/media/2807.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10030,7 +10030,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz na wprost, a motocyklista chce skręcić w lewo. Czy masz obowiązek ustąpić mu pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2834.mp4",
+        "mediaUrl": "assets/media/2834.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10046,7 +10046,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz kontynuować jazdę widoczną drogą. Czy wjeżdżając na nią jesteś obowiązany ustąpić pierwszeństwa kierującym, którzy się nią poruszają?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2838.jpg",
+        "mediaUrl": "assets/media/2838.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10062,7 +10062,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujący pojazdem nadjeżdżającym z naprzeciwka chce skręcić w lewo. Czy masz obowiązek ustąpić mu pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2850.mp4",
+        "mediaUrl": "assets/media/2850.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10078,7 +10078,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w prawo, a kierujący nadjeżdżający z przeciwka chce skręcić w lewo. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2851.mp4",
+        "mediaUrl": "assets/media/2851.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10094,7 +10094,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo, a kierujący pojazdem nadjeżdżającym z przeciwka chce skręcić w prawo. Czy masz obowiązek ustąpić mu pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2859.mp4",
+        "mediaUrl": "assets/media/2859.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10110,7 +10110,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2860.mp4",
+        "mediaUrl": "assets/media/2860.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10126,7 +10126,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa motocykliście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2862.mp4",
+        "mediaUrl": "assets/media/2862.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10142,7 +10142,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2862.mp4",
+        "mediaUrl": "assets/media/2862.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10158,7 +10158,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w lewo, a kierujący samochodem zamierza jechać na wprost. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2865.mp4",
+        "mediaUrl": "assets/media/2865.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10174,7 +10174,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w lewo, masz obowiązek ustąpić pierwszeństwa motocykliście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2865.mp4",
+        "mediaUrl": "assets/media/2865.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10190,7 +10190,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2866.mp4",
+        "mediaUrl": "assets/media/2866.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10206,7 +10206,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2874.mp4",
+        "mediaUrl": "assets/media/2874.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10222,7 +10222,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2875.mp4",
+        "mediaUrl": "assets/media/2875.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10238,7 +10238,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo na skos. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2876.mp4",
+        "mediaUrl": "assets/media/2876.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10254,7 +10254,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2878.mp4",
+        "mediaUrl": "assets/media/2878.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10270,7 +10270,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2881.mp4",
+        "mediaUrl": "assets/media/2881.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10286,7 +10286,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś informowany o końcu drogi z pierwszeństwem przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2916.jpg",
+        "mediaUrl": "assets/media/2916.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10302,7 +10302,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost będziesz poruszał się drogą z pierwszeństwem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2917.jpg",
+        "mediaUrl": "assets/media/2917.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10318,7 +10318,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed motocyklem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2925.mp4",
+        "mediaUrl": "assets/media/2925.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10334,7 +10334,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do drogi z pierwszeństwem przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3082.jpg",
+        "mediaUrl": "assets/media/3082.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10350,7 +10350,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed zawracającym pojazdem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3100.mp4",
+        "mediaUrl": "assets/media/3100.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10366,7 +10366,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3101.mp4",
+        "mediaUrl": "assets/media/3101.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10382,7 +10382,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3102.mp4",
+        "mediaUrl": "assets/media/3102.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10398,7 +10398,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3104.mp4",
+        "mediaUrl": "assets/media/3104.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10414,7 +10414,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3107.mp4",
+        "mediaUrl": "assets/media/3107.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10430,7 +10430,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3111.mp4",
+        "mediaUrl": "assets/media/3111.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10446,7 +10446,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz pierwszeństwo przed motocyklistą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3153.mp4",
+        "mediaUrl": "assets/media/3153.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10462,7 +10462,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3140.mp4",
+        "mediaUrl": "assets/media/3140.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10478,7 +10478,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3141.mp4",
+        "mediaUrl": "assets/media/3141.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10494,7 +10494,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost, a kierujący pojazdem, jadącym z naprzeciwka, chce skręcić w lewo. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3153.mp4",
+        "mediaUrl": "assets/media/3153.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10510,7 +10510,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost, a motocyklista chce skręcić w lewo. Czy masz obowiązek ustąpić mu pierwszeństwa?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3153.mp4",
+        "mediaUrl": "assets/media/3153.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10526,7 +10526,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy tabliczka umieszczona pod znakiem informacyjnym wskazuje, że po skręceniu w lewo na skrzyżowaniu, będziesz nadal poruszać się drogą z pierwszeństwem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3219.mp4",
+        "mediaUrl": "assets/media/3219.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10542,7 +10542,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod tym znakiem informacyjnym tabliczka wskazuje układ dróg podporządkowanych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3223.mp4",
+        "mediaUrl": "assets/media/3223.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10558,7 +10558,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy umieszczona pod widocznym znakiem tabliczka wskazuje rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3248.mp4",
+        "mediaUrl": "assets/media/3248.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10574,7 +10574,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy tabliczka umieszczona pod znakiem wskazuje rzeczywisty przebieg drogi z pierwszeństwem przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3597.jpg",
+        "mediaUrl": "assets/media/3597.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10590,7 +10590,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji widoczna linia przerywana wyznacza Ci miejsce zatrzymania w związku ze znakiem \"stop\"?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3384.mp4",
+        "mediaUrl": "assets/media/3384.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10606,7 +10606,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/5741.mp4",
+        "mediaUrl": "assets/media/5741.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10622,7 +10622,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/5744.mp4",
+        "mediaUrl": "assets/media/5744.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10638,7 +10638,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/5747.mp4",
+        "mediaUrl": "assets/media/5747.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10654,7 +10654,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6048.mp4",
+        "mediaUrl": "assets/media/6048.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10670,7 +10670,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6283.mp4",
+        "mediaUrl": "assets/media/6283.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10686,7 +10686,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdom znajdującym się na skrzyżowaniu o ruchu okrężnym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11210.jpg",
+        "mediaUrl": "assets/media/11210.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10702,7 +10702,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdzającemu z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11215.jpg",
+        "mediaUrl": "assets/media/11215.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10718,7 +10718,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz pierwszeństwo przed pojazdem nadjeżdzającym z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11215.jpg",
+        "mediaUrl": "assets/media/11215.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10734,7 +10734,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy pojazd wjeżdżający na tak oznakowane skrzyżowanie ma pierwszeństwo przed pojazdem poruszającym się dookoła wyspy centralnej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11267.mp4",
+        "mediaUrl": "assets/media/11267.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10750,7 +10750,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz pierwszeństwo przed pojazdem z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11268.mp4",
+        "mediaUrl": "assets/media/11268.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10766,7 +10766,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji powinieneś ustąpić pierwszeństwa pojazdowi z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11270.mp4",
+        "mediaUrl": "assets/media/11270.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10782,7 +10782,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcając w lewo na skrzyżowaniu, masz obowiązek ustąpić pierwszeństwa pojazdowi z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11272.mp4",
+        "mediaUrl": "assets/media/11272.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10798,7 +10798,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do skrzyżowania równorzędnego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11267.mp4",
+        "mediaUrl": "assets/media/11267.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10814,7 +10814,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wjeżdżając na to skrzyżowanie masz pierwszeństwo przed pojazdem z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11275.mp4",
+        "mediaUrl": "assets/media/11275.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10830,7 +10830,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zamierzając jechać prosto przez skrzyżowanie, masz pierwszeństwo przed innymi uczestnikami ruchu drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11276.jpg",
+        "mediaUrl": "assets/media/11276.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10846,7 +10846,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz pierwszeństwo przed pojazdem poruszającym się jezdnią poprzeczną?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11277.jpg",
+        "mediaUrl": "assets/media/11277.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10862,7 +10862,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wjeżdżając na widoczne skrzyżowanie o ruchu okrężnym masz pierwszeństwo względem uczestników ruchu znajdujących się już na tym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11278.jpg",
+        "mediaUrl": "assets/media/11278.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10878,7 +10878,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zamierzając jechać prosto przez to skrzyżowanie masz obowiązek ustąpić pierwszeństwa pojazdom nadjeżdżającym z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11279.jpg",
+        "mediaUrl": "assets/media/11279.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10894,7 +10894,7 @@ window.COURSE_DATA = [
       {
         "title": "Masz zamiar skręcić w prawo na widocznym skrzyżowaniu. Czy w związku z tym masz obowiązek ustąpić pierwszeństwa pojazdom, które zbliżają się z lewej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11281.jpg",
+        "mediaUrl": "assets/media/11281.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10910,7 +10910,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc prosto przez to skrzyżowanie masz pierwszeństwo przed pojazdem z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11274.mp4",
+        "mediaUrl": "assets/media/11274.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10926,7 +10926,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz pierwszeństwo przed pojazdem z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11270.mp4",
+        "mediaUrl": "assets/media/11270.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10942,7 +10942,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w prawo na skrzyżowaniu, wjedziesz na drogę z pierwszeństwem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11286.jpg",
+        "mediaUrl": "assets/media/11286.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10958,7 +10958,7 @@ window.COURSE_DATA = [
       {
         "title": "Masz zamiar przejechać na wprost przez widoczne skrzyżowanie. Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdom, które nadjeżdżają z lewej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11288.jpg",
+        "mediaUrl": "assets/media/11288.jpg",
         "answers": [
           {
             "text": "tak",
@@ -10974,7 +10974,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znajdujesz się na drodze z pierwszeństwem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11327.mp4",
+        "mediaUrl": "assets/media/11327.mp4",
         "answers": [
           {
             "text": "tak",
@@ -10990,7 +10990,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji znajdujesz się na drodze z pierwszeństwem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11335.jpg",
+        "mediaUrl": "assets/media/11335.jpg",
         "answers": [
           {
             "text": "tak",
@@ -11006,7 +11006,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega, że zbliżasz się do skrzyżowania z wlotem drogi jednokierunkowej występującej z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11453.mp4",
+        "mediaUrl": "assets/media/11453.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11022,7 +11022,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do skrzyżowania na którym musisz ustąpić pierwszeństwa pojazdom nadjeżdżającym z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11471.mp4",
+        "mediaUrl": "assets/media/11471.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11038,7 +11038,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji na najbliższym skrzyżowaniu pojazd nadjeżdżający z prawej strony ma pierwszeństwo przejazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11473.mp4",
+        "mediaUrl": "assets/media/11473.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11054,7 +11054,7 @@ window.COURSE_DATA = [
       {
         "title": "W przedstawionej sytuacji na najbliższym skrzyżowaniu zamierzasz skręcić w lewo. Czy  musisz ustąpić pierwszeństwa przejazdu pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11475.mp4",
+        "mediaUrl": "assets/media/11475.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11070,7 +11070,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jadąc w lewo za widocznym znakiem opuścisz drogę z pierwszeństwem przejazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11476.mp4",
+        "mediaUrl": "assets/media/11476.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11086,7 +11086,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji musisz ustąpić pierwszeństwa pojazdowi, który nadjeżdża z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11480.mp4",
+        "mediaUrl": "assets/media/11480.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11102,7 +11102,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do skrzyżowania drogą podporządkowaną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11483.mp4",
+        "mediaUrl": "assets/media/11483.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11118,7 +11118,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jadąc dalej na wprost przez najbliższe skrzyżowanie masz pierwszeństwo przed pojazdami nadjeżdżającymi z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11486.mp4",
+        "mediaUrl": "assets/media/11486.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11134,7 +11134,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed nadjeżdżającym z lewej strony rowerzystą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11689.mp4",
+        "mediaUrl": "assets/media/11689.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11150,7 +11150,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11710.mp4",
+        "mediaUrl": "assets/media/11710.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11166,7 +11166,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na najbliższym skrzyżowaniu ruch odbywa się dookoła wyspy w obu kierunkach?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11712.mp4",
+        "mediaUrl": "assets/media/11712.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11182,7 +11182,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcając w lewo masz zawsze pierwszeństwo na tym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11725.mp4",
+        "mediaUrl": "assets/media/11725.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11198,7 +11198,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżasz się do skrzyżowania drogą z pierwszeństwem przejazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11728.mp4",
+        "mediaUrl": "assets/media/11728.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11214,7 +11214,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost, a kierujący pojazdem nadjeżdżającym z przeciwka planuje skręcić w lewo.  Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11769.mp4",
+        "mediaUrl": "assets/media/11769.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11230,7 +11230,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji poruszasz się drogą z pierwszeństwem przejazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11772.mp4",
+        "mediaUrl": "assets/media/11772.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11246,7 +11246,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do skrzyżowania z drogą podporządkowaną znajdującą się po lewej stronie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11789.mp4",
+        "mediaUrl": "assets/media/11789.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11262,7 +11262,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do skrzyżowania z drogą podporządkowaną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11789.mp4",
+        "mediaUrl": "assets/media/11789.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11278,7 +11278,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na najbliższym skrzyżowaniu wolno Ci skręcić w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11817.mp4",
+        "mediaUrl": "assets/media/11817.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11294,7 +11294,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do skrzyżowania z drogą podporządkowaną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11818.mp4",
+        "mediaUrl": "assets/media/11818.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11310,7 +11310,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo na skrzyżowaniu. Czy masz obowiązek sygnalizować ten manewr lewym kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11831.mp4",
+        "mediaUrl": "assets/media/11831.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11326,7 +11326,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12493.mp4",
+        "mediaUrl": "assets/media/12493.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11342,7 +11342,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12494.mp4",
+        "mediaUrl": "assets/media/12494.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11358,7 +11358,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza początek lub kontynuację drogi z pierwszeństwem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12652.jpg",
+        "mediaUrl": "assets/media/12652.jpg",
         "answers": [
           {
             "text": "tak",
@@ -11374,7 +11374,7 @@ window.COURSE_DATA = [
       {
         "title": "Masz zamiar kontynuować jazdę w lewo na najbliższym skrzyżowaniu. Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdom, które zbliżają się z przeciwka?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12722.jpg",
+        "mediaUrl": "assets/media/12722.jpg",
         "answers": [
           {
             "text": "tak",
@@ -11390,7 +11390,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak ostrzega, że zbliżasz się do skrzyżowania z wlotem drogi jednokierunkowej występującej z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12731.mp4",
+        "mediaUrl": "assets/media/12731.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11406,7 +11406,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak może decydować o obowiązku ustąpienia pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony na skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12859.jpg",
+        "mediaUrl": "assets/media/12859.jpg",
         "answers": [
           {
             "text": "tak",
@@ -11422,7 +11422,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak oznacza, że masz pierwszeństwo przed pojazdem nadjeżdżającym z przeciwnej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12862.jpg",
+        "mediaUrl": "assets/media/12862.jpg",
         "answers": [
           {
             "text": "tak",
@@ -11438,7 +11438,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas wjazdu na to skrzyżowanie masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12863.mp4",
+        "mediaUrl": "assets/media/12863.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11454,7 +11454,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas wjazdu na to skrzyżowanie masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12863.mp4",
+        "mediaUrl": "assets/media/12863.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11470,7 +11470,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu zamierzając skręcić w lewo masz pierwszeństwo przed wszystkimi pojazdami, które mogą się pojawić ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12866.mp4",
+        "mediaUrl": "assets/media/12866.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11486,7 +11486,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, w związku z obowiązkiem ustąpienia pierwszeństwa pojazdowi z prawej strony, masz obowiązek zatrzymać się przed znakiem STOP a następnie przed linią zatrzymania ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12933.jpg",
+        "mediaUrl": "assets/media/12933.jpg",
         "answers": [
           {
             "text": "tak",
@@ -11508,7 +11508,7 @@ window.COURSE_DATA = [
       {
         "title": "Zatrzymałeś właśnie swój pojazd. Czy w związku ze znaczeniem nadawanego sygnału świetlnego zrobiłeś to we właściwym miejscu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2211.jpg",
+        "mediaUrl": "assets/media/2211.jpg",
         "answers": [
           {
             "text": "tak",
@@ -11524,7 +11524,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi szynowemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2225.mp4",
+        "mediaUrl": "assets/media/2225.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11540,7 +11540,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci przejechać przez skrzyżowanie bez potrzeby rozstrzygania kto ma pierwszeństwo przejazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2291.mp4",
+        "mediaUrl": "assets/media/2291.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11556,7 +11556,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zamierzając skręcić w lewo możesz wjechać za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2330.mp4",
+        "mediaUrl": "assets/media/2330.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11572,7 +11572,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawany sygnał świetlny zabrania Ci wjazdu za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2558.mp4",
+        "mediaUrl": "assets/media/2558.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11588,7 +11588,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji nadawany sygnał świetlny zezwala Ci na wjazd za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2559.mp4",
+        "mediaUrl": "assets/media/2559.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11604,7 +11604,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo po upewnieniu się, że tym manewrem nie utrudnisz ruchu innym uczestnikom?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2575.mp4",
+        "mediaUrl": "assets/media/2575.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11620,7 +11620,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo na tym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2577.mp4",
+        "mediaUrl": "assets/media/2577.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11636,7 +11636,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widoczny na skrzyżowaniu sygnał zielony oznacza bezkolizyjny skręt w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2618.mp4",
+        "mediaUrl": "assets/media/2618.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11652,7 +11652,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2299.mp4",
+        "mediaUrl": "assets/media/2299.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11668,7 +11668,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się, jeśli byłoby to związane z gwałtownym hamowaniem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2715.mp4",
+        "mediaUrl": "assets/media/2715.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11684,7 +11684,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na skrzyżowanie bez zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2716.mp4",
+        "mediaUrl": "assets/media/2716.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11700,7 +11700,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać za sygnalizator, jeśli zatrzymanie wymagałoby gwałtownego hamowania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2715.mp4",
+        "mediaUrl": "assets/media/2715.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11716,7 +11716,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się przed wjazdem na skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2755.mp4",
+        "mediaUrl": "assets/media/2755.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11732,7 +11732,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy w tej sytuacji wolno Ci przejechać przed pojazdem nadjeżdżającym z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2888.mp4",
+        "mediaUrl": "assets/media/2888.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11748,7 +11748,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem, który jedzie z przeciwnego kierunku i skręca w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2892.mp4",
+        "mediaUrl": "assets/media/2892.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11764,7 +11764,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa tramwajowi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2892.mp4",
+        "mediaUrl": "assets/media/2892.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11780,7 +11780,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdami jadącymi z kierunku przeciwnego na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2893.mp4",
+        "mediaUrl": "assets/media/2893.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11796,7 +11796,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa tramwajowi skręcającemu w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2894.mp4",
+        "mediaUrl": "assets/media/2894.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11812,7 +11812,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz pierwszeństwo przed pojazdami widocznymi na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2896.mp4",
+        "mediaUrl": "assets/media/2896.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11828,7 +11828,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi z przeciwka, skręcającemu w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2896.mp4",
+        "mediaUrl": "assets/media/2896.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11844,7 +11844,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem jadącym z kierunku przeciwnego na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2905.mp4",
+        "mediaUrl": "assets/media/2905.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11860,7 +11860,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo na skrzyżowaniu. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi jadącemu z przeciwnego kierunku na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3026.mp4",
+        "mediaUrl": "assets/media/3026.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11876,7 +11876,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz na wprost przez skrzyżowanie. Czy masz pierwszeństwo przed pojazdem jadącym z przeciwka, który zamierza skręcić w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3027.mp4",
+        "mediaUrl": "assets/media/3027.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11892,7 +11892,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa pojazdom jadącym z naprzeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3031.mp4",
+        "mediaUrl": "assets/media/3031.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11908,7 +11908,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3216.mp4",
+        "mediaUrl": "assets/media/3216.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11924,7 +11924,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo pod warunkiem upewnienia się, że nie utrudnisz ruchu innym jego uczestnikom?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3218.mp4",
+        "mediaUrl": "assets/media/3218.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11940,7 +11940,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo bez zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3226.mp4",
+        "mediaUrl": "assets/media/3226.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11956,7 +11956,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji migający sygnał świetlny ostrzega o występującym niebezpieczeństwie lub utrudnieniu ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3214.mp4",
+        "mediaUrl": "assets/media/3214.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11972,7 +11972,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji migający sygnał świetlny zabrania Ci wjazdu za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3216.mp4",
+        "mediaUrl": "assets/media/3216.mp4",
         "answers": [
           {
             "text": "tak",
@@ -11988,7 +11988,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci przejechać na wprost przez skrzyżowanie bez zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3231.mp4",
+        "mediaUrl": "assets/media/3231.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12004,7 +12004,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji sygnał świetlny zabrania Ci zawracania na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3254.mp4",
+        "mediaUrl": "assets/media/3254.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12020,7 +12020,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz opuścić skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3273.mp4",
+        "mediaUrl": "assets/media/3273.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12036,7 +12036,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo na skrzyżowaniu bez zatrzymania się przed sygnalizatorem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3326.mp4",
+        "mediaUrl": "assets/media/3326.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12052,7 +12052,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować się do znaku \"STOP\"?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3389.jpg",
+        "mediaUrl": "assets/media/3389.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12068,7 +12068,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz zawrócić. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi szynowemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2225.mp4",
+        "mediaUrl": "assets/media/2225.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12084,7 +12084,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy możesz przejechać przed pojazdem szynowym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3421.mp4",
+        "mediaUrl": "assets/media/3421.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12100,7 +12100,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3426.mp4",
+        "mediaUrl": "assets/media/3426.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12116,7 +12116,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować się do pionowego znaku ostrzegawczego \"ustąp pierwszeństwa\"?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3427.mp4",
+        "mediaUrl": "assets/media/3427.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12132,7 +12132,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo na skrzyżowaniu. Czy w tej sytuacji należy przyśpieszyć, aby zdążyć przejechać przed pojazdami nadjeżdżającymi z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3428.mp4",
+        "mediaUrl": "assets/media/3428.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12148,7 +12148,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, po wjechaniu za sygnalizator, masz obowiązek zatrzymać się w miejscu wskazanym znakiem \"stop\"?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3431.mp4",
+        "mediaUrl": "assets/media/3431.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12164,7 +12164,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w lewo. Czy w tej sytuacji wolno Ci przejechać przed tramwajem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3453.mp4",
+        "mediaUrl": "assets/media/3453.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12180,7 +12180,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie przed zapaleniem się sygnału czerwonego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11250.mp4",
+        "mediaUrl": "assets/media/11250.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12196,7 +12196,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji na tym skrzyżowaniu masz prawo zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11259.mp4",
+        "mediaUrl": "assets/media/11259.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12212,7 +12212,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać za sygnalizator?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11261.mp4",
+        "mediaUrl": "assets/media/11261.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12228,7 +12228,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji dopuszczalne jest skręcanie w lewo i zawracanie na skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11253.jpg",
+        "mediaUrl": "assets/media/11253.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12244,7 +12244,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz obowiązek oczekiwać na wjazd na skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11265.jpg",
+        "mediaUrl": "assets/media/11265.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12260,7 +12260,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zamierzając kontynuować jazdę prosto przez skrzyżowanie masz obowiązek zatrzymać się przed znakiem „STOP”?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11363.jpg",
+        "mediaUrl": "assets/media/11363.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12276,7 +12276,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w prawo na tym skrzyżowaniu jesteś zobowiązany do zatrzymania się przed sygnalizatorem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11313.mp4",
+        "mediaUrl": "assets/media/11313.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12292,7 +12292,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zatrzymać się przed widoczną linią bezwzględnego zatrzymania - stop?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11742.mp4",
+        "mediaUrl": "assets/media/11742.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12308,7 +12308,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci kontynuować jazdę przez skrzyżowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11779.mp4",
+        "mediaUrl": "assets/media/11779.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12324,7 +12324,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo bez zatrzymania się przed sygnalizatorem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11826.mp4",
+        "mediaUrl": "assets/media/11826.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12340,7 +12340,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zatrzymać się przed sygnalizatorem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11860.mp4",
+        "mediaUrl": "assets/media/11860.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12356,7 +12356,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji z tego pasa ruchu dopuszczalne jest tylko skręcanie w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12535.jpg",
+        "mediaUrl": "assets/media/12535.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12372,7 +12372,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, nie widząc innych uczestników ruchu drogowego, jesteś zwolniony z obowiązku zachowania szczególnej ostrożności?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12561.mp4",
+        "mediaUrl": "assets/media/12561.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12388,7 +12388,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji dozwolony jest przejazd przez skrzyżowanie bez zmniejszenia prędkości pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12563.mp4",
+        "mediaUrl": "assets/media/12563.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12404,7 +12404,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji znak \"ustąp pierwszeństwa\" ustawiony przed skrzyżowaniem ma zastosowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12567.mp4",
+        "mediaUrl": "assets/media/12567.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12420,7 +12420,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przejeżdżając na wprost przez skrzyżowanie, możesz zrezygnować z zachowania szczególnej ostrożności?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12568.mp4",
+        "mediaUrl": "assets/media/12568.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12436,7 +12436,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić pod warunkiem upewnienia się, że nie utrudnisz ruchu innym jego uczestnikom?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12572.mp4",
+        "mediaUrl": "assets/media/12572.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12458,7 +12458,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przejeżdżając obok tego przystanku tramwajowego, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2597.mp4",
+        "mediaUrl": "assets/media/2597.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12474,7 +12474,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo rozpocząć jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2708.mp4",
+        "mediaUrl": "assets/media/2708.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12490,7 +12490,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem w obszarze zabudowanym. Czy w przedstawionej sytuacji masz obowiązek umożliwić kierującemu autobusem włączenie się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2810.mp4",
+        "mediaUrl": "assets/media/2810.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12506,7 +12506,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmniejszyć prędkość?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2817.jpg",
+        "mediaUrl": "assets/media/2817.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12522,7 +12522,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2912.jpg",
+        "mediaUrl": "assets/media/2912.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12538,7 +12538,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2924.mp4",
+        "mediaUrl": "assets/media/2924.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12554,7 +12554,7 @@ window.COURSE_DATA = [
       {
         "title": "W tej sytuacji wolno Ci kontynuować jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2974.mp4",
+        "mediaUrl": "assets/media/2974.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12570,7 +12570,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo powoli kontynuować jazdę, uważając na pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2975.mp4",
+        "mediaUrl": "assets/media/2975.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12586,7 +12586,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jadąc na obszarze zabudowanym, w razie potrzeby, masz obowiązek zatrzymać się aby umożliwić włączenie się autobusu do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3114.mp4",
+        "mediaUrl": "assets/media/3114.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12602,7 +12602,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz przewidywać, że zza tramwaju wyjedzie rowerzysta?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3048.jpg",
+        "mediaUrl": "assets/media/3048.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12618,7 +12618,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę bez zwracania uwagi na zachowanie pieszego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2624.mp4",
+        "mediaUrl": "assets/media/2624.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12634,7 +12634,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji w obszarze zabudowanym, masz obowiązek zmniejszyć prędkość, aby umożliwić kierującemu autobusem włączenie się do ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3114.mp4",
+        "mediaUrl": "assets/media/3114.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12650,7 +12650,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu, bezpośrednio przed przejściem dla pieszych, wolno Ci zmienić pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3158.mp4",
+        "mediaUrl": "assets/media/3158.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12666,7 +12666,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3172.mp4",
+        "mediaUrl": "assets/media/3172.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12682,7 +12682,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3173.mp4",
+        "mediaUrl": "assets/media/3173.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12698,7 +12698,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji na obszarze zabudowanym masz obowiązek umożliwić kierującemu autobusem wyjechanie z zatoki na jezdnię?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3210.mp4",
+        "mediaUrl": "assets/media/3210.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12714,7 +12714,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo ruszyć, gdy piesi wejdą na chodnik?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3212.mp4",
+        "mediaUrl": "assets/media/3212.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12730,7 +12730,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci przejechać przez przejście dla pieszych bez zatrzymywania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3229.mp4",
+        "mediaUrl": "assets/media/3229.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12746,7 +12746,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś zobowiązany do zatrzymania pojazdu przed przejściem dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3253.mp4",
+        "mediaUrl": "assets/media/3253.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12762,7 +12762,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3266.mp4",
+        "mediaUrl": "assets/media/3266.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12778,7 +12778,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy chcąc w tej sytuacji kontynuować jazdę, masz obowiązek czekać, aż tramwaj ruszy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3320.mp4",
+        "mediaUrl": "assets/media/3320.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12794,7 +12794,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji właściwie wybrałeś miejsce zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3363.mp4",
+        "mediaUrl": "assets/media/3363.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12810,7 +12810,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3405.mp4",
+        "mediaUrl": "assets/media/3405.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12826,7 +12826,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmniejszyć prędkość pojazdu, gdy na drodze nie ma pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3497.jpg",
+        "mediaUrl": "assets/media/3497.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12842,7 +12842,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się i zaczekać na wyjazd autobusu z zatoki?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3630.mp4",
+        "mediaUrl": "assets/media/3630.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12858,7 +12858,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek umożliwić pasażerom opuszczenie tramwaju, który zatrzymał się na przystanku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11778.mp4",
+        "mediaUrl": "assets/media/11778.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12896,7 +12896,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zatrzymać pojazd na jezdni bezpośrednio za widocznym skrzyżowaniem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2038.jpg",
+        "mediaUrl": "assets/media/2038.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12912,7 +12912,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zatrzymać swój pojazd przed ostatnim wagonem tramwaju?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2039.mp4",
+        "mediaUrl": "assets/media/2039.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12928,7 +12928,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy postój pojazdu na moście jest zabroniony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2686.jpg",
+        "mediaUrl": "assets/media/2686.jpg",
         "answers": [
           {
             "text": "tak",
@@ -12944,7 +12944,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zatrzymując pojazd na chodniku, musisz zapewnić pieszym przejście o szerokości co najmniej 2,5 m?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2156.mp4",
+        "mediaUrl": "assets/media/2156.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12960,7 +12960,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz zatrzymać pojazd na środkowym pasie jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2196.mp4",
+        "mediaUrl": "assets/media/2196.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12976,7 +12976,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w prawo na tym skrzyżowaniu masz pierwszeństwo przed nadjeżdżającym pojazdem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2310.mp4",
+        "mediaUrl": "assets/media/2310.mp4",
         "answers": [
           {
             "text": "tak",
@@ -12992,7 +12992,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo na tym skrzyżowaniu masz pierwszeństwo przed nadjeżdżającym pojazdem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2740.mp4",
+        "mediaUrl": "assets/media/2740.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13008,7 +13008,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy postój pojazdu bezpośrednio za widocznym słupkiem wskaźnikowym jest zabroniony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2371.jpg",
+        "mediaUrl": "assets/media/2371.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13040,7 +13040,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po zaparkowaniu pojazdu wolno Ci oddalić się od niego, gdy ma włączony silnik?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2530.jpg",
+        "mediaUrl": "assets/media/2530.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13056,7 +13056,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci zatrzymać pojazd na jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2555.mp4",
+        "mediaUrl": "assets/media/2555.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13072,7 +13072,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo bez zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2586.mp4",
+        "mediaUrl": "assets/media/2586.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13088,7 +13088,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zachowanie kierującego, który pozostawił samochód na postoju jest poprawne?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2604.mp4",
+        "mediaUrl": "assets/media/2604.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13104,7 +13104,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zaparkować pojazd po prawej stronie na chodniku bezpośrednio przed przejazdem kolejowym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2644.mp4",
+        "mediaUrl": "assets/media/2644.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13120,7 +13120,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy bezpośrednio za tym znakiem masz prawo zatrzymać pojazd?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2693.jpg",
+        "mediaUrl": "assets/media/2693.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13136,7 +13136,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zaparkować pojazd w odległości 5 m przed przejściem dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2698.mp4",
+        "mediaUrl": "assets/media/2698.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13152,7 +13152,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zatrzymać pojazd w tunelu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2700.mp4",
+        "mediaUrl": "assets/media/2700.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13168,7 +13168,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz zatrzymać pojazd na chodniku tuż przed przystankiem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2702.mp4",
+        "mediaUrl": "assets/media/2702.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13184,7 +13184,7 @@ window.COURSE_DATA = [
       {
         "title": "Chcesz wysadzić pasażera. Czy za tym znakiem możesz się zatrzymać w dowolnym miejscu przy prawej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2939.jpg",
+        "mediaUrl": "assets/media/2939.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13200,7 +13200,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy chcąc wysadzić pasażera, masz prawo zatrzymać się bezpośrednio za tym przejazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3039.jpg",
+        "mediaUrl": "assets/media/3039.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13216,7 +13216,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zaparkować w tym miejscu na moście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3049.mp4",
+        "mediaUrl": "assets/media/3049.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13232,7 +13232,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy bezpośrednio za tym znakiem masz prawo zaparkować pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3050.mp4",
+        "mediaUrl": "assets/media/3050.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13248,7 +13248,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zatrzymać pojazd bezpośrednio za tym przejściem dla pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3052.jpg",
+        "mediaUrl": "assets/media/3052.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13264,7 +13264,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zatrzymać pojazd na widocznym moście w celu wysadzenia pasażerów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3053.jpg",
+        "mediaUrl": "assets/media/3053.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13280,7 +13280,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem masz prawo zaparkować pojazd na 5 minut ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3054.jpg",
+        "mediaUrl": "assets/media/3054.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13296,7 +13296,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przed wykonaniem skrętu w lewo należy zbliżyć się do środka jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3181.jpg",
+        "mediaUrl": "assets/media/3181.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13312,7 +13312,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, po zakończeniu wyprzedzania, masz obowiązek powrócić na prawy pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3201.mp4",
+        "mediaUrl": "assets/media/3201.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13328,7 +13328,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po tej jezdni masz prawo jechać zajmując jej całą szerokość?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3207.mp4",
+        "mediaUrl": "assets/media/3207.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13344,7 +13344,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zatrzymać pojazd w zatoce?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3211.mp4",
+        "mediaUrl": "assets/media/3211.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13360,7 +13360,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zatrzymać się na odcinku jezdni przed widocznym znakiem w celu wysadzenia pasażera?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3255.mp4",
+        "mediaUrl": "assets/media/3255.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13376,7 +13376,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu masz prawo skręcić w lewo z zajmowanego pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2161.jpg",
+        "mediaUrl": "assets/media/2161.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13392,7 +13392,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie z dowolnego pasa ruchu, jeśli zamierzasz skręcić w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3272.mp4",
+        "mediaUrl": "assets/media/3272.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13408,7 +13408,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zajmujesz właściwy pas ruchu, jeśli na najbliższym skrzyżowaniu zamierzasz skręcić w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3355.jpg",
+        "mediaUrl": "assets/media/3355.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13424,7 +13424,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu obowiązuje zakaz zatrzymywania pojazdów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3374.jpg",
+        "mediaUrl": "assets/media/3374.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13440,7 +13440,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dozwolony jest postój pojazdu na wjeździe do bramy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3398.mp4",
+        "mediaUrl": "assets/media/3398.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13456,7 +13456,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zatrzymać się w zatoce w celu wysadzenia pasażera?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3424.mp4",
+        "mediaUrl": "assets/media/3424.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13472,7 +13472,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem, w razie zatrzymania pojazdu wskutek zatoru drogowego, masz obowiązek zachować odstęp od poprzedzającego pojazdu nie mniejszy niż 5m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3433.jpg",
+        "mediaUrl": "assets/media/3433.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13488,7 +13488,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tak oznakowanej zatoce, możesz zatrzymać każdy pojazd w celu wysadzenia pasażera?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3454.jpg",
+        "mediaUrl": "assets/media/3454.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13504,7 +13504,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w celu wysadzenia pasażera, wolno Ci zatrzymać pojazd na tym przystanku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3607.mp4",
+        "mediaUrl": "assets/media/3607.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13520,7 +13520,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zatrzymać pojazd na prawym poboczu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3479.jpg",
+        "mediaUrl": "assets/media/3479.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13536,7 +13536,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym poboczu dozwolone jest zatrzymanie pojazdu niewynikające z warunków lub przepisów ruchu drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3486.jpg",
+        "mediaUrl": "assets/media/3486.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13552,7 +13552,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym poboczu dozwolony jest postój pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3486.jpg",
+        "mediaUrl": "assets/media/3486.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13568,7 +13568,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zabronione jest opuszczenie skrzyżowania prawym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3523.mp4",
+        "mediaUrl": "assets/media/3523.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13584,7 +13584,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo na tym skrzyżowaniu wybrałeś właściwy tor jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3523.mp4",
+        "mediaUrl": "assets/media/3523.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13600,7 +13600,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo, wybrałeś właściwy tor jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3524.mp4",
+        "mediaUrl": "assets/media/3524.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13616,7 +13616,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przed tym skrzyżowaniem zająłeś właściwy pas ruchu, jeśli zamierzasz skręcić w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3530.mp4",
+        "mediaUrl": "assets/media/3530.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13632,7 +13632,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając na tym skrzyżowaniu w lewo, zachowałeś właściwy tor jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3531.mp4",
+        "mediaUrl": "assets/media/3531.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13648,7 +13648,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo na tym skrzyżowaniu zachowałeś właściwy tor jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3532.mp4",
+        "mediaUrl": "assets/media/3532.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13664,7 +13664,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji postąpiłeś właściwie, zmieniając pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3538.mp4",
+        "mediaUrl": "assets/media/3538.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13680,7 +13680,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji należy zmienić pas ruchu na lewy, pozostawiając pas prawy wolniej jadącym pojazdom?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3539.mp4",
+        "mediaUrl": "assets/media/3539.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13696,7 +13696,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy chcąc wysadzić pasażera, masz prawo zatrzymać pojazd na jezdni w miejscu, w którym się teraz znajdujesz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3540.mp4",
+        "mediaUrl": "assets/media/3540.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13712,7 +13712,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci pozostać na lewym pasie ruchu, gdy prawy jest wolny?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3541.mp4",
+        "mediaUrl": "assets/media/3541.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13728,7 +13728,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w sytuacji, gdy wszystkie pasy do jazdy na wprost są wolne, masz obowiązek zająć lewy pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3542.jpg",
+        "mediaUrl": "assets/media/3542.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13744,7 +13744,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zatrzymać pojazd na chodniku w odległości 3 metrów od wiaty widocznego przystanku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3543.jpg",
+        "mediaUrl": "assets/media/3543.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13760,7 +13760,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zaparkować pojazd za tym znakiem, jeżeli pozostawisz odpowiednią ilość miejsca dla pieszych i pojazdów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3971.jpg",
+        "mediaUrl": "assets/media/3971.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13776,7 +13776,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zatrzymać pojazd pod wiaduktem, gdy znaki tego nie zabraniają?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3545.jpg",
+        "mediaUrl": "assets/media/3545.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13792,7 +13792,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy bezpośrednio za tym znakiem masz prawo zatrzymać pojazd na poboczu, jeżeli nie utrudni to ruchu innych pojazdów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3561.jpg",
+        "mediaUrl": "assets/media/3561.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13808,7 +13808,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zaparkować pojazd na poboczu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3726.jpg",
+        "mediaUrl": "assets/media/3726.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13824,7 +13824,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zaparkować pojazd w tej zatoce?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3563.jpg",
+        "mediaUrl": "assets/media/3563.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13840,7 +13840,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zatrzymać pojazd na pasie między jezdniami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3564.jpg",
+        "mediaUrl": "assets/media/3564.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13856,7 +13856,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zatrzymać pojazd w odległości 11m za tym znakiem drogowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3565.jpg",
+        "mediaUrl": "assets/media/3565.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13872,7 +13872,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz jechać na wprost dowolnym pasem ruchu, gdy w tunelu nie ma innych pojazdów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3566.jpg",
+        "mediaUrl": "assets/media/3566.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13888,7 +13888,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zajmujesz właściwy pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3568.mp4",
+        "mediaUrl": "assets/media/3568.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13904,7 +13904,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś obowiązany do zatrzymania się przed znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3570.jpg",
+        "mediaUrl": "assets/media/3570.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13920,7 +13920,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy w tej sytuacji masz obowiązek zbliżyć się do środka jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3628.mp4",
+        "mediaUrl": "assets/media/3628.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13936,7 +13936,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zająć więcej niż jeden pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3629.mp4",
+        "mediaUrl": "assets/media/3629.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13952,7 +13952,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zatrzymać pojazd na powierzchni wyłączonej z ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3636.mp4",
+        "mediaUrl": "assets/media/3636.mp4",
         "answers": [
           {
             "text": "tak",
@@ -13968,7 +13968,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem masz prawo zaparkować samochód w dowolnym miejscu na jezdni, jeśli nie utrudni to ruchu innych pojazdów i pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3673.jpg",
+        "mediaUrl": "assets/media/3673.jpg",
         "answers": [
           {
             "text": "tak",
@@ -13984,7 +13984,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zatrzymując pojazd na chodniku, musisz zapewnić pieszym przejście o szerokości co najmniej 1,5 m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3674.jpg",
+        "mediaUrl": "assets/media/3674.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14000,7 +14000,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę lewym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3676.mp4",
+        "mediaUrl": "assets/media/3676.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14016,7 +14016,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy bezpośrednio za widocznym znakiem wolno Ci zatrzymać pojazd, jeśli nie spowoduje to utrudnienia ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3704.jpg",
+        "mediaUrl": "assets/media/3704.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14032,7 +14032,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, jeżeli zajdzie konieczność ustąpienia pierwszeństwa przejazdu, możesz zatrzymać pojazd w dowolnym miejscu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3705.jpg",
+        "mediaUrl": "assets/media/3705.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14048,7 +14048,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zmieniając nieznacznie tor jazdy pojazdu w obrębie dotychczas zajmowanego pasa ruchu, masz obowiązek sygnalizować to wcześniej kierunkowskazem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3720.jpg",
+        "mediaUrl": "assets/media/3720.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14064,7 +14064,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem masz obowiązek zająć lewy pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3722.jpg",
+        "mediaUrl": "assets/media/3722.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14080,7 +14080,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zaparkować pojazd na chodniku przed tymi znakami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3723.jpg",
+        "mediaUrl": "assets/media/3723.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14096,7 +14096,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zatrzymać pojazd na poboczu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3726.jpg",
+        "mediaUrl": "assets/media/3726.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14112,7 +14112,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz zatrzymać pojazd na poboczu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11212.jpg",
+        "mediaUrl": "assets/media/11212.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14128,7 +14128,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem jest obowiązany sygnalizować postój pojazdu silnikowego lub przyczepy z powodu uszkodzenia lub wypadku na autostradzie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11226.jpg",
+        "mediaUrl": "assets/media/11226.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14144,7 +14144,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem jest obowiązany sygnalizować postój pojazdu silnikowego lub przyczepy z powodu uszkodzenia lub wypadku na drodze ekspresowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11226.jpg",
+        "mediaUrl": "assets/media/11226.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14160,7 +14160,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji dozwolone jest zatrzymanie pojazdu na jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11237.jpg",
+        "mediaUrl": "assets/media/11237.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14176,7 +14176,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zamierzając skręcić w prawo, masz obowiązek zatrzymać się przed skrzyżowaniem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11290.mp4",
+        "mediaUrl": "assets/media/11290.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14192,7 +14192,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo zatrzymać pojazd na jezdni na moście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11348.mp4",
+        "mediaUrl": "assets/media/11348.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14208,7 +14208,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zatrzymać pojazd na poboczu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11445.jpg",
+        "mediaUrl": "assets/media/11445.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14224,7 +14224,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zabronione jest zatrzymanie pojazdu na prawym poboczu tej drogi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11451.jpg",
+        "mediaUrl": "assets/media/11451.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14240,7 +14240,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji znajdujesz się na drodze jednojezdniowej dwukierunkowej o czterech pasach ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11431.jpg",
+        "mediaUrl": "assets/media/11431.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14256,7 +14256,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek każdorazowo zatrzymać pojazd przed wjazdem na takie skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11458.jpg",
+        "mediaUrl": "assets/media/11458.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14272,7 +14272,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci się zatrzymać przy krawężniku przed znakiem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11490.mp4",
+        "mediaUrl": "assets/media/11490.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14288,7 +14288,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę lewym pasem ruchu, jeśli prawy pas jest wolny?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11733.mp4",
+        "mediaUrl": "assets/media/11733.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14304,7 +14304,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę bez zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11736.mp4",
+        "mediaUrl": "assets/media/11736.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14320,7 +14320,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy postój w tym miejscu jest dozwolony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11740.mp4",
+        "mediaUrl": "assets/media/11740.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14336,7 +14336,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zatrzymanie w tym miejscu jest dozwolone?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11740.mp4",
+        "mediaUrl": "assets/media/11740.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14352,7 +14352,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zatrzymać pojazd na poboczu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11747.mp4",
+        "mediaUrl": "assets/media/11747.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14368,7 +14368,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zatrzymanie przy prawej krawędzi jezdni jest dozwolone?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11755.mp4",
+        "mediaUrl": "assets/media/11755.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14384,7 +14384,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę lewym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11757.mp4",
+        "mediaUrl": "assets/media/11757.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14400,7 +14400,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za widocznym znakiem wolno Ci unieruchomić pojazd na dłużej niż 1 minutę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11782.mp4",
+        "mediaUrl": "assets/media/11782.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14416,7 +14416,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wjeżdżając do tunelu musisz utrzymywać odstęp od poprzedzającego pojazdu nie mniejszy niż 100 metrów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11799.mp4",
+        "mediaUrl": "assets/media/11799.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14432,7 +14432,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci się zatrzymać przy lewej krawędzi jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11813.mp4",
+        "mediaUrl": "assets/media/11813.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14448,7 +14448,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci się zatrzymać przy prawej krawędzi jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11838.mp4",
+        "mediaUrl": "assets/media/11838.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14464,7 +14464,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci się zatrzymać przy żółtej linii po prawej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11841.mp4",
+        "mediaUrl": "assets/media/11841.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14480,7 +14480,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na autostradzie wolno Ci poruszać się dowolnym pasem ruchu niezależnie od sytuacji na drodze?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11846.mp4",
+        "mediaUrl": "assets/media/11846.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14496,7 +14496,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci kontynuować jazdę środkowym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11857.mp4",
+        "mediaUrl": "assets/media/11857.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14512,7 +14512,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji kierujący pojazdami koloru czerwonego i zielonego zgodnie z przepisami umożliwiają przejazd pojazdu uprzywilejowanego tworząc tzw. \"korytarz życia\" ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11866.jpg",
+        "mediaUrl": "assets/media/11866.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14528,7 +14528,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji kierujący zespołem pojazdów nr 1 zachował się właściwie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11867.jpg",
+        "mediaUrl": "assets/media/11867.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14544,7 +14544,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji kierujący pojazdami zgodnie z przepisami umożliwili swobodny przejazd pojazdu uprzywilejowanego, tworząc tzw. \"korytarz życia\" ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11868.jpg",
+        "mediaUrl": "assets/media/11868.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14560,7 +14560,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji bezpośrednio za pojazdem uprzywilejowanym dozwolone jest poruszanie się dowolnych pojazdów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11869.jpg",
+        "mediaUrl": "assets/media/11869.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14576,7 +14576,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący zespołem pojazdów, który zatrzymał się na środku tej jezdni, zachował się prawidłowo wobec kierującego pojazdem uprzywilejowanym straży pożarnej  ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11875.jpg",
+        "mediaUrl": "assets/media/11875.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14592,7 +14592,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdami w sposób właściwy umożliwili swobodny przejazd pojazdu uprzywilejowanego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11877.jpg",
+        "mediaUrl": "assets/media/11877.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14608,7 +14608,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wszyscy kierujący w sposób właściwy zapewniają swobodny przejazd pojazdu uprzywilejowanego ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11878.jpg",
+        "mediaUrl": "assets/media/11878.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14624,7 +14624,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z drogi przejazdu pojazdu uprzywilejowanego utworzonej w sposób przedstawiony na zdjęciu może skorzystać  kierujący pojazdem pomocy drogowej biorący udział w akcji ratowniczej ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11879.jpg",
+        "mediaUrl": "assets/media/11879.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14640,7 +14640,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem koloru białego znajdujący się na lewym pasie ruchu w sposób właściwy umożliwia przejazd pojazdu uprzywilejowanego ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11886.mp4",
+        "mediaUrl": "assets/media/11886.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14656,7 +14656,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy pokazana sytuacja przedstawia poprawnie utworzony \"korytarz życia\"?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11887.mp4",
+        "mediaUrl": "assets/media/11887.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14672,7 +14672,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji żółty pojazd pomocy drogowej biorący udział w akcji ratowniczej może poruszać się po drodze przejazdu pojazdu uprzywilejowanego ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11886.mp4",
+        "mediaUrl": "assets/media/11886.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14688,7 +14688,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji kierujący pojazdem nr 1 ma obowiązek zjechać jak najbliżej lewej krawędzi pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11889.mp4",
+        "mediaUrl": "assets/media/11889.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14704,7 +14704,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji kierujący pojazdem nr 1 ma obowiązek usunąć się z drogi przejazdu pojazdu uprzywilejowanego ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11890.mp4",
+        "mediaUrl": "assets/media/11890.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14720,7 +14720,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji kierujący pojazdem nr 1 ma obowiązek zjechać w prawo ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11890.mp4",
+        "mediaUrl": "assets/media/11890.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14736,7 +14736,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący tymi pojazdami umożliwili swobodny przejazd pojazdom uprzywilejowanym tworząc tzw. \"korytarz życia\"?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11897.mp4",
+        "mediaUrl": "assets/media/11897.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14752,7 +14752,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem ciężarowym, zatrzymując się w tym miejscu postąpił zgodnie z obowiązującymi przepisami ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11898.mp4",
+        "mediaUrl": "assets/media/11898.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14768,7 +14768,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdami w sposób zgodny z obowiązującymi przepisami usunęli się z drogi przejazdu pojazdu uprzywilejowanego ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11899.mp4",
+        "mediaUrl": "assets/media/11899.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14784,7 +14784,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zbliżyć się do prawej krawędzi jezdni, by umożliwić przejazd pojazdu uprzywilejowanego, który nadjeżdża z tyłu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11912.jpg",
+        "mediaUrl": "assets/media/11912.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14800,7 +14800,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zatrzymać się na poboczu jeżeli potrzebujesz odpoczynku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12485.mp4",
+        "mediaUrl": "assets/media/12485.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14816,7 +14816,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci kontynuować jazdę na wprost dotychczasowym pasem ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12486.jpg",
+        "mediaUrl": "assets/media/12486.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14832,7 +14832,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji postępujesz zgodnie z przepisami, kontynuując jazdę zajmowanym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12487.mp4",
+        "mediaUrl": "assets/media/12487.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14848,7 +14848,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno kontynuować jazdę lewym pasem jeżeli prawy pas jest wolny?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12514.mp4",
+        "mediaUrl": "assets/media/12514.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14864,7 +14864,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy postój pojazdu bezpośrednio za widocznym słupkiem wskaźnikowym jest dozwolony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12646.jpg",
+        "mediaUrl": "assets/media/12646.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14880,7 +14880,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w strefie zamieszkania dozwolone jest zatrzymanie pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12654.jpg",
+        "mediaUrl": "assets/media/12654.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14896,7 +14896,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zatrzymanie pojazdu na wiadukcie w celu wysadzenia pasażera jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12660.jpg",
+        "mediaUrl": "assets/media/12660.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14912,7 +14912,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci się zatrzymać w tym miejscu na jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12665.jpg",
+        "mediaUrl": "assets/media/12665.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14928,7 +14928,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci się zatrzymać przy lewej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12670.jpg",
+        "mediaUrl": "assets/media/12670.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14944,7 +14944,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu masz prawo zatrzymać samochód osobowy na drodze w celu wysadzenia pasażera?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12671.jpg",
+        "mediaUrl": "assets/media/12671.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14960,7 +14960,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy możesz zatrzymać pojazd na chodniku zostawiając przejście o szerokości 2 m, jeśli utrudni to ruch pieszym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12678.jpg",
+        "mediaUrl": "assets/media/12678.jpg",
         "answers": [
           {
             "text": "tak",
@@ -14976,7 +14976,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zaparkować pojazd na chodniku po prawej stronie, w odległości 11 metrów od znaku oznaczającego przystanek?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12682.mp4",
+        "mediaUrl": "assets/media/12682.mp4",
         "answers": [
           {
             "text": "tak",
@@ -14992,7 +14992,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu masz prawo zaparkować pojazd na jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12683.mp4",
+        "mediaUrl": "assets/media/12683.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15008,7 +15008,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na obszarze zabudowanym na jezdni dwukierunkowej o małym ruchu wolno Ci zaparkować pojazd przy lewej krawędzi jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12684.mp4",
+        "mediaUrl": "assets/media/12684.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15024,7 +15024,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zaparkować pojazd na położonej po lewej stronie drodze dla rowerów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12685.mp4",
+        "mediaUrl": "assets/media/12685.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15040,7 +15040,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej drodze dwukierunkowej wolno Ci zaparkować pojazd przy prawej krawędzi jezdni, bezpośrednio za przejściem dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12686.mp4",
+        "mediaUrl": "assets/media/12686.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15056,7 +15056,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dozwolone jest zatrzymanie samochodu osobowego na drodze dla rowerów, jeżeli pozostanie co najmniej 1,5 m szerokości dla rowerzystów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12687.jpg",
+        "mediaUrl": "assets/media/12687.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15072,7 +15072,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji za znakiem masz prawo zaparkować na jezdni pojazd silnikowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12688.jpg",
+        "mediaUrl": "assets/media/12688.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15088,7 +15088,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za widocznymi znakami zakazu dozwolony jest postój pojazdu silnikowego na chodniku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12689.jpg",
+        "mediaUrl": "assets/media/12689.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15104,7 +15104,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci zatrzymać pojazd kołami jednego boku na drodze dla rowerów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12693.mp4",
+        "mediaUrl": "assets/media/12693.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15120,7 +15120,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zaparkować pojazd na poboczu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12694.mp4",
+        "mediaUrl": "assets/media/12694.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15136,7 +15136,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tak oznaczonym miejscu możesz dokonać postoju pojazdu, jeżeli przewozisz osobę niepełnosprawną legitymującą się kartą parkingową?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12702.jpg",
+        "mediaUrl": "assets/media/12702.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15152,7 +15152,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji chcąc zaparkować pojazd najlepiej dla zachowania bezpieczeństwa będzie odczekanie na oddalenie się pieszego prowadzącego hulajnogę ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13050.mp4",
+        "mediaUrl": "assets/media/13050.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15168,7 +15168,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tak oznaczonej drodze wymagane jest zachowanie minimalnego odstępu od poprzedzającego pojazdu co najmniej 100m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13058.jpg",
+        "mediaUrl": "assets/media/13058.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15184,7 +15184,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tak oznaczonej drodze wymagane jest zachowanie minimalnego odstępu od poprzedzającego pojazdu co najmniej 100m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13059.jpg",
+        "mediaUrl": "assets/media/13059.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15200,7 +15200,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze tak oznakowanej, jadąc za pojazdem , który porusza się z prędkością 80 km/h, wymagane jest zachowanie minimalnego odstępu od niego co najmniej 40 m ?.",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13059.jpg",
+        "mediaUrl": "assets/media/13059.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15222,7 +15222,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zmieniając pas ruchu masz obowiązek włączyć kierunkowskaz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2053.mp4",
+        "mediaUrl": "assets/media/2053.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15238,7 +15238,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek kontynuować jazdę prawym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2151.mp4",
+        "mediaUrl": "assets/media/2151.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15254,7 +15254,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zmienić pas ruchu na prawy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2157.mp4",
+        "mediaUrl": "assets/media/2157.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15270,7 +15270,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu możesz zawrócić z lewego pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2161.jpg",
+        "mediaUrl": "assets/media/2161.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15286,7 +15286,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na widocznym skrzyżowaniu wolno Ci skręcić wyłącznie w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2200.jpg",
+        "mediaUrl": "assets/media/2200.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15302,7 +15302,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2203.jpg",
+        "mediaUrl": "assets/media/2203.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15318,7 +15318,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci skręcić w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2205.jpg",
+        "mediaUrl": "assets/media/2205.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15334,7 +15334,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz zmienić pas ruchu na lewy. Czy masz pierwszeństwo przed pojazdami poruszającymi się tym pasem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2233.jpg",
+        "mediaUrl": "assets/media/2233.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15350,7 +15350,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z zajmowanego pasa ruchu wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2235.jpg",
+        "mediaUrl": "assets/media/2235.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15366,7 +15366,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci jeszcze skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2236.jpg",
+        "mediaUrl": "assets/media/2236.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15382,7 +15382,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek skręcić wyłącznie w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3380.jpg",
+        "mediaUrl": "assets/media/3380.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15398,7 +15398,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3566.jpg",
+        "mediaUrl": "assets/media/3566.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15414,7 +15414,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z zajmowanego pasa ruchu wolno Ci skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2517.jpg",
+        "mediaUrl": "assets/media/2517.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15430,7 +15430,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji za widocznym znakiem informacyjnym wolno Ci zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2551.mp4",
+        "mediaUrl": "assets/media/2551.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15446,7 +15446,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2587.mp4",
+        "mediaUrl": "assets/media/2587.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15462,7 +15462,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji kontynuując jazdę masz obowiązek sygnalizować zamiar zmiany pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2600.mp4",
+        "mediaUrl": "assets/media/2600.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15478,7 +15478,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz zawrócić bezpośrednio za znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2693.jpg",
+        "mediaUrl": "assets/media/2693.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15494,7 +15494,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zawrócić na moście?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2693.jpg",
+        "mediaUrl": "assets/media/2693.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15510,7 +15510,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z tego pasa ruchu dozwolony jest skręt w lewo na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2158.mp4",
+        "mediaUrl": "assets/media/2158.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15526,7 +15526,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na jezdni za tym znakiem informacyjnym możesz zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2774.jpg",
+        "mediaUrl": "assets/media/2774.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15542,7 +15542,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2795.jpg",
+        "mediaUrl": "assets/media/2795.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15558,7 +15558,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek ustąpić pierwszeństwa pojazdom jadącym lewym pasem, na który zamierzasz wjechać?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3440.jpg",
+        "mediaUrl": "assets/media/3440.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15574,7 +15574,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz zawrócić. Czy w tej sytuacji wystąpi kolizja z tramwajem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3453.mp4",
+        "mediaUrl": "assets/media/3453.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15590,7 +15590,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy opuszczając ten pas ruchu, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2943.mp4",
+        "mediaUrl": "assets/media/2943.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15606,7 +15606,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zjeżdżając z drogi do posesji, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3009.mp4",
+        "mediaUrl": "assets/media/3009.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15622,7 +15622,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zmieniając pas ruchu z lewego na środkowy, miałeś pierwszeństwo przed pojazdem wjeżdżającym na ten pas z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3037.jpg",
+        "mediaUrl": "assets/media/3037.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15638,7 +15638,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś był upewnić się, że możesz bezpiecznie zmienić pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3038.mp4",
+        "mediaUrl": "assets/media/3038.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15654,7 +15654,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej drodze wolno Ci zawracać?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3040.jpg",
+        "mediaUrl": "assets/media/3040.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15670,7 +15670,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz kontynuować jazdę drogą z pierwszeństwem. Czy powinieneś użyć kierunkowskazu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3041.jpg",
+        "mediaUrl": "assets/media/3041.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15686,7 +15686,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci zmienić pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3062.jpg",
+        "mediaUrl": "assets/media/3062.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15702,7 +15702,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, wjeżdżając na sąsiedni pas ruchu, masz pierwszeństwo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3064.jpg",
+        "mediaUrl": "assets/media/3064.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15718,7 +15718,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz wjechać na lewy pas ruchu. Czy masz pierwszeństwo przed pojazdami, które się nim poruszają?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3066.jpg",
+        "mediaUrl": "assets/media/3066.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15734,7 +15734,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić pas ruchu i skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3067.jpg",
+        "mediaUrl": "assets/media/3067.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15750,7 +15750,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zawrócić na moście?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3068.jpg",
+        "mediaUrl": "assets/media/3068.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15766,7 +15766,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zawrócić na widocznym odcinku drogi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3069.jpg",
+        "mediaUrl": "assets/media/3069.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15782,7 +15782,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tak oznakowanej drodze wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3070.jpg",
+        "mediaUrl": "assets/media/3070.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15798,7 +15798,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z zajmowanego pasa ruchu wolno Ci skręcić w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3076.jpg",
+        "mediaUrl": "assets/media/3076.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15814,7 +15814,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zajmując prawy pas ruchu, będziesz mógł poprawnie wykonać skręt w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3078.jpg",
+        "mediaUrl": "assets/media/3078.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15830,7 +15830,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w lewo z zajmowanego przez Ciebie pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3160.mp4",
+        "mediaUrl": "assets/media/3160.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15846,7 +15846,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz odpocząć. Czy w tym miejscu możesz skręcić w lewo, na parking?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3161.mp4",
+        "mediaUrl": "assets/media/3161.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15862,7 +15862,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu możesz skręcić w lewo, na parking?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3162.mp4",
+        "mediaUrl": "assets/media/3162.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15878,7 +15878,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz zawrócić na tym skrzyżowaniu. Czy zajmujesz właściwy pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3164.mp4",
+        "mediaUrl": "assets/media/3164.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15894,7 +15894,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na pas ruchu po lewej stronie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3167.jpg",
+        "mediaUrl": "assets/media/3167.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15910,7 +15910,7 @@ window.COURSE_DATA = [
       {
         "title": "Zajmujesz prawy pas ruchu. Czy na skrzyżowaniu wolno Ci skręcić w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3174.jpg",
+        "mediaUrl": "assets/media/3174.jpg",
         "answers": [
           {
             "text": "tak",
@@ -15926,7 +15926,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek sygnalizować zamiar przekroczenia linii przerywanej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3193.mp4",
+        "mediaUrl": "assets/media/3193.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15942,7 +15942,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zmienić pas ruchu bez wcześniejszego sygnalizowania tego manewru?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3203.mp4",
+        "mediaUrl": "assets/media/3203.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15958,7 +15958,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, masz obowiązek włączenia kierunkowskazu, jeżeli zamierzasz zmienić pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3203.mp4",
+        "mediaUrl": "assets/media/3203.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15974,7 +15974,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3213.mp4",
+        "mediaUrl": "assets/media/3213.mp4",
         "answers": [
           {
             "text": "tak",
@@ -15990,7 +15990,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3217.mp4",
+        "mediaUrl": "assets/media/3217.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16006,7 +16006,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu wolno Ci skręcić w prawo z zajmowanego obecnie pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3234.mp4",
+        "mediaUrl": "assets/media/3234.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16022,7 +16022,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu wolno Ci skręcić tylko w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3236.mp4",
+        "mediaUrl": "assets/media/3236.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16038,7 +16038,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu wolno Ci zawrócić z zajmowanego obecnie pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3237.mp4",
+        "mediaUrl": "assets/media/3237.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16054,7 +16054,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci zmienić pas ruchu na lewy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3238.mp4",
+        "mediaUrl": "assets/media/3238.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16070,7 +16070,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek sygnalizować zamiar zmiany pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3239.mp4",
+        "mediaUrl": "assets/media/3239.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16086,7 +16086,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na widocznym skrzyżowaniu wolno Ci skręcić w prawo z zajmowanego obecnie pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3245.mp4",
+        "mediaUrl": "assets/media/3245.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16102,7 +16102,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z zajmowanego obecnie pasa ruchu wolno Ci skręcić w lewo na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3246.mp4",
+        "mediaUrl": "assets/media/3246.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16118,7 +16118,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3252.mp4",
+        "mediaUrl": "assets/media/3252.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16134,7 +16134,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci zmienić dotychczas zajmowany pas ruchu na pas przy prawej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3264.jpg",
+        "mediaUrl": "assets/media/3264.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16150,7 +16150,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze jednokierunkowej cofanie jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3305.jpg",
+        "mediaUrl": "assets/media/3305.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16166,7 +16166,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmienić zajmowany pas ruchu, jeśli zamierzasz skręcić w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3310.jpg",
+        "mediaUrl": "assets/media/3310.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16182,7 +16182,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu masz prawo zmienić zajmowany pas ruchu na pas lewy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3315.jpg",
+        "mediaUrl": "assets/media/3315.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16198,7 +16198,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po wyświetleniu sygnału zielonego wolno Ci z tego pasa ruchu skręcić w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3316.mp4",
+        "mediaUrl": "assets/media/3316.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16214,7 +16214,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić z zajmowanego pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3324.jpg",
+        "mediaUrl": "assets/media/3324.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16230,7 +16230,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, po zmianie sygnału na zielony, możesz zawrócić na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3325.mp4",
+        "mediaUrl": "assets/media/3325.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16246,7 +16246,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3325.mp4",
+        "mediaUrl": "assets/media/3325.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16262,7 +16262,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zawrócić na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3342.mp4",
+        "mediaUrl": "assets/media/3342.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16278,7 +16278,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tych warunkach drogowych przedstawiony sposób wykonania manewru zawracania jest zabroniony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3354.mp4",
+        "mediaUrl": "assets/media/3354.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16294,7 +16294,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji miałeś obowiązek włączyć kierunkowskaz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3357.mp4",
+        "mediaUrl": "assets/media/3357.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16310,7 +16310,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3370.jpg",
+        "mediaUrl": "assets/media/3370.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16326,7 +16326,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, podczas zawracania wystąpi kolizja z innymi uczestnikami ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3616.jpg",
+        "mediaUrl": "assets/media/3616.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16342,7 +16342,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc tym pasem ruchu, wolno Ci skręcić w lewo na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2837.mp4",
+        "mediaUrl": "assets/media/2837.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16358,7 +16358,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu wolno Ci skręcić w lewo, jeśli jedziesz prawym pasem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3385.jpg",
+        "mediaUrl": "assets/media/3385.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16374,7 +16374,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić na parking znajdujący się po lewej stronie drogi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3406.mp4",
+        "mediaUrl": "assets/media/3406.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16390,7 +16390,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zmieniając pas ruchu, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3440.jpg",
+        "mediaUrl": "assets/media/3440.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16406,7 +16406,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na stację paliw wjazdem widocznym po lewej stronie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3457.jpg",
+        "mediaUrl": "assets/media/3457.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16422,7 +16422,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci zmienić pas ruchu, jeżeli zamierzasz pojechać na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3460.jpg",
+        "mediaUrl": "assets/media/3460.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16438,7 +16438,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci skręcić w lewo przed przejściem dla pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3461.jpg",
+        "mediaUrl": "assets/media/3461.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16454,7 +16454,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić pas ruchu na lewy, jeżeli zamierzasz skręcić w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3462.jpg",
+        "mediaUrl": "assets/media/3462.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16470,7 +16470,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z tak oznakowanej jezdni wolno Ci zjechać na widoczny po lewej stronie parking?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3464.jpg",
+        "mediaUrl": "assets/media/3464.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16486,7 +16486,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tak oznakowanym miejscu wolno Ci skręcić w lewo na widoczny przy drodze parking?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3465.jpg",
+        "mediaUrl": "assets/media/3465.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16502,7 +16502,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tak oznakowanym miejscu wolno Ci zmienić pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3477.jpg",
+        "mediaUrl": "assets/media/3477.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16518,7 +16518,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić pas ruchu na znajdujący się przy prawej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3481.jpg",
+        "mediaUrl": "assets/media/3481.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16534,7 +16534,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc tym pasem ruchu masz prawo zawrócić na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3482.jpg",
+        "mediaUrl": "assets/media/3482.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16550,7 +16550,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić na widocznym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3483.jpg",
+        "mediaUrl": "assets/media/3483.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16566,7 +16566,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić pas ruchu, żeby pojechać na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3484.jpg",
+        "mediaUrl": "assets/media/3484.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16582,7 +16582,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz prawym pasem ruchu. Czy wolno Ci skręcić w lewo na skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3174.jpg",
+        "mediaUrl": "assets/media/3174.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16598,7 +16598,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić zajmowany pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3488.jpg",
+        "mediaUrl": "assets/media/3488.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16614,7 +16614,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z zajmowanego pasa ruchu wolno Ci skręcić w prawo na tym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3489.jpg",
+        "mediaUrl": "assets/media/3489.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16630,7 +16630,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu masz obowiązek włączyć kierunkowskaz, zanim skręcisz w prawo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3520.mp4",
+        "mediaUrl": "assets/media/3520.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16646,7 +16646,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po wykonaniu manewru skrętu w prawo na tym skrzyżowaniu, masz obowiązek wyłączyć kierunkowskaz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3526.mp4",
+        "mediaUrl": "assets/media/3526.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16662,7 +16662,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z pasa ruchu, który zajmujesz, masz prawo zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3529.mp4",
+        "mediaUrl": "assets/media/3529.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16678,7 +16678,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz obowiązek włączyć kierunkowskaz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3533.mp4",
+        "mediaUrl": "assets/media/3533.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16694,7 +16694,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek użycia kierunkowskazu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3535.jpg",
+        "mediaUrl": "assets/media/3535.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16710,7 +16710,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zrezygnować z użycia kierunkowskazu zanim zmienisz pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3536.mp4",
+        "mediaUrl": "assets/media/3536.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16726,7 +16726,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek wcześniej zasygnalizować, że zamierzasz zmienić pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3537.jpg",
+        "mediaUrl": "assets/media/3537.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16742,7 +16742,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3552.jpg",
+        "mediaUrl": "assets/media/3552.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16758,7 +16758,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej drodze wolno Ci zrezygnować z sygnalizowania zamiaru skrętu w prawo, jeśli nikt za Tobą nie jedzie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3553.jpg",
+        "mediaUrl": "assets/media/3553.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16774,7 +16774,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek użycia kierunkowskazu, jeśli zamierzasz zmienić pas ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3554.jpg",
+        "mediaUrl": "assets/media/3554.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16790,7 +16790,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek sygnalizować zamiar zmiany pasa ruchu, jeśli w tej sytuacji jedziesz przy prawej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3555.jpg",
+        "mediaUrl": "assets/media/3555.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16806,7 +16806,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek użyć kierunkowskazu, jeśli zamierzasz wjechać na prawy pas?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3556.jpg",
+        "mediaUrl": "assets/media/3556.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16822,7 +16822,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek sygnalizować zamiar skrętu w prawo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3560.jpg",
+        "mediaUrl": "assets/media/3560.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16838,7 +16838,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zamierzając skręcić w prawo, powinieneś jechać dalej zajmowanym pasem ruchu i zmienić go bezpośrednio przed skrzyżowaniem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3567.jpg",
+        "mediaUrl": "assets/media/3567.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16854,7 +16854,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na pas ruchu przy prawej krawędzi jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3606.mp4",
+        "mediaUrl": "assets/media/3606.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16870,7 +16870,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na sąsiedni prawy pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3609.mp4",
+        "mediaUrl": "assets/media/3609.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16886,7 +16886,7 @@ window.COURSE_DATA = [
       {
         "title": "Skręcasz w lewo na skrzyżowaniu. Czy po wjechaniu na jezdnię poprzeczną znaki poziome pozwalają Ci zająć pas ruchu przy prawej krawędzi jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3612.mp4",
+        "mediaUrl": "assets/media/3612.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16902,7 +16902,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek sygnalizować zamiar powrotu na prawy pas?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3625.mp4",
+        "mediaUrl": "assets/media/3625.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16918,7 +16918,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy niezwłocznie po zmianie pasa ruchu masz obowiązek wyłączyć kierunkowskaz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3627.mp4",
+        "mediaUrl": "assets/media/3627.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16934,7 +16934,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w lewo z zajmowanego pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3638.mp4",
+        "mediaUrl": "assets/media/3638.mp4",
         "answers": [
           {
             "text": "tak",
@@ -16950,7 +16950,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem możesz zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3690.jpg",
+        "mediaUrl": "assets/media/3690.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16966,7 +16966,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić zajmowany pas ruchu, gdy zamierzasz jechać na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3730.jpg",
+        "mediaUrl": "assets/media/3730.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16982,7 +16982,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z zajmowanego pasa ruchu wolno Ci zawrócić?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/6234.jpg",
+        "mediaUrl": "assets/media/6234.jpg",
         "answers": [
           {
             "text": "tak",
@@ -16998,7 +16998,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcając w lewo masz obowiązek ustąpić pierwszeństwa pojazdowi jadącemu z kierunku przeciwnego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11236.jpg",
+        "mediaUrl": "assets/media/11236.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17014,7 +17014,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zmienić pas ruchu i pojechać prosto przez skrzyżowanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11321.jpg",
+        "mediaUrl": "assets/media/11321.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17030,7 +17030,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zmienić pas ruchu na lewy z zachowaniem szczególnej ostrożności?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11321.jpg",
+        "mediaUrl": "assets/media/11321.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17046,7 +17046,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zmienić pas ruchu na prawy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11323.jpg",
+        "mediaUrl": "assets/media/11323.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17062,7 +17062,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo zmienić pas ruchu na prawy, aby kontynuować jazdę prosto?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11439.mp4",
+        "mediaUrl": "assets/media/11439.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17078,7 +17078,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zmienić pas ruchu na prawy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11440.mp4",
+        "mediaUrl": "assets/media/11440.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17094,7 +17094,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji konieczne jest włączenie kierunkowskazu w celu zasygnalizowania zmiany pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11441.jpg",
+        "mediaUrl": "assets/media/11441.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17110,7 +17110,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy z pasa który zajmujesz wolno Ci skręcić w lewo na najbliższym skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11721.mp4",
+        "mediaUrl": "assets/media/11721.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17126,7 +17126,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11731.mp4",
+        "mediaUrl": "assets/media/11731.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17142,7 +17142,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zamierzając wrócić na prawy pas masz obowiązek sygnalizować ten zamiar prawym kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11739.mp4",
+        "mediaUrl": "assets/media/11739.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17158,7 +17158,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy musisz sygnalizować zamiar tego manewru prawym kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11744.mp4",
+        "mediaUrl": "assets/media/11744.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17174,7 +17174,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo na skrzyżowaniu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11745.mp4",
+        "mediaUrl": "assets/media/11745.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17190,7 +17190,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcając w lewo masz pierwszeństwo przed pojazdem jadącym z przeciwka na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11751.mp4",
+        "mediaUrl": "assets/media/11751.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17206,7 +17206,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11755.mp4",
+        "mediaUrl": "assets/media/11755.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17222,7 +17222,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcając w prawo masz obowiązek sygnalizować ten manewr kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11792.mp4",
+        "mediaUrl": "assets/media/11792.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17238,7 +17238,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić pas ruchu na prawy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11798.mp4",
+        "mediaUrl": "assets/media/11798.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17254,7 +17254,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo na skrzyżowaniu. Czy musisz sygnalizować ten manewr prawym kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11804.mp4",
+        "mediaUrl": "assets/media/11804.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17270,7 +17270,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zawrócić?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11815.mp4",
+        "mediaUrl": "assets/media/11815.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17286,7 +17286,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zmienić pas na lewy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11841.mp4",
+        "mediaUrl": "assets/media/11841.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17302,7 +17302,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci kontynuować jazdę zajmowanym pasem, jeżeli dwa pasy po prawej są wolne?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11844.mp4",
+        "mediaUrl": "assets/media/11844.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17318,7 +17318,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy sygnalizować zamiar zmiany pasa prawym kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11861.mp4",
+        "mediaUrl": "assets/media/11861.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17334,7 +17334,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w warunkach znacznego zmniejszenia prędkości na jezdni kierujący pojazdem nr 3 przejeżdża przed pojazdem nr 2?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11870.jpg",
+        "mediaUrl": "assets/media/11870.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17350,7 +17350,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w warunkach  znacznego zmniejszenia prędkości na jezdni kierujący pojazdem nr 2 przejeżdża przed pojazdem nr 3?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11870.jpg",
+        "mediaUrl": "assets/media/11870.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17366,7 +17366,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w warunkach znacznego zmniejszenia prędkości na jezdni kierujący pojazdem nr 3 przejeżdża przed pojazdem nr 2?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11872.jpg",
+        "mediaUrl": "assets/media/11872.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17382,7 +17382,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w warunkach znacznego zmniejszenia prędkości na jezdni kierujący pojazdem nr 3 ma obowiązek umożliwić kierującemu pojazdem nr 2 zmianę pasa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11872.jpg",
+        "mediaUrl": "assets/media/11872.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17398,7 +17398,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w warunkach znacznego zmniejszenia prędkości na jezdni kierujący pojazdem nr 4 przejeżdża przed kierującym pojazdem nr 2?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11874.jpg",
+        "mediaUrl": "assets/media/11874.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17414,7 +17414,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący jadący lewym pasem ruchu ciągnikiem siodłowym z cysterną ma obowiązek już w tym miejscu umożliwić pojazdowi jadącemu przed Tobą zmianę pasa ruchu na sąsiedni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11881.jpg",
+        "mediaUrl": "assets/media/11881.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17430,7 +17430,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem poruszający się sąsiednim pasem ruchu jest obowiązany bezpośrednio przed miejscem zanikania pasa ruchu umożliwić pojazdowi jadącemu przed Tobą zmianę pasa ruchu na prawy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11882.jpg",
+        "mediaUrl": "assets/media/11882.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17446,7 +17446,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji kierujący pojazdem poruszającym się prawym pasem ruchu jest obowiązany umożliwić tobie   zmianę pasa ruchu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11883.jpg",
+        "mediaUrl": "assets/media/11883.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17462,7 +17462,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący poruszający się prawym pasem ruchu jest obowiązany umożliwić już w tym miejscu zmianę pasa ruchu pojazdowi jadącemu przed Tobą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11884.jpg",
+        "mediaUrl": "assets/media/11884.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17478,7 +17478,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem poruszającym się prawym pasem ruchu po ominięciu tego znaku ma obowiązek umożliwić Tobie zmianę pasa ruchu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11885.jpg",
+        "mediaUrl": "assets/media/11885.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17494,7 +17494,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji kierujący pojazdami są obowiązani umożliwić zmianę pasa ruchu pojazdom znajdującym się na pasie zanikającym ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11902.mp4",
+        "mediaUrl": "assets/media/11902.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17510,7 +17510,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący ma obowiązek stosować tzw. \"jazdę na suwak\",  gdy nie ma znacznego zmniejszenia prędkości ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11904.jpg",
+        "mediaUrl": "assets/media/11904.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17526,7 +17526,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy planując opuszczenie tego skrzyżowania, zmieniłeś pas ruchu we właściwym momencie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12488.mp4",
+        "mediaUrl": "assets/media/12488.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17542,7 +17542,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy powinieneś niezwłocznie przystąpić do zmiany pasa ruchu, jeśli zamierzasz skręcić w lewo na najbliższym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12489.jpg",
+        "mediaUrl": "assets/media/12489.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17558,7 +17558,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zrezygnować z użycia kierunkowskazu przy zmianie pasa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12490.jpg",
+        "mediaUrl": "assets/media/12490.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17574,7 +17574,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tak oznakowanym miejscu wolno Ci zmienić pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12517.mp4",
+        "mediaUrl": "assets/media/12517.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17596,7 +17596,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2113.mp4",
+        "mediaUrl": "assets/media/2113.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17612,7 +17612,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś oddalić się od prawej krawędzi jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2117.jpg",
+        "mediaUrl": "assets/media/2117.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17628,7 +17628,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzenie rowerzysty w tej sytuacji jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2118.jpg",
+        "mediaUrl": "assets/media/2118.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17644,7 +17644,7 @@ window.COURSE_DATA = [
       {
         "title": "Zostałeś właśnie wyprzedzony przez pojazd widoczny przed Tobą. Czy bezpośrednio po wyprzedzeniu wolno Ci zwiększyć prędkość?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2237.jpg",
+        "mediaUrl": "assets/media/2237.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17660,7 +17660,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd szynowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2241.mp4",
+        "mediaUrl": "assets/media/2241.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17676,7 +17676,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przy zachowaniu właściwego odstępu wolno Ci wyprzedzić na tym przejeździe widocznych rowerzystów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2249.mp4",
+        "mediaUrl": "assets/media/2249.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17692,7 +17692,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz rozpocząć wyprzedzanie z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2347.mp4",
+        "mediaUrl": "assets/media/2347.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17708,7 +17708,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wyprzedzić pojazd który rozpoczął manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2350.mp4",
+        "mediaUrl": "assets/media/2350.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17724,7 +17724,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wyprzedzanie rowerzysty jest zabronione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2364.mp4",
+        "mediaUrl": "assets/media/2364.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17740,7 +17740,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji podczas wyprzedzania musisz zachować odstęp nie mniejszy niż 1 m?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2650.mp4",
+        "mediaUrl": "assets/media/2650.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17756,7 +17756,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wyprzedzić rowerzystę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2388.mp4",
+        "mediaUrl": "assets/media/2388.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17772,7 +17772,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, dojeżdżając drogą dwukierunkową do wierzchołka wzniesienia, masz prawo wyprzedzić motocykl?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2516.jpg",
+        "mediaUrl": "assets/media/2516.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17788,7 +17788,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić z prawej strony pojazd, który jedzie lewym pasem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2546.mp4",
+        "mediaUrl": "assets/media/2546.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17804,7 +17804,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zanim rozpoczniesz wyprzedzanie, masz obowiązek upewnić się, czy kierujący jadący za Tobą nie rozpoczął tego samego manewru?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2547.mp4",
+        "mediaUrl": "assets/media/2547.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17820,7 +17820,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić samochód ciężarowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2548.mp4",
+        "mediaUrl": "assets/media/2548.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17836,7 +17836,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zwiększyć prędkość, jeśli jesteś wyprzedzany?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2549.mp4",
+        "mediaUrl": "assets/media/2549.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17852,7 +17852,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym odcinku drogi wolno Ci rozpocząć wyprzedzanie pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2579.mp4",
+        "mediaUrl": "assets/media/2579.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17868,7 +17868,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci rozpocząć wyprzedzanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2580.mp4",
+        "mediaUrl": "assets/media/2580.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17884,7 +17884,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem masz prawo wyprzedzić pojazd uprzywilejowany?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2612.mp4",
+        "mediaUrl": "assets/media/2612.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17900,7 +17900,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić tramwaj z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2614.mp4",
+        "mediaUrl": "assets/media/2614.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17916,7 +17916,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wyprzedzanie rowerzysty z zachowaniem odstępu około 0,5 m jest zabronione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2650.mp4",
+        "mediaUrl": "assets/media/2650.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17932,7 +17932,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wyprzedzić rowerzystę z zachowaniem odstępu 0,5 m?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2650.mp4",
+        "mediaUrl": "assets/media/2650.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17948,7 +17948,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji podczas wyprzedzania wolno Ci wjechać pomiędzy jadące w kolumnie rowery?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2651.mp4",
+        "mediaUrl": "assets/media/2651.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17964,7 +17964,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo rozpocząć manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2806.mp4",
+        "mediaUrl": "assets/media/2806.mp4",
         "answers": [
           {
             "text": "tak",
@@ -17980,7 +17980,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić jadący przed Tobą pojazd?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2849.jpg",
+        "mediaUrl": "assets/media/2849.jpg",
         "answers": [
           {
             "text": "tak",
@@ -17996,7 +17996,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2852.mp4",
+        "mediaUrl": "assets/media/2852.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18012,7 +18012,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci zwiększać prędkość, jeżeli jesteś wyprzedzany przez inny pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2855.mp4",
+        "mediaUrl": "assets/media/2855.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18028,7 +18028,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2901.mp4",
+        "mediaUrl": "assets/media/2901.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18044,7 +18044,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zrezygnować z wykonania manewru wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2986.mp4",
+        "mediaUrl": "assets/media/2986.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18060,7 +18060,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzając ten pojazd masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2995.mp4",
+        "mediaUrl": "assets/media/2995.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18076,7 +18076,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, powstrzymanie się od wyprzedzenia rowerzysty jest prawidłowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3046.mp4",
+        "mediaUrl": "assets/media/3046.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18092,7 +18092,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo rozpocząć wyprzedzanie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3060.jpg",
+        "mediaUrl": "assets/media/3060.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18108,7 +18108,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, rozpoczynając manewr wyprzedzania, możesz spowodować wypadek?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3073.jpg",
+        "mediaUrl": "assets/media/3073.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18124,7 +18124,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3083.mp4",
+        "mediaUrl": "assets/media/3083.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18140,7 +18140,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy powstrzymać się od wyprzedzenia pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3085.mp4",
+        "mediaUrl": "assets/media/3085.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18156,7 +18156,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3086.mp4",
+        "mediaUrl": "assets/media/3086.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18172,7 +18172,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, na obszarze zabudowanym, wolno Ci wyprzedzić pojazd z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3087.mp4",
+        "mediaUrl": "assets/media/3087.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18188,7 +18188,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3089.mp4",
+        "mediaUrl": "assets/media/3089.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18204,7 +18204,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3090.mp4",
+        "mediaUrl": "assets/media/3090.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18220,7 +18220,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zrezygnować z rozpoczęcia wyprzedzania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3115.jpg",
+        "mediaUrl": "assets/media/3115.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18236,7 +18236,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wyprzedzać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3123.mp4",
+        "mediaUrl": "assets/media/3123.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18252,7 +18252,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tak oznakowanym skrzyżowaniu masz prawo wyprzedzać pojazdy poruszające się innymi pasami?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3124.mp4",
+        "mediaUrl": "assets/media/3124.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18268,7 +18268,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu wolno Ci wjechać na pas ruchu przeznaczony dla pojazdów jadących w przeciwnym kierunku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3159.jpg",
+        "mediaUrl": "assets/media/3159.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18284,7 +18284,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić autobus?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3195.mp4",
+        "mediaUrl": "assets/media/3195.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18300,7 +18300,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo przekroczyć dopuszczalną prędkość, by jak najszybciej zakończyć manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3197.mp4",
+        "mediaUrl": "assets/media/3197.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18316,7 +18316,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie prawym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3198.mp4",
+        "mediaUrl": "assets/media/3198.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18332,7 +18332,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić kilka pojazdów nie wracając na prawy pas?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3200.mp4",
+        "mediaUrl": "assets/media/3200.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18348,7 +18348,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić tramwaj?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3265.mp4",
+        "mediaUrl": "assets/media/3265.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18364,7 +18364,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas wyprzedzania rowerzysty, w warunkach zmniejszonej przejrzystości powietrza, poza obszarem zabudowanym, powinieneś używać krótkotrwałych sygnałów dźwiękowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3267.jpg",
+        "mediaUrl": "assets/media/3267.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18380,7 +18380,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący rowerem może wyprzedzać jadące powoli pojazdy z ich prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3294.jpg",
+        "mediaUrl": "assets/media/3294.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18396,7 +18396,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3308.mp4",
+        "mediaUrl": "assets/media/3308.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18412,7 +18412,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci wyprzedzić pojazd z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3353.mp4",
+        "mediaUrl": "assets/media/3353.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18428,7 +18428,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wyprzedzić pojazd poruszający się obok, zanim zmienisz pas ruchu i zjedziesz z autostrady na najbliższym wyjeździe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3395.jpg",
+        "mediaUrl": "assets/media/3395.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18444,7 +18444,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować wyprzedzanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3408.mp4",
+        "mediaUrl": "assets/media/3408.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18460,7 +18460,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tak oznakowanym miejscu wolno Ci wyprzedzić z lewej strony pojazd znajdujący się na Twoim pasie ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3458.jpg",
+        "mediaUrl": "assets/media/3458.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18476,7 +18476,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem na obszarze zabudowanym. Czy w tej sytuacji masz prawo wyprzedzić z prawej strony pojazd jadący przed Tobą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3468.jpg",
+        "mediaUrl": "assets/media/3468.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18492,7 +18492,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy powstrzymać się od wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3469.mp4",
+        "mediaUrl": "assets/media/3469.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18508,7 +18508,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić rowerzystę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3470.mp4",
+        "mediaUrl": "assets/media/3470.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18524,7 +18524,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3471.mp4",
+        "mediaUrl": "assets/media/3471.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18540,7 +18540,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3472.mp4",
+        "mediaUrl": "assets/media/3472.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18556,7 +18556,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3473.mp4",
+        "mediaUrl": "assets/media/3473.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18572,7 +18572,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zrezygnować z manewru wyprzedzania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3474.jpg",
+        "mediaUrl": "assets/media/3474.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18588,7 +18588,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym odcinku jezdni jednokierunkowej wolno Ci wyprzedzić pojazd z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3513.jpg",
+        "mediaUrl": "assets/media/3513.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18604,7 +18604,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, poruszając się jezdnią jednokierunkową poza obszarem zabudowanym, możesz wyprzedzać z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3514.jpg",
+        "mediaUrl": "assets/media/3514.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18620,7 +18620,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, na autostradzie, wolno Ci kontynuować wyprzedzanie pojazdu z prawej strony ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3558.jpg",
+        "mediaUrl": "assets/media/3558.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18636,7 +18636,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3571.mp4",
+        "mediaUrl": "assets/media/3571.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18652,7 +18652,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3573.mp4",
+        "mediaUrl": "assets/media/3573.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18668,7 +18668,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, poza obszarem zabudowanym, dozwolone jest wyprzedzenie z prawej strony jadącego przed Tobą pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3578.jpg",
+        "mediaUrl": "assets/media/3578.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18684,7 +18684,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzać samochód ciężarowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3608.jpg",
+        "mediaUrl": "assets/media/3608.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18700,7 +18700,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd, który jedzie przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3626.mp4",
+        "mediaUrl": "assets/media/3626.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18716,7 +18716,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, przed wyprzedzeniem rowerzysty, masz obowiązek użyć sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3664.mp4",
+        "mediaUrl": "assets/media/3664.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18732,7 +18732,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wykonać manewr wyprzedzania z lewej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3670.jpg",
+        "mediaUrl": "assets/media/3670.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18748,7 +18748,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wyprzedzanie jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/6233.jpg",
+        "mediaUrl": "assets/media/6233.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18764,7 +18764,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz wyprzedzić rowerzystę jeśli będzie to wymagało nieznacznego przekroczenia linii podwójnej ciągłej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11213.jpg",
+        "mediaUrl": "assets/media/11213.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18780,7 +18780,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji dozwolone jest wyprzedzanie widocznego pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11234.jpg",
+        "mediaUrl": "assets/media/11234.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18812,7 +18812,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji należy powstrzymać się od wyprzedzania rowerzysty?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11403.mp4",
+        "mediaUrl": "assets/media/11403.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18828,7 +18828,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas powolnej jazdy w warunkach zatoru drogowego powinieneś spodziewać się, że będziesz wyprzedzany z prawej strony przez kierującego rowerem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11405.jpg",
+        "mediaUrl": "assets/media/11405.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18844,7 +18844,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej drodze poza obszarem zabudowanym dopuszcza się wyprzedzanie pojazdu silnikowego z prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11431.jpg",
+        "mediaUrl": "assets/media/11431.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18860,7 +18860,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w takim miejscu na drodze dopuszcza się wyprzedzanie pojazdu silnikowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11432.jpg",
+        "mediaUrl": "assets/media/11432.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18876,7 +18876,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo rozpocząć manewr wyprzedzania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11318.jpg",
+        "mediaUrl": "assets/media/11318.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18892,7 +18892,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu masz prawo wyprzedzać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11305.mp4",
+        "mediaUrl": "assets/media/11305.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18908,7 +18908,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji manewr wyprzedzania niesie ryzyko poślizgu i spowodowania wypadku drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11436.jpg",
+        "mediaUrl": "assets/media/11436.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18924,7 +18924,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo wyprzedzić na skrzyżowaniu pojazd poprzedzający ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11339.jpg",
+        "mediaUrl": "assets/media/11339.jpg",
         "answers": [
           {
             "text": "tak",
@@ -18940,7 +18940,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji po wykonaniu manewru wyprzedzania masz obowiązek zjechać na prawy pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11448.mp4",
+        "mediaUrl": "assets/media/11448.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18956,7 +18956,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci rozpocząć wyprzedzanie pojazdów jadących prawym pasem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11518.mp4",
+        "mediaUrl": "assets/media/11518.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18972,7 +18972,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wyprzedzanie jest dozwolone?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11519.mp4",
+        "mediaUrl": "assets/media/11519.mp4",
         "answers": [
           {
             "text": "tak",
@@ -18988,7 +18988,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zachować bezpieczny odstęp od wyprzedzanego pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11737.mp4",
+        "mediaUrl": "assets/media/11737.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19004,7 +19004,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na widocznym przejściu dla pieszych wyprzedzanie jest dozwolone?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11746.mp4",
+        "mediaUrl": "assets/media/11746.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19020,7 +19020,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo przekroczyć dopuszczalną prędkość, by jak najszybciej zakończyć manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11754.mp4",
+        "mediaUrl": "assets/media/11754.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19036,7 +19036,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci rozpocząć wyprzedzanie pod wiaduktem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11843.mp4",
+        "mediaUrl": "assets/media/11843.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19052,7 +19052,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy sygnalizować manewr wyprzedzania odpowiednim kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11858.mp4",
+        "mediaUrl": "assets/media/11858.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19068,7 +19068,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem dozwolone jest wyprzedzanie rowerzysty?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12099.jpg",
+        "mediaUrl": "assets/media/12099.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19084,7 +19084,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd szynowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12525.mp4",
+        "mediaUrl": "assets/media/12525.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19100,7 +19100,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zabronione jest wyprzedzanie pojazdu szynowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12525.mp4",
+        "mediaUrl": "assets/media/12525.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19116,7 +19116,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz wyprzedzić pojazd z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12617.mp4",
+        "mediaUrl": "assets/media/12617.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19132,7 +19132,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz wykonać manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12618.mp4",
+        "mediaUrl": "assets/media/12618.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19148,7 +19148,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym skrzyżowaniu możesz wyprzedzić pojazd z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12619.mp4",
+        "mediaUrl": "assets/media/12619.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19164,7 +19164,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz wyprzedzić z lewej lub prawej strony pojazd jadący przed Tobą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12617.mp4",
+        "mediaUrl": "assets/media/12617.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19180,7 +19180,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas wyprzedzania hulajnogi elektrycznej masz obowiązek zachować odstęp nie mniejszy niż jeden metr?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12621.mp4",
+        "mediaUrl": "assets/media/12621.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19196,7 +19196,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz powstrzymać się od wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12622.mp4",
+        "mediaUrl": "assets/media/12622.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19212,7 +19212,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić rowerzystę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12624.mp4",
+        "mediaUrl": "assets/media/12624.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19228,7 +19228,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji możesz wyprzedzić pojazd z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12625.mp4",
+        "mediaUrl": "assets/media/12625.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19244,7 +19244,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wyprzedzić na przejściu dla pieszych pojazd jadący prawym pasem ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12631.mp4",
+        "mediaUrl": "assets/media/12631.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19260,7 +19260,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wykonać manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12632.mp4",
+        "mediaUrl": "assets/media/12632.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19276,7 +19276,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej jezdni zabronione jest wyprzedzanie z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12617.mp4",
+        "mediaUrl": "assets/media/12617.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19292,7 +19292,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić jadący przed Tobą pojazd z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12634.mp4",
+        "mediaUrl": "assets/media/12634.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19308,7 +19308,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzając rowerzystę masz obowiązek zachować odstęp nie mniejszy niż jeden metr?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12639.mp4",
+        "mediaUrl": "assets/media/12639.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19324,7 +19324,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz rozpocząć wyprzedzanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12640.mp4",
+        "mediaUrl": "assets/media/12640.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19340,7 +19340,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powstrzymasz się od wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12642.mp4",
+        "mediaUrl": "assets/media/12642.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19356,7 +19356,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzając hulajnogę elektryczną masz obowiązek utrzymać odstęp nie mniejszy niż 1 m?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12621.mp4",
+        "mediaUrl": "assets/media/12621.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19372,7 +19372,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na przejściu dla pieszych, przy zachowaniu szczególnej ostrożności wolno Ci wyprzedzać rowerzystę ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12781.jpg",
+        "mediaUrl": "assets/media/12781.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19388,7 +19388,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś obowiązany powstrzymać się od wyprzedzania rowerzysty ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12781.jpg",
+        "mediaUrl": "assets/media/12781.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19404,7 +19404,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji, pomimo zachowania szczególnej ostrożności,  obowiązuje Cię zakaz wyprzedzania poprzedzającego pojazdu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12783.jpg",
+        "mediaUrl": "assets/media/12783.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19420,7 +19420,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji, przy zachowaniu szczególnej ostrożności wolno Ci wyprzedzić poprzedzający samochód ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12783.jpg",
+        "mediaUrl": "assets/media/12783.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19436,7 +19436,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji, przy zachowaniu zwiększonej uwagi, wolno Ci wyprzedzić poprzedzający pojazd z jego prawej strony ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12785.jpg",
+        "mediaUrl": "assets/media/12785.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19452,7 +19452,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji, pomimo zachowania szczególnej ostrożności,  obowiązuje Cię zakaz wyprzedzania ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12785.jpg",
+        "mediaUrl": "assets/media/12785.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19468,7 +19468,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, dojeżdżając jezdnią dwukierunkową do wierzchołka wzniesienia, wolno Ci wyprzedzić ten motocykl ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12788.jpg",
+        "mediaUrl": "assets/media/12788.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19484,7 +19484,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przed wyprzedzaniem masz obowiązek upewnić się, czy kierujący jadący za Tobą nie rozpoczął wyprzedzania ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12789.jpg",
+        "mediaUrl": "assets/media/12789.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19500,7 +19500,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, poruszając się jezdnią jednokierunkową poza obszarem zabudowanym, obowiązuje Cię zakaz wyprzedzania poprzedzającego pojazdu z jego prawej strony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12790.jpg",
+        "mediaUrl": "assets/media/12790.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19516,7 +19516,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, przy zachowaniu szczególnej ostrożności wolno Ci rozpocząć  wyprzedzanie poprzedzającego pojazdu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12791.jpg",
+        "mediaUrl": "assets/media/12791.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19532,7 +19532,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, poza obszarem zabudowanym, obowiązuje Cię zakaz wyprzedzania z prawej strony jadącego przed Tobą pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12792.jpg",
+        "mediaUrl": "assets/media/12792.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19548,7 +19548,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem wyprzedzanym. Czy w czasie wyprzedzania lub bezpośrednio po nim wolno Ci nieznacznie zwiększyć prędkość ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12793.jpg",
+        "mediaUrl": "assets/media/12793.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19564,7 +19564,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, mimo że zakaz wyprzedzania rowerzysty nie obowiązuje na skrzyżowaniu, powinieneś powstrzymać się od wyprzedzania rowerzysty, gdyż ze względu na ograniczoną widoczność mogłoby ono doprowadzić do stworzenia zagrożenia bezpieczeństwa ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12794.jpg",
+        "mediaUrl": "assets/media/12794.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19580,7 +19580,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy pomimo zachowania szczególnej ostrożności, jesteś obowiązany powstrzymać się od  wyprzedzania  pojazdu silnikowego na najbliższym skrzyżowaniu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12795.jpg",
+        "mediaUrl": "assets/media/12795.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19596,7 +19596,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zachowując szczególną ostrożność wolno Ci wyprzedzić poprzedzający pojazd na najbliższym skrzyżowaniu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12795.jpg",
+        "mediaUrl": "assets/media/12795.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19612,7 +19612,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci rozpocząć manewr wyprzedzania bez uprzedniego upewnienia się, czy kierujący jadący za Tobą nie rozpoczął wyprzedzania ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12789.jpg",
+        "mediaUrl": "assets/media/12789.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19628,7 +19628,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy obowiązuje Cię zakaz wyprzedzania pojazdu silnikowego jadącego jezdnią na skrzyżowaniu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12798.jpg",
+        "mediaUrl": "assets/media/12798.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19644,7 +19644,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji obowiązuje zakaz wyprzedzania pojazdu członowego ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12799.jpg",
+        "mediaUrl": "assets/media/12799.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19660,7 +19660,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, przy zachowaniu szczególnej ostrożności, wolno Ci wyprzedzić poprzedzający pojazd na najbliższym skrzyżowaniu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12800.jpg",
+        "mediaUrl": "assets/media/12800.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19676,7 +19676,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek powstrzymać się od wyprzedzania poprzedzającego pojazdu na najbliższym skrzyżowaniu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12800.jpg",
+        "mediaUrl": "assets/media/12800.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19692,7 +19692,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji obowiązuje Cię zakaz wyprzedzania poprzedzającego pojazdu z jego lewej strony ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12787.jpg",
+        "mediaUrl": "assets/media/12787.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19708,7 +19708,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji na obszarze zabudowanym, jesteś obowiązany powstrzymać się od wyprzedzania poprzedzającego pojazdu z jego prawej strony ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12803.jpg",
+        "mediaUrl": "assets/media/12803.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19724,7 +19724,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, dojeżdżając drogą dwukierunkową do wierzchołka wzniesienia, jesteś obowiązany powstrzymać się od wyprzedzania motocykla ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12788.jpg",
+        "mediaUrl": "assets/media/12788.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19740,7 +19740,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem wyprzedzanym. Czy w tej sytuacji obowiązuje Cię zakaz zwiększania prędkości ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12793.jpg",
+        "mediaUrl": "assets/media/12793.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19756,7 +19756,7 @@ window.COURSE_DATA = [
       {
         "title": "Jeżeli podczas wyprzedzania różnica prędkości między pojazdem wyprzedzającym a wyprzedzanym jest mała, to czy czas wyprzedzania będzie krótszy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12911.jpg",
+        "mediaUrl": "assets/media/12911.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19772,7 +19772,7 @@ window.COURSE_DATA = [
       {
         "title": "Jeżeli podczas wyprzedzania różnica prędkości między pojazdem wyprzedzającym a wyprzedzanym jest mała, to czy droga wyprzedzania będzie krótsza?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12911.jpg",
+        "mediaUrl": "assets/media/12911.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19788,7 +19788,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić hulajnogę elektryczną na przejeździe kolejowym ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12915.mp4",
+        "mediaUrl": "assets/media/12915.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19804,7 +19804,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić pojazd z prawej strony ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12934.mp4",
+        "mediaUrl": "assets/media/12934.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19820,7 +19820,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd szynowy z prawej strony ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12936.mp4",
+        "mediaUrl": "assets/media/12936.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19836,7 +19836,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przed rozpoczęciem manewru wyprzedzania musisz upewnić się, czy kierujący jadący za Tobą nie rozpoczął manewru wyprzedzania ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12937.mp4",
+        "mediaUrl": "assets/media/12937.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19852,7 +19852,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, po wyminięciu jadącego z przeciwnego kierunku samochodu ciężarowego, możesz podjąć decyzję o wyprzedzaniu pojazdu jadącego przed Tobą ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12938.mp4",
+        "mediaUrl": "assets/media/12938.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19868,7 +19868,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przy wyprzedzaniu hulajnogi elektrycznej wystarczające jest zachowanie 0,5m odstępu bocznego ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12939.jpg",
+        "mediaUrl": "assets/media/12939.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19884,7 +19884,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzając rower jadący pasem ruchu dla rowerów musisz zachować od niego odstęp boczny o wielkości co najmniej 1m ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12940.jpg",
+        "mediaUrl": "assets/media/12940.jpg",
         "answers": [
           {
             "text": "tak",
@@ -19900,7 +19900,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji mogłeś podjąć się wyprzedzania widocznego pojazdu z jego lewej strony ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12941.mp4",
+        "mediaUrl": "assets/media/12941.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19916,7 +19916,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji bezpośrednio po wyprzedzeniu Twojego pojazdu możesz zwiększyć prędkość?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12942.mp4",
+        "mediaUrl": "assets/media/12942.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19932,7 +19932,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wyprzedzić hulajnogę elektryczną ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12943.mp4",
+        "mediaUrl": "assets/media/12943.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19948,7 +19948,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zabronione jest wyprzedzanie na skrzyżowaniu z sygnalizacją świetlną ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12944.mp4",
+        "mediaUrl": "assets/media/12944.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19964,7 +19964,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd jadący przed Tobą ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12945.mp4",
+        "mediaUrl": "assets/media/12945.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19980,7 +19980,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić rower?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12946.mp4",
+        "mediaUrl": "assets/media/12946.mp4",
         "answers": [
           {
             "text": "tak",
@@ -19996,7 +19996,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić hulajnogę elektryczną ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12947.jpg",
+        "mediaUrl": "assets/media/12947.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20012,7 +20012,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd jadący pasem ruchu z Twojej lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12948.mp4",
+        "mediaUrl": "assets/media/12948.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20028,7 +20028,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji na drodze ekspresowej wolno Ci wyprzedzić z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12949.mp4",
+        "mediaUrl": "assets/media/12949.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20044,7 +20044,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci wyprzedzić ten pojazd ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12950.mp4",
+        "mediaUrl": "assets/media/12950.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20060,7 +20060,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przed podjęciem decyzji o wyprzedzaniu, niezbędne jest upewnienie się o możliwości wykonania manewru między innymi poprzez spojrzenie w lewe zewnętrzne lusterko pojazdu ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12951.mp4",
+        "mediaUrl": "assets/media/12951.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20076,7 +20076,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przy wyprzedzaniu powinieneś zwiększyć uwagę i dostosować swoje zachowanie do warunków i sytuacji zmieniających się na drodze tak abyś mógł odpowiednio szybko zareagować?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12952.mp4",
+        "mediaUrl": "assets/media/12952.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20092,7 +20092,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci wyprzedzić pojazd w czasie przejeżdżania przez tory tramwajowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12953.mp4",
+        "mediaUrl": "assets/media/12953.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20108,7 +20108,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas wyprzedzania na autostradzie samochodem osobowym z przyczepą lekką możesz przekroczyć prędkość 80 km/h?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12902.jpg",
+        "mediaUrl": "assets/media/12902.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20124,7 +20124,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w miejscu, którego dotyczy widoczny znak wolno Ci wyprzedzać?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12956.jpg",
+        "mediaUrl": "assets/media/12956.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20140,7 +20140,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując motocyklem wolno Ci za tym znakiem wyprzedzić samochód osobowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13020.jpg",
+        "mediaUrl": "assets/media/13020.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20156,7 +20156,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując samochodem osobowym wolno Ci za tym znakiem wyprzedzić autobus?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13020.jpg",
+        "mediaUrl": "assets/media/13020.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20172,7 +20172,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji jesteś zwolniony z obowiązku zachowania odstępu co najmniej 1 m podczas wyprzedzania rowerzysty ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13032.jpg",
+        "mediaUrl": "assets/media/13032.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20188,7 +20188,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji, bezpośrednio przed przejściem dla pieszych, wolno Ci wyprzedzić pojazd jadący sąsiednim pasem ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13033.jpg",
+        "mediaUrl": "assets/media/13033.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20204,7 +20204,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wyprzedzając pieszego masz obowiązek zachować szczególną ostrożność ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13049.mp4",
+        "mediaUrl": "assets/media/13049.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20226,7 +20226,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wykonałeś manewr omijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2165.mp4",
+        "mediaUrl": "assets/media/2165.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20242,7 +20242,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy cofanie pojazdem na drodze ekspresowej jednojezdniowej jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3868.jpg",
+        "mediaUrl": "assets/media/3868.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20258,7 +20258,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz ominąć stojący pojazd?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2247.jpg",
+        "mediaUrl": "assets/media/2247.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20274,7 +20274,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w celu kontynuowania jazdy wolno Ci ominąć pojazd który zatrzymał się przed widocznym przejazdem kolejowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2847.jpg",
+        "mediaUrl": "assets/media/2847.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20290,7 +20290,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji należy zwiększyć odstęp podczas omijania tych pojazdów?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2518.mp4",
+        "mediaUrl": "assets/media/2518.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20306,7 +20306,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za widocznym znakiem informacyjnym wolno Ci cofać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2551.mp4",
+        "mediaUrl": "assets/media/2551.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20322,7 +20322,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz ominąć pojazd, który zatrzymał się, aby przepuścić pieszego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2598.mp4",
+        "mediaUrl": "assets/media/2598.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20338,7 +20338,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo ominąć poprzedzający cię pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2683.mp4",
+        "mediaUrl": "assets/media/2683.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20354,7 +20354,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy cofanie pojazdem na drodze ekspresowej jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2684.jpg",
+        "mediaUrl": "assets/media/2684.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20370,7 +20370,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo cofać pojazdem na drodze ekspresowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2684.jpg",
+        "mediaUrl": "assets/media/2684.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20386,7 +20386,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na moście cofanie jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2686.jpg",
+        "mediaUrl": "assets/media/2686.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20402,7 +20402,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo cofać pojazdem na autostradzie po włączeniu świateł awaryjnych pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2687.jpg",
+        "mediaUrl": "assets/media/2687.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20418,7 +20418,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo cofać pojazdem na moście przy zachowaniu szczególnej ostrożności?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2686.jpg",
+        "mediaUrl": "assets/media/2686.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20434,7 +20434,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo ominąć ten tramwaj, jeśli zachowasz szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2708.mp4",
+        "mediaUrl": "assets/media/2708.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20450,7 +20450,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz ominąć tramwaj?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2707.mp4",
+        "mediaUrl": "assets/media/2707.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20466,7 +20466,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji uzasadnione jest zmniejszenie prędkości podczas omijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2791.mp4",
+        "mediaUrl": "assets/media/2791.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20482,7 +20482,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo ominąć poprzedzający pojazd z lewej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2804.mp4",
+        "mediaUrl": "assets/media/2804.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20498,7 +20498,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z przeciwka, zanim wykonasz manewr omijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2823.mp4",
+        "mediaUrl": "assets/media/2823.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20514,7 +20514,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przy omijaniu nietrzeźwego rowerzysty należy zwiększyć odstęp od niego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2899.jpg",
+        "mediaUrl": "assets/media/2899.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20530,7 +20530,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy cofając masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2942.mp4",
+        "mediaUrl": "assets/media/2942.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20546,7 +20546,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy omijając tak oznakowany pojazd masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2991.mp4",
+        "mediaUrl": "assets/media/2991.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20562,7 +20562,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przed ominięciem widocznej przeszkody masz obowiązek ocenić sytuację za pojazdem na pozostałych pasach ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3013.jpg",
+        "mediaUrl": "assets/media/3013.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20578,7 +20578,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd na czas przejazdu pojazdu jadącego z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3014.mp4",
+        "mediaUrl": "assets/media/3014.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20594,7 +20594,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci ominąć widoczny samochód z prawej strony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3302.mp4",
+        "mediaUrl": "assets/media/3302.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20610,7 +20610,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wykonałeś manewr wyprzedzania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2166.mp4",
+        "mediaUrl": "assets/media/2166.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20626,7 +20626,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem masz prawo wykonać manewr cofania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3304.jpg",
+        "mediaUrl": "assets/media/3304.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20642,7 +20642,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy możesz cofać pojazdem na drodze jednokierunkowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3305.jpg",
+        "mediaUrl": "assets/media/3305.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20658,7 +20658,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na jezdni za tym znakiem pionowym możesz wykonać manewr cofania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3335.jpg",
+        "mediaUrl": "assets/media/3335.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20674,7 +20674,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy prawidłowo omijasz poprzedzający pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3362.mp4",
+        "mediaUrl": "assets/media/3362.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20690,7 +20690,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo wjechać na chodnik, by ominąć ten pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3365.mp4",
+        "mediaUrl": "assets/media/3365.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20706,7 +20706,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy postąpisz właściwie, jeśli z prawej strony ominiesz poprzedzający pojazd ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3402.mp4",
+        "mediaUrl": "assets/media/3402.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20722,7 +20722,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, chcąc bezpiecznie wykonać manewr omijania, masz obowiązek zmniejszyć prędkość pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3403.mp4",
+        "mediaUrl": "assets/media/3403.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20738,7 +20738,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas omijania obowiązuje Cię zachowanie bezpiecznego odstępu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3404.mp4",
+        "mediaUrl": "assets/media/3404.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20754,7 +20754,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy omijając widoczny po lewej stronie obiekt, masz obowiązek zachowania bezpiecznego odstępu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3434.mp4",
+        "mediaUrl": "assets/media/3434.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20770,7 +20770,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo zachować dowolny odstęp od wymijanego samochodu ciężarowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3439.jpg",
+        "mediaUrl": "assets/media/3439.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20786,7 +20786,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zachować odstęp co najmniej 1 metra od omijanego obiektu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3437.jpg",
+        "mediaUrl": "assets/media/3437.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20802,7 +20802,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zachować bezpieczny odstęp od omijanej przeszkody?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3437.jpg",
+        "mediaUrl": "assets/media/3437.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20818,7 +20818,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zachować bezpieczny odstęp od omijanego pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3438.jpg",
+        "mediaUrl": "assets/media/3438.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20834,7 +20834,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zachować bezpieczny odstęp od wymijanego pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3439.jpg",
+        "mediaUrl": "assets/media/3439.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20850,7 +20850,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji właściwie przygotowujesz się do wymijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3516.mp4",
+        "mediaUrl": "assets/media/3516.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20866,7 +20866,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo ominąć przeszkodę wykorzystując część jezdni przeznaczoną dla jadących z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3517.mp4",
+        "mediaUrl": "assets/media/3517.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20882,7 +20882,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy omijając przeszkodę, masz obowiązek zachować od niej bezpieczny odstęp?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3706.mp4",
+        "mediaUrl": "assets/media/3706.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20898,7 +20898,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, jadąc na wprost, musisz mieć stale włączony lewy kierunkowskaz, ponieważ omijasz zaparkowane pojazdy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3721.jpg",
+        "mediaUrl": "assets/media/3721.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20914,7 +20914,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w miejscu oznaczonym tym znakiem informacyjnym dozwolone jest cofanie pojazdem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11296.mp4",
+        "mediaUrl": "assets/media/11296.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20930,7 +20930,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przejeżdżając obok stojącego pojazdu wykonujesz manewr wymijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11421.mp4",
+        "mediaUrl": "assets/media/11421.mp4",
         "answers": [
           {
             "text": "tak",
@@ -20946,7 +20946,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przejeżdżając obok rowerzysty wykonujesz manewr wymijania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11422.jpg",
+        "mediaUrl": "assets/media/11422.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20962,7 +20962,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wykonać manewr cofania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11423.jpg",
+        "mediaUrl": "assets/media/11423.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20978,7 +20978,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo kontynuować jazdę przed pojazdem nadjeżdżającym z przeciwka?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11424.jpg",
+        "mediaUrl": "assets/media/11424.jpg",
         "answers": [
           {
             "text": "tak",
@@ -20994,7 +20994,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zabrania się cofania na drodze jednokierunkowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11425.jpg",
+        "mediaUrl": "assets/media/11425.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21010,7 +21010,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas ustalania bezpiecznego odstępu od zaparkowanych pojazdów powinieneś brać pod uwagę możliwość otwarcia się drzwi w jednym z nich?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11426.mp4",
+        "mediaUrl": "assets/media/11426.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21026,7 +21026,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji pojazd jadący z przeciwka ma pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11427.mp4",
+        "mediaUrl": "assets/media/11427.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21042,7 +21042,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przejeżdżając obok stojącego pojazdu komunikacji miejskiej wykonujesz manewr omijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11428.mp4",
+        "mediaUrl": "assets/media/11428.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21058,7 +21058,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zabrania się cofania pojazdem w tunelu, na moście i wiadukcie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11429.jpg",
+        "mediaUrl": "assets/media/11429.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21074,7 +21074,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy cofanie na drogę dwukierunkową jest zabronione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11512.mp4",
+        "mediaUrl": "assets/media/11512.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21090,7 +21090,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji podczas omijania pojazdu musisz zachować ostrożność i liczyć się, że ktoś zza autobusu wybiegnie na jezdnie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11513.mp4",
+        "mediaUrl": "assets/media/11513.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21106,7 +21106,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować bezpieczny odstęp od wymijanego pojazdu zaprzęgowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11761.mp4",
+        "mediaUrl": "assets/media/11761.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21122,7 +21122,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zachować ostrożność i bezpieczny odstęp od wymijanego pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12515.mp4",
+        "mediaUrl": "assets/media/12515.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21138,7 +21138,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy  podczas omijania pojazdu  oznaczonego z przodu i z tyłu widoczną tablicą barwy niebieskiej oraz z włączonymi światłami awaryjnymi, masz obowiązek zachować szczególną ostrożność w czasie wsiadania lub wysiadania osoby niepełnosprawnej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12700.jpg",
+        "mediaUrl": "assets/media/12700.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21154,7 +21154,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy omijając pojazd  oznaczony z przodu i z tyłu widoczną tablicą barwy niebieskiej i  z włączonymi światłami awaryjnymi, masz zawsze obowiązek zatrzymać się podczas wsiadania lub wysiadania osoby niepełnosprawnej ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12700.jpg",
+        "mediaUrl": "assets/media/12700.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21186,7 +21186,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji omijając pieszego powinieneś zwiększyć odstęp ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13048.mp4",
+        "mediaUrl": "assets/media/13048.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21202,7 +21202,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wykonując manewr cofania masz obowiązek powstrzymać się od ruchu jeśli ruch mógłby zmusić pieszego do zatrzymania się ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13051.mp4",
+        "mediaUrl": "assets/media/13051.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21224,7 +21224,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w takich warunkach możesz prowadzić pojazd z włączonymi światłami drogowymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2023.mp4",
+        "mediaUrl": "assets/media/2023.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21240,7 +21240,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc w południe w bardzo pochmurny dzień i normalnej przejrzystości powietrza możesz używać świateł do jazdy dziennej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2065.mp4",
+        "mediaUrl": "assets/media/2065.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21256,7 +21256,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy możesz używać świateł przeciwmgłowych przednich na oznaczonej znakami krętej drodze w czasie pogodnej nocy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2072.jpg",
+        "mediaUrl": "assets/media/2072.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21272,7 +21272,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy obowiązek używania świateł mijania w pojeździe dotyczy tylko okresu zimowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2076.jpg",
+        "mediaUrl": "assets/media/2076.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21288,7 +21288,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy możesz użyć sygnału dźwiękowego na obszarze zabudowanym aby ostrzec kierowcę stwarzającego bezpośrednie zagrożenie bezpieczeństwa ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2187.jpg",
+        "mediaUrl": "assets/media/2187.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21304,7 +21304,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dopuszczalne jest włączenie świateł awaryjnych w pojeździe holującym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2525.jpg",
+        "mediaUrl": "assets/media/2525.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21320,7 +21320,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo użyć sygnału dźwiękowego, aby nakłonić kierującego pojazdem jadącym przed Tobą do szybszego opuszczenia skrzyżowania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2527.mp4",
+        "mediaUrl": "assets/media/2527.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21336,7 +21336,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji na obszarze zabudowanym masz obowiązek umożliwić włączenie się do ruchu autobusowi, jeśli kierujący nim sygnalizuje taki zamiar?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2592.mp4",
+        "mediaUrl": "assets/media/2592.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21352,7 +21352,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo użyć sygnału dźwiękowego, aby ostrzec pieszego o niebezpieczeństwie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3058.mp4",
+        "mediaUrl": "assets/media/3058.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21368,7 +21368,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo użyć sygnału dźwiękowego, aby ostrzec pieszego o niebezpieczeństwie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2624.mp4",
+        "mediaUrl": "assets/media/2624.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21384,7 +21384,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo użyć sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2658.mp4",
+        "mediaUrl": "assets/media/2658.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21400,7 +21400,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmienić światła drogowe na światła mijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2679.mp4",
+        "mediaUrl": "assets/media/2679.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21416,7 +21416,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo używać świateł do jazdy dziennej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2186.mp4",
+        "mediaUrl": "assets/media/2186.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21432,7 +21432,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmienić światła drogowe na światła mijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2678.mp4",
+        "mediaUrl": "assets/media/2678.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21448,7 +21448,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo używać świateł drogowych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2679.mp4",
+        "mediaUrl": "assets/media/2679.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21464,7 +21464,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w czasie postoju pojazdu w nocy na nieoświetlonej jezdni masz obowiązek używać świateł pozycyjnych lub postojowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2680.jpg",
+        "mediaUrl": "assets/media/2680.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21480,7 +21480,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo używać świateł drogowych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2681.mp4",
+        "mediaUrl": "assets/media/2681.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21496,7 +21496,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo używać świateł do jazdy dziennej, gdy jedziesz po zmierzchu dobrze oświetloną drogą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2682.mp4",
+        "mediaUrl": "assets/media/2682.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21512,7 +21512,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo jechać z włączonymi światłami drogowymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2790.mp4",
+        "mediaUrl": "assets/media/2790.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21528,7 +21528,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, kierując pojazdem samochodowym, wolno Ci używac wyłącznie świateł pozycyjnych?.",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2023.mp4",
+        "mediaUrl": "assets/media/2023.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21544,7 +21544,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, parkując na drodze, masz obowiązek włączyć światła pozycyjne lub postojowe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2835.jpg",
+        "mediaUrl": "assets/media/2835.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21560,7 +21560,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek używać świateł mijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2870.mp4",
+        "mediaUrl": "assets/media/2870.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21576,7 +21576,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci użyć ostrzegawczego sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3024.mp4",
+        "mediaUrl": "assets/media/3024.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21592,7 +21592,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci jechać pojazdem z włączonymi światłami przeciwmgłowymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2023.mp4",
+        "mediaUrl": "assets/media/2023.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21608,7 +21608,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek używać świateł mijania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3182.mp4",
+        "mediaUrl": "assets/media/3182.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21624,7 +21624,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo używać świateł drogowych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3183.mp4",
+        "mediaUrl": "assets/media/3183.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21640,7 +21640,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tych warunkach atmosferycznych masz prawo jechać z włączonymi światłami do jazdy dziennej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3185.jpg",
+        "mediaUrl": "assets/media/3185.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21656,7 +21656,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo używać świateł drogowych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3194.mp4",
+        "mediaUrl": "assets/media/3194.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21672,7 +21672,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyłączyć światła zewnętrzne pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3301.mp4",
+        "mediaUrl": "assets/media/3301.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21688,7 +21688,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji po wyminięciu pojazdu masz prawo zmienić światła mijania na drogowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3366.mp4",
+        "mediaUrl": "assets/media/3366.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21704,7 +21704,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci poruszać się z włączonymi przednimi światłami przeciwmgłowymi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3582.jpg",
+        "mediaUrl": "assets/media/3582.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21720,7 +21720,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzając masz prawo użyć sygnału dźwiękowego, jeżeli widoczny pojazd rozpocznie zmianę pasa ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2023.mp4",
+        "mediaUrl": "assets/media/2023.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21736,7 +21736,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek włączyć lewy kierunkowskaz, jeśli zamierzasz jechać przez to skrzyżowanie na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3527.mp4",
+        "mediaUrl": "assets/media/3527.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21752,7 +21752,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w warunkach zmniejszonej przejrzystości powietrza wolno Ci jechać z włączonymi światłami do jazdy dziennej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3575.mp4",
+        "mediaUrl": "assets/media/3575.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21768,7 +21768,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem na obszarze zabudowanym. Czy w tej sytuacji użycie sygnału dźwiękowego jest zabronione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3579.mp4",
+        "mediaUrl": "assets/media/3579.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21784,7 +21784,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tych warunkach atmosferycznych masz prawo używać jednocześnie świateł mijania i przeciwmgłowych przednich?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3619.jpg",
+        "mediaUrl": "assets/media/3619.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21800,7 +21800,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo użyć sygnału dźwiękowego, by ostrzec innych przed bezpośrednim niebezpieczeństwem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3668.jpg",
+        "mediaUrl": "assets/media/3668.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21816,7 +21816,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc z włączonymi światłami mijania, w intensywnym deszczu ograniczającym widoczność, masz prawo używać świateł przeciwmgłowych przednich?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3669.jpg",
+        "mediaUrl": "assets/media/3669.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21832,7 +21832,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zamiast świateł mijania wolno Ci używać świateł do jazdy dziennej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3693.mp4",
+        "mediaUrl": "assets/media/3693.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21848,7 +21848,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo jechać z włączonymi światłami drogowymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3696.mp4",
+        "mediaUrl": "assets/media/3696.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21864,7 +21864,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek używać świateł mijania lub świateł do jazdy dziennej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3727.mp4",
+        "mediaUrl": "assets/media/3727.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21880,7 +21880,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zamierzając kontynuować jazdę drogą z pierwszeństwem, masz obowiązek włączyć lewy kierunkowskaz?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11272.mp4",
+        "mediaUrl": "assets/media/11272.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21896,7 +21896,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek użyć sygnału dźwiękowego, aby skłonić rowerzystę do szybszej jazdy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11401.jpg",
+        "mediaUrl": "assets/media/11401.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21912,7 +21912,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo używać świateł przeciwmgłowych tylnych, jeżeli mgła ogranicza widoczność na odległość 100 m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11416.jpg",
+        "mediaUrl": "assets/media/11416.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21928,7 +21928,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo używać świateł przeciwmgłowych tylnych, jeżeli mgła ogranicza widoczność na odległość mniejszą niż 50 m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11416.jpg",
+        "mediaUrl": "assets/media/11416.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21944,7 +21944,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w dzień zabronione jest ostrzeganie światłami drogowymi, jeżeli może spowodować to oślepienie innych kierujących?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11420.jpg",
+        "mediaUrl": "assets/media/11420.jpg",
         "answers": [
           {
             "text": "tak",
@@ -21960,7 +21960,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci użyć sygnału dźwiękowego, aby ponaglić stojące pojazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11510.mp4",
+        "mediaUrl": "assets/media/11510.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21976,7 +21976,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci użyć sygnału dźwiękowego, aby ponaglić kierującego rowerem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11511.mp4",
+        "mediaUrl": "assets/media/11511.mp4",
         "answers": [
           {
             "text": "tak",
@@ -21992,7 +21992,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zamierzając skręcić w prawo w strefę zamieszkania musisz sygnalizować ten manewr?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11522.mp4",
+        "mediaUrl": "assets/media/11522.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22008,7 +22008,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zamierzając skręcić w lewo na najbliższym skrzyżowaniu musisz sygnalizować ten manewr kierunkowskazem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11750.mp4",
+        "mediaUrl": "assets/media/11750.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22024,7 +22024,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci w tej sytuacji używać świateł drogowych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11801.mp4",
+        "mediaUrl": "assets/media/11801.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22040,7 +22040,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji kierujący może włączyć światła drogowe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11924.jpg",
+        "mediaUrl": "assets/media/11924.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22056,7 +22056,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem masz obowiązek włączyć światła awaryjne, aby sygnalizować postój uszkodzonego pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12653.jpg",
+        "mediaUrl": "assets/media/12653.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22072,7 +22072,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tych warunkach atmosferycznych masz prawo jechać z włączonymi światłami do jazdy dziennej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12659.jpg",
+        "mediaUrl": "assets/media/12659.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22094,7 +22094,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do miejsca oznaczonego tym znakiem masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2045.jpg",
+        "mediaUrl": "assets/media/2045.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22110,7 +22110,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powodujesz zagrożenie bezpieczeństwa na drodze?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2139.mp4",
+        "mediaUrl": "assets/media/2139.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22126,7 +22126,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując pojazdem masz obowiązek stale zachowywać szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2173.jpg",
+        "mediaUrl": "assets/media/2173.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22142,7 +22142,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując pojazdem od zmierzchu do świtu masz obowiązek stale zachowywać szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2176.jpg",
+        "mediaUrl": "assets/media/2176.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22158,7 +22158,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzając ten samochód masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2177.mp4",
+        "mediaUrl": "assets/media/2177.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22174,7 +22174,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2185.mp4",
+        "mediaUrl": "assets/media/2185.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22190,7 +22190,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2186.mp4",
+        "mediaUrl": "assets/media/2186.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22206,7 +22206,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś liczyć się z wtargnięciem pieszego na jezdnię?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2268.mp4",
+        "mediaUrl": "assets/media/2268.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22222,7 +22222,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy żółty sygnał migający na skrzyżowaniu uchyla zasady pierwszeństwa wskazane znakami drogowymi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2328.jpg",
+        "mediaUrl": "assets/media/2328.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22238,7 +22238,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś uważnie obserwować zachowanie pieszej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2352.mp4",
+        "mediaUrl": "assets/media/2352.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22254,7 +22254,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować zasadę ograniczonego zaufania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2357.mp4",
+        "mediaUrl": "assets/media/2357.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22270,7 +22270,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2361.mp4",
+        "mediaUrl": "assets/media/2361.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22286,7 +22286,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zachować szczególną ostrożność a w razie potrzeby zatrzymać się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2387.mp4",
+        "mediaUrl": "assets/media/2387.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22302,7 +22302,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, powinieneś wziąć pod uwagę możliwość wtargnięcia pieszych na jezdnię?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2595.jpg",
+        "mediaUrl": "assets/media/2595.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22318,7 +22318,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący właściwie zabezpieczył pojazd na czas postoju?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2605.mp4",
+        "mediaUrl": "assets/media/2605.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22334,7 +22334,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, jadąc na wprost, masz obowiązek umożliwić przejazd pojazdowi uprzywilejowanemu, który skręca w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2621.mp4",
+        "mediaUrl": "assets/media/2621.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22350,7 +22350,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako kierujący możesz oddalić się od pojazdu, którego silnik jest w ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2641.jpg",
+        "mediaUrl": "assets/media/2641.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22366,7 +22366,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zawsze masz obowiązek zachowywać szczególną ostrożność, gdy przejeżdżasz obok autobusu szkolnego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2669.jpg",
+        "mediaUrl": "assets/media/2669.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22382,7 +22382,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas kierowania pojazdem masz obowiązek stale zachowywać ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2674.mp4",
+        "mediaUrl": "assets/media/2674.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22398,7 +22398,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zmniejszyć prędkość?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2690.mp4",
+        "mediaUrl": "assets/media/2690.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22430,7 +22430,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do miejsca postoju tak oznakowanego pojazdu, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2993.mp4",
+        "mediaUrl": "assets/media/2993.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22446,7 +22446,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc za tak oznakowanym pojazdem, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2994.mp4",
+        "mediaUrl": "assets/media/2994.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22462,7 +22462,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując pojazdem we mgle masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2996.mp4",
+        "mediaUrl": "assets/media/2996.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22478,7 +22478,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę bez żadnej reakcji na zachowanie pieszego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3022.mp4",
+        "mediaUrl": "assets/media/3022.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22494,7 +22494,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas kierowania pojazdem we mgle masz obowiązek zachowywać szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2186.mp4",
+        "mediaUrl": "assets/media/2186.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22510,7 +22510,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/5787.mp4",
+        "mediaUrl": "assets/media/5787.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22526,7 +22526,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zastosować zasadę ograniczonego zaufania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/5839.mp4",
+        "mediaUrl": "assets/media/5839.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22542,7 +22542,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6165.mp4",
+        "mediaUrl": "assets/media/6165.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22558,7 +22558,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6166.mp4",
+        "mediaUrl": "assets/media/6166.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22574,7 +22574,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6167.mp4",
+        "mediaUrl": "assets/media/6167.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22590,7 +22590,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6168.mp4",
+        "mediaUrl": "assets/media/6168.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22606,7 +22606,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6169.mp4",
+        "mediaUrl": "assets/media/6169.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22622,7 +22622,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2581.mp4",
+        "mediaUrl": "assets/media/2581.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22638,7 +22638,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/6350.mp4",
+        "mediaUrl": "assets/media/6350.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22654,7 +22654,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3195.mp4",
+        "mediaUrl": "assets/media/3195.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22670,7 +22670,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po zatrzymaniu pojazdu do kontroli, kierujący pojazdem może z niego wysiąść bez pozwolenia kontrolującego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11239.jpg",
+        "mediaUrl": "assets/media/11239.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22686,7 +22686,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po zatrzymaniu pojazdu do kontroli, kierujący pojazdem powinien trzymać ręce na kierownicy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11239.jpg",
+        "mediaUrl": "assets/media/11239.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22702,7 +22702,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając w lewo na tym skrzyżowaniu należy zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11283.mp4",
+        "mediaUrl": "assets/media/11283.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22718,7 +22718,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji kierując pojazdem powinieneś zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11401.jpg",
+        "mediaUrl": "assets/media/11401.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22734,7 +22734,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachowania szczególnej ostrożności?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11274.mp4",
+        "mediaUrl": "assets/media/11274.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22750,7 +22750,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11272.mp4",
+        "mediaUrl": "assets/media/11272.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22766,7 +22766,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11412.mp4",
+        "mediaUrl": "assets/media/11412.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22782,7 +22782,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11369.jpg",
+        "mediaUrl": "assets/media/11369.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22798,7 +22798,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11414.jpg",
+        "mediaUrl": "assets/media/11414.jpg",
         "answers": [
           {
             "text": "tak",
@@ -22814,7 +22814,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wjeżdżając na drogę twardą z drogi gruntowej musisz zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11488.mp4",
+        "mediaUrl": "assets/media/11488.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22830,7 +22830,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zachowanie szczególnej ostrożności jest wymagane?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11508.mp4",
+        "mediaUrl": "assets/media/11508.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22846,7 +22846,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji za widocznym znakiem ostrzegawczym musisz zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11509.mp4",
+        "mediaUrl": "assets/media/11509.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22862,7 +22862,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11788.mp4",
+        "mediaUrl": "assets/media/11788.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22878,7 +22878,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11794.mp4",
+        "mediaUrl": "assets/media/11794.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22894,7 +22894,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11802.mp4",
+        "mediaUrl": "assets/media/11802.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22910,7 +22910,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11823.mp4",
+        "mediaUrl": "assets/media/11823.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22926,7 +22926,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11833.mp4",
+        "mediaUrl": "assets/media/11833.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22942,7 +22942,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zachować szczególną ostrożność mimo, że w okolicy przejścia nie widać pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11834.mp4",
+        "mediaUrl": "assets/media/11834.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22958,7 +22958,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przed tak oznakowanym przejściem dla pieszych należy zawsze się zatrzymać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11834.mp4",
+        "mediaUrl": "assets/media/11834.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22974,7 +22974,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz drogą z pierwszeństwem. Czy w tej sytuacji, w razie potrzeby, należy powstrzymać się od dalszej jazdy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12506.mp4",
+        "mediaUrl": "assets/media/12506.mp4",
         "answers": [
           {
             "text": "tak",
@@ -22990,7 +22990,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do skrzyżowania drogą z pierwszeństwem przejazdu musisz zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12651.jpg",
+        "mediaUrl": "assets/media/12651.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23006,7 +23006,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji podczas wymijania masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12675.jpg",
+        "mediaUrl": "assets/media/12675.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23022,7 +23022,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy sygnalizacja świetlna na przejściu dla pieszych zwalnia Cię z obowiązku zachowania szczególnej ostrożności?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12718.jpg",
+        "mediaUrl": "assets/media/12718.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23038,7 +23038,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując pojazdem w strefie zamieszkania masz obowiązek stale zachowywać szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12720.jpg",
+        "mediaUrl": "assets/media/12720.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23054,7 +23054,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ten znak zawsze zobowiązuje kierującego pojazdem do zwiększenia uwagi ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12918.jpg",
+        "mediaUrl": "assets/media/12918.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23076,7 +23076,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zmniejszenie prędkości jest uzasadnione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2104.mp4",
+        "mediaUrl": "assets/media/2104.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23092,7 +23092,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przygotujesz się do zatrzymania pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2109.mp4",
+        "mediaUrl": "assets/media/2109.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23108,7 +23108,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2138.mp4",
+        "mediaUrl": "assets/media/2138.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23124,7 +23124,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś być przygotowany do zatrzymania pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2142.jpg",
+        "mediaUrl": "assets/media/2142.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23140,7 +23140,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wjeżdżając na posesję masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2180.mp4",
+        "mediaUrl": "assets/media/2180.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23156,7 +23156,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zwiększysz prędkość aby zdążyć przejechać przed  pieszymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2267.mp4",
+        "mediaUrl": "assets/media/2267.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23172,7 +23172,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2385.mp4",
+        "mediaUrl": "assets/media/2385.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23188,7 +23188,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo. Czy masz pierwszeństwo przed pieszymi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2534.jpg",
+        "mediaUrl": "assets/media/2534.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23204,7 +23204,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pieszymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2539.mp4",
+        "mediaUrl": "assets/media/2539.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23220,7 +23220,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd, aby umożliwić pieszemu przejście przez jezdnię?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2540.mp4",
+        "mediaUrl": "assets/media/2540.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23236,7 +23236,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2541.mp4",
+        "mediaUrl": "assets/media/2541.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23252,7 +23252,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo przejechać przed pieszymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2385.mp4",
+        "mediaUrl": "assets/media/2385.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23268,7 +23268,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo przejechać przez przejście dla pieszych bez zmniejszania prędkości?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2654.mp4",
+        "mediaUrl": "assets/media/2654.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23284,7 +23284,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek umożliwić pieszemu przejście przez jezdnię?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2655.mp4",
+        "mediaUrl": "assets/media/2655.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23300,7 +23300,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zastosować zasadę ograniczonego zaufania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2657.mp4",
+        "mediaUrl": "assets/media/2657.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23316,7 +23316,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zachowując szczególną ostrożność, masz prawo wjechać na przejście dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2655.mp4",
+        "mediaUrl": "assets/media/2655.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23332,7 +23332,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem masz obowiązek ustąpić pierwszeństwa pieszemu idącemu środkiem jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2664.jpg",
+        "mediaUrl": "assets/media/2664.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23348,7 +23348,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej drodze zawsze masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2668.jpg",
+        "mediaUrl": "assets/media/2668.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23364,7 +23364,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze za tym znakiem zawsze masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2664.jpg",
+        "mediaUrl": "assets/media/2664.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23380,7 +23380,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tym placu masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2671.mp4",
+        "mediaUrl": "assets/media/2671.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23396,7 +23396,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2717.mp4",
+        "mediaUrl": "assets/media/2717.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23412,7 +23412,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, skręcając w prawo, masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2720.mp4",
+        "mediaUrl": "assets/media/2720.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23428,7 +23428,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo przejechać przez przejście dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2763.mp4",
+        "mediaUrl": "assets/media/2763.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23444,7 +23444,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę bez zwracania uwagi na zachowanie pieszego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2268.mp4",
+        "mediaUrl": "assets/media/2268.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23460,7 +23460,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2944.mp4",
+        "mediaUrl": "assets/media/2944.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23476,7 +23476,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2945.mp4",
+        "mediaUrl": "assets/media/2945.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23492,7 +23492,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się, aby umożliwić przejazd osobie niepełnosprawnej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2976.mp4",
+        "mediaUrl": "assets/media/2976.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23508,7 +23508,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek umożliwić pieszemu przejście przez jezdnię?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2977.mp4",
+        "mediaUrl": "assets/media/2977.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23524,7 +23524,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2979.mp4",
+        "mediaUrl": "assets/media/2979.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23540,7 +23540,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jadąc na wprost, masz obowiązek jechać powoli?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2981.mp4",
+        "mediaUrl": "assets/media/2981.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23556,7 +23556,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed pieszymi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2981.mp4",
+        "mediaUrl": "assets/media/2981.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23572,7 +23572,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz wjechać do bramy. Czy masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2982.mp4",
+        "mediaUrl": "assets/media/2982.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23588,7 +23588,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować szczególną ostrożność i w razie potrzeby zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2990.mp4",
+        "mediaUrl": "assets/media/2990.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23604,7 +23604,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2992.mp4",
+        "mediaUrl": "assets/media/2992.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23620,7 +23620,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy rozpocząć hamowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3144.mp4",
+        "mediaUrl": "assets/media/3144.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23636,7 +23636,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, podczas omijania, masz obowiązek zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3149.mp4",
+        "mediaUrl": "assets/media/3149.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23652,7 +23652,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, wykonując manewr omijania, masz obowiązek zatrzymać się w razie potrzeby?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3150.mp4",
+        "mediaUrl": "assets/media/3150.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23668,7 +23668,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, znajdując się w strefie ruchu, masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3184.jpg",
+        "mediaUrl": "assets/media/3184.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23684,7 +23684,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo użyć sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2540.mp4",
+        "mediaUrl": "assets/media/2540.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23700,7 +23700,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek obserwować zachowanie pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3408.mp4",
+        "mediaUrl": "assets/media/3408.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23716,7 +23716,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kilkukrotnie użyć sygnału dźwiękowego, zamiast zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3423.mp4",
+        "mediaUrl": "assets/media/3423.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23732,7 +23732,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przejeżdżając przez kałużę, powinieneś zmniejszyć prędkość tak, aby uniknąć ochlapania pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3663.mp4",
+        "mediaUrl": "assets/media/3663.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23748,7 +23748,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zachowanie pieszego wymaga, abyś użył sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3728.mp4",
+        "mediaUrl": "assets/media/3728.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23764,7 +23764,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/5719.mp4",
+        "mediaUrl": "assets/media/5719.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23780,7 +23780,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2984.mp4",
+        "mediaUrl": "assets/media/2984.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23796,7 +23796,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji skręcając w prawo masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11231.jpg",
+        "mediaUrl": "assets/media/11231.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23812,7 +23812,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś umożliwić pieszemu swobodne opuszczenie przejścia dla pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11408.jpg",
+        "mediaUrl": "assets/media/11408.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23828,7 +23828,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zamierzając skręcić w lewo masz pierwszeństwo przed pieszym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11478.mp4",
+        "mediaUrl": "assets/media/11478.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23844,7 +23844,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci użyć sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11743.mp4",
+        "mediaUrl": "assets/media/11743.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23860,7 +23860,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś ustąpić pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11753.mp4",
+        "mediaUrl": "assets/media/11753.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23876,7 +23876,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w prawo do bramy. Czy masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11793.mp4",
+        "mediaUrl": "assets/media/11793.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23892,7 +23892,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek użyć sygnału dźwiękowego, aby ostrzec dzieci, że zbliżasz się do przejścia?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11810.mp4",
+        "mediaUrl": "assets/media/11810.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23908,7 +23908,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci skręcić w prawo zanim pieszy wejdzie na zajmowany przez Ciebie pas ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11826.mp4",
+        "mediaUrl": "assets/media/11826.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23924,7 +23924,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji obowiązany jesteś zachować szczególną ostrożność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11906.jpg",
+        "mediaUrl": "assets/media/11906.jpg",
         "answers": [
           {
             "text": "tak",
@@ -23940,7 +23940,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejścia dla pieszych masz obowiązek obserwować jego otoczenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12527.mp4",
+        "mediaUrl": "assets/media/12527.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23956,7 +23956,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejścia dla pieszych, masz obowiązek obserwować jego otoczenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12531.mp4",
+        "mediaUrl": "assets/media/12531.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23972,7 +23972,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci kontynuować jazdę bez zatrzymania przed przejściem dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12532.mp4",
+        "mediaUrl": "assets/media/12532.mp4",
         "answers": [
           {
             "text": "tak",
@@ -23988,7 +23988,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpienia pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12554.mp4",
+        "mediaUrl": "assets/media/12554.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24004,7 +24004,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wystarczy, że zachowasz wyłącznie szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12556.mp4",
+        "mediaUrl": "assets/media/12556.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24020,7 +24020,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zmniejszenia prędkości?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12557.mp4",
+        "mediaUrl": "assets/media/12557.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24036,7 +24036,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zachować jedynie ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12557.mp4",
+        "mediaUrl": "assets/media/12557.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24052,7 +24052,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zbliżając się do przejścia dla pieszych, masz obowiązek zmniejszyć prędkość?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12559.mp4",
+        "mediaUrl": "assets/media/12559.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24068,7 +24068,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12587.mp4",
+        "mediaUrl": "assets/media/12587.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24084,7 +24084,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz kontynuować jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12588.mp4",
+        "mediaUrl": "assets/media/12588.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24100,7 +24100,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz ograniczyć zaufanie do pieszego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12590.mp4",
+        "mediaUrl": "assets/media/12590.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24116,7 +24116,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek powstrzymać się od ruchu w celu ustąpienia pierwszeństwa pieszemu wchodzącemu na przejście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12591.mp4",
+        "mediaUrl": "assets/media/12591.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24132,7 +24132,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd w celu ustąpienia pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12592.mp4",
+        "mediaUrl": "assets/media/12592.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24148,7 +24148,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12607.mp4",
+        "mediaUrl": "assets/media/12607.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24164,7 +24164,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek ustąpić pierwszeństwa pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12612.mp4",
+        "mediaUrl": "assets/media/12612.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24180,7 +24180,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek ustąpić pierwszeństwa pieszemu wchodzącemu na przejście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12645.mp4",
+        "mediaUrl": "assets/media/12645.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24196,7 +24196,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci kontynuować jazdę przez przejście dla pieszych bez zatrzymania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12655.jpg",
+        "mediaUrl": "assets/media/12655.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24212,7 +24212,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd na taki czas, aby zapewnić pieszym swobodne dojście do chodnika?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12681.mp4",
+        "mediaUrl": "assets/media/12681.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24228,7 +24228,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas omijania pojazdu oznaczonego taką tablicą i z włączonymi światłami awaryjnymi, z którego wysiada osoba niepełnosprawna należy zachować szczególną ostrożność i w razie potrzeby zatrzymać się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12700.jpg",
+        "mediaUrl": "assets/media/12700.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24260,7 +24260,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo kontynuować jazdę bez zwracania uwagi na zachowanie pieszych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12719.jpg",
+        "mediaUrl": "assets/media/12719.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24276,7 +24276,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w miejscu, o którym informuje widoczny znak jesteś obowiązany ustąpić pierwszeństwa osobie poruszającej się przy użyciu urządzenia wspomagającego ruch, która znajdzie się na przejeździe dla rowerów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12768.jpg",
+        "mediaUrl": "assets/media/12768.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24308,7 +24308,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas przechodzenia przez jezdnię, poza przejściem dla pieszych, przez  osobę niepełnosprawną używającą specjalnego znaku w postaci  białej laski,  jesteś obowiązany zatrzymać się, aby umożliwić jej przejście ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12814.jpg",
+        "mediaUrl": "assets/media/12814.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24324,7 +24324,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy skręcając pojazdem w drogę poprzeczną, jesteś obowiązany ustąpić pierwszeństwa osobie poruszającej się w wózku inwalidzkim przejeżdżającej na skrzyżowaniu jezdnię drogi, na którą wjeżdżasz ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12819.jpg",
+        "mediaUrl": "assets/media/12819.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24340,7 +24340,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zachowując szczególną ostrożność, wolno Ci powoli przejechać przed osobą poruszającą się w wózku inwalidzkim wjeżdżającą na przejście dla pieszych ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12820.jpg",
+        "mediaUrl": "assets/media/12820.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24372,7 +24372,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem zbliżając się do przejścia sugerowanego jest o tym informowany odpowiednimi znakami drogowymi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12832.jpg",
+        "mediaUrl": "assets/media/12832.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24388,7 +24388,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy pieszy przechodzący przez jezdnię wykorzystując przejście sugerowane ma pierwszeństwo przed nadjeżdżającym pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12832.jpg",
+        "mediaUrl": "assets/media/12832.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24404,7 +24404,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy  kierujący pojazdem podczas jazdy po placu, na którym ze względu na brak wyodrębnienia jezdni i dróg dla pieszych, ruch pieszych i pojazdów odbywa się po tej samej powierzchni, ma pierwszeństwo przed pieszymi poruszającymi się po tym placu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12836.jpg",
+        "mediaUrl": "assets/media/12836.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24420,7 +24420,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem podczas jazdy po placu, na którym ze względu na brak wyodrębnienia jezdni i dróg dla pieszych, ruch pieszych i pojazdów odbywa się po tej samej powierzchni, ma obowiązek ustąpić pierwszeństwa pieszym poruszającym się po placu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12836.jpg",
+        "mediaUrl": "assets/media/12836.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24436,7 +24436,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem za tym znakiem powinien spodziewać się pieszych idących wzdłuż jezdni ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12838.jpg",
+        "mediaUrl": "assets/media/12838.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24452,7 +24452,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem poruszający się w strefie oznaczonej tym znakiem widząc pieszego przechodzącego przez jezdnię poza przejściem dla pieszych ma obowiązek ustąpienia mu pierwszeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12838.jpg",
+        "mediaUrl": "assets/media/12838.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24500,7 +24500,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący pojazdem, zbliżając się do tak oznaczonego przejścia dla pieszych może spodziewać się dziecka, w wieku do lat 10 jadącego rowerem pod opieką osoby dorosłej, przekraczających jezdnię w tym miejscu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12867.jpg",
+        "mediaUrl": "assets/media/12867.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24516,7 +24516,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz kontynuować jazdę dopiero kiedy pieszy opuści przejście dla pieszych ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13039.mp4",
+        "mediaUrl": "assets/media/13039.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24532,7 +24532,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszemu wchodzącemu na przejście dla pieszych ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13040.mp4",
+        "mediaUrl": "assets/media/13040.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24548,7 +24548,7 @@ window.COURSE_DATA = [
       {
         "title": "Chcesz przejechać przez chodnik. Czy w tej sytuacji masz obowiązek powstrzymać się od jazdy jeżeli mogłaby ona zmusić pieszego do zatrzymania się, zwolnienia lub przyspieszenia kroku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13041.mp4",
+        "mediaUrl": "assets/media/13041.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24564,7 +24564,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji widząc zataczającego się mężczyznę idącego po jezdni masz prawo użyć sygnału dźwiękowego ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13042.mp4",
+        "mediaUrl": "assets/media/13042.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24580,7 +24580,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji widząc pieszych idących po jezdni możesz użyć sygnału dźwiękowego ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13043.jpg",
+        "mediaUrl": "assets/media/13043.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24596,7 +24596,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji widząc wchodzącego z lewej strony na jezdnię pieszego  powinieneś mieć świadomość, że to on ma pierwszeństwo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13044.jpg",
+        "mediaUrl": "assets/media/13044.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24612,7 +24612,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się i przepuścić pieszych wchodzących na przejście znajdujące się po lewej stronie ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13045.mp4",
+        "mediaUrl": "assets/media/13045.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24628,7 +24628,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszemu ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13046.mp4",
+        "mediaUrl": "assets/media/13046.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24644,7 +24644,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek nie utrudnienia ruchu widocznemu po lewej stronie pieszemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13052.mp4",
+        "mediaUrl": "assets/media/13052.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24660,7 +24660,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś być przygotowany na wejście pieszego na przejście dla pieszych?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13053.mp4",
+        "mediaUrl": "assets/media/13053.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24676,7 +24676,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś przewidywać, że pieszy wejdzie na jezdnię bezpośrednio przed Twój pojazd?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13054.mp4",
+        "mediaUrl": "assets/media/13054.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24692,7 +24692,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się i zaczekać aż pieszy opuści przejście dla pieszych na drugiej połowie jezdni ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13055.mp4",
+        "mediaUrl": "assets/media/13055.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24708,7 +24708,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś przewidywać, że zza autobusu może wyjść pieszy i być przygotowanym do hamowania?\"",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13056.mp4",
+        "mediaUrl": "assets/media/13056.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24724,7 +24724,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze tak oznakowanej osoba poruszająca się przy użyciu urządzenia wspomagającego ruch ma pierwszeństwo przed pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13061.jpg",
+        "mediaUrl": "assets/media/13061.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24740,7 +24740,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując pojazdem na drodze tak oznakowanej masz pierwszeństwo przed osobą poruszającą się przy użyciu urządzenia wspomagającego ruch?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13061.jpg",
+        "mediaUrl": "assets/media/13061.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24762,7 +24762,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz podjąć próbę wyprzedzania rowerzysty?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2115.jpg",
+        "mediaUrl": "assets/media/2115.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24778,7 +24778,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji należy rozpocząć hamowanie pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2109.mp4",
+        "mediaUrl": "assets/media/2109.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24794,7 +24794,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek zachować odstęp nie mniejszy niż 1 metr od wyprzedzanego rowerzysty?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2238.mp4",
+        "mediaUrl": "assets/media/2238.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24810,7 +24810,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa rowerzyście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2257.mp4",
+        "mediaUrl": "assets/media/2257.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24826,7 +24826,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa rowerzyście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2360.mp4",
+        "mediaUrl": "assets/media/2360.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24842,7 +24842,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci zachować 0,5 metra odstępu między Twoim pojazdem a wyprzedzanym rowerzystą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2526.mp4",
+        "mediaUrl": "assets/media/2526.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24858,7 +24858,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz obowiązek ustąpić pierwszeństwa rowerzyście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2584.mp4",
+        "mediaUrl": "assets/media/2584.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24874,7 +24874,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji musisz zastosować zasadę ograniczonego zaufania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2648.jpg",
+        "mediaUrl": "assets/media/2648.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24890,7 +24890,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji skręcając w lewo masz pierwszeństwo przed rowerzystą jadącym na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2362.mp4",
+        "mediaUrl": "assets/media/2362.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24906,7 +24906,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz spodziewać się wtargnięcia pieszego na jezdnię?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2656.mp4",
+        "mediaUrl": "assets/media/2656.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24922,7 +24922,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś użyć sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2802.mp4",
+        "mediaUrl": "assets/media/2802.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24938,7 +24938,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed rowerzystą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2801.mp4",
+        "mediaUrl": "assets/media/2801.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24954,7 +24954,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz drogą z pierwszeństwem przejazdu. Czy w tej sytuacji masz pierwszeństwo przed rowerzystą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2802.mp4",
+        "mediaUrl": "assets/media/2802.mp4",
         "answers": [
           {
             "text": "tak",
@@ -24970,7 +24970,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś wziąć pod uwagę, że rowerzysta może wjechać na jezdnię?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2883.jpg",
+        "mediaUrl": "assets/media/2883.jpg",
         "answers": [
           {
             "text": "tak",
@@ -24986,7 +24986,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zmniejszyć prędkość?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3043.jpg",
+        "mediaUrl": "assets/media/3043.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25002,7 +25002,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek uważnie obserwować zachowanie rowerzysty?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3190.mp4",
+        "mediaUrl": "assets/media/3190.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25018,7 +25018,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji przejeżdżając obok rowerzysty musisz zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2364.mp4",
+        "mediaUrl": "assets/media/2364.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25034,7 +25034,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, widząc zachowanie rowerzystów, masz obowiązek się zatrzymać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3661.mp4",
+        "mediaUrl": "assets/media/3661.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25050,7 +25050,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji ustąpisz pierwszeństwa rowerzyście?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11229.jpg",
+        "mediaUrl": "assets/media/11229.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25066,7 +25066,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji minimalna odległość jaką należy zachować od rowerzysty podczas wyprzedzania wynosi 1 m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11230.jpg",
+        "mediaUrl": "assets/media/11230.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25082,7 +25082,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji po skręcie w prawo masz pierwszeństwo przed rowerzystą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11400.jpg",
+        "mediaUrl": "assets/media/11400.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25098,7 +25098,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji skręcając w prawo ustąpisz pierwszeństwa rowerzyście?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11404.mp4",
+        "mediaUrl": "assets/media/11404.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25114,7 +25114,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji po skręcie w prawo powinieneś ustąpić pierwszeństwa rowerzyście?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11400.jpg",
+        "mediaUrl": "assets/media/11400.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25130,7 +25130,7 @@ window.COURSE_DATA = [
       {
         "title": "W przedstawionej sytuacji na najbliższym skrzyżowaniu zamierzasz skręcić w prawo. Czy  musisz ustąpić pierwszeństwa przejazdu rowerzystom jadącym z naprzeciwka i skręcającym w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11482.mp4",
+        "mediaUrl": "assets/media/11482.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25146,7 +25146,7 @@ window.COURSE_DATA = [
       {
         "title": "W przedstawionej sytuacji na najbliższym skrzyżowaniu zamierzasz skręcić w lewo. Czy  musisz ustąpić pierwszeństwa przejazdu rowerzystom jadącym z naprzeciwka na wprost?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11482.mp4",
+        "mediaUrl": "assets/media/11482.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25162,7 +25162,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do drogi dla rowerów musisz zawsze się zatrzymać?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11503.mp4",
+        "mediaUrl": "assets/media/11503.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25178,7 +25178,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na każdym skrzyżowaniu wyprzedzanie rowerzysty jest zawsze zabronione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11504.mp4",
+        "mediaUrl": "assets/media/11504.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25194,7 +25194,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek obserwować zachowania rowerzysty?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11752.mp4",
+        "mediaUrl": "assets/media/11752.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25210,7 +25210,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek użyć sygnału dźwiękowego w celu ostrzeżenia dzieci, aby nie wbiegały na jezdnie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11784.mp4",
+        "mediaUrl": "assets/media/11784.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25226,7 +25226,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wyprzedzając rowerzystę musisz zachować szczególną ostrożność?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12523.mp4",
+        "mediaUrl": "assets/media/12523.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25242,7 +25242,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji zbliżasz się do przejazdu dla rowerzystów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12657.jpg",
+        "mediaUrl": "assets/media/12657.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25258,7 +25258,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widząc ten znak drogowy jesteś zawsze obowiązany zatrzymać pojazd widząc rowerzystę zbliżającego się do przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12770.jpg",
+        "mediaUrl": "assets/media/12770.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25274,7 +25274,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci jadąc jezdnią kierować hulajnogą elektryczną z prędkością 30 km/h ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12821.jpg",
+        "mediaUrl": "assets/media/12821.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25290,7 +25290,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drogach położonych w strefie oznaczonej widocznym znakiem,  wolno Ci przewozić hulajnogą elektryczną dziecko w wieku do 10 lat ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12822.jpg",
+        "mediaUrl": "assets/media/12822.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25306,7 +25306,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas kierowania hulajnogą elektryczną, wolno Ci korzystać z telefonu wymagającego trzymania słuchawki lub mikrofonu w ręku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12826.jpg",
+        "mediaUrl": "assets/media/12826.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25386,7 +25386,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jadąc na wprost masz pierwszeństwo przed rowerzystą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12924.jpg",
+        "mediaUrl": "assets/media/12924.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25402,7 +25402,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w miejscu tak oznaczonym kierujący hulajnogą elektryczną ma prawo korzystać z całej szerokości drogi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13061.jpg",
+        "mediaUrl": "assets/media/13061.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25418,7 +25418,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze tak oznakowanej osoba poruszająca się przy użyciu urządzenia wspomagającego ruch może korzystać z całej szerokości drogi i ma pierwszeństwo przed pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/13061.jpg",
+        "mediaUrl": "assets/media/13061.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25440,7 +25440,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać na przejazd kolejowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2303.mp4",
+        "mediaUrl": "assets/media/2303.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25456,7 +25456,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać na przejazd z zachowaniem szczególnej ostrożności?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2368.mp4",
+        "mediaUrl": "assets/media/2368.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25472,7 +25472,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz przejechać przez przejazd kolejowy bez zatrzymania?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2369.mp4",
+        "mediaUrl": "assets/media/2369.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25488,7 +25488,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać na przejazd kolejowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2370.mp4",
+        "mediaUrl": "assets/media/2370.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25504,7 +25504,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wyprzedzanie jest zabronione?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2375.jpg",
+        "mediaUrl": "assets/media/2375.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25520,7 +25520,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się przed przejazdem kolejowym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2370.mp4",
+        "mediaUrl": "assets/media/2370.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25536,7 +25536,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zatrzymać się przed widocznym przejazdem kolejowym nawet wówczas, gdy jesteś pewien, że nie nadjeżdża pociąg?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2536.mp4",
+        "mediaUrl": "assets/media/2536.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25552,7 +25552,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz skręcić w prawo przed tramwajem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2590.mp4",
+        "mediaUrl": "assets/media/2590.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25568,7 +25568,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa tramwajowi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2381.mp4",
+        "mediaUrl": "assets/media/2381.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25584,7 +25584,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek niezwłocznie usunąć pojazd z przejazdu tramwajowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2637.mp4",
+        "mediaUrl": "assets/media/2637.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25600,7 +25600,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na przejazd kolejowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2642.mp4",
+        "mediaUrl": "assets/media/2642.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25616,7 +25616,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo ominąć zaporę i wjechać na przejazd kolejowy po upewnieniu się, że nie nadjeżdża pociąg?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2643.mp4",
+        "mediaUrl": "assets/media/2643.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25632,7 +25632,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na przejazd kolejowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2757.jpg",
+        "mediaUrl": "assets/media/2757.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25648,7 +25648,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz pierwszeństwo przed tramwajem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2760.mp4",
+        "mediaUrl": "assets/media/2760.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25664,7 +25664,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na przejazd kolejowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2303.mp4",
+        "mediaUrl": "assets/media/2303.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25680,7 +25680,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, przed wjechaniem na tory, masz obowiązek upewnić się czy nie zbliża się pojazd szynowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2998.mp4",
+        "mediaUrl": "assets/media/2998.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25696,7 +25696,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci przejechać przez przejazd kolejowy bez zatrzymywania się, jeśli upewniłeś się wcześniej, że nie nadjeżdża pociąg?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2812.jpg",
+        "mediaUrl": "assets/media/2812.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25712,7 +25712,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa tramwajowi, którego motorniczy sygnalizuje zamiar skrętu w lewo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2829.mp4",
+        "mediaUrl": "assets/media/2829.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25728,7 +25728,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejazdu tramwajowego, masz obowiązek upewnić się, czy nie nadjeżdża pojazd szynowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2846.jpg",
+        "mediaUrl": "assets/media/2846.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25744,7 +25744,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zanim wjedziesz na torowisko bezpośrednio za poprzedzającym pojazdem, masz obowiązek upewnienia się, czy nie zbliża się pojazd szynowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2847.jpg",
+        "mediaUrl": "assets/media/2847.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25760,7 +25760,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy zwiększyć uwagę i być przygotowanym na możliwość pojawienia się pieszego z lewej strony jezdni?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2871.mp4",
+        "mediaUrl": "assets/media/2871.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25776,7 +25776,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, chcąc kontynuować jazdę w lewo za przejazdem, powinieneś zatrzymać się przed półzaporą?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2962.mp4",
+        "mediaUrl": "assets/media/2962.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25792,7 +25792,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji powinieneś zatrzymać się za stojącym pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2247.jpg",
+        "mediaUrl": "assets/media/2247.jpg",
         "answers": [
           {
             "text": "tak",
@@ -25808,7 +25808,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś obowiązany do upewnienia się, czy nie nadjeżdża tramwaj?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2948.mp4",
+        "mediaUrl": "assets/media/2948.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25824,7 +25824,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek upewnić się, czy nie nadjeżdża tramwaj?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2950.mp4",
+        "mediaUrl": "assets/media/2950.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25840,7 +25840,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejazdu tramwajowego, masz obowiązek być przygotowany do zatrzymania pojazdu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2950.mp4",
+        "mediaUrl": "assets/media/2950.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25856,7 +25856,7 @@ window.COURSE_DATA = [
       {
         "title": "W tej sytuacji silnik nie daje się uruchomić. Czy masz obowiązek podjąć próbę usunięcia pojazdu z torowiska?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2952.mp4",
+        "mediaUrl": "assets/media/2952.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25872,7 +25872,7 @@ window.COURSE_DATA = [
       {
         "title": "W tej sytuacji silnik nie daje się uruchomić i nie masz możliwości usunięcia pojazdu z torowiska. Czy jesteś zobowiązany ostrzec kierującego pojazdem szynowym o niebezpieczeństwie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2952.mp4",
+        "mediaUrl": "assets/media/2952.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25888,7 +25888,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przy niepełnym podniesieniu zapór wolno Ci wjechać na przejazd kolejowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2955.mp4",
+        "mediaUrl": "assets/media/2955.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25904,7 +25904,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wjechać na widoczny przejazd bezpośrednio po podniesieniu zapór kolejowych bez upewnienia się, czy nie nadjeżdża pociąg?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2955.mp4",
+        "mediaUrl": "assets/media/2955.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25920,7 +25920,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wjechać na widoczny przejazd bezpośrednio po przejechaniu pociągu, niezależnie od wyświetlanego sygnału?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2956.mp4",
+        "mediaUrl": "assets/media/2956.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25936,7 +25936,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji wolno Ci wjechać na widoczny przejazd kolejowy, jeżeli czerwone światło już zgasło, ale półzapory nie zostały jeszcze całkowicie podniesione?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2958.mp4",
+        "mediaUrl": "assets/media/2958.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25952,7 +25952,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, mając zamiar jechać w lewo za przejazdem kolejowym, możesz kontynuować jazdę?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2962.mp4",
+        "mediaUrl": "assets/media/2962.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25968,7 +25968,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wjechać na przejazd kolejowy, jeżeli półzapory zostały całkowicie podniesione, a sygnał czerwony jeszcze nie został wyłączony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2964.mp4",
+        "mediaUrl": "assets/media/2964.mp4",
         "answers": [
           {
             "text": "tak",
@@ -25984,7 +25984,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po ruszeniu pojazdu znajdującego się przed Tobą wolno Ci przejechać przez widoczny przejazd bez ponownego zatrzymania się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2966.mp4",
+        "mediaUrl": "assets/media/2966.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26000,7 +26000,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd przed przejazdem kolejowym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2966.mp4",
+        "mediaUrl": "assets/media/2966.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26016,7 +26016,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w sytuacji, kiedy zapory kolejowe są podniesione masz obowiązek upewnienia się, czy nie zbliża się pociąg?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2970.mp4",
+        "mediaUrl": "assets/media/2970.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26032,7 +26032,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do widocznego przejazdu, masz obowiązek upewnić się, że w czasie, gdy będziesz przez niego przejeżdżał, nie nadjedzie pociąg?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2970.mp4",
+        "mediaUrl": "assets/media/2970.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26048,7 +26048,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek upewnić się, że z żadnej strony nie nadjeżdża pociąg?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2970.mp4",
+        "mediaUrl": "assets/media/2970.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26064,7 +26064,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś zwolniony z obowiązku zachowania szczególnej ostrożności?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2998.mp4",
+        "mediaUrl": "assets/media/2998.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26080,7 +26080,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji jesteś obowiązany do zachowania szczególnej ostrożności?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2998.mp4",
+        "mediaUrl": "assets/media/2998.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26096,7 +26096,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz skręcić w lewo. Czy masz pierwszeństwo przed pojazdem szynowym nadjeżdżającym z przeciwka?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3103.mp4",
+        "mediaUrl": "assets/media/3103.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26112,7 +26112,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost. Czy masz pierwszeństwo przed pojazdem szynowym skręcającym w prawo do zajezdni ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3106.mp4",
+        "mediaUrl": "assets/media/3106.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26128,7 +26128,7 @@ window.COURSE_DATA = [
       {
         "title": "Zamierzasz jechać na wprost, a kierujący tramwajem planuje skręcić w lewo. Czy masz przed nim pierwszeństwo?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3108.mp4",
+        "mediaUrl": "assets/media/3108.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26144,7 +26144,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji migający sygnał świetlny zakazuje Ci wjazdu na przejazd tramwajowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3221.mp4",
+        "mediaUrl": "assets/media/3221.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26160,7 +26160,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji zbliżasz się do wielotorowego przejazdu kolejowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3260.mp4",
+        "mediaUrl": "assets/media/3260.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26176,7 +26176,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zatrzymać się w wyznaczonym miejscu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3391.jpg",
+        "mediaUrl": "assets/media/3391.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26192,7 +26192,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zawsze zatrzymać pojazd przed przejazdem kolejowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3392.jpg",
+        "mediaUrl": "assets/media/3392.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26208,7 +26208,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo jechać dalej dopiero po tym, gdy tramwaj ruszy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3413.mp4",
+        "mediaUrl": "assets/media/3413.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26224,7 +26224,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji dozwolone jest użycie sygnału dźwiękowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3422.mp4",
+        "mediaUrl": "assets/media/3422.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26240,7 +26240,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zbliżając się do przejazdu kolejowego, masz obowiązek zatrzymać pojazd przed znakiem STOP?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11228.jpg",
+        "mediaUrl": "assets/media/11228.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26256,7 +26256,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo przejechać przez przejazd bez zatrzymania się, jeżeli nie nadjeżdża pojazd szynowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11367.jpg",
+        "mediaUrl": "assets/media/11367.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26272,7 +26272,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz prawo wjechać na przejazd kolejowy bez zatrzymania się, jeżeli nie zbliża się pojazd szynowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11368.jpg",
+        "mediaUrl": "assets/media/11368.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26288,7 +26288,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo wjechać na przejazd kolejowy bez zatrzymania po upewnieniu się, że nie nadjeżdża pojazd szynowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11380.mp4",
+        "mediaUrl": "assets/media/11380.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26304,7 +26304,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji masz prawo wjechać na przejazd kolejowy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11384.mp4",
+        "mediaUrl": "assets/media/11384.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26320,7 +26320,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo wjechać na przejazd kolejowy, w czasie podnoszenia zapór przez pracownika kolejowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11386.jpg",
+        "mediaUrl": "assets/media/11386.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26336,7 +26336,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przejeżdżając przez przejazd kolejowy masz pierwszeństwo przed nadjeżdżającym pojazdem szynowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11387.jpg",
+        "mediaUrl": "assets/media/11387.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26352,7 +26352,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na przejazd kolejowy z zachowaniem szczególnej ostrożności?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11388.jpg",
+        "mediaUrl": "assets/media/11388.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26368,7 +26368,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji znajdujesz się przed przejazdem kolejowym jednotorowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11366.jpg",
+        "mediaUrl": "assets/media/11366.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26384,7 +26384,7 @@ window.COURSE_DATA = [
       {
         "title": "Po przejechaniu pojazdu szynowego półzapory unoszą się do góry. Czy w tej sytuacji masz prawo rozpocząć jazdę i wjechać na tory kolejowe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11390.jpg",
+        "mediaUrl": "assets/media/11390.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26400,7 +26400,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przed wjechaniem na tory należy upewnić się, czy nie zbliża się pojazd szynowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11367.jpg",
+        "mediaUrl": "assets/media/11367.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26416,7 +26416,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w razie unieruchomienia pojazdu na przejeździe kolejowym masz obowiązek ostrzec kierującego pojazdem szynowym, jeżeli nie jest możliwie usunięcie pojazdu z tego przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11395.jpg",
+        "mediaUrl": "assets/media/11395.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26432,7 +26432,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymania się przed sygnalizatorem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11388.jpg",
+        "mediaUrl": "assets/media/11388.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26448,7 +26448,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wjechać na przejazd kolejowy dopiero po upewnieniu, że nie zbliża się pojazd szynowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11397.jpg",
+        "mediaUrl": "assets/media/11397.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26464,7 +26464,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w widocznej sytuacji masz obowiązek zachować szczególną ostrożność, zatrzymać pojazd oraz upewnić się czy nie nadjeżdża pojazd szynowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11368.jpg",
+        "mediaUrl": "assets/media/11368.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26480,7 +26480,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejazdu kolejowego masz obowiązek zastosować zasadę szczególnej ostrożności?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11399.jpg",
+        "mediaUrl": "assets/media/11399.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26496,7 +26496,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przedstawionej sytuacji widoczny znak ostrzega o przejeździe przez tory tramwajowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11528.mp4",
+        "mediaUrl": "assets/media/11528.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26512,7 +26512,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wjechać na przejazd kolejowy, jeżeli podnoszenie zapór nie zostało zakończone?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11749.mp4",
+        "mediaUrl": "assets/media/11749.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26528,7 +26528,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy postój pojazdu bezpośrednio za widocznym słupkiem wskaźnikowym jest zabroniony?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12511.mp4",
+        "mediaUrl": "assets/media/12511.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26544,7 +26544,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd przed przejazdem kolejowym?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12513.mp4",
+        "mediaUrl": "assets/media/12513.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26560,7 +26560,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za tym znakiem możesz spodziewać się przejazdu kolejowego bez sygnalizacji świetlnej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12649.jpg",
+        "mediaUrl": "assets/media/12649.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26576,7 +26576,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w razie unieruchomienia pojazdu na przejeździe kolejowym należy niezwłocznie usunąć go z przejazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12650.jpg",
+        "mediaUrl": "assets/media/12650.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26592,7 +26592,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dojeżdżając do tak oznakowanego przejazdu możesz spodziewać się ograniczonej widoczności?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12747.jpg",
+        "mediaUrl": "assets/media/12747.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26608,7 +26608,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejazdu kolejowego z siecią trakcyjną powinieneś mieć świadomość dodatkowego zagrożenia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12748.jpg",
+        "mediaUrl": "assets/media/12748.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26624,7 +26624,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tym miejscu, przejeżdżając przez torowisko bez zatrzymania możesz narazić  wiele osób na utratę życia lub zdrowia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12747.jpg",
+        "mediaUrl": "assets/media/12747.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26640,7 +26640,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejazdu kolejowego masz obowiązek dostosować prędkość do zmieniających się warunków?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12751.mp4",
+        "mediaUrl": "assets/media/12751.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26656,7 +26656,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jazda z prędkością mogącą utrudnić zatrzymanie pojazdu we właściwym miejscu w chwili rozpoczęcia wyświetlania sygnału czerwonego jest dopuszczalna?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12752.mp4",
+        "mediaUrl": "assets/media/12752.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26704,7 +26704,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podanie numeru przejazdu kolejowego operatorowi telefonu 112 wskaże dokładnie położenie przejazdu kolejowego, na którym pojazd uległ awarii?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12755.jpg",
+        "mediaUrl": "assets/media/12755.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26752,7 +26752,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po otwarciu ruchu na przejeździe wielotorowym , powinieneś przed wjazdem na torowisko upewnić się, czy po drugim torze nie zbliża się inny pociąg ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12758.jpg",
+        "mediaUrl": "assets/media/12758.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26768,7 +26768,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji po upewnieniu się, że nie nadjeżdża pociąg , masz prawo objechać półzapory i przejechać przez przejazd kolejowy ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12759.jpg",
+        "mediaUrl": "assets/media/12759.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26784,7 +26784,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz zawsze obowiązek zatrzymać pojazd przed widocznym znakiem zakazu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12760.jpg",
+        "mediaUrl": "assets/media/12760.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26800,7 +26800,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, po zatrzymaniu i upewnieniu się, że nie zbliża się pociąg, masz prawo rozpocząć jazdę nie czekając na zgodę uprawnionej osoby ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12760.jpg",
+        "mediaUrl": "assets/media/12760.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26816,7 +26816,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo wyprzedzić poprzedzający pojazd, aby jak najszybciej przejechać przez przejazd kolejowy ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12762.jpg",
+        "mediaUrl": "assets/media/12762.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26832,7 +26832,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji  masz prawo ominąć poprzedzający pojazd wjeżdżając na część jezdni przeznaczoną dla przeciwnego kierunku ruchu, jeśli zdołasz zatrzymać się przed przejazdem kolejowym ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12763.jpg",
+        "mediaUrl": "assets/media/12763.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26848,7 +26848,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejazdu kolejowego o niewielkim ruchu pociągów, masz zawsze obowiązek upewnienia się, czy nie zbliża się pojazd szynowy ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12764.jpg",
+        "mediaUrl": "assets/media/12764.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26864,7 +26864,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji  masz prawo wjechać na torowisko nie mając pewności, czy po drugiej stronie przejazdu kolejowego jest miejsce do kontynuowania jazdy ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12765.jpg",
+        "mediaUrl": "assets/media/12765.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26880,7 +26880,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zbliżając się do przejazdu kolejowego z zaporami powinieneś uwzględniać, że wskutek różnych przyczyn  urządzenia zabezpieczające mogą na czas nie zamknąć przejazdu ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12766.jpg",
+        "mediaUrl": "assets/media/12766.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26928,7 +26928,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci wjechać na przejazd kolejowy ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12919.mp4",
+        "mediaUrl": "assets/media/12919.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26944,7 +26944,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci jeszcze wjechać na przejazd kolejowy ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12920.jpg",
+        "mediaUrl": "assets/media/12920.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26960,7 +26960,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać na przejazd kolejowy jeżeli widzisz, że po drugiej stronie przejazdu nie ma miejsca do kontynuowania jazdy ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12922.jpg",
+        "mediaUrl": "assets/media/12922.jpg",
         "answers": [
           {
             "text": "tak",
@@ -26976,7 +26976,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji możesz wjechać na przejazd kolejowy bez upewnienia się czy nie nadjeżdża pojazd szynowy ?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/12923.mp4",
+        "mediaUrl": "assets/media/12923.mp4",
         "answers": [
           {
             "text": "tak",
@@ -26998,7 +26998,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas postoju uszkodzonego pojazdu na drodze twardej poza obszarem zabudowanym musisz pozostawić włączone światła mijania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2088.jpg",
+        "mediaUrl": "assets/media/2088.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27014,7 +27014,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci polewać oparzenie zimną wodą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2523.jpg",
+        "mediaUrl": "assets/media/2523.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27030,7 +27030,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy powinieneś, bez wcześniejszego wezwania pomocy, rozpocząć resuscytację potrzebującej jej osoby rannej, gdy jesteś sam na miejscu wypadku drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2524.jpg",
+        "mediaUrl": "assets/media/2524.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27046,7 +27046,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy włączenie świateł awaryjnych i umieszczenie trójkąta ostrzegawczego w odległości 50–70 metrów za pojazdem jest prawidłowym sygnalizowaniem jego awarii na autostradzie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2535.mp4",
+        "mediaUrl": "assets/media/2535.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27062,7 +27062,7 @@ window.COURSE_DATA = [
       {
         "title": "Uczestniczyłeś w wypadku drogowym, w którym są ranni. Czy wolno Ci podejmować czynności, które mogłyby utrudnić ustalenie przebiegu wypadku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2842.jpg",
+        "mediaUrl": "assets/media/2842.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27078,7 +27078,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na drodze ekspresowej, podczas postoju pojazdu silnikowego, który uległ awarii, masz obowiązek przez cały czas to sygnalizować?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3282.jpg",
+        "mediaUrl": "assets/media/3282.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27094,7 +27094,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zatrzymując na tej drodze pojazd, który uległ awarii, masz obowiązek umieścić ostrzegawczy trójkąt odblaskowy w odległości 100 m za nim?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2602.jpg",
+        "mediaUrl": "assets/media/2602.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27110,7 +27110,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy ze względów bezpieczeństwa wskazane jest, aby używając gaśnicy samochodowej, unikać pełnego otwarcia pokrywy komory silnika?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2967.mp4",
+        "mediaUrl": "assets/media/2967.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27126,7 +27126,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, w przypadku unieruchomienia pojazdu z powodu awarii, masz obowiązek niezwłocznie usunąć go z przejazdu, a jeśli jest to niemożliwe, ostrzec o zagrożeniu kierującego pojazdem szynowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2638.jpg",
+        "mediaUrl": "assets/media/2638.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27142,7 +27142,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zatrzymując na drodze ekspresowej pojazd, który uległ awarii, masz obowiązek włączyć światła awaryjne, a w razie, gdy nie jest w nie wyposażony - światła pozycyjne?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2639.jpg",
+        "mediaUrl": "assets/media/2639.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27174,7 +27174,7 @@ window.COURSE_DATA = [
       {
         "title": "Jako kierujący pojazdem uczestniczyłeś w wypadku drogowym, w którym jest osoba zabita. Czy masz obowiązek pozostać na miejscu wypadku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2842.jpg",
+        "mediaUrl": "assets/media/2842.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27190,7 +27190,7 @@ window.COURSE_DATA = [
       {
         "title": "Uczestniczyłeś w wypadku drogowym jako kierujący pojazdem. Czy po udzieleniu pomocy rannym wolno Ci oddalić się z miejsca zdarzenia przed przybyciem Policji?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2842.jpg",
+        "mediaUrl": "assets/media/2842.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27206,7 +27206,7 @@ window.COURSE_DATA = [
       {
         "title": "Uczestniczyłeś w wypadku drogowym, w którym są ranni. Czy masz obowiązek pozostać na miejscu wypadku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2844.jpg",
+        "mediaUrl": "assets/media/2844.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27222,7 +27222,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy uczestnicząc w wypadku, w którym są ranni, masz obowiązek usunąć swój pojazd z miejsca zdarzenia, aby nie utrudniał ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2844.jpg",
+        "mediaUrl": "assets/media/2844.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27238,7 +27238,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako kierujący pojazdem, który uczestniczy w wypadku drogowym, masz obowiązek udzielenia niezbędnej pomocy jego ofiarom?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2845.jpg",
+        "mediaUrl": "assets/media/2845.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27270,7 +27270,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zapewnić bezpieczeństwo ruchu w miejscu wypadku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2922.jpg",
+        "mediaUrl": "assets/media/2922.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27286,7 +27286,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek pozostać na miejscu wypadku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2971.mp4",
+        "mediaUrl": "assets/media/2971.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27302,7 +27302,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek zatrzymać się i zainteresować tą osobą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3831.jpg",
+        "mediaUrl": "assets/media/3831.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27318,7 +27318,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, gdy jadą za Tobą inne pojazdy, masz prawo ostrożnie ominąć leżącego i oddalić się?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2960.mp4",
+        "mediaUrl": "assets/media/2960.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27334,7 +27334,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek zatrzymać się, udzielić niezbędnej pomocy i powiadomić służby ratunkowe?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2960.mp4",
+        "mediaUrl": "assets/media/2960.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27350,7 +27350,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz prawo odjechać i pozostawić leżącą osobę bez pomocy?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2960.mp4",
+        "mediaUrl": "assets/media/2960.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27366,7 +27366,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, pamiętając o własnym bezpieczeństwie, powinieneś ewakuować poszkodowanego z dymiącego samochodu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2967.mp4",
+        "mediaUrl": "assets/media/2967.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27382,7 +27382,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy widząc ludzi w płonącym samochodzie, masz obowiązek, jeśli jest to możliwe, udzielić im pierwszej pomocy  i wezwać straż pożarną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2967.mp4",
+        "mediaUrl": "assets/media/2967.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27398,7 +27398,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji wolno Ci opuścić miejsce zdarzenia, bo uznałeś, że sprawca wypadku udzieli pomocy poszkodowanemu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2971.mp4",
+        "mediaUrl": "assets/media/2971.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27414,7 +27414,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci położyć bezpośrednio na ranę kompres z wyjałowionej gazy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3176.jpg",
+        "mediaUrl": "assets/media/3176.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27430,7 +27430,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy osobę ranną, która odzyskała oddech, ale jest nieprzytomna, należy ułożyć w pozycji bocznej ustalonej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3177.jpg",
+        "mediaUrl": "assets/media/3177.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27446,7 +27446,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przykrycie kocem termoizolacyjnym odwróconym na wierzch złotą stroną chroni osobę ranną w wypadku drogowym przed utratą ciepła?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3178.jpg",
+        "mediaUrl": "assets/media/3178.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27462,7 +27462,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zgłaszając wypadek drogowy na numer alarmowy służb ratunkowych powinieneś udostępnić swoje dane identyfikacyjne?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3179.jpg",
+        "mediaUrl": "assets/media/3179.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27478,7 +27478,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy szukając osób, które mogły zostać ranne w wypadku drogowym, masz obowiązek sprawdzić wszystkie przestrzenie rozbitego pojazdu, łącznie z bagażnikiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3180.jpg",
+        "mediaUrl": "assets/media/3180.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27494,7 +27494,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo włączyć światła awaryjne, gdy kierujesz holowanym pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3186.jpg",
+        "mediaUrl": "assets/media/3186.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27510,7 +27510,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji uzasadnione jest sprawdzenie, czy sprawca wypadku zaciągnął hamulec awaryjny i wyłączył silnik?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2971.mp4",
+        "mediaUrl": "assets/media/2971.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27526,7 +27526,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas holowania pojazdu wolno Ci używać świateł awaryjnych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3283.jpg",
+        "mediaUrl": "assets/media/3283.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27542,7 +27542,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w przypadku unieruchomienia na autostradzie kierowanego przez siebie pojazdu, masz obowiązek to sygnalizować, umieszczając 100 m za nim ostrzegawczy trójkąt odblaskowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3284.jpg",
+        "mediaUrl": "assets/media/3284.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27558,7 +27558,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz obowiązek odpowiednio sygnalizować postój uszkodzonego pojazdu na powierzchni wyłączonej z ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3285.jpg",
+        "mediaUrl": "assets/media/3285.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27574,7 +27574,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek sygnalizować postój widocznego z dostatecznej odległości, uszkodzonego pojazdu, na drodze, która nie jest drogą ekspresową?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3286.jpg",
+        "mediaUrl": "assets/media/3286.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27590,7 +27590,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, podczas postoju uszkodzonego pojazdu poza obszarem zabudowanym, masz obowiązek umieścić ostrzegawczy trójkąt odblaskowy bezpośrednio za pojazdem lub na nim ?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3287.jpg",
+        "mediaUrl": "assets/media/3287.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27606,7 +27606,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, podczas postoju na drodze poza obszarem zabudowanym uszkodzonego pojazdu, masz obowiązek umieścić za nim ostrzegawczy trójkąt odblaskowy w odległości 150 m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3287.jpg",
+        "mediaUrl": "assets/media/3287.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27622,7 +27622,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na autostradzie masz obowiązek włączyć światła awaryjne unieruchomionego z powodu wypadku pojazdu, którym kierujesz?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3290.jpg",
+        "mediaUrl": "assets/media/3290.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27638,7 +27638,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy postąpisz właściwie umieszczając ostrzegawczy trójkąt odblaskowy w odległości 30-50 m za pojazdem, który uległ awarii na drodze ekspresowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3290.jpg",
+        "mediaUrl": "assets/media/3290.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27654,7 +27654,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w takiej sytuacji zawsze jesteś zobowiązany do zatrzymania się?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2922.jpg",
+        "mediaUrl": "assets/media/2922.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27686,7 +27686,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji masz obowiązek udzielić niezbędnej pomocy ofierze wypadku?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2971.mp4",
+        "mediaUrl": "assets/media/2971.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27702,7 +27702,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji należy pozostawić poszkodowanego z twarzą zanurzoną w wodzie, ponieważ zmiana pozycji może spowodować uraz kręgosłupa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3508.jpg",
+        "mediaUrl": "assets/media/3508.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27718,7 +27718,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, dzwoniąc pod numer alarmowy, w pierwszej kolejności powinieneś określić miejsce zdarzenia?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2971.mp4",
+        "mediaUrl": "assets/media/2971.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27734,7 +27734,7 @@ window.COURSE_DATA = [
       {
         "title": "Wiesz, że wkrótce na miejsce zdarzenia przybędą służby ratunkowe. Czy powinieneś nakłaniać sprawcę, aby zawiózł poszkodowanego do szpitala?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2971.mp4",
+        "mediaUrl": "assets/media/2971.mp4",
         "answers": [
           {
             "text": "tak",
@@ -27750,7 +27750,7 @@ window.COURSE_DATA = [
       {
         "title": "Uczestniczysz w wypadku, w którym uszkodzeniu uległ tylko Twój pojazd. Czy masz obowiązek niezwłocznego usunięcia go z miejsca wypadku, aby nie powodował zagrożenia lub tamowania ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3620.jpg",
+        "mediaUrl": "assets/media/3620.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27766,7 +27766,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo zabezpieczyć miejsce wypadku, do którego dojechałeś, ustawiając odpowiednio swój samochód i włączając światła awaryjne?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3649.jpg",
+        "mediaUrl": "assets/media/3649.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27782,7 +27782,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy uczestnicząc w wypadku drogowym, masz obowiązek podać dane dotyczące umowy odpowiedzialności cywilnej pojazdu, gdy żąda tego inna osoba, która bierze udział w zdarzeniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3650.jpg",
+        "mediaUrl": "assets/media/3650.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27798,7 +27798,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy uczestnicząc w wypadku drogowym masz obowiązek podać dane właściciela pojazdu na żądanie innej osoby uczestniczącej w tym wypadku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3651.jpg",
+        "mediaUrl": "assets/media/3651.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27814,7 +27814,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako uczestnik wypadku drogowego masz obowiązek podać swoje dane personalne na żądanie innej osoby, która brała w nim udział?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3653.jpg",
+        "mediaUrl": "assets/media/3653.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27830,7 +27830,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako uczestnik wypadku drogowego, w którym są ranni, masz obowiązek wezwać służby ratunkowe oraz udzielić niezbędnej pomocy poszkodowanym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3776.jpg",
+        "mediaUrl": "assets/media/3776.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27846,7 +27846,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako uczestnik wypadku drogowego, w którym nie ma zabitych lub rannych, masz obowiązek niezwłocznie usunąć pojazd z miejsca zdarzenia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3655.jpg",
+        "mediaUrl": "assets/media/3655.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27862,7 +27862,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako uczestnik wypadku drogowego, w którym nie ma zabitych lub rannych, masz obowiązek wezwać Policję?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3656.jpg",
+        "mediaUrl": "assets/media/3656.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27878,7 +27878,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako uczestnik wypadku drogowego, w którym są ranni, masz obowiązek pozostawić pojazd w miejscu zdarzenia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3657.jpg",
+        "mediaUrl": "assets/media/3657.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27894,7 +27894,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako uczestnik wypadku drogowego, w którym są ranni, masz prawo usunąć pojazd z miejsca zdarzenia, aby nie tamować ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3658.jpg",
+        "mediaUrl": "assets/media/3658.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27910,7 +27910,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy uczestnicząc w wypadku drogowym, w którym są zabici, po zawiadomieniu służb ratunkowych masz obowiązek pozostać na miejscu wypadku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3659.jpg",
+        "mediaUrl": "assets/media/3659.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27926,7 +27926,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako uczestnik wypadku drogowego, w którym są ranni, po wezwaniu służb ratunkowych masz prawo oddalić się z miejsca zdarzenia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3657.jpg",
+        "mediaUrl": "assets/media/3657.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27942,7 +27942,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w takim miejscu na jezdni w obszarze zabudowanym masz obowiązek sygnalizować postój pojazdu silnikowego w razie uczestniczenia w wypadku drogowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11382.jpg",
+        "mediaUrl": "assets/media/11382.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27964,7 +27964,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy spożycie amfetaminy może zwiększać skłonność kierowcy do ryzykownych i agresywnych zachowań?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2188.jpg",
+        "mediaUrl": "assets/media/2188.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27980,7 +27980,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy substancje psychoaktywne (m. in. \"dopalacze\") wpływają na zdolność bezpiecznego kierowania pojazdem nawet przez najbardziej doświadczonych kierowców?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2191.jpg",
+        "mediaUrl": "assets/media/2191.jpg",
         "answers": [
           {
             "text": "tak",
@@ -27996,7 +27996,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując pojazdem w stanie pobudzenia emocjonalnego, zwiększasz precyzję i trafność swoich reakcji w sytuacji niebezpiecznej?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2594.mp4",
+        "mediaUrl": "assets/media/2594.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28012,7 +28012,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zamierzając kierować pojazdem po zażyciu leków, powinieneś upewnić się, że nie mają one negatywnego wpływu na twój stan psychofizyczny?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2631.jpg",
+        "mediaUrl": "assets/media/2631.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28028,7 +28028,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w każdym przypadku, po zażyciu leku przepisanego przez lekarza, możesz kierować pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2631.jpg",
+        "mediaUrl": "assets/media/2631.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28044,7 +28044,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zażycie leków uspokajających i nasennych, może zaburzać u kierującego kontrolę toru jazdy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2631.jpg",
+        "mediaUrl": "assets/media/2631.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28060,7 +28060,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy tak pozostawiony na postoju bez opieki pojazd jest prawidłowo zabezpieczony przed możliwością uruchomienia go przez osobę niepowołaną?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2786.mp4",
+        "mediaUrl": "assets/media/2786.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28076,7 +28076,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zgodnie z zasadą ograniczonego zaufania, należy rozpocząć hamowanie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2798.mp4",
+        "mediaUrl": "assets/media/2798.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28124,7 +28124,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci otworzyć drzwi pojazdu bez upewnienia się, że nie spowodujesz tym zagrożenia ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2973.mp4",
+        "mediaUrl": "assets/media/2973.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28140,7 +28140,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci wysiąść z pojazdu bez upewnienia się, że nie spowodujesz tym zagrożenia ruchu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2973.mp4",
+        "mediaUrl": "assets/media/2973.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28156,7 +28156,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy gdy prowadzisz w stanie pobudzenia emocjonalnego, to maleje Twoja zdolność koncentracji uwagi?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/2594.mp4",
+        "mediaUrl": "assets/media/2594.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28172,7 +28172,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na parkingu znajdującym się w strefie ruchu mają zastosowanie zasady ruchu drogowego?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3205.mp4",
+        "mediaUrl": "assets/media/3205.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28188,7 +28188,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierujący właściwie zabezpieczył pojazd przed jego opuszczeniem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/3269.mp4",
+        "mediaUrl": "assets/media/3269.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28204,7 +28204,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy powinieneś kontynuować jazdę, jeżeli podczas pokonywania długiej trasy zaczynasz odczuwać zmęczenie i senność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3282.jpg",
+        "mediaUrl": "assets/media/3282.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28220,7 +28220,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy pozostawiony tak pojazd może utrudniać ruch lub parkowanie innym kierującym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3511.jpg",
+        "mediaUrl": "assets/media/3511.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28236,7 +28236,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w trakcie prowadzenia pojazdu, wraz z upływem czasu, poprawia się Twoja zdolność dostrzegania znaków i sygnałów drogowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3600.jpg",
+        "mediaUrl": "assets/media/3600.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28268,7 +28268,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo prowadzić pojazd gdy obecność alkoholu w wydychanym powietrzu w Twoim organizmie przekracza 0,1 mg w dm³?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11343.jpg",
+        "mediaUrl": "assets/media/11343.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28284,7 +28284,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo prowadzić pojazd gdy stężenie alkoholu we krwi w Twoim organizmie przekracza 0,2‰?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11343.jpg",
+        "mediaUrl": "assets/media/11343.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28300,7 +28300,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy po każdym leku dostępnym bez recepty masz prawo prowadzić pojazd?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11345.jpg",
+        "mediaUrl": "assets/media/11345.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28316,7 +28316,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy prowadząc pojazd w stanie po użyciu alkoholu podlegasz odpowiedzialności za wykroczenie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11343.jpg",
+        "mediaUrl": "assets/media/11343.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28332,7 +28332,7 @@ window.COURSE_DATA = [
       {
         "title": "Poruszasz się autostradą i zamierzasz ją opuścić. Czy hamowanie rozpoczniesz po wjeździe na pas wyłączenia (zjazdu)?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/11838.mp4",
+        "mediaUrl": "assets/media/11838.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28348,7 +28348,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci holować pojazd, którym kieruje osoba w stanie po użyciu alkoholu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12495.jpg",
+        "mediaUrl": "assets/media/12495.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28364,7 +28364,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zażywanie leków nasennych i uspokajających może mieć negatywny wpływ na zdolność prowadzenia pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12496.jpg",
+        "mediaUrl": "assets/media/12496.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28380,7 +28380,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy rozmieszczone w taki sposób ozdoby, ograniczają widoczność drogi i rozpraszają uwagę kierującego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12497.jpg",
+        "mediaUrl": "assets/media/12497.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28396,7 +28396,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy zaśnieżone szyby lub lusterka samochodu, którym zamierzasz kierować, utrudniają ocenę sytuacji na drodze?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12498.jpg",
+        "mediaUrl": "assets/media/12498.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28412,7 +28412,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy rano powinieneś zrezygnować z kierowania pojazdem, jeśli wieczorem poprzedniego dnia spożyłeś dużą ilość alkoholu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12499.jpg",
+        "mediaUrl": "assets/media/12499.jpg",
         "answers": [
           {
             "text": "tak",
@@ -28492,7 +28492,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, zachowanie hulajnogisty zbliżającego się do skrzyżowania może stanowić zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13069.mp4",
+        "mediaUrl": "assets/media/13069.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28508,7 +28508,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, pieszy biegnący chodnikiem może stanowić zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13070.mp4",
+        "mediaUrl": "assets/media/13070.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28524,7 +28524,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, koparko-ładowarka wjeżdżająca na skrzyżowanie stanowi zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13071.mp4",
+        "mediaUrl": "assets/media/13071.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28540,7 +28540,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, nagłe pojawienie się hulajnogisty z drogi wewnętrznej jest zagrożeniem?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13072.mp4",
+        "mediaUrl": "assets/media/13072.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28556,7 +28556,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, pojazd zaparkowany na chodniku stanowi zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13073.mp4",
+        "mediaUrl": "assets/media/13073.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28572,7 +28572,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji, silny wiatr boczny stwarza zagrożenie dla motocyklisty i innych uczestników ruchu znajdujących się w pobliżu?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13074.mp4",
+        "mediaUrl": "assets/media/13074.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28588,7 +28588,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji ciężarówka jadąca przed tobą tym samym pasem ruchu stanowi zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13075.mp4",
+        "mediaUrl": "assets/media/13075.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28604,7 +28604,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji pojazd członowy wyjeżdżający z drogi podporządkowanej i jadący w lewo może stanowić zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13075.mp4",
+        "mediaUrl": "assets/media/13075.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28620,7 +28620,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji pojazd poruszający się poboczem może stanowić zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13077.mp4",
+        "mediaUrl": "assets/media/13077.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28636,7 +28636,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji pojazd poruszający się lewym pasem ruchu stanowi zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13077.mp4",
+        "mediaUrl": "assets/media/13077.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28652,7 +28652,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji koparko-ładowarka stanowi zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13079.mp4",
+        "mediaUrl": "assets/media/13079.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28668,7 +28668,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w tej sytuacji pieszy na przejściu stwarza zagrożenie?",
         "mediaType": "video",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/video/mp4/13080.mp4",
+        "mediaUrl": "assets/media/13080.mp4",
         "answers": [
           {
             "text": "tak",
@@ -28690,7 +28690,7 @@ window.COURSE_DATA = [
       {
         "title": "Widoczne na znaku ograniczenie prędkości obowiązuje:",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2453.jpg",
+        "mediaUrl": "assets/media/2453.jpg",
         "answers": [
           {
             "text": "wyłącznie na odcinku drogi od znaku do najbliższego skrzyżowania.",
@@ -28710,7 +28710,7 @@ window.COURSE_DATA = [
       {
         "title": "Który ze wskazanych znaków dotyczy kierującego samochodem osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2465.jpg",
+        "mediaUrl": "assets/media/2465.jpg",
         "answers": [
           {
             "text": "a",
@@ -28730,7 +28730,7 @@ window.COURSE_DATA = [
       {
         "title": "Na których pasach ruchu na autostradzie możesz jechać z prędkością 140 km/h?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3932.jpg",
+        "mediaUrl": "assets/media/3932.jpg",
         "answers": [
           {
             "text": "tylko na lewym skrajnym.",
@@ -28750,7 +28750,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką prędkością nie możesz poruszać się w strefie zamieszkania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3759.jpg",
+        "mediaUrl": "assets/media/3759.jpg",
         "answers": [
           {
             "text": "10 km/h.",
@@ -28790,7 +28790,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością wolno Ci jechać po drodze za tymi znakami, jeśli holujesz inny samochód osobowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3847.jpg",
+        "mediaUrl": "assets/media/3847.jpg",
         "answers": [
           {
             "text": "30 km/h,",
@@ -28810,7 +28810,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością wolno Ci jechać po drodze za tym znakiem, jeśli holujesz inny samochód osobowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3863.jpg",
+        "mediaUrl": "assets/media/3863.jpg",
         "answers": [
           {
             "text": "30 km/h,",
@@ -28830,7 +28830,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością możesz jechać, kierując samochodem osobowym o dopuszczalnej masie całkowitej 3 t, na drodze ekspresowej jednojezdniowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3868.jpg",
+        "mediaUrl": "assets/media/3868.jpg",
         "answers": [
           {
             "text": "120 km/h.",
@@ -28850,7 +28850,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy kierując pojazdem samochodowym o dopuszczalnej masie całkowitej 2,5 t, na obszarze zabudowanym, na tak oznakowanej drodze, możesz jechać z prędkością 70 km/h?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3869.jpg",
+        "mediaUrl": "assets/media/3869.jpg",
         "answers": [
           {
             "text": "tak.",
@@ -28870,7 +28870,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością możesz jechać na drodze za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2664.jpg",
+        "mediaUrl": "assets/media/2664.jpg",
         "answers": [
           {
             "text": "do 50 km/h.",
@@ -28890,7 +28890,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością możesz jechać samochodem osobowym na drodze za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3931.jpg",
+        "mediaUrl": "assets/media/3931.jpg",
         "answers": [
           {
             "text": "90 km/h.",
@@ -28910,7 +28910,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką prędkością masz obowiązek jechać na autostradzie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3932.jpg",
+        "mediaUrl": "assets/media/3932.jpg",
         "answers": [
           {
             "text": "co najmniej 40 km/h.",
@@ -28950,7 +28950,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3968.jpg",
+        "mediaUrl": "assets/media/3968.jpg",
         "answers": [
           {
             "text": "110 km/h.",
@@ -28970,7 +28970,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3971.jpg",
+        "mediaUrl": "assets/media/3971.jpg",
         "answers": [
           {
             "text": "20 km/h.",
@@ -28990,7 +28990,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3972.jpg",
+        "mediaUrl": "assets/media/3972.jpg",
         "answers": [
           {
             "text": "70 km/h.",
@@ -29010,7 +29010,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3974.jpg",
+        "mediaUrl": "assets/media/3974.jpg",
         "answers": [
           {
             "text": "120 km/h.",
@@ -29030,7 +29030,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką dopuszczalną maksymalną prędkością wolno Ci kierować samochodem osobowym z przyczepą po drodze za tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3974.jpg",
+        "mediaUrl": "assets/media/3974.jpg",
         "answers": [
           {
             "text": "70 km/h.",
@@ -29050,7 +29050,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy na tej drodze jest ustalona maksymalna prędkość, z jaką może jechać samochód osobowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11539.jpg",
+        "mediaUrl": "assets/media/11539.jpg",
         "answers": [
           {
             "text": "nie.",
@@ -29070,7 +29070,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy rzeźba terenu jest czynnikiem, który powinieneś brać pod uwagę dobierając prędkość jazdy na drodze?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11542.jpg",
+        "mediaUrl": "assets/media/11542.jpg",
         "answers": [
           {
             "text": "nie, jeśli jedziesz z prędkością do 60 km/h.",
@@ -29090,7 +29090,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak powinieneś zachować się wjeżdżając na odcinek drogi pokryty kałużami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11563.jpg",
+        "mediaUrl": "assets/media/11563.jpg",
         "answers": [
           {
             "text": "ograniczyć prędkość jazdy.",
@@ -29110,7 +29110,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dopuszczalne jest holowanie samochodem osobowym na autostradzie do najbliższego wyjazdu lub miejsca obsługi podróżnych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11537.jpg",
+        "mediaUrl": "assets/media/11537.jpg",
         "answers": [
           {
             "text": "nie.",
@@ -29130,7 +29130,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz samochodem osobowym, jadąc dwujezdniową drogą ekspresową. Z jaką dopuszczalną prędkością wolno Ci jechać?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11604.jpg",
+        "mediaUrl": "assets/media/11604.jpg",
         "answers": [
           {
             "text": "110 km/h.",
@@ -29150,7 +29150,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierujesz pojazdem osobowym z przyczepą, jadąc autostradą. Jakiej prędkości nie wolno Ci przekroczyć?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11606.jpg",
+        "mediaUrl": "assets/media/11606.jpg",
         "answers": [
           {
             "text": "80 km/h.",
@@ -29170,7 +29170,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką dopuszczalną prędkością wolno Ci się poruszać kierując samochodem osobowym ciągnącym przyczepę lekką na autostradzie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11608.jpg",
+        "mediaUrl": "assets/media/11608.jpg",
         "answers": [
           {
             "text": "80 km/h.",
@@ -29270,7 +29270,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy za widocznymi znakami wolno zwiększyć prędkość do 90 km/h?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12529.jpg",
+        "mediaUrl": "assets/media/12529.jpg",
         "answers": [
           {
             "text": "tak, ponieważ wjeżdżasz na drogę ekspresową.",
@@ -29290,7 +29290,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy prędkość dopuszczalna 50 km/h obowiązuje na obszarze zabudowanym przez całą dobę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12530.jpg",
+        "mediaUrl": "assets/media/12530.jpg",
         "answers": [
           {
             "text": "tak.",
@@ -29310,7 +29310,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy prowadząc pojazd silnikowy z przyczepą w strefie zamieszkania masz prawo jechać z prędkością 30 km/h?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12536.jpg",
+        "mediaUrl": "assets/media/12536.jpg",
         "answers": [
           {
             "text": "tak, ale tylko po zmroku.",
@@ -29330,7 +29330,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką prędkością wolno poruszać się tak oznakowaną drogą jednojezdniową kierując samochodem osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12548.jpg",
+        "mediaUrl": "assets/media/12548.jpg",
         "answers": [
           {
             "text": "140 km/h.",
@@ -29350,7 +29350,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaka jest dopuszczalna prędkość samochodu osobowego z przyczepą na tak oznakowanej drodze?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12549.jpg",
+        "mediaUrl": "assets/media/12549.jpg",
         "answers": [
           {
             "text": "70 km/h za znakiem zakazu.",
@@ -29370,7 +29370,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką maksymalną prędkością kierującemu samochodem osobowym z przyczepą wolno jechać po tej drodze poza obszarem zabudowanym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12550.jpg",
+        "mediaUrl": "assets/media/12550.jpg",
         "answers": [
           {
             "text": "80 km/h.",
@@ -29390,7 +29390,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką prędkością wolno kontynuować jazdę samochodem osobowym za tymi znakami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12553.jpg",
+        "mediaUrl": "assets/media/12553.jpg",
         "answers": [
           {
             "text": "30 km/h do najbliższego skrzyżowania a następnie 50 km/h.",
@@ -29410,7 +29410,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy stan i ładunek pojazdu są czynnikami które należy uwzględniać podczas dobierania prędkości jazdy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12672.jpg",
+        "mediaUrl": "assets/media/12672.jpg",
         "answers": [
           {
             "text": "tak",
@@ -29430,7 +29430,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy warunki atmosferyczne to czynnik, który należy uwzględniać podczas dobierania prędkości jazdy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12673.jpg",
+        "mediaUrl": "assets/media/12673.jpg",
         "answers": [
           {
             "text": "nie",
@@ -29450,7 +29450,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp należy utrzymać od poprzedzającego pojazdu w tej sytuacji?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12674.jpg",
+        "mediaUrl": "assets/media/12674.jpg",
         "answers": [
           {
             "text": "odstęp niezbędny do uniknięcia zderzenia w razie hamowania lub zatrzymania się poprzedzającego pojazdu.",
@@ -29516,7 +29516,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie mogą być skutki niezapięcia pasów bezpieczeństwa przez kierowcę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3795.jpg",
+        "mediaUrl": "assets/media/3795.jpg",
         "answers": [
           {
             "text": "większe uszkodzenia pojazdu podczas kolizji.",
@@ -29536,7 +29536,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas jazdy w takich warunkach drogowych powinieneś korzystać z pasów bezpieczeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2493.jpg",
+        "mediaUrl": "assets/media/2493.jpg",
         "answers": [
           {
             "text": "nie, gdy poruszam się z niewielką prędkością.",
@@ -29556,7 +29556,7 @@ window.COURSE_DATA = [
       {
         "title": "Na których drogach publicznych masz obowiązek zapinać pasy bezpieczeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3795.jpg",
+        "mediaUrl": "assets/media/3795.jpg",
         "answers": [
           {
             "text": "na wszystkich drogach.",
@@ -29576,7 +29576,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dorosły pasażer samochodu osobowego przewożony na tylnym siedzeniu ma obowiązek używania pasów bezpieczeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3797.jpg",
+        "mediaUrl": "assets/media/3797.jpg",
         "answers": [
           {
             "text": "nie.",
@@ -29596,7 +29596,7 @@ window.COURSE_DATA = [
       {
         "title": "Kto ma obowiązek korzystania z pasów bezpieczeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3798.jpg",
+        "mediaUrl": "assets/media/3798.jpg",
         "answers": [
           {
             "text": "tylko kierujący i pasażer siedzący na przednim siedzeniu.",
@@ -29616,7 +29616,7 @@ window.COURSE_DATA = [
       {
         "title": "W której sytuacji zapięty pas bezpieczeństwa nie będzie działał właściwie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3811.jpg",
+        "mediaUrl": "assets/media/3811.jpg",
         "answers": [
           {
             "text": "gdy jest on skręcony.",
@@ -29636,7 +29636,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki wpływ ma stosowanie pasów bezpieczeństwa na powstanie obrażeń ciężkich przy zderzeniach czołowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3811.jpg",
+        "mediaUrl": "assets/media/3811.jpg",
         "answers": [
           {
             "text": "zmniejsza ryzyko powstania obrażeń ciężkich lub śmiertelnych.",
@@ -29656,7 +29656,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaką funkcję pełni dobrze ustawiony zagłówek w razie wypadku drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3810.jpg",
+        "mediaUrl": "assets/media/3810.jpg",
         "answers": [
           {
             "text": "chroni czubek głowy.",
@@ -29676,7 +29676,7 @@ window.COURSE_DATA = [
       {
         "title": "Która osoba ma obowiązek korzystania z pasów bezpieczeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3811.jpg",
+        "mediaUrl": "assets/media/3811.jpg",
         "answers": [
           {
             "text": "osoba przewożona na wózku inwalidzkim.",
@@ -29696,7 +29696,7 @@ window.COURSE_DATA = [
       {
         "title": "Na którym zdjęciu zagłówek jest dobrze ustawiony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3820.jpg",
+        "mediaUrl": "assets/media/3820.jpg",
         "answers": [
           {
             "text": "a",
@@ -29716,7 +29716,7 @@ window.COURSE_DATA = [
       {
         "title": "W jakiej kolejności masz obowiązek wykonać poszczególne czynności, gdy przygotowujesz się do jazdy samochodem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3903.jpg",
+        "mediaUrl": "assets/media/3903.jpg",
         "answers": [
           {
             "text": "zapiąć pasy bezpieczeństwa, ustawić lusterka i fotel kierowcy.",
@@ -29756,7 +29756,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak powinien być ustawiony zagłówek?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3924.jpg",
+        "mediaUrl": "assets/media/3924.jpg",
         "answers": [
           {
             "text": "tak, aby jego górna część znajdowała się na wysokości czubka głowy.",
@@ -29836,7 +29836,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z osób jest zwolniona z obowiązku korzystania z pasów bezpieczeństwa w czasie jazdy samochodem osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4010.jpg",
+        "mediaUrl": "assets/media/4010.jpg",
         "answers": [
           {
             "text": "każdy pasażer na tylnym siedzeniu pojazdu.",
@@ -29856,7 +29856,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy apteczka doraźnej pomocy jest obowiązkowym wyposażeniem każdego pojazdu samochodowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4021.jpg",
+        "mediaUrl": "assets/media/4021.jpg",
         "answers": [
           {
             "text": "tak.",
@@ -29876,7 +29876,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób ustawisz fotel kierowcy przed jazdą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4076.jpg",
+        "mediaUrl": "assets/media/4076.jpg",
         "answers": [
           {
             "text": "tak, aby umożliwiał swobodny dostęp do urządzeń pojazdu służących do kierowania i sterowania nim.",
@@ -29896,7 +29896,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie jest przeznaczenie trójkąta, który stanowi obowiązkowe wyposażenie samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11547.jpg",
+        "mediaUrl": "assets/media/11547.jpg",
         "answers": [
           {
             "text": "oznaczanie ładunku na bagażniku dachowym pojazdu.",
@@ -29916,7 +29916,7 @@ window.COURSE_DATA = [
       {
         "title": "Które z wymienionych uszkodzeń pasów bezpieczeństwa oznaczają bezwzględną konieczność wymiany pasów na nowe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11611.jpg",
+        "mediaUrl": "assets/media/11611.jpg",
         "answers": [
           {
             "text": "skręcenie lub zwinięcie pasów.",
@@ -29936,7 +29936,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych sygnalizuje niezapięte pasy bezpieczeństwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11641.jpg",
+        "mediaUrl": "assets/media/11641.jpg",
         "answers": [
           {
             "text": "a.",
@@ -29962,7 +29962,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób powinieneś hamować awaryjnie samochodem osobowym wyposażonym w układ przeciwblokujący (ABS)?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3922.jpg",
+        "mediaUrl": "assets/media/3922.jpg",
         "answers": [
           {
             "text": "mocno wcisnąć pedał hamulca i nie zwalniać go w chwili zadziałania układu abs.",
@@ -29982,7 +29982,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki minimalny odstęp powinieneś zachować podczas wyprzedzania widocznego pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2496.jpg",
+        "mediaUrl": "assets/media/2496.jpg",
         "answers": [
           {
             "text": "0,5 m.",
@@ -30002,7 +30002,7 @@ window.COURSE_DATA = [
       {
         "title": "Którą z wymienionych technik hamowania awaryjnego należy zastosować w samochodzie osobowym wyposażonym w układ ABS?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3743.jpg",
+        "mediaUrl": "assets/media/3743.jpg",
         "answers": [
           {
             "text": "szybko i mocno wcisnąć pedał hamulca.",
@@ -30182,7 +30182,7 @@ window.COURSE_DATA = [
       {
         "title": "Od czego, w szczególności, zależy bezpieczny odstęp, który powinieneś zachować w tej sytuacji?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3917.jpg",
+        "mediaUrl": "assets/media/3917.jpg",
         "answers": [
           {
             "text": "od prędkości, z jaką jedziesz.",
@@ -30202,7 +30202,7 @@ window.COURSE_DATA = [
       {
         "title": "Na co, przede wszystkim, powinieneś zwrócić uwagę podczas wymijania innego pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3918.jpg",
+        "mediaUrl": "assets/media/3918.jpg",
         "answers": [
           {
             "text": "na prawidłowe ułożenie rąk na kierownicy.",
@@ -30222,7 +30222,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak, w przybliżeniu, wzrasta długość drogi hamowania pojazdu przy dwukrotnie większej prędkości?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3919.jpg",
+        "mediaUrl": "assets/media/3919.jpg",
         "answers": [
           {
             "text": "czterokrotnie.",
@@ -30242,7 +30242,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak osiągnąć najkrótszą drogę hamowania pojazdem wyposażonym w układ przeciwblokujący (ABS)?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3922.jpg",
+        "mediaUrl": "assets/media/3922.jpg",
         "answers": [
           {
             "text": "hamując pulsacyjnie.",
@@ -30402,7 +30402,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki minimalny odstęp od pojazdu poprzedzającego powinieneś zachować, stojąc w tunelu, w zatorze drogowym tzw korku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4016.jpg",
+        "mediaUrl": "assets/media/4016.jpg",
         "answers": [
           {
             "text": "3 m.",
@@ -30422,7 +30422,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jakim układem samochodu osobowego współpracuje system przeciwblokujący \"ABS\"?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11549.jpg",
+        "mediaUrl": "assets/media/11549.jpg",
         "answers": [
           {
             "text": "zawieszenia.",
@@ -30442,7 +30442,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp należy zachować wyprzedzając motocyklistę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11552.jpg",
+        "mediaUrl": "assets/media/11552.jpg",
         "answers": [
           {
             "text": "bezpieczny, mniejszy niż 1 metr.",
@@ -30462,7 +30462,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakiej metody hamowania użyjesz, w przypadku awarii ABS-u na śliskiej nawierzchni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11553.jpg",
+        "mediaUrl": "assets/media/11553.jpg",
         "answers": [
           {
             "text": "hamowania pulsacyjnego.",
@@ -30482,7 +30482,7 @@ window.COURSE_DATA = [
       {
         "title": "Kiedy masz obowiązek zmienić pas na prawy po zakończeniu manewru wyprzedzania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11554.jpg",
+        "mediaUrl": "assets/media/11554.jpg",
         "answers": [
           {
             "text": "gdy widzę tył pojazdu wyprzedzanego w prawym lusterku wstecznym.",
@@ -30502,7 +30502,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych czynników ma bezpośredni wpływ na długość całkowitej drogi zatrzymania samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11405.jpg",
+        "mediaUrl": "assets/media/11405.jpg",
         "answers": [
           {
             "text": "ilość paliwa w zbiorniku.",
@@ -30522,7 +30522,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych czynników ma decydujący wpływ na określanie odległości od pojazdu jadącego przed nami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11556.jpg",
+        "mediaUrl": "assets/media/11556.jpg",
         "answers": [
           {
             "text": "długość pojazdu.",
@@ -30542,7 +30542,7 @@ window.COURSE_DATA = [
       {
         "title": "Na który z wymienionych czynników należy zwrócić uwagę podczas wykonywania manewru wyprzedzania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11557.jpg",
+        "mediaUrl": "assets/media/11557.jpg",
         "answers": [
           {
             "text": "na właściwą temperaturę we wnętrzu pojazdu.",
@@ -30562,7 +30562,7 @@ window.COURSE_DATA = [
       {
         "title": "O ile wzrośnie droga hamowania, jeżeli zwiększysz prędkość 2-krotnie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11405.jpg",
+        "mediaUrl": "assets/media/11405.jpg",
         "answers": [
           {
             "text": "2-krotnie.",
@@ -30582,7 +30582,7 @@ window.COURSE_DATA = [
       {
         "title": "Poruszasz się autostradą i zamierzasz ją opuścić. W którym miejscu rozpoczniesz hamowanie przed zjazdem z autostrady?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11539.jpg",
+        "mediaUrl": "assets/media/11539.jpg",
         "answers": [
           {
             "text": "przed wjazdem na pas wyłączenia (zjazdu).",
@@ -30602,7 +30602,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych czynników ma bezpośredni wpływ na drogę hamowania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11613.jpg",
+        "mediaUrl": "assets/media/11613.jpg",
         "answers": [
           {
             "text": "prędkość jazdy.",
@@ -30622,7 +30622,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych czynników ma bezpośredni wpływ na drogę hamowania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11614.jpg",
+        "mediaUrl": "assets/media/11614.jpg",
         "answers": [
           {
             "text": "oznakowanie poziome.",
@@ -30642,7 +30642,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp musisz zachować wyprzedzając rower lub motorower?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11616.jpg",
+        "mediaUrl": "assets/media/11616.jpg",
         "answers": [
           {
             "text": "nie mniejszy niż 1 metr.",
@@ -30662,7 +30662,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp od poprzedzającego pojazdu musisz utrzymać stojąc przed skrzyżowaniem i czekając na sygnał zielony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11617.jpg",
+        "mediaUrl": "assets/media/11617.jpg",
         "answers": [
           {
             "text": "minimalnie 0.5 m.",
@@ -30682,7 +30682,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp od poprzedzającego pojazdu musisz utrzymać stojąc przed skrzyżowaniem i czekając na sygnał zielony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11618.jpg",
+        "mediaUrl": "assets/media/11618.jpg",
         "answers": [
           {
             "text": "minimalnie 1 m.",
@@ -30702,7 +30702,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp musisz zachować od omijanej przeszkody?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11619.jpg",
+        "mediaUrl": "assets/media/11619.jpg",
         "answers": [
           {
             "text": "1 m.",
@@ -30722,7 +30722,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp należy zachować podczas wymijania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11620.jpg",
+        "mediaUrl": "assets/media/11620.jpg",
         "answers": [
           {
             "text": "co najmniej 1 metr.",
@@ -30742,7 +30742,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych elementów wyposażenia lub budowy pojazdu ma istotny wpływ na bezpieczeństwo podczas hamowania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11621.jpg",
+        "mediaUrl": "assets/media/11621.jpg",
         "answers": [
           {
             "text": "system aws.",
@@ -30762,7 +30762,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak zmienia się droga hamowania pojazdu zależnie od wzrostu prędkości?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11622.jpg",
+        "mediaUrl": "assets/media/11622.jpg",
         "answers": [
           {
             "text": "droga hamowania wydłuża się wraz ze wzrostem prędkości.",
@@ -30802,7 +30802,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy prędkość jazdy i odstęp od innych uczestników ruchu drogowego należy dostosować do stanu nawierzchni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12528.jpg",
+        "mediaUrl": "assets/media/12528.jpg",
         "answers": [
           {
             "text": "tak, ale tylko w obszarze zabudowanym.",
@@ -30822,7 +30822,7 @@ window.COURSE_DATA = [
       {
         "title": "Z jaką prędkością, kierując samochodem osobowym, należy poruszać się za tym pojazdem, jeżeli tunel znajduje się poza obszarem zabudowanym, a jego długość wynosi 600 m?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12537.jpg",
+        "mediaUrl": "assets/media/12537.jpg",
         "answers": [
           {
             "text": "z taką, aby utrzymywać, co najmniej 50 m odstępu.",
@@ -30842,7 +30842,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki minimalny odstęp masz obowiązek zachować od jadącego przed Tobą pojazdu, jeżeli poruszasz się samochodem osobowym tą drogą z maksymalną dozwoloną prędkością?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12538.jpg",
+        "mediaUrl": "assets/media/12538.jpg",
         "answers": [
           {
             "text": "60 m.",
@@ -30862,7 +30862,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki odstęp od poprzedzającego pojazdu należy zachować kierując samochodem osobowym tą drogą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12540.jpg",
+        "mediaUrl": "assets/media/12540.jpg",
         "answers": [
           {
             "text": "co najmniej 30 m, jeżeli poruszam się z prędkością 60 km/h.",
@@ -30888,7 +30888,7 @@ window.COURSE_DATA = [
       {
         "title": "O czym ostrzega ten znak?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2464.jpg",
+        "mediaUrl": "assets/media/2464.jpg",
         "answers": [
           {
             "text": "o przejeździe obok torów tramwajowych lub kolejowych.",
@@ -30908,7 +30908,7 @@ window.COURSE_DATA = [
       {
         "title": "O jakich podmuchach wiatru ostrzega ten znak?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2468.jpg",
+        "mediaUrl": "assets/media/2468.jpg",
         "answers": [
           {
             "text": "silnych z prawej lub lewej strony pojazdu.",
@@ -30928,7 +30928,7 @@ window.COURSE_DATA = [
       {
         "title": "Czego możesz się spodziewać podczas gwałtownego hamowania w takich warunkach drogowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3908.jpg",
+        "mediaUrl": "assets/media/3908.jpg",
         "answers": [
           {
             "text": "zwiększonej przyczepności kół do jezdni.",
@@ -30948,7 +30948,7 @@ window.COURSE_DATA = [
       {
         "title": "Czego możesz spodziewać się na tak oznakowanej drodze?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2502.jpg",
+        "mediaUrl": "assets/media/2502.jpg",
         "answers": [
           {
             "text": "bezkolizyjnego przepustu pod drogą dla dzikich zwierząt.",
@@ -30968,7 +30968,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy leżące na jezdni liście mogą mieć wpływ na długość drogi zatrzymania pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3757.jpg",
+        "mediaUrl": "assets/media/3757.jpg",
         "answers": [
           {
             "text": "tak, bo mogą skrócić drogę hamowania.",
@@ -31068,7 +31068,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakiego zachowania powinieneś unikać podczas jazdy w takich warunkach drogowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3908.jpg",
+        "mediaUrl": "assets/media/3908.jpg",
         "answers": [
           {
             "text": "jazdy z dużą prędkością.",
@@ -31088,7 +31088,7 @@ window.COURSE_DATA = [
       {
         "title": "Kiedy masz obowiązek wyłączyć tylne światła przeciwmgłowe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3909.jpg",
+        "mediaUrl": "assets/media/3909.jpg",
         "answers": [
           {
             "text": "gdy widoczność wzrośnie do 30 m.",
@@ -31108,7 +31108,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w czasie jazdy w nocy masz obowiązek zwiększyć uwagę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3911.jpg",
+        "mediaUrl": "assets/media/3911.jpg",
         "answers": [
           {
             "text": "tak, ponieważ widoczność w nocy jest ograniczona.",
@@ -31128,7 +31128,7 @@ window.COURSE_DATA = [
       {
         "title": "W jakich warunkach masz prawo włączyć tylne światła przeciwmgłowe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3909.jpg",
+        "mediaUrl": "assets/media/3909.jpg",
         "answers": [
           {
             "text": "gdy widoczność w obfitym deszczu jest ograniczona do 60 m.",
@@ -31148,7 +31148,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy podczas wymijania w nocy innego pojazdu oświetlającego drogę swoimi światłami możesz nie dostrzegać przeszkód na jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3913.jpg",
+        "mediaUrl": "assets/media/3913.jpg",
         "answers": [
           {
             "text": "tak, ze względu na możliwość chwilowego oślepienia światłami.",
@@ -31168,7 +31168,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak utrzymasz właściwy tor jazdy, gdy poruszasz się drogą ekspresową w gęstej mgle?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3914.jpg",
+        "mediaUrl": "assets/media/3914.jpg",
         "answers": [
           {
             "text": "uwzględniając znaki poziome wyznaczające pasy ruchu.",
@@ -31188,7 +31188,7 @@ window.COURSE_DATA = [
       {
         "title": "Czego możesz spodziewać się wjeżdżając na most oznaczony tym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3916.jpg",
+        "mediaUrl": "assets/media/3916.jpg",
         "answers": [
           {
             "text": "zalegającego śniegu i zasp.",
@@ -31288,7 +31288,7 @@ window.COURSE_DATA = [
       {
         "title": "O jakim niebezpieczeństwie ostrzega przedstawiony znak pionowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11562.jpg",
+        "mediaUrl": "assets/media/11562.jpg",
         "answers": [
           {
             "text": "o silnych bocznych podmuchach wiatru.",
@@ -31308,7 +31308,7 @@ window.COURSE_DATA = [
       {
         "title": "W której fazie intensywnego deszczu jezdnia asfaltowa jest najbardziej śliska?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11563.jpg",
+        "mediaUrl": "assets/media/11563.jpg",
         "answers": [
           {
             "text": "początkowej.",
@@ -31328,7 +31328,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie czynniki mają wpływ na łączny czas postrzegania i reakcji kierującego pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11615.jpg",
+        "mediaUrl": "assets/media/11615.jpg",
         "answers": [
           {
             "text": "stan opon.",
@@ -31348,7 +31348,7 @@ window.COURSE_DATA = [
       {
         "title": "Na jakie czynniki i okoliczności musisz zwrócić uwagę dobierając bezpieczną prędkość jazdy do panujących warunków drogowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11623.jpg",
+        "mediaUrl": "assets/media/11623.jpg",
         "answers": [
           {
             "text": "tylko na znaki zakazu.",
@@ -31408,7 +31408,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak można zminimalizować zagrożenie kierując pojazdem podczas gęstej mgły?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12092.jpg",
+        "mediaUrl": "assets/media/12092.jpg",
         "answers": [
           {
             "text": "zwiększyć prędkość.",
@@ -31428,7 +31428,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie negatywne skutki dla kierującego pojazdem może powodować zaśnieżenie lub oblodzenie jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12093.jpg",
+        "mediaUrl": "assets/media/12093.jpg",
         "answers": [
           {
             "text": "zwiększenie przyczepności opon do jezdni.",
@@ -31448,7 +31448,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie negatywne skutki dla kierującego pojazdem może powodować zaśnieżenie lub oblodzenie jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12094.jpg",
+        "mediaUrl": "assets/media/12094.jpg",
         "answers": [
           {
             "text": "zwiększone ryzyko poślizgu.",
@@ -31468,7 +31468,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12093.jpg",
+        "mediaUrl": "assets/media/12093.jpg",
         "answers": [
           {
             "text": "nagłe intensywne hamowanie.",
@@ -31488,7 +31488,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12094.jpg",
+        "mediaUrl": "assets/media/12094.jpg",
         "answers": [
           {
             "text": "jazda na trzecim biegu.",
@@ -31508,7 +31508,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12093.jpg",
+        "mediaUrl": "assets/media/12093.jpg",
         "answers": [
           {
             "text": "jazda ze stałą prędkością.",
@@ -31528,7 +31528,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12094.jpg",
+        "mediaUrl": "assets/media/12094.jpg",
         "answers": [
           {
             "text": "utrzymanie zbyt wysokiej prędkości, zwłaszcza na zakręcie.",
@@ -31674,7 +31674,7 @@ window.COURSE_DATA = [
       {
         "title": "Co widzi kierujący w dobrze ustawionym lusterku zewnętrznym samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3744.jpg",
+        "mediaUrl": "assets/media/3744.jpg",
         "answers": [
           {
             "text": "tylko obszar przestrzeni obok pojazdu.",
@@ -31734,7 +31734,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak prawidłowo powinieneś ustawić lusterko wsteczne (wewnętrzne)?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3904.jpg",
+        "mediaUrl": "assets/media/3904.jpg",
         "answers": [
           {
             "text": "dowolnie, w zależności od tego co chcesz obserwować.",
@@ -31754,7 +31754,7 @@ window.COURSE_DATA = [
       {
         "title": "Co powinieneś widzieć w prawidłowo ustawionym lusterku wstecznym (wewnętrznym)?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3905.jpg",
+        "mediaUrl": "assets/media/3905.jpg",
         "answers": [
           {
             "text": "dziecko siedzące w foteliku za siedzeniem pasażera.",
@@ -31774,7 +31774,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób powinieneś obserwować drogę podczas jazdy w ruchu miejskim?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3906.jpg",
+        "mediaUrl": "assets/media/3906.jpg",
         "answers": [
           {
             "text": "tak, aby uzyskać szerokie pole widzenia.",
@@ -31894,7 +31894,7 @@ window.COURSE_DATA = [
       {
         "title": "Na co, przede wszystkim, może mieć wpływ nieprawidłowe ustawienie lusterek zewnętrznych w pojeździe samochodowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4039.jpg",
+        "mediaUrl": "assets/media/4039.jpg",
         "answers": [
           {
             "text": "na bezpieczeństwo w czasie zwiększania prędkości.",
@@ -31914,7 +31914,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaka pozycja za kierownicą umożliwi zmniejszenie efektu tzw. martwego pola w lusterkach, występującego w czasie obserwacji drogi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4078.jpg",
+        "mediaUrl": "assets/media/4078.jpg",
         "answers": [
           {
             "text": "statyczna - sztywne siedzenie na fotelu, bez ruchów tułowia i głowy.",
@@ -31934,7 +31934,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy holowany pojazd ma wpływ na pole widzenia kierowcy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11566.jpg",
+        "mediaUrl": "assets/media/11566.jpg",
         "answers": [
           {
             "text": "nie ma żadnego wpływu na ograniczenie pola widzenia.",
@@ -31954,7 +31954,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przejrzystość szyb ma wpływ na pole widzenia kierowcy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11567.jpg",
+        "mediaUrl": "assets/media/11567.jpg",
         "answers": [
           {
             "text": "ma wpływ na ograniczenie pola widzenia.",
@@ -31974,7 +31974,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki czynnik powoduje zmniejszenie pola widzenia kierującego pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11568.jpg",
+        "mediaUrl": "assets/media/11568.jpg",
         "answers": [
           {
             "text": "duża prędkość jazdy.",
@@ -31994,7 +31994,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie czynniki wpływają na poprawę pola widzenia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11569.jpg",
+        "mediaUrl": "assets/media/11569.jpg",
         "answers": [
           {
             "text": "zwiększanie prędkości pojazdu.",
@@ -32014,7 +32014,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób prędkość pojazdu wpływa na pole widzenia kierowcy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11572.jpg",
+        "mediaUrl": "assets/media/11572.jpg",
         "answers": [
           {
             "text": "wraz ze wzrostem prędkości pole widzenia zmniejsza się.",
@@ -32100,7 +32100,7 @@ window.COURSE_DATA = [
       {
         "title": "Które z wymienionych ustawień samochodu osobowego jest dozwolone na jezdni za widocznym znakiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2513.jpg",
+        "mediaUrl": "assets/media/2513.jpg",
         "answers": [
           {
             "text": "równoległe do krawędzi jezdni.",
@@ -32120,7 +32120,7 @@ window.COURSE_DATA = [
       {
         "title": "Kiedy, w tej sytuacji, wolno Ci powrócić na prawy pas ruchu, po wykonaniu manewru wyprzedzania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3907.jpg",
+        "mediaUrl": "assets/media/3907.jpg",
         "answers": [
           {
             "text": "niezwłocznie po zauważeniu krawędzi wyprzedzanego pojazdu w lusterku zewnętrznym.",
@@ -32140,7 +32140,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz z prędkością 90 km/h. Jaka pozycja początkowa zapewni Ci optymalny tor jazdy po zakręcie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3938.jpg",
+        "mediaUrl": "assets/media/3938.jpg",
         "answers": [
           {
             "text": "na środku jezdni, z częściowym przekroczeniem widocznej linii.",
@@ -32160,7 +32160,7 @@ window.COURSE_DATA = [
       {
         "title": "Jedziesz z prędkością 80 km/h. Jaka pozycja początkowa zapewni Ci optymalny tor jazdy po zakręcie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3939.jpg",
+        "mediaUrl": "assets/media/3939.jpg",
         "answers": [
           {
             "text": "na środku drogi, z częściowym przekroczeniem widocznej linii.",
@@ -32280,7 +32280,7 @@ window.COURSE_DATA = [
       {
         "title": "W którym momencie wciśniesz pedał sprzęgła, gdy jadąc z dużą prędkością samochodem osobowym, planujesz wykonać manewr hamowania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4074.jpg",
+        "mediaUrl": "assets/media/4074.jpg",
         "answers": [
           {
             "text": "przed naciśnięciem pedału hamulca.",
@@ -32300,7 +32300,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak powinieneś się zachować przed rozpoczęciem wyprzedzania przy dobrej przejrzystości powietrza, aby zapewnić sobie optymalną widoczność drogi?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4077.jpg",
+        "mediaUrl": "assets/media/4077.jpg",
         "answers": [
           {
             "text": "zbliżę się maksymalnie do pojazdu jadącego przede mną.",
@@ -32320,7 +32320,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób należy obserwować otoczenie podczas jazdy po autostradzie?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3892.jpg",
+        "mediaUrl": "assets/media/3892.jpg",
         "answers": [
           {
             "text": "patrzeć wyłącznie do przodu.",
@@ -32340,7 +32340,7 @@ window.COURSE_DATA = [
       {
         "title": "Na co należy zwracać uwagę podczas cofania pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4080.jpg",
+        "mediaUrl": "assets/media/4080.jpg",
         "answers": [
           {
             "text": "na obiekty znajdujące się wokół pojazdu i zbliżające się do niego.",
@@ -32380,7 +32380,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak powinieneś się zachować wjeżdżając na odcinek drogi pokryty kałużami?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4082.jpg",
+        "mediaUrl": "assets/media/4082.jpg",
         "answers": [
           {
             "text": "stopniowo zwiększyć prędkość.",
@@ -32400,7 +32400,7 @@ window.COURSE_DATA = [
       {
         "title": "Czego powinieneś się spodziewać skręcając na oblodzonym skrzyżowaniu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4083.jpg",
+        "mediaUrl": "assets/media/4083.jpg",
         "answers": [
           {
             "text": "niepogorszonej przyczepności, jeżeli jedziesz z dopuszczalną prędkością.",
@@ -32480,7 +32480,7 @@ window.COURSE_DATA = [
       {
         "title": "W którym z wymienionych przypadków masz obowiązek zmienić światła drogowe na mijania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11564.jpg",
+        "mediaUrl": "assets/media/11564.jpg",
         "answers": [
           {
             "text": "gdy zbliżasz się do pieszego idącego w tym samym kierunku.",
@@ -32500,7 +32500,7 @@ window.COURSE_DATA = [
       {
         "title": "Co powinieneś zrobić w tej sytuacji?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11565.jpg",
+        "mediaUrl": "assets/media/11565.jpg",
         "answers": [
           {
             "text": "masz prawo zmienić pas ruchu na lewy.",
@@ -32520,7 +32520,7 @@ window.COURSE_DATA = [
       {
         "title": "Które w wymienionych elementów drogi powinieneś obserwować podczas jazdy autostradą?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11539.jpg",
+        "mediaUrl": "assets/media/11539.jpg",
         "answers": [
           {
             "text": "tylko swój pas ruchu przed pojazdem.",
@@ -32540,7 +32540,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób powinno być ustawione lusterko zewnętrzne w samochodzie osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11571.jpg",
+        "mediaUrl": "assets/media/11571.jpg",
         "answers": [
           {
             "text": "tak, aby w połowie lusterka była widoczna boczna szyba przednich drzwi.",
@@ -32560,7 +32560,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki tor jazdy powinieneś obrać w początkowej fazie pokonywania pokazanego zakrętu w lewo?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11574.jpg",
+        "mediaUrl": "assets/media/11574.jpg",
         "answers": [
           {
             "text": "maksymalnie zjeżdżając do środka jezdni, najeżdżając na podwójną ciągłą linię.",
@@ -32580,7 +32580,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z wymienionych technik jazdy pasuje do określenia „ekonomiczna jazda samochodem”?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11575.jpg",
+        "mediaUrl": "assets/media/11575.jpg",
         "answers": [
           {
             "text": "używanie tylko hamulca roboczego do zmniejszania prędkości jazdy.",
@@ -32600,7 +32600,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z wymienionych technik jazdy pasuje do określenia „ekonomiczna jazda samochodem”?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11575.jpg",
+        "mediaUrl": "assets/media/11575.jpg",
         "answers": [
           {
             "text": "częste używanie hamulca roboczego.",
@@ -32620,7 +32620,7 @@ window.COURSE_DATA = [
       {
         "title": "Na czym powinna polegać prawidłowa technika jazdy w tej sytuacji drogowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11577.jpg",
+        "mediaUrl": "assets/media/11577.jpg",
         "answers": [
           {
             "text": "na dobraniu odpowiedniej prędkości jazdy.",
@@ -32640,7 +32640,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób można ułatwić sobie wyjazd samochodem osobowym z grząskiego śniegu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11578.jpg",
+        "mediaUrl": "assets/media/11578.jpg",
         "answers": [
           {
             "text": "kilkakrotne cofając i ruszając do przodu.",
@@ -32660,7 +32660,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych czynników, może spowodować szybsze zużywanie się opon na kołach przednich w samochodzie osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11601.jpg",
+        "mediaUrl": "assets/media/11601.jpg",
         "answers": [
           {
             "text": "niewielkie obciążenie przedniej osi pojazdu.",
@@ -32746,7 +32746,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki jest właściwy sposób przewożenia noworodka samochodem osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3792.jpg",
+        "mediaUrl": "assets/media/3792.jpg",
         "answers": [
           {
             "text": "w dowolnym nosidełku, jeśli jest przypięte pasami bezpieczeństwa.",
@@ -32766,7 +32766,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo przewozić niemowlaka na kolanach osoby dorosłej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3793.jpg",
+        "mediaUrl": "assets/media/3793.jpg",
         "answers": [
           {
             "text": "nie.",
@@ -32786,7 +32786,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy wolno Ci przewozić przedszkolaka na kolanach osoby dorosłej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3793.jpg",
+        "mediaUrl": "assets/media/3793.jpg",
         "answers": [
           {
             "text": "tak, tylko na tylnym siedzeniu.",
@@ -32806,7 +32806,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy naruszasz przepisy ruchu drogowego, jeżeli kierując pojazdem rozmawiasz przez telefon trzymając go w ręku?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3796.jpg",
+        "mediaUrl": "assets/media/3796.jpg",
         "answers": [
           {
             "text": "nie, pod warunkiem panowania nad pojazdem.",
@@ -33066,7 +33066,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dozwolone jest oddalanie się od pojazdu, gdy jego silnik jest w ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2641.jpg",
+        "mediaUrl": "assets/media/2641.jpg",
         "answers": [
           {
             "text": "nie.",
@@ -33086,7 +33086,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaka jest maksymalna dopuszczalna długość zespołu pojazdów składającego się z samochodu osobowego i przyczepy kempingowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3897.jpg",
+        "mediaUrl": "assets/media/3897.jpg",
         "answers": [
           {
             "text": "18,75 m.",
@@ -33106,7 +33106,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaka jest maksymalna dopuszczalna odległość, licząc od tylnej płaszczyzny obrysu pojazdu, na którą może wystawać ładunek przewożony pojazdem samochodowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3898.jpg",
+        "mediaUrl": "assets/media/3898.jpg",
         "answers": [
           {
             "text": "2 m.",
@@ -33126,7 +33126,7 @@ window.COURSE_DATA = [
       {
         "title": "Ile maksymalnie osób, wliczając siebie, możesz przewozić, gdy masz prawo jazdy kategorii B?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3900.jpg",
+        "mediaUrl": "assets/media/3900.jpg",
         "answers": [
           {
             "text": "5",
@@ -33146,7 +33146,7 @@ window.COURSE_DATA = [
       {
         "title": "Ile maksymalnie osób, wliczając siebie, możesz przewozić kierując prywatnym samochodem osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3901.jpg",
+        "mediaUrl": "assets/media/3901.jpg",
         "answers": [
           {
             "text": "tyle, ile wynosi liczba miejsc określona w dowodzie rejestracyjnym plus jedno dziecko w wieku do 3 lat",
@@ -33306,7 +33306,7 @@ window.COURSE_DATA = [
       {
         "title": "Którą z wymienionych czynności masz obowiązek wykonać przed rozpoczęciem jazdy widocznym pojazdem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11535.jpg",
+        "mediaUrl": "assets/media/11535.jpg",
         "answers": [
           {
             "text": "oczyścić ze śniegu tylko przednią szybę w pojeździe.",
@@ -33326,7 +33326,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy jako kierujący, możesz oddalić się od pojazdu z pracującym silnikiem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11536.jpg",
+        "mediaUrl": "assets/media/11536.jpg",
         "answers": [
           {
             "text": "tak.",
@@ -33346,7 +33346,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przepisy ustawy Prawo o ruchu drogowym dopuszczają możliwość oddalenia się od pojazdu, którego silnik jest w ruchu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11541.jpg",
+        "mediaUrl": "assets/media/11541.jpg",
         "answers": [
           {
             "text": "tak, ale tylko do 15 metrów od pojazdu.",
@@ -33366,7 +33366,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy stan techniczny pojazdu jest czynnikiem, który powinieneś uwzględniać podczas dobierania prędkości jazdy na drodze?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11542.jpg",
+        "mediaUrl": "assets/media/11542.jpg",
         "answers": [
           {
             "text": "tak.",
@@ -33426,7 +33426,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy przewożąc pasażera w wieku 6 lat motorowerem masz prawo poruszać się z prędkością 50 km/h?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11582.jpg",
+        "mediaUrl": "assets/media/11582.jpg",
         "answers": [
           {
             "text": "tak, ale tylko w godz. 5.00-23.00.",
@@ -33446,7 +33446,7 @@ window.COURSE_DATA = [
       {
         "title": "Ile wynosi maksymalnie dopuszczalna długość zespołu pojazdów składającego się z samochodu ciężarowego o dopuszczalnej masie całkowitej do 3,5 tony i przyczepy kempingowej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11548.jpg",
+        "mediaUrl": "assets/media/11548.jpg",
         "answers": [
           {
             "text": "19,85 metra.",
@@ -33466,7 +33466,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych przypadków jest prawidłowym sposobem przewożenia ładunku na przyczepie ciągniętej przez samochód osobowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11548.jpg",
+        "mediaUrl": "assets/media/11548.jpg",
         "answers": [
           {
             "text": "ładunek jest zabezpieczony przed przesuwaniem się.",
@@ -33486,7 +33486,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób powinieneś przewozić ładunek w przyczepie ciągniętej przez samochód osobowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11585.jpg",
+        "mediaUrl": "assets/media/11585.jpg",
         "answers": [
           {
             "text": "ładunek nie powinien być zabezpieczony przed zmianą położenia.",
@@ -33506,7 +33506,7 @@ window.COURSE_DATA = [
       {
         "title": "Którą z wymienionych części ciała ma chronić zagłówek fotela pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11612.jpg",
+        "mediaUrl": "assets/media/11612.jpg",
         "answers": [
           {
             "text": "kręgosłup szyjny.",
@@ -33526,7 +33526,7 @@ window.COURSE_DATA = [
       {
         "title": "Co należy zrobić po stwierdzeniu niewłaściwego ciśnienia oleju silnikowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11633.jpg",
+        "mediaUrl": "assets/media/11633.jpg",
         "answers": [
           {
             "text": "uzupełnić braki dowolnym olejem.",
@@ -34472,7 +34472,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych dokumentów określa dopuszczalną liczbę osób przewożonych pojazdem samochodowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2440.jpg",
+        "mediaUrl": "assets/media/2440.jpg",
         "answers": [
           {
             "text": "dowód rejestracyjny.",
@@ -34572,7 +34572,7 @@ window.COURSE_DATA = [
       {
         "title": "Gdzie należy przeprowadzać okresowe badania techniczne pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4056.jpg",
+        "mediaUrl": "assets/media/4056.jpg",
         "answers": [
           {
             "text": "w każdym dobrze wyposażonym warsztacie samochodowym.",
@@ -34592,7 +34592,7 @@ window.COURSE_DATA = [
       {
         "title": "Co powinien zrobić właściciel samochodu osobowego w przypadku utraty tablicy rejestracyjnej?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4057.jpg",
+        "mediaUrl": "assets/media/4057.jpg",
         "answers": [
           {
             "text": "jeździć z jedną tablicą.",
@@ -34612,7 +34612,7 @@ window.COURSE_DATA = [
       {
         "title": "W jakim przypadku masz obowiązek przeprowadzić dodatkowe badanie techniczne samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4056.jpg",
+        "mediaUrl": "assets/media/4056.jpg",
         "answers": [
           {
             "text": "po zmianie właściciela pojazdu.",
@@ -34632,7 +34632,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo kierować samochodem osobowym, posiadając prawo jazdy, którego termin ważności upłynął?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4060.jpg",
+        "mediaUrl": "assets/media/4060.jpg",
         "answers": [
           {
             "text": "tak, przez 7 dni po upływie terminu ważności.",
@@ -34652,7 +34652,7 @@ window.COURSE_DATA = [
       {
         "title": "W jakim terminie masz obowiązek przeprowadzać okresowe badanie techniczne samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4061.jpg",
+        "mediaUrl": "assets/media/4061.jpg",
         "answers": [
           {
             "text": "zawsze co 3 lata.",
@@ -34672,7 +34672,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z tych przedmiotów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4062.jpg",
+        "mediaUrl": "assets/media/4062.jpg",
         "answers": [
           {
             "text": "gaśnica.",
@@ -34692,7 +34692,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z tych przedmiotów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4063.jpg",
+        "mediaUrl": "assets/media/4063.jpg",
         "answers": [
           {
             "text": "ostrzegawczy trójkąt odblaskowy.",
@@ -34712,7 +34712,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z tych przedmiotów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4064.jpg",
+        "mediaUrl": "assets/media/4064.jpg",
         "answers": [
           {
             "text": "podnośnik.",
@@ -34732,7 +34732,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych przedmiotów należy do obowiązkowego wyposażenia każdego samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4066.jpg",
+        "mediaUrl": "assets/media/4066.jpg",
         "answers": [
           {
             "text": "koło zapasowe.",
@@ -34752,7 +34752,7 @@ window.COURSE_DATA = [
       {
         "title": "Którym z wymienionych zespołów pojazdów możesz kierować mając prawo jazdy kategorii B?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3900.jpg",
+        "mediaUrl": "assets/media/3900.jpg",
         "answers": [
           {
             "text": "samochodem ciężarowym o dopuszczalnej masie całkowitej 2,5 t z przyczepą lekką.",
@@ -34792,7 +34792,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy międzynarodowe prawo jazdy może być wydane na okres dłuższy niż 3 lata?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11586.jpg",
+        "mediaUrl": "assets/media/11586.jpg",
         "answers": [
           {
             "text": "tak, jeżeli wynika to z orzeczenia lekarskiego.",
@@ -34812,7 +34812,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy masz prawo kierować pojazdem, jeśli Twoje prawo jazdy jest nieważne?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11536.jpg",
+        "mediaUrl": "assets/media/11536.jpg",
         "answers": [
           {
             "text": "tak, jeśli minął dopiero tydzień.",
@@ -34832,7 +34832,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy posiadając prawo jazdy kat. B jesteś uprawniony do kierowania ciągnikiem rolniczym za granicami Państwa?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11587.jpg",
+        "mediaUrl": "assets/media/11587.jpg",
         "answers": [
           {
             "text": "tak.",
@@ -34852,7 +34852,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy posiadając prawo jazdy kat. B od co najmniej 3 lat, masz prawo kierować motocyklem o pojemności skokowej silnika nie większej niż 125 cm3?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11590.jpg",
+        "mediaUrl": "assets/media/11590.jpg",
         "answers": [
           {
             "text": "tak.",
@@ -34872,7 +34872,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy prawo jazdy kat. B uprawnia do kierowania motorowerem lub czterokołowcem lekkim?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11587.jpg",
+        "mediaUrl": "assets/media/11587.jpg",
         "answers": [
           {
             "text": "tak, ale tylko poza obszarem zabudowanym.",
@@ -34892,7 +34892,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy prawo jazdy kat. B uprawnia do kierowania zespołem pojazdów składającym się z samochodu osobowego i przyczepy, których łączna dopuszczalna masa całkowita nie przekracza 3,5 tony?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11587.jpg",
+        "mediaUrl": "assets/media/11587.jpg",
         "answers": [
           {
             "text": "nie.",
@@ -34912,7 +34912,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy w celu wydania międzynarodowego prawa jazdy powinieneś zgłosić się do wojewody?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11586.jpg",
+        "mediaUrl": "assets/media/11586.jpg",
         "answers": [
           {
             "text": "nie, takie prawo jazdy wydaje starosta.",
@@ -34932,7 +34932,7 @@ window.COURSE_DATA = [
       {
         "title": "Gdzie można znaleźć informację o dozwolonej liczbie przewożonych w samochodzie osobowym osób?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11594.jpg",
+        "mediaUrl": "assets/media/11594.jpg",
         "answers": [
           {
             "text": "w dowodzie rejestracyjnym.",
@@ -34952,7 +34952,7 @@ window.COURSE_DATA = [
       {
         "title": "W którym z wymienionych przypadków, masz obowiązek wymienić oponę na nową w samochodzie osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11603.jpg",
+        "mediaUrl": "assets/media/11603.jpg",
         "answers": [
           {
             "text": "gdy uszkodzony jest zawór powietrza.",
@@ -34972,7 +34972,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy dozwolony jest postój na wyznaczonych miejscach dla osób niepełnosprawnych, jeżeli posiadana przez kierującego karta parkingowa straciła ważność?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11908.jpg",
+        "mediaUrl": "assets/media/11908.jpg",
         "answers": [
           {
             "text": "tak, jeśli nie mnięło od tego czasu więcej niż 7 dni.",
@@ -35012,7 +35012,7 @@ window.COURSE_DATA = [
       {
         "title": "Kierując samochodem osobowym podczas przewożenia osoby niepełnosprawnej legitymującej się kartą parkingową powinieneś:",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/12714.jpg",
+        "mediaUrl": "assets/media/12714.jpg",
         "answers": [
           {
             "text": "zawsze używać świateł mijania,",
@@ -35098,7 +35098,7 @@ window.COURSE_DATA = [
       {
         "title": "Czym może być spowodowany nadmierny luz (ruch jałowy) koła kierownicy samochodu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2408.jpg",
+        "mediaUrl": "assets/media/2408.jpg",
         "answers": [
           {
             "text": "zużyciem przegubów (końcówek) drążków kierowniczych.",
@@ -35118,7 +35118,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki może być skutek niewyważenia kół jezdnych w pojeździe?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2410.jpg",
+        "mediaUrl": "assets/media/2410.jpg",
         "answers": [
           {
             "text": "zblokowanie kół jezdnych.",
@@ -35138,7 +35138,7 @@ window.COURSE_DATA = [
       {
         "title": "Na jakim biegu powinieneś rozpocząć jazdę na suchej nawierzchni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2435.jpg",
+        "mediaUrl": "assets/media/2435.jpg",
         "answers": [
           {
             "text": "drugim.",
@@ -35178,7 +35178,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaką funkcję spełnia układ przeciwblokujący (ABS) stosowany w pojazdach?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3922.jpg",
+        "mediaUrl": "assets/media/3922.jpg",
         "answers": [
           {
             "text": "ułatwia zmianę toru jazdy w czasie hamowania.",
@@ -35338,7 +35338,7 @@ window.COURSE_DATA = [
       {
         "title": "Widoczna niebieska lampka kontrolna informuje Cię o włączeniu świateł:",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4002.jpg",
+        "mediaUrl": "assets/media/4002.jpg",
         "answers": [
           {
             "text": "pozycyjnych.",
@@ -35398,7 +35398,7 @@ window.COURSE_DATA = [
       {
         "title": "Co może być przyczyną znacznie zwiększonej częstotliwości migania świateł kierunkowskazów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4030.jpg",
+        "mediaUrl": "assets/media/4030.jpg",
         "answers": [
           {
             "text": "zwarcie w obwodzie świateł kierunkowskazów.",
@@ -35418,7 +35418,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie mogą być skutki nieszczelności układu wydechowego w pojeździe samochodowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4031.jpg",
+        "mediaUrl": "assets/media/4031.jpg",
         "answers": [
           {
             "text": "zwiększenie pojemności silnika.",
@@ -35438,7 +35438,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakiego sygnału dźwiękowego możesz używać w pojeździe samochodowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4032.jpg",
+        "mediaUrl": "assets/media/4032.jpg",
         "answers": [
           {
             "text": "o zmiennym tonie.",
@@ -35458,7 +35458,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki może być skutek używania uszkodzonych lub zużytych piór wycieraczek w samochodzie osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4033.jpg",
+        "mediaUrl": "assets/media/4033.jpg",
         "answers": [
           {
             "text": "zmniejszenie zużycia płynu do spryskiwaczy.",
@@ -35478,7 +35478,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaką funkcję w pojeździe samochodowym pełnią światła cofania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4034.jpg",
+        "mediaUrl": "assets/media/4034.jpg",
         "answers": [
           {
             "text": "oświetlają drogę z przodu pojazdu.",
@@ -35498,7 +35498,7 @@ window.COURSE_DATA = [
       {
         "title": "Do czego służą tylne światła przeciwmgłowe samochodu osobowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4035.jpg",
+        "mediaUrl": "assets/media/4035.jpg",
         "answers": [
           {
             "text": "zwiększają skuteczność sygnalizowania hamowania we mgle.",
@@ -35518,7 +35518,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób powinny być ustawione światła mijania w pojeździe samochodowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4036.jpg",
+        "mediaUrl": "assets/media/4036.jpg",
         "answers": [
           {
             "text": "tak, aby oświetlały drogę na odległość do 30 m przed pojazdem.",
@@ -35578,7 +35578,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki może być skutek zużycia amortyzatorów kół kierowanych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4041.jpg",
+        "mediaUrl": "assets/media/4041.jpg",
         "answers": [
           {
             "text": "zwiększenie przyczepności kół do jezdni.",
@@ -35598,7 +35598,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie mogą być konsekwencje użytkowania opon z nadmiernie zużytym bieżnikiem, podczas hamowania na mokrej nawierzchni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4042.jpg",
+        "mediaUrl": "assets/media/4042.jpg",
         "answers": [
           {
             "text": "wzrost siły tarcia.",
@@ -35618,7 +35618,7 @@ window.COURSE_DATA = [
       {
         "title": "Co może być przyczyną \"ściągania\" w lewo pojazdu w czasie jazdy na wprost?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4043.jpg",
+        "mediaUrl": "assets/media/4043.jpg",
         "answers": [
           {
             "text": "działanie wspomagania układu kierowniczego.",
@@ -35638,7 +35638,7 @@ window.COURSE_DATA = [
       {
         "title": "O czym świadczy skok pedału hamulca do dołu, gdy po jego wciśnięciu uruchomisz silnik pojazdu?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4045.jpg",
+        "mediaUrl": "assets/media/4045.jpg",
         "answers": [
           {
             "text": "o działaniu wspomagania układu hamulcowego.",
@@ -35658,7 +35658,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaką funkcję spełnia system przeciwblokujący (ABS)?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3922.jpg",
+        "mediaUrl": "assets/media/3922.jpg",
         "answers": [
           {
             "text": "skraca drogę hamowania w każdych warunkach.",
@@ -35698,7 +35698,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych skutków może zostać wywołany przez kontynuowanie jazdy przy świecącej się na czerwono lampce kontrolnej ciśnienia oleju silnikowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4087.jpg",
+        "mediaUrl": "assets/media/4087.jpg",
         "answers": [
           {
             "text": "poważne uszkodzenie silnika.",
@@ -35718,7 +35718,7 @@ window.COURSE_DATA = [
       {
         "title": "O czym ostrzega, świecąca się na czerwono w czasie jazdy samochodem osobowym, lampka kontrolna z symbolem akumulatora?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4088.jpg",
+        "mediaUrl": "assets/media/4088.jpg",
         "answers": [
           {
             "text": "o uszkodzeniu akumulatora.",
@@ -35838,7 +35838,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaki może być skutek używania zużytych piór wycieraczek w samochodzie osobowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11561.jpg",
+        "mediaUrl": "assets/media/11561.jpg",
         "answers": [
           {
             "text": "większe zużycie akumulatora.",
@@ -35858,7 +35858,7 @@ window.COURSE_DATA = [
       {
         "title": "Jaką awarię sygnalizuje szybko migający kierunkowskaz?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11597.jpg",
+        "mediaUrl": "assets/media/11597.jpg",
         "answers": [
           {
             "text": "słaby akumulator.",
@@ -35898,7 +35898,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z wymienionych przyczyn spowoduje nieosiągnięcie przez silnik, o zapłonie samoczynnym, obrotów rozruchowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11536.jpg",
+        "mediaUrl": "assets/media/11536.jpg",
         "answers": [
           {
             "text": "niesprawny rozrusznik.",
@@ -35918,7 +35918,7 @@ window.COURSE_DATA = [
       {
         "title": "Który z wymienionych czynników, może być przyczyną ściągania samochodu w lewą stronę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11600.jpg",
+        "mediaUrl": "assets/media/11600.jpg",
         "answers": [
           {
             "text": "nieprawidłowa zbieżność kół przednich.",
@@ -35938,7 +35938,7 @@ window.COURSE_DATA = [
       {
         "title": "W jaki sposób oświetlają drogę przed samochodem osobowym światła mijania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11564.jpg",
+        "mediaUrl": "assets/media/11564.jpg",
         "answers": [
           {
             "text": "prostopadle.",
@@ -36018,7 +36018,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach mijania?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11634.jpg",
+        "mediaUrl": "assets/media/11634.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36038,7 +36038,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych kierunkowskazach?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11634.jpg",
+        "mediaUrl": "assets/media/11634.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36058,7 +36058,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach pozycyjnych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11636.jpg",
+        "mediaUrl": "assets/media/11636.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36078,7 +36078,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych dotyczy przednich świateł przeciwmgłowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11636.jpg",
+        "mediaUrl": "assets/media/11636.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36098,7 +36098,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych kierunkowskazach?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11638.jpg",
+        "mediaUrl": "assets/media/11638.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36118,7 +36118,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych tylnych światłach przeciwmgłowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11639.jpg",
+        "mediaUrl": "assets/media/11639.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36138,7 +36138,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach drogowych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11640.jpg",
+        "mediaUrl": "assets/media/11640.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36158,7 +36158,7 @@ window.COURSE_DATA = [
       {
         "title": "Po zapaleniu się której z widocznych na ilustracji lampek kontrolnych należy się niezwłocznie zatrzymać i usunąć usterkę?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11642.jpg",
+        "mediaUrl": "assets/media/11642.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36178,7 +36178,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonym ogrzewaniu tylnej szyby?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11643.jpg",
+        "mediaUrl": "assets/media/11643.jpg",
         "answers": [
           {
             "text": "a.",
@@ -36204,7 +36204,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak długo należy prowadzić uciskanie klatki piersiowej i sztuczne oddychanie u osoby z nagłym zatrzymaniem krążenia?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2462.jpg",
+        "mediaUrl": "assets/media/2462.jpg",
         "answers": [
           {
             "text": "do momentu przyjazdu zespołu ratownictwa medycznego.",
@@ -36224,7 +36224,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak długo należy prowadzić sztuczne oddechy i uciśnięcia klatki piersiowej u dzieci?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/2469.jpg",
+        "mediaUrl": "assets/media/2469.jpg",
         "answers": [
           {
             "text": "do momentu pojawienia się spontanicznej czynności życiowej (oddechu ruchu kaszlu).",
@@ -36244,7 +36244,7 @@ window.COURSE_DATA = [
       {
         "title": "Którą z tych czynności ma obowiązek wykonać uczestnik wypadku drogowego, w którym są ranni?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3776.jpg",
+        "mediaUrl": "assets/media/3776.jpg",
         "answers": [
           {
             "text": "niezwłocznie usunąć pojazd z drogi, aby nie utrudniał ruchu.",
@@ -36344,7 +36344,7 @@ window.COURSE_DATA = [
       {
         "title": "Jak długo należy ręcznie stabilizować głowę poszkodowanego z podejrzeniem urazu kręgosłupa szyjnego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3832.jpg",
+        "mediaUrl": "assets/media/3832.jpg",
         "answers": [
           {
             "text": "aż zacznie nią poruszać.",
@@ -36404,7 +36404,7 @@ window.COURSE_DATA = [
       {
         "title": "Pod który z podanych numerów powinieneś zadzwonić, aby wezwać karetkę pogotowia ratunkowego na miejsce wypadku drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3890.jpg",
+        "mediaUrl": "assets/media/3890.jpg",
         "answers": [
           {
             "text": "997",
@@ -36424,7 +36424,7 @@ window.COURSE_DATA = [
       {
         "title": "Co powinien zrobić kierujący na autostradzie, gdy podczas jazdy zrobi mu się duszno, wystąpią dreszcze, zdrętwieją ręce i poczuje ból w okolicy żołądka oraz szum w uszach?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3892.jpg",
+        "mediaUrl": "assets/media/3892.jpg",
         "answers": [
           {
             "text": "przyspieszyć i jechać do szpitala.",
@@ -36444,7 +36444,7 @@ window.COURSE_DATA = [
       {
         "title": "Jakie są najistotniejsze informacje dla służb ratowniczych, określające miejsce wypadku drogowego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3776.jpg",
+        "mediaUrl": "assets/media/3776.jpg",
         "answers": [
           {
             "text": "nazwa ulicy i numer posesji lub numer drogi, nazwa najbliższej miejscowości, słupek kilometrowy.",
@@ -36464,7 +36464,7 @@ window.COURSE_DATA = [
       {
         "title": "W jakiej odległości za stojącym na autostradzie, uszkodzonym samochodem osobowym, masz obowiązek umieścić ostrzegawczy trójkąt odblaskowy?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3290.jpg",
+        "mediaUrl": "assets/media/3290.jpg",
         "answers": [
           {
             "text": "30-50 m.",
@@ -36504,7 +36504,7 @@ window.COURSE_DATA = [
       {
         "title": "Co w pierwszej kolejności należy zrobić, gdy dziecko znajdujące się w foteliku zachłysnęło się jedzeniem?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4018.jpg",
+        "mediaUrl": "assets/media/4018.jpg",
         "answers": [
           {
             "text": "możliwie szybko jechać do szpitala.",
@@ -36524,7 +36524,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z wymienionych czynności należy do obowiązków kierowcy uczestniczącego w zdarzeniu drogowym, w którym nie ma osób zabitych lub rannych?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4019.jpg",
+        "mediaUrl": "assets/media/4019.jpg",
         "answers": [
           {
             "text": "pozostawienie pojazdu w miejscu zdarzenia.",
@@ -36544,7 +36544,7 @@ window.COURSE_DATA = [
       {
         "title": "Dlaczego układanie na boku osób nieprzytomnych i oddychających jest bezpieczne?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4020.jpg",
+        "mediaUrl": "assets/media/4020.jpg",
         "answers": [
           {
             "text": "ponieważ zapewnia poszkodowanemu największy komfort oczekiwania na pogotowie.",
@@ -36564,7 +36564,7 @@ window.COURSE_DATA = [
       {
         "title": "Co należy zastosować do opatrzenia silnie krwawiących ran?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4021.jpg",
+        "mediaUrl": "assets/media/4021.jpg",
         "answers": [
           {
             "text": "wyłącznie jałową gazę.",
@@ -36584,7 +36584,7 @@ window.COURSE_DATA = [
       {
         "title": "Co powinieneś zrobić w razie stwierdzenia złamania otwartego?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4022.jpg",
+        "mediaUrl": "assets/media/4022.jpg",
         "answers": [
           {
             "text": "założyć opatrunek z waty.",
@@ -36604,7 +36604,7 @@ window.COURSE_DATA = [
       {
         "title": "Czy każdy ma obowiązek udzielenia pierwszej pomocy poszkodowanym w wypadku drogowym?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4023.jpg",
+        "mediaUrl": "assets/media/4023.jpg",
         "answers": [
           {
             "text": "nie, gdyż udzielać pomocy mogą jedynie osoby z wykształceniem medycznym.",
@@ -36644,7 +36644,7 @@ window.COURSE_DATA = [
       {
         "title": "Która z wymienionych czynności należy do obowiązków kierowcy uczestniczącego w wypadku drogowym, w którym jest zabity lub ranny?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3653.jpg",
+        "mediaUrl": "assets/media/3653.jpg",
         "answers": [
           {
             "text": "ustalenie przebiegu wypadku.",
@@ -36664,7 +36664,7 @@ window.COURSE_DATA = [
       {
         "title": "Które z wymienionych zachowań wobec rannego w wypadku, może skutkować odpowiedzialnością karną?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/3653.jpg",
+        "mediaUrl": "assets/media/3653.jpg",
         "answers": [
           {
             "text": "zaniechanie udzielenia jakiejkolwiek pomocy.",
@@ -36684,7 +36684,7 @@ window.COURSE_DATA = [
       {
         "title": "Której z tych czynności nie masz prawa wykonać, gdy uczestniczysz w wypadku, w którym są zabici?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4065.jpg",
+        "mediaUrl": "assets/media/4065.jpg",
         "answers": [
           {
             "text": "usunąć pojazdu z drogi, aby nie utrudniał ruchu.",
@@ -36704,7 +36704,7 @@ window.COURSE_DATA = [
       {
         "title": "Czego nie możesz robić uczestnicząc w wypadku, w którym są zabici?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/11546.jpg",
+        "mediaUrl": "assets/media/11546.jpg",
         "answers": [
           {
             "text": "dzwonić po straż pożarną.",
@@ -36730,7 +36730,7 @@ window.COURSE_DATA = [
       {
         "title": "Co nazywamy zespołem pojazdów?",
         "mediaType": "image",
-        "mediaUrl": "https://www.prawo-jazdy-360.pl/static/images/4067.jpg",
+        "mediaUrl": "assets/media/4067.jpg",
         "answers": [
           {
             "text": "samochód osobowy z przyczepą.",
