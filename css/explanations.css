@@ -13,6 +13,12 @@
 .s-explanation .g-30 { gap: 30px; }
 
 /* Explanation Main Section */
+.course-explanation-wrapper {
+  max-width: 900px;
+  margin: 24px auto 48px auto;
+  padding: 0 16px;
+}
+
 .s-explanation {
   border-bottom: 1px solid var(--primary-purple-light, #e9d5ff);
   padding-bottom: 40px;

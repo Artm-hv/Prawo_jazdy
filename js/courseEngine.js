@@ -458,11 +458,21 @@ class CourseEngine {
             </div>
 
             ${answerButtonsHtml}
-            ${explanationHtml}
           </div>
 
           <!-- Right Column: Status & Counter Sidebar -->
           <div class="exam-right-sidebar">
+
+            <!-- Navigation Buttons (Moved up) -->
+            <div style="display: flex; gap: 10px; margin-bottom: 16px;">
+              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.prevQuestion()" ${this.currentIndex === 0 ? 'disabled' : ''}>
+                ⬅ Poprzednie
+              </button>
+              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.nextQuestion()">
+                Następne ➔
+              </button>
+            </div>
+
             <div class="exam-sidebar-card">
               
               <div class="counter-box">
@@ -503,16 +513,6 @@ class CourseEngine {
               </span>
             </div>
 
-            <!-- Navigation Buttons -->
-            <div style="display: flex; gap: 10px; margin-top: 8px;">
-              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.prevQuestion()" ${this.currentIndex === 0 ? 'disabled' : ''}>
-                ← Poprzednie
-              </button>
-              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.nextQuestion()">
-                Następne →
-              </button>
-            </div>
-
             <!-- Action Buttons -->
             <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 16px;">
               ${(() => {
@@ -529,6 +529,11 @@ class CourseEngine {
             </div>
           </div>
 
+        </div>
+        
+        <!-- Explanation Block (Moved out of grid) -->
+        <div class="course-explanation-wrapper">
+          ${explanationHtml}
         </div>
 
         ${this.isFullscreen ? `
