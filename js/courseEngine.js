@@ -405,8 +405,11 @@ class CourseEngine {
       `;
     }
 
-    // Twoje Postępy Grid HTML matching image_c3d7c5.jpg
-    const topicCardsHtml = this.topicCategories.map(cat => {
+    // Twoje Postępy Grid HTML - split into Podstawowe (1-20) and Specjalistyczne (21-31)
+    const podstawowe = this.topicCategories.filter(cat => cat.id <= 20);
+    const specjalistyczne = this.topicCategories.filter(cat => cat.id > 20);
+
+    const renderTopicCard = (cat) => {
       const isCurrentSelected = this.selectedGroup === cat.id;
       return `
         <div class="course-postepy-card ${isCurrentSelected ? 'active' : ''}">
@@ -425,7 +428,10 @@ class CourseEngine {
           </div>
         </div>
       `;
-    }).join('');
+    };
+
+    const podstawoweCardsHtml = podstawowe.map(renderTopicCard).join('');
+    const specjalistyczneCardsHtml = specjalistyczne.map(renderTopicCard).join('');
 
     this.container.innerHTML = `
       <div class="course-page-wrapper">
@@ -449,7 +455,12 @@ class CourseEngine {
                 <label class="input-label">Grupa pytań</label>
                 <select class="setting-select" onchange="window.courseEngine.onFilterChange('group', this.value)">
                   <option value="all" ${this.selectedGroup === 'all' ? 'selected' : ''}>Wszystkie pytania</option>
-                  ${this.topicCategories.map(t => `<option value="${t.id}" ${this.selectedGroup == t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
+                  <optgroup label="Pytania podstawowe">
+                    ${podstawowe.map(t => `<option value="${t.id}" ${this.selectedGroup == t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
+                  </optgroup>
+                  <optgroup label="Pytania specjalistyczne">
+                    ${specjalistyczne.map(t => `<option value="${t.id}" ${this.selectedGroup == t.id ? 'selected' : ''}>${t.name}</option>`).join('')}
+                  </optgroup>
                 </select>
               </div>
 
@@ -581,7 +592,7 @@ class CourseEngine {
           </button>
         ` : ''}
 
-        <!-- 3. Twoje Postępy Grid (Matching image_c3d7c5.jpg) -->
+        <!-- 3. Twoje Postępy Grid -->
         <div class="course-postepy-section">
           <div class="postepy-header-row">
             <h2 class="postepy-main-title">Twoje postępy</h2>
@@ -593,7 +604,13 @@ class CourseEngine {
           <h3 class="postepy-sub-title">Pytania podstawowe</h3>
 
           <div class="postepy-cards-grid">
-            ${topicCardsHtml}
+            ${podstawoweCardsHtml}
+          </div>
+
+          <h3 class="postepy-sub-title" style="margin-top: 32px;">Pytania specjalistyczne</h3>
+
+          <div class="postepy-cards-grid">
+            ${specjalistyczneCardsHtml}
           </div>
         </div>
 
