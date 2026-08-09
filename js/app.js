@@ -11,7 +11,7 @@ window.getMediaUrl = function(url) {
         if (url.startsWith('assets/Kurs/pytania/')) {
             const filename = url.split('/').pop();
             if (filename.endsWith('.mp4') || filename.endsWith('.webm')) {
-                return 'https://www.prawo-jazdy-360.pl/static/videos/' + filename;
+                return 'https://www.prawo-jazdy-360.pl/static/video/mp4/' + filename;
             } else {
                 return 'https://www.prawo-jazdy-360.pl/static/images/' + filename;
             }
@@ -23,6 +23,14 @@ window.getMediaUrl = function(url) {
         if (url.startsWith('assets/Kurs/wyjasnienia-postery/')) {
             const id = url.split('/').pop().split('.')[0];
             return `https://assets.prawo-jazdy-360.pl/wyjasnienia-do-pytan-egzaminacyjnych/${id}/thumbnails/thumb_0000.jpg`;
+        }
+        if (url.startsWith('assets/Znaki_Drogowe/')) {
+            const filename = url.split('/').pop();
+            if (filename.endsWith('.webp')) {
+                return 'https://www.prawo-jazdy-360.pl/image/znaki-drogowe/' + filename;
+            } else {
+                return 'https://www.prawo-jazdy-360.pl/images/znaki-drogowe/' + filename;
+            }
         }
         return 'https://www.prawo-jazdy-360.pl/' + url;
     }

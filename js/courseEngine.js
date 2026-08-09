@@ -363,12 +363,15 @@ class CourseEngine {
 
     // Media HTML
     let mediaHtml = '';
-    if (currentQ.mediaType === 'video') {
+    const mUrl = currentQ.mediaUrl;
+    const isVid = mUrl && (mUrl.endsWith('.mp4') || mUrl.endsWith('.webm') || (currentQ.mediaType === 'video' && !mUrl.match(/\.(jpg|png|webp|jpeg)$/i)));
+    
+    if (isVid) {
       mediaHtml = `
-        <video src="${window.getMediaUrl(currentQ.mediaUrl)}" controls autoplay muted style="width:100%; border-radius:12px; max-height:400px; object-fit:cover;"></video>
+        <video src="${window.getMediaUrl(mUrl)}" controls autoplay muted style="width:100%; border-radius:12px; max-height:400px; object-fit:cover;"></video>
       `;
-    } else if (currentQ.mediaType === 'image') {
-      mediaHtml = `<img src="${window.getMediaUrl(currentQ.mediaUrl)}" alt="Ilustracja pytania" class="exam-media-img" style="width:100%; border-radius:12px; object-fit:cover;" />`;
+    } else if (mUrl) {
+      mediaHtml = `<img src="${window.getMediaUrl(mUrl)}" alt="Ilustracja pytania" class="exam-media-img" style="width:100%; border-radius:12px; object-fit:cover;" />`;
     } else {
       mediaHtml = `
         <div class="exam-media-placeholder">

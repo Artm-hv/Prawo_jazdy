@@ -128,11 +128,14 @@ class TestEngine {
 
     // Media content (Image / Sign / Video placeholder)
     let mediaHtml = '';
-    if (q.media_url) {
-      if (q.media_type === 'video') {
-        mediaHtml = `<video src="${window.getMediaUrl(q.media_url)}" autoplay loop muted class="exam-media-img" style="max-height:400px; width:100%; object-fit:contain; border-radius:8px;"></video>`;
+    const mUrl = q.media_url;
+    const isVid = mUrl && (mUrl.endsWith('.mp4') || mUrl.endsWith('.webm') || (q.media_type === 'video' && !mUrl.match(/\.(jpg|png|webp|jpeg)$/i)));
+    
+    if (mUrl) {
+      if (isVid) {
+        mediaHtml = `<video src="${window.getMediaUrl(mUrl)}" autoplay loop muted class="exam-media-img" style="max-height:400px; width:100%; object-fit:contain; border-radius:8px;"></video>`;
       } else {
-        mediaHtml = `<img src="${window.getMediaUrl(q.media_url)}" alt="Ilustracja pytania" class="exam-media-img" />`;
+        mediaHtml = `<img src="${window.getMediaUrl(mUrl)}" alt="Ilustracja pytania" class="exam-media-img" />`;
       }
     } else {
       mediaHtml = `
