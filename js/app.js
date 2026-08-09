@@ -6,7 +6,24 @@
 window.getMediaUrl = function(url) {
     if (!url) return url;
     const isRemote = window.location.hostname && window.location.hostname !== '127.0.0.1' && window.location.hostname !== 'localhost';
+    
     if (isRemote && url.startsWith('assets/')) {
+        if (url.startsWith('assets/Kurs/pytania/')) {
+            const filename = url.split('/').pop();
+            if (filename.endsWith('.mp4') || filename.endsWith('.webm')) {
+                return 'https://www.prawo-jazdy-360.pl/static/videos/' + filename;
+            } else {
+                return 'https://www.prawo-jazdy-360.pl/static/images/' + filename;
+            }
+        }
+        if (url.startsWith('assets/Kurs/wyjasnienia-wideo/')) {
+            const id = url.split('/').pop().split('.')[0];
+            return `https://assets.prawo-jazdy-360.pl/wyjasnienia-do-pytan-egzaminacyjnych/${id}/mp4/std/${id}.mp4`;
+        }
+        if (url.startsWith('assets/Kurs/wyjasnienia-postery/')) {
+            const id = url.split('/').pop().split('.')[0];
+            return `https://assets.prawo-jazdy-360.pl/wyjasnienia-do-pytan-egzaminacyjnych/${id}/thumbnails/thumb_0000.jpg`;
+        }
         return 'https://www.prawo-jazdy-360.pl/' + url;
     }
     return url;
@@ -16,7 +33,9 @@ window.resolveMediaPath = function(content) {
     if (!content) return content;
     const isRemote = window.location.hostname && window.location.hostname !== '127.0.0.1' && window.location.hostname !== 'localhost';
     if (isRemote) {
-        return content.replace(/(src|srcset|poster)=["']assets\//g, '$1="https://www.prawo-jazdy-360.pl/assets/');
+        return content.replace(/(src|srcset|poster)=["'](assets\/[^"']+)["']/g, function(match, attr, path) {
+            return attr + '="' + window.getMediaUrl(path) + '"';
+        });
     }
     return content;
 };
