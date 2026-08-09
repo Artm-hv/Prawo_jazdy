@@ -1,51 +1,37 @@
 /* --- EXPLANATIONS (Kurs Style, Purple Theme) --- */
 
 /* Flexbox Utilities */
-.s-explanation .fx { display: flex; }
-.s-explanation .fx-c { display: flex; flex-direction: column; }
-.s-explanation .fx-ac { align-items: center; }
-.s-explanation .fx-sb { justify-content: space-between; }
-.s-explanation .fx-center { align-items: center; justify-content: center; }
-.s-explanation .g-8 { gap: 8px; }
-.s-explanation .g-10 { gap: 10px; }
-.s-explanation .g-12 { gap: 12px; }
-.s-explanation .g-16 { gap: 16px; }
-.s-explanation .g-30 { gap: 30px; }
+.course-explanation-wrapper .fx { display: flex; }
+.course-explanation-wrapper .fx-c { display: flex; flex-direction: column; }
+.course-explanation-wrapper .fx-ac { align-items: center; }
+.course-explanation-wrapper .fx-sb { justify-content: space-between; }
+.course-explanation-wrapper .fx-center { align-items: center; justify-content: center; }
+.course-explanation-wrapper .g-8 { gap: 8px; }
+.course-explanation-wrapper .g-10 { gap: 10px; }
+.course-explanation-wrapper .g-12 { gap: 12px; }
+.course-explanation-wrapper .g-16 { gap: 16px; }
+.course-explanation-wrapper .g-30 { gap: 30px; }
 
 /* Explanation Main Section */
 .course-explanation-wrapper {
   max-width: 900px;
   margin: 24px auto 48px auto;
   padding: 0 16px;
+  position: relative;
 }
 
 .s-explanation {
-  border-bottom: 1px solid var(--primary-purple-light, #e9d5ff);
-  padding-bottom: 40px;
-  margin-bottom: 48px;
-  margin-top: 24px;
+  background-color: #f6f3fa; /* Light, soft purple background matching original's green */
+  padding: 32px;
+  border-radius: 12px;
   font-family: 'Sora', 'Inter', system-ui, -apple-system, sans-serif;
   color: var(--text-dark, #373737);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
 }
 
 .explanation-toggle-bar {
-  margin-bottom: 16px;
-}
-
-.s-explanation .btn.link {
-  background: none;
-  border: none;
-  color: var(--primary-purple, #7e22ce);
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.875rem;
-  padding: 0;
-}
-.s-explanation .btn.link:hover {
-  text-decoration: underline;
+  margin-bottom: 24px;
+  text-align: center;
 }
 
 .s-explanation .h3 {
@@ -58,13 +44,25 @@
   font-weight: 700;
 }
 
+/* Explanation Cards */
+.explanation-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+  border: 1px solid var(--primary-purple-light, #e9d5ff);
+}
+.explanation-card:last-child {
+  margin-bottom: 0;
+}
+
 .explanation-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 16px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .explanation-head h3 {
@@ -78,50 +76,52 @@
 .explanation-head i {
   color: var(--primary-purple, #7e22ce);
   font-size: 1.25rem;
+  background: var(--primary-purple-light, #f3e8ff);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 
-/* Text Explanation Block */
-.s-explanation .text {
-  font-size: 0.875rem;
+/* Text Explanation Formatting inside Card */
+.course-explanation-wrapper .text {
+  font-size: 0.95rem;
   line-height: 1.6;
   color: var(--text-dark, #272727);
-  background: var(--bg-card, #faf5ff);
-  border-left: 4px solid var(--primary-purple, #7e22ce);
-  padding: 16px;
-  border-radius: 0 8px 8px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.s-explanation .text b {
+.course-explanation-wrapper .text b {
   color: var(--primary-purple-hover, #6b21a8);
 }
 
-.s-explanation .text u {
+.course-explanation-wrapper .text u {
   text-decoration-color: var(--primary-purple-hover, #a855f7);
   color: var(--primary-purple, #581c87);
 }
 
-/* Road signs specific styles (based on HTML structure from old extraction) */
-.s-explanation .subtitle.l {
+/* Road signs */
+.course-explanation-wrapper .subtitle.l {
     font-size: 1.125rem;
     font-weight: 700;
-    color: var(--primary-purple, #7e22ce);
+    color: var(--text-dark, #1e1b4b);
     border-left: 4px solid var(--primary-purple, #7e22ce);
     padding-left: 12px;
     margin: 24px 0 16px 0;
 }
-.s-explanation .content.fx {
+.course-explanation-wrapper .content.fx {
     display: flex;
     gap: 16px;
     align-items: flex-start;
     padding-top: 16px;
     border-top: 1px solid var(--primary-purple-light, rgba(126, 34, 206, 0.2));
 }
-.s-explanation .content .img img {
+.course-explanation-wrapper .content .img img {
     border-radius: 8px;
     max-width: 80px;
 }
-.s-explanation .roadsign-desc {
+.course-explanation-wrapper .roadsign-desc {
     font-size: 0.875rem;
     line-height: 1.5;
     color: var(--text-muted, #555);
@@ -138,20 +138,20 @@
 .faq-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  background: var(--bg-card, #ffffff);
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
 }
 
 .faq-q {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-size: 0.938rem;
   font-weight: 600;
   color: var(--text-dark, #1e1b4b);
+  background: #f9fafb; /* Light grey for question */
+  padding: 16px;
 }
 
 .faq-q-icon {
@@ -169,11 +169,13 @@
 }
 
 .faq-a {
-  padding-left: 36px;
+  padding: 16px;
+  padding-left: 54px; /* Align with text */
   font-size: 0.875rem;
   line-height: 1.5;
   color: var(--text-muted, #4b5563);
   margin: 0;
+  background: white;
 }
 
 /* Video Block Wrapper */
@@ -182,7 +184,7 @@
   border-radius: 8px;
   overflow: hidden;
   background: #000;
-  max-width: 600px;
+  width: 100%;
 }
 
 .vid-wrap video {
@@ -193,11 +195,73 @@
 
 /* Badge Styling */
 .badge-new {
-  padding: 4px 8px;
-  border-radius: 4px;
-  background: #f59e0b; /* keep yellow for "new" highlight */
-  font-size: 12px;
-  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: #ffb703; 
+  font-size: 11px;
+  font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #1e1b4b;
+}
+
+/* Hide/Show Mechanism */
+.s-explanation.hidden-content .contents {
+  filter: blur(8px);
+  opacity: 0.6;
+  pointer-events: none;
+  user-select: none;
+  max-height: 200px; /* Hide long content */
+  overflow: hidden;
+}
+
+.btn-show-explanation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--primary-purple, #7e22ce);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(126, 34, 206, 0.4);
+  transition: all 0.2s;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn-show-explanation:hover {
+  background: var(--primary-purple-hover, #6b21a8);
+  transform: translate(-50%, -52%);
+}
+
+.explanation-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.explanation-footer label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.explanation-feedback {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.explanation-feedback button {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
 }

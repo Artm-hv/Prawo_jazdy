@@ -285,6 +285,24 @@ class CourseEngine {
     }
   }
 
+  showExplanation() {
+    const el = document.getElementById('s-explanation');
+    if (el) {
+      el.classList.remove('hidden-content');
+      const btn = el.querySelector('.btn-show-explanation');
+      if (btn) btn.remove();
+    }
+  }
+
+  toggleShowExplanationAlways(checkbox) {
+    if (checkbox.checked) {
+      localStorage.setItem('showExplanationAlways', 'true');
+      this.showExplanation();
+    } else {
+      localStorage.setItem('showExplanationAlways', 'false');
+    }
+  }
+
   prevQuestion() {
     if (this.currentIndex > 0) {
       this.currentIndex--;
@@ -357,12 +375,32 @@ class CourseEngine {
 
     let explanationHtml = '';
     if (isAnswered && currentQ.explanation) {
+      const showAlways = localStorage.getItem('showExplanationAlways') === 'true';
+      const hiddenClass = showAlways ? '' : 'hidden-content';
+      const blurButtonHtml = showAlways ? '' : `<button class="btn-show-explanation" onclick="window.courseEngine.showExplanation()">Pokaż wyjaśnienie 👁️</button>`;
+
       explanationHtml = `
-        <div class="s-explanation" id="s-explanation">
-          <div class="explanation-toggle-bar fx fx-sb fx-ac">
+        <div class="s-explanation ${hiddenClass}" id="s-explanation">
+          <div class="explanation-toggle-bar">
             <h2 class="h3 font-weight-bold">Wyjaśnienie</h2>
           </div>
-          ${currentQ.explanation}
+          
+          <div style="position: relative;">
+            ${blurButtonHtml}
+            ${currentQ.explanation}
+          </div>
+
+          <div class="explanation-footer">
+            <label>
+              <input type="checkbox" onchange="window.courseEngine.toggleShowExplanationAlways(this)" ${showAlways ? 'checked' : ''}>
+              Zawsze pokazuj wyjaśnienie
+            </label>
+            <div class="explanation-feedback">
+              <span>Czy to wytłumaczenie było pomocne?</span>
+              <button>👍</button>
+              <button>👎</button>
+            </div>
+          </div>
         </div>
       `;
     }
@@ -463,16 +501,6 @@ class CourseEngine {
           <!-- Right Column: Status & Counter Sidebar -->
           <div class="exam-right-sidebar">
 
-            <!-- Navigation Buttons (Moved up) -->
-            <div style="display: flex; gap: 10px; margin-bottom: 16px;">
-              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.prevQuestion()" ${this.currentIndex === 0 ? 'disabled' : ''}>
-                ⬅ Poprzednie
-              </button>
-              <button class="btn-next-question" style="flex: 1;" onclick="window.courseEngine.nextQuestion()">
-                Następne ➔
-              </button>
-            </div>
-
             <div class="exam-sidebar-card">
               
               <div class="counter-box">
@@ -523,10 +551,21 @@ class CourseEngine {
                   </button>
                 `;
               })()}
+              <button class="exam-action-btn" onclick="location.reload()">
+                <i>↻</i> Odśwież pytanie
+              </button>
+              <button class="exam-action-btn" onclick="alert('Funkcja dostępna w pełnej wersji.')">
+                <i>💬</i> Zadaj pytanie
+              </button>
               <button class="exam-action-btn" onclick="window.courseEngine.toggleFullscreen()">
                 <i>⛶</i> ${this.isFullscreen ? 'Zamknij pełny ekran' : 'Pełny ekran'}
               </button>
             </div>
+
+            <!-- Navigation Button (Bottom) -->
+            <button class="btn-next-question" style="width: 100%; margin-top: 24px;" onclick="window.courseEngine.nextQuestion()">
+              Następne pytanie ➔
+            </button>
           </div>
 
         </div>
