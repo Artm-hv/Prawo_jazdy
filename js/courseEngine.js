@@ -358,9 +358,9 @@ class CourseEngine {
     let explanationHtml = '';
     if (isAnswered && currentQ.explanation) {
       explanationHtml = `
-        <div class="s-explanation">
-          <div class="explanation-head">
-              <h2>Wyjaśnienie</h2>
+        <div class="s-explanation" id="s-explanation">
+          <div class="explanation-toggle-bar fx fx-sb fx-ac">
+            <h2 class="h3 font-weight-bold">Wyjaśnienie</h2>
           </div>
           ${currentQ.explanation}
         </div>
