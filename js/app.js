@@ -29,6 +29,20 @@ window.getMediaUrl = function(url) {
             const id = filename.split('.')[0];
             return `https://assets.prawo-jazdy-360.pl/szkolenie-teoretyczne-online/${id}/pl/mp4/std/${id}.mp4`;
         }
+        if (url.startsWith('assets/Wyklady/slajdy/')) {
+            const filename = url.split('/').pop();
+            return 'https://www.prawo-jazdy-360.pl/static/lecture/images/' + filename;
+        }
+        if (url.startsWith('assets/Podrecznik/audio/')) {
+            const filename = url.split('/').pop();
+            return 'https://www.prawo-jazdy-360.pl/static/audio/' + filename;
+        }
+        if (url.startsWith('assets/Podrecznik/img/')) {
+            // Use the mapping for renamed textbook images
+            if (window.TEXTBOOK_MEDIA_MAP && window.TEXTBOOK_MEDIA_MAP[url]) {
+                return window.TEXTBOOK_MEDIA_MAP[url];
+            }
+        }
         if (url.startsWith('assets/Znaki_Drogowe/')) {
             const filename = url.split('/').pop();
             if (filename.endsWith('.webp')) {

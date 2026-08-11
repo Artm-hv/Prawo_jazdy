@@ -115,7 +115,7 @@ class InstructorEngine {
 
           <div class="slide-player-box" style="padding: 0; overflow: hidden; background: #000; display: flex; justify-content: center; border-radius: 12px;">
             ${currentModule ? `
-              <video src="${currentModule.videoUrl}" controls controlslist="nodownload" style="width: 100%; max-height: 600px; object-fit: contain; outline: none;">
+              <video src="${window.getMediaUrl(currentModule.videoUrl)}" controls controlslist="nodownload" style="width: 100%; max-height: 600px; object-fit: contain; outline: none;">
                 Twoja przeglądarka nie obsługuje tagu wideo.
               </video>
             ` : ''}
