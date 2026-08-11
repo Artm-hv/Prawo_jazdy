@@ -128,7 +128,7 @@ class FlashcardsEngine {
     // Set text and image
     const fcFront = this.modalOverlay.querySelector('.flashcard-face.front');
     if (currentSign.image_url) {
-      fcFront.innerHTML = `<img id="fc-img" src="${currentSign.image_url}" alt="Znak" />`;
+      fcFront.innerHTML = `<img id="fc-img" src="${window.getMediaUrl(currentSign.image_url)}" alt="Znak" />`;
     } else if (currentSign.svg_icon) {
       fcFront.innerHTML = `<div style="transform: scale(2);">${currentSign.svg_icon}</div>`;
     } else {

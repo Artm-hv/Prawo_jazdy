@@ -16,6 +16,20 @@ class TextbookEngine {
     this.render();
   }
 
+  toggleAudio() {
+    const audioEl = this.container.querySelector('audio');
+    const icon = document.getElementById('audio-icon');
+    if (!audioEl) return;
+    
+    if (audioEl.paused) {
+      audioEl.play();
+      if (icon) icon.innerText = '⏸';
+    } else {
+      audioEl.pause();
+      if (icon) icon.innerText = '▶';
+    }
+  }
+
   selectChapter(chapterId) {
     if (this.activeChapterId === chapterId) {
       this.activeChapterId = null;
@@ -138,15 +152,23 @@ class TextbookEngine {
           <div class="podrecznik-lesson-view">
             <div class="lesson-header-row">
               <h2>${topicTitle}</h2>
+              <div style="display:flex; gap:16px; align-items:center;">
+                <button id="textbook-audio-btn" onclick="window.textbookEngine.toggleAudio()" style="padding: 8px 16px; border: none; background: var(--primary-purple); color: white; border-radius: 8px; cursor: pointer; font-size: 13px; display: flex; align-items: center; gap: 8px; font-weight: 500;">
+                  <span id="audio-icon">▶</span> Odtwórz lektora
+                </button>
+                <div class="lesson-read-toggle">
+                  <label>
+                    <input type="checkbox" id="markReadCheckbox" ${isRead ? 'checked' : ''} onchange="window.textbookEngine.toggleReadStatus(${activeChapter.id}, ${this.activeTopicIdx}, this.checked)" />
+                    <span>Oznacz jako przeczytane</span>
+                  </label>
+                </div>
+              </div>
             </div>
             
-            <div class="lesson-html-content">
-              ${topicContent}
-            </div>
-
-            <div class="lesson-checkbox-row" style="margin: 24px 0 16px 0;">
-              <input type="checkbox" id="markReadCheckbox" ${isRead ? 'checked' : ''} onchange="window.textbookEngine.toggleReadStatus(${activeChapter.id}, ${this.activeTopicIdx}, this.checked)" />
-              <label for="markReadCheckbox">Oznacz jako przeczytane</label>
+            <div class="lesson-body-content" style="position:relative;">
+              <div class="dzial-text-col">
+                ${topicContent}
+              </div>
             </div>
 
             <div class="lesson-navigation-grid" style="display: flex; gap: 16px;">
